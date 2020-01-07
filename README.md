@@ -4,9 +4,9 @@
 The Edgeware Documentation collection aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform. 
 
 ## Community
-Commonwealth: http://Commonwealth.im: Manage, discuss, vote, elect, and transact for Edgeware and more.
-Discord: https://discord.gg/5HMnfY
-Twitter: https://twitter.com/HeyEdgeware
+- Commonwealth: http://Commonwealth.im: Manage, discuss, vote, elect, and transact for Edgeware and more.
+- Discord: https://discord.gg/5HMnfY
+- Twitter: https://twitter.com/HeyEdgeware
 
 ## View the docs on GitBooks
 For a user friendly view of these documents, go to http://docs.edgewa.re
