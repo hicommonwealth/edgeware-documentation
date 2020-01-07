@@ -1,4 +1,4 @@
-# Validating-on-Edgeware-Testnet-v099-\(CLI\)
+# Validate on Edgeware Testnet v0.99 with CLI
 
 Welcome to the official, in-depth Edgeware guide to validating. We're happy that you're interested in validating on Edgeware and we'll do our best to provide in-depth documentation on the process below. As always, reach out on [Discord](https://discord.gg/CJRfb3) or [Telegram](https://t.me/heyedgeware) if you have questions about the project.
 

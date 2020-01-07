@@ -1,4 +1,4 @@
-# Setting-up-a-Public-UI
+# Set up a Public UI
 
 This page explains how to set up a [polkadot-js/apps UI](https://polkadot.js.org/apps/) for Edgeware, using the Edgeware branch of `apps`. The main difference is that the Edgeware branch supports the types defined in Edgeware's voting and governance modules.
 
