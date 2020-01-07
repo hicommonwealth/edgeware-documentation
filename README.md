@@ -16,7 +16,7 @@ We support the translation of these docs- Commonwealth Labs may initially fund t
 You can reach the Commonwealth Team on Discord https://discord.gg/5HMnfY
 
 ## License
-These documents are licensed under the MIT free software license.
+These documents are intended to be licensed in accordance with open source principles-  the exact licensure has yet to be selected. 
 
 ## Thanks
 Gratitude to other platforms who have written documentation-  we have modelelled our approach and language from the work of the Polkadot Wiki and more. 
