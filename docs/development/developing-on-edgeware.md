@@ -1,4 +1,4 @@
-# Developing-on-Edgeware
+# Developing on Edgeware
 
 ## Implemented Modules
 

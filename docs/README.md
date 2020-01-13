@@ -2,7 +2,7 @@
 description: This page reflects the /docs/readme.MD of the Github Repo.
 ---
 
-# Edgeware Documentation
+# Intro: Edgeware Documentation
 
 The Edgeware Documentation collection aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
