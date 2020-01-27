@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Intro: Edgeware Documentation](README.md)
+* [What is this page?](README.md)
 * [What is Edgeware?](what-is-edgeware.md)
 * [FAQ: General](faq.md)
 * [Edgeware Homepage](https://edgewa.re)
