@@ -14,27 +14,27 @@
 * [Participate in Governance \(WIP\)](user-guides/participate-in-governance-wip/README.md)
   * [Introduction to Edgeware Governance](user-guides/participate-in-governance-wip/introduction-to-edgeware-governance.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
-  * [FAQs: Governance](user-guides/participate-in-governance-wip/faqs-governance.md)
-  * [Community Channels](user-guides/participate-in-governance-wip/community-channels-validator-specific-and-more./README.md)
+  * [FAQs: Governance](governance/faqs-governance.md)
+  * [Community Channels](community-1/community-channels-validator-specific-and-more..md)
     * [Twitter](https://twitter.com/HeyEdgeware)
   * [Voting for Council](user-guides/participate-in-governance-wip/voting-for-council.md)
   * [Run For Council](user-guides/participate-in-governance-wip/run-for-council.md)
   * [Propose Legislation](user-guides/participate-in-governance-wip/propose-legislation.md)
 * [Join the Community \(WIP\)](user-guides/join-the-community-wip/README.md)
-  * [FAQs: Community](user-guides/join-the-community-wip/faqs-community.md)
+  * [FAQs: Community](community-1/faqs-community.md)
 
 ## Validation + Nodes <a id="validation-nodes"></a>
 
 * [Validate on Edgeware](validation-nodes/validate-on-edgeware/README.md)
-  * [Validate on Edgeware Testnet v0.99 with CLI](validation-nodes/validate-on-edgeware/validating-on-edgeware-testnet-v099-cli.md)
-  * [Validate on Edgeware using the UI](validation-nodes/validate-on-edgeware/validating-on-edgeware-ui.md)
-* [Setting up a Node](validation-nodes/setting-up-a-node/README.md)
+  * [Validate on Edgeware Testnet v0.99 with CLI](validation-staking-and-noderunning/validating-on-edgeware-testnet-v099-cli.md)
+  * [Validate on Edgeware using the UI](validation-staking-and-noderunning/validating-on-edgeware-ui.md)
+* [Setting up a Node](validation-staking-and-noderunning/setting-up-a-node/README.md)
   * [Using Docker](validation-nodes/setting-up-a-node/using-docker.md)
-  * [Hardware Requirements](validation-nodes/setting-up-a-node/hardware-requirements.md)
-  * [Set up Node Monitoring](validation-nodes/setting-up-a-node/setting-up-monitoring.md)
-  * [Set up a Public UI](validation-nodes/setting-up-a-node/setting-up-a-public-ui.md)
-* [FAQs: Validation, Staking, Nodes](validation-nodes/faqs-validation-staking-nodes.md)
-* [Frequently Used Commands](validation-nodes/frequently-used-commands.md)
+  * [Hardware Requirements](validation-staking-and-noderunning/setting-up-a-node/hardware-requirements.md)
+  * [Set up Node Monitoring](validation-staking-and-noderunning/setting-up-monitoring.md)
+  * [Set up a Public UI](validation-staking-and-noderunning/setting-up-a-public-ui.md)
+* [FAQs: Validation, Staking, Nodes](validation-staking-and-noderunning/faqs-validation-staking-nodes.md)
+* [Frequently Used Commands](validation-staking-and-noderunning/frequently-used-commands.md)
 
 ## Build on Edgeware
 
@@ -45,10 +45,10 @@
 * [Edgeware CLI](build-on-edgeware/untitled/README.md)
   * [Edgeware CLI](https://github.com/hicommonwealth/edgeware-cli)
 * [Modules](build-on-edgeware/modules/README.md)
-  * [Modules:-Governance](build-on-edgeware/modules/modules-governance.md)
-  * [Modules:-Adding-a-Module](build-on-edgeware/modules/modules-adding-a-module.md)
-  * [Modules: Identity \(Now called Social\)](build-on-edgeware/modules/modules-identity.md)
-  * [Modules:-Voting](build-on-edgeware/modules/modules-voting.md)
+  * [Modules:-Governance](edgeware-modules/modules-governance.md)
+  * [Modules:-Adding-a-Module](edgeware-modules/modules-adding-a-module.md)
+  * [Modules: Identity \(Now called Social\)](edgeware-modules/modules-identity.md)
+  * [Modules:-Voting](edgeware-modules/modules-voting.md)
 * [Substrate APIs](https://polkadot.js.org/api/)
 
 ## Tools

@@ -4,7 +4,7 @@ description: This page reflects the /docs/readme.MD of the Github Repo.
 
 # What is this page?
 
-The Edgeware Documentation collection aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
+This site, the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
 ## Community
 
@@ -34,5 +34,5 @@ These documents are intended to be licensed in accordance with open source princ
 
 ## Thanks
 
-Gratitude to other platforms who have written documentation- we have modelelled our approach and language from the work of the Polkadot Wiki and more.
+Gratitude to other platforms who have written documentation- we have modeled our approach and language from the work of the Polkadot Wiki and more.
 
