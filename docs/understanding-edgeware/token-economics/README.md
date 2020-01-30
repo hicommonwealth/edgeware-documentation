@@ -1,0 +1,12 @@
+# Token Economics
+
+
+
+Supply
+
+
+
+
+
+Inflation
+

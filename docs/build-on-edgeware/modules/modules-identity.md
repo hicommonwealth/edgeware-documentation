@@ -1,4 +1,4 @@
-# Modules:-Identity
+# Modules: Identity \(Now called Social\)
 
 _As of testnet V0.4.0, this page is out of date. Please refer to the code for reference._
 
