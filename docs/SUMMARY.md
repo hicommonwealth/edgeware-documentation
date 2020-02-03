@@ -1,6 +1,7 @@
 # Table of contents
 
 * [What is this page?](README.md)
+* [Edgeware White Paper](https://arena-attachments.s3.amazonaws.com/4643268/c8d128724f36b716660e4bf21823e760.pdf?1563310093)
 * [Edgeware Homepage](https://edgewa.re)
 
 ## User Guides
@@ -28,10 +29,13 @@
   * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
 * [Nominated Proof-of-Stake  \(nPoS\)](understanding-edgeware/nominated-proof-of-stake-npos.md)
 * [Governance](understanding-edgeware/governance/README.md)
-  * [Signaling](understanding-edgeware/governance/signaling.md)
-  * [Voting](understanding-edgeware/governance/voting.md)
-  * [Treasury](understanding-edgeware/governance/treasury.md)
-  * [Council](understanding-edgeware/governance/council.md)
+  * [Council Elections](understanding-edgeware/governance/council-elections.md)
+  * [Intro to Governance Modules](understanding-edgeware/governance/intro-to-governance-modules.md)
+  * [Democracy \(Voting\) Module](understanding-edgeware/governance/democracy-voting-module.md)
+  * [Social \(Previously Identity\) Module](understanding-edgeware/governance/social-previously-identity-module.md)
+  * [Signaling Module](understanding-edgeware/governance/signaling-module.md)
+  * [Treasury Module](understanding-edgeware/governance/treasury.md)
+  * [Council Module](understanding-edgeware/governance/council.md)
 * [FAQ: General](understanding-edgeware/faq.md)
 
 ## Tools
@@ -60,8 +64,9 @@
 * [What is Substrate?](build-on-edgeware/what-is-substrate.md)
 * [Developer Quick Start](build-on-edgeware/developer-quick-start.md)
 * [Smart Contracts on Edgeware](build-on-edgeware/smart-contracts-on-edgeware/README.md)
-  * [The Smart Contract Module](build-on-edgeware/smart-contracts-on-edgeware/the-smart-contract-module.md)
+  * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
   * [WASM Runtime](build-on-edgeware/smart-contracts-on-edgeware/wasm-runtime.md)
+  * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
   * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
   * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
 * [Edgeware CLI](build-on-edgeware/untitled/README.md)
@@ -76,6 +81,8 @@
 
 ## Lockdrop \(2019\)
 
+* [Intro to the Edgeware Lockdrop](lockdrop-2019/intro-to-the-edgeware-lockdrop/README.md)
+  * [Lockdrop Contract Specifications](lockdrop-2019/intro-to-the-edgeware-lockdrop/lockdrop-contract-specifications.md)
 * [Participation Statistics and Lookup](https://commonwealth.im/edgeware/stats)
 * [Lockdrop Contracts \(Github\)](https://github.com/hicommonwealth/edgeware-lockdrop)
 * [FAQs: Lockdrop](lockdrop-2019/faqs-lockdrop.md)
