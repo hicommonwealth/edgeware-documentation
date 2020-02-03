@@ -89,7 +89,8 @@
 
 ## Develop Edgeware
 
-* [Contribution Guide \(WIP\)](develop-edgeware/contribution-guide-wip.md)
+* [Contribution Guide \(WIP\)](develop-edgeware/contribution-guide-wip/README.md)
+  * [Style Guide](develop-edgeware/contribution-guide-wip/style-guide.md)
 * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
 * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
 
