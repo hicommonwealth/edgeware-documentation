@@ -1,2 +1,0 @@
-# Join the Community \(WIP\)
-

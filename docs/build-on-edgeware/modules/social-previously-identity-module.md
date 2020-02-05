@@ -1,4 +1,4 @@
-# Social \(Previously Identity\) Module
+# Social Module \(Deprecated\)
 
 Public functions in the social module allow an account to register, attest, or verify that identity. Accounts first register an identity. Thereafter, individuals attest to this by linking to an external proof. Third parties may now verify that this linked identity is valid, voting whether or not the attestation is valid. Verifications must come from specifically selected verifiers, not necessarily just any third party individual. 
 
@@ -11,8 +11,6 @@ The identity is a Github username. Upon username registration, the registrar sho
 #### Ethereum:
 
  The identity is an Ethereum public key or address. Upon username registration, the registrar should send a 0 value transaction to a burn address symbolizing the public key of their corresponding Edgeware account and submit the transaction hash as the attestation. Upon inspection, a verifier should have enough proof that if the owner of the 12 Ethereum account did not also own the recipient Edgeware account \(represented as the target address on Ethereum\), then they would not issue such a transaction.
-
-
 
  Initially, the set of verifiers are the set of accounts that have a minimum of 0.1% of EDG tokens. The votes for identity verification are coin-weighted. Edgeware does this so that it is organically able to establish a 1p1v government for other areas of the system.
 

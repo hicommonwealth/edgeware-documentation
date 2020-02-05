@@ -16,6 +16,18 @@ Edgeware stakeholders will be able to collaborate on the roadmap of the network 
 
 
 
+### Governance Parameters at Launch
+
+* **Launch period:** 7 days
+* **Voting period:** 7 days
+* **Fast-track voting period:** None
+* **Veto:** None
+* **Enactment delay:** 10 days
+* **Cancellation:** 2/3 of council
+* **Cooloff period after cancellation**: 7 days
+
+
+
 
 
 

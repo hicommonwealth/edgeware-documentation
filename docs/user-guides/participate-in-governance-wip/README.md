@@ -1,2 +1,0 @@
-# Participate in Governance \(WIP\)
-

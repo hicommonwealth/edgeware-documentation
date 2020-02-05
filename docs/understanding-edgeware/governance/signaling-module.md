@@ -1,4 +1,4 @@
-# Signaling Module
+# Signaling
 
 The signaling module allows users to vote to create non-binding polls. Non-binding polls are an important part of the governance process for existing 10 blockchains and have been administered previously in an ad-hoc manner. 
 

@@ -1,2 +1,0 @@
-# Nominating a Validator
-

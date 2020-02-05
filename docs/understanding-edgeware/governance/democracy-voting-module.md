@@ -1,4 +1,4 @@
-# Democracy \(Voting\) Module
+# Democracy \(Voting\)
 
 The democracy module to create and move different binding referendum along the voting process. Referendums allows for the execution of an arbitrary extrinsic call on the chain as the root user. This allows for execution of rather significant actions \(e.g. setting balance, modifying timestamps, etc\) without performing a runtime upgrade. 
 

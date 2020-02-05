@@ -1,0 +1,2 @@
+# EDG Token
+
