@@ -1,4 +1,4 @@
-# Token Economics
+# EDG Token Economics
 
 
 
