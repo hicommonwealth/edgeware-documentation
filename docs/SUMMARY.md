@@ -98,6 +98,7 @@
 ## Lockdrop \(2019\)
 
 * [Intro to the Edgeware Lockdrop](lockdrop-2019/intro-to-the-edgeware-lockdrop/README.md)
+  * [Retrieving your ETH from the Lockdrop Contract](lockdrop-2019/intro-to-the-edgeware-lockdrop/retrieving-your-eth-from-the-lockdrop-contract.md)
   * [Lockdrop Contract Specifications](lockdrop-2019/intro-to-the-edgeware-lockdrop/lockdrop-contract-specifications.md)
 * [Participation Statistics and Lookup](https://commonwealth.im/edgeware/stats)
 * [Lockdrop Contracts \(Github\)](https://github.com/hicommonwealth/edgeware-lockdrop)
