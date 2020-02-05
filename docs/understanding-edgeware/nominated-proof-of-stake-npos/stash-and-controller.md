@@ -15,7 +15,7 @@ There are two different accounts for managing your funds: `Stash` and `Controlle
 
 We designed this hierarchy of separate key types so that validator operators and nominators can protect themselves much better than in systems with only one key. As a rule, you lose security anytime you use one key for multiple roles, or even if you use keys related by derivation. You should never use any account key for a "hot" session key in particular.
 
-Controller and Stash account keys can be either sr25519 or ed25519. For more on how keys are used in Polkadot and the cryptography behind it [see here](https://wiki.polkadot.network/docs/en/learn-keys).
+Controller and Stash account keys can be either sr25519 or ed25519. For more on how keys are used in Substrate and the cryptography behind it [see here](https://wiki.polkadot.network/docs/en/learn-keys).
 
-For more on how keys are used in Polkadot and the cryptography behind it [see here](https://wiki.polkadot.network/docs/en/learn-keys).
+For more on how keys are used in Substrate and the cryptography behind it [see here](https://wiki.polkadot.network/docs/en/learn-keys).
 

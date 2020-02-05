@@ -12,5 +12,7 @@ Validators perform two functions. First, verifying that the information containe
 
  Any instances of non-compliance with the consensus algorithms result in punishment by removal of some or all of the validator’s staked EDGs, thereby discouraging bad actors. Good performance, however, will be rewarded, with validators receiving block rewards \(including transaction fees\) in the form of DOTs in exchange for their activities.
 
-Slashing Penalities
+{% page-ref page="slashing-consequences.md" %}
+
+
 
