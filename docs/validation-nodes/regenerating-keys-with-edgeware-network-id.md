@@ -15,7 +15,7 @@ subkey -n edgeware inspect "INSERT MNEMONIC HERE"
 ```
 
 {% hint style="info" %}
-On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 will likely result in serious errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
+On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 outside of Commonwealth.im will likely result in serious errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
 {% endhint %}
 
 ## Examples
