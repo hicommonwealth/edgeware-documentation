@@ -1,5 +1,13 @@
 # Frequently Used Commands
 
+## Generate Keys with the newly added Edgeware Network ID
+
+```text
+subkey -n edgeware generate 
+```
+
+
+
 ## Running a node
 
 To start up the Edgeware node and connect to testnet 0.9.0, run:

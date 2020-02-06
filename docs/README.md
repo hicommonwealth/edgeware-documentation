@@ -6,11 +6,7 @@ description: This page reflects the /docs/readme.MD of the Github Repo.
 
 This site, the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
-## Community
 
-* Commonwealth: [http://Commonwealth.im](http://Commonwealth.im): Manage, discuss, vote, elect, and transact for Edgeware and more.
-* Discord: [https://discord.gg/5HMnfY](https://discord.gg/5HMnfY)
-* Twitter: [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware)
 
 ## View the docs on GitBooks
 

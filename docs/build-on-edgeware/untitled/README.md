@@ -1,13 +1,7 @@
----
-description: >-
-  This  page is imported from the Readme of the Edgeware-CLI repo on
-  github.com/hicommonwealth.
----
-
-# Edgeware CLI
+# Edgeware CLI \(Deprecated\)
 
 {% hint style="info" %}
-The Edgeware CLI [can be found at Github.](https://github.com/hicommonwealth/edgeware-cli)
+The Edgeware CLI works, however it has been deprecated. Please use the polkadot.js interfaces. The CLI [can be found at Github.](https://github.com/hicommonwealth/edgeware-cli)
 {% endhint %}
 
 The edgeware CLI easily allows you to interact with a local or remote Edgeware node or any general substrate node. The api requires you to create a `.env` file with your keypair information, which will be described below.

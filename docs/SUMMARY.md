@@ -56,7 +56,6 @@
 ## Validation + Nodes <a id="validation-nodes"></a>
 
 * [Validate on Edgeware](validation-nodes/validate-on-edgeware/README.md)
-  * [Validate on Edgeware Testnet v0.99 with CLI](validation-nodes/validate-on-edgeware/validating-on-edgeware-testnet-v099-cli.md)
   * [Validate on Edgeware using the UI](validation-nodes/validate-on-edgeware/validating-on-edgeware-ui.md)
 * [Setting up a Node](validation-nodes/setting-up-a-node/README.md)
   * [Using Docker](validation-nodes/setting-up-a-node/using-docker.md)
@@ -78,7 +77,7 @@
   * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
   * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
   * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
-* [Edgeware CLI](build-on-edgeware/untitled/README.md)
+* [Edgeware CLI \(Deprecated\)](build-on-edgeware/untitled/README.md)
   * [Edgeware CLI](https://github.com/hicommonwealth/edgeware-cli)
 * [Modules](build-on-edgeware/modules/README.md)
   * [Identity Module](build-on-edgeware/modules/identity-module/README.md)
