@@ -20,7 +20,11 @@ To force your local to create new blocks, even if offline, add the `--force-auth
 
 ## Generating keypairs
 
-To create a keypair, install subkey with `cargo install --force --git https://github.com/paritytech/substrate subkey`. Then run the following:
+To create a keypair, install subkey with `cargo install --force --git https://github.com/paritytech/substrate subkey`. 
+
+
+
+Then run the following:
 
 ```text
 subkey generate

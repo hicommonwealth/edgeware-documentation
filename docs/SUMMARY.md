@@ -27,14 +27,13 @@
   * [Validator Elections](understanding-edgeware/nominated-proof-of-stake-npos/validator-elections.md)
   * [Slashing Consequences](understanding-edgeware/nominated-proof-of-stake-npos/slashing-consequences.md)
 * [Governance](understanding-edgeware/governance/README.md)
+  * [Introduction to Edgeware Governance](understanding-edgeware/governance/introduction-to-edgeware-governance.md)
   * [FAQs: Governance](understanding-edgeware/governance/faqs-governance.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
-  * [Introduction to Edgeware Governance](understanding-edgeware/governance/introduction-to-edgeware-governance.md)
-  * [Intro to Governance Modules](understanding-edgeware/governance/intro-to-governance-modules.md)
-  * [Democracy \(Voting\)](understanding-edgeware/governance/democracy-voting-module.md)
+  * [Democracy \(Proposals  /Referenda\)](understanding-edgeware/governance/democracy-voting-module.md)
   * [Signaling](understanding-edgeware/governance/signaling-module.md)
   * [Treasury](understanding-edgeware/governance/treasury.md)
-  * [Council Module](understanding-edgeware/governance/council/README.md)
+  * [Council](understanding-edgeware/governance/council/README.md)
     * [Voting for Council](understanding-edgeware/governance/council/voting-for-council.md)
     * [Run For Council](understanding-edgeware/governance/council/run-for-council.md)
     * [Council Elections](understanding-edgeware/governance/council/council-elections.md)
@@ -65,6 +64,7 @@
   * [Set up Node Monitoring](validation-nodes/setting-up-a-node/setting-up-monitoring.md)
   * [Set up a Public UI](validation-nodes/setting-up-a-node/setting-up-a-public-ui.md)
 * [FAQs: Validation, Staking, Nodes](validation-nodes/faqs-validation-staking-nodes.md)
+* [Regenerating Keys with Edgeware Network ID](validation-nodes/regenerating-keys-with-edgeware-network-id.md)
 * [Frequently Used Commands](validation-nodes/frequently-used-commands.md)
 
 ## Build on Edgeware
@@ -106,8 +106,10 @@
 
 ## Develop Edgeware
 
-* [Contribution Guide \(WIP\)](develop-edgeware/contribution-guide-wip/README.md)
-  * [Style Guide](develop-edgeware/contribution-guide-wip/style-guide.md)
+* [Contribution and Style Guides](develop-edgeware/contribution-guide-wip/README.md)
+  * [Documentation Style Guide](develop-edgeware/contribution-guide-wip/documentation-style-guide.md)
+  * [Code Style Guide](develop-edgeware/contribution-guide-wip/style-guide.md)
+* [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
 * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
 * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
 

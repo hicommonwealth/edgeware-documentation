@@ -1,4 +1,4 @@
-# Council Module
+# Council
 
 ## Intro
 
