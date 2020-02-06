@@ -4,7 +4,7 @@ description: >-
   Edgeware in 2019. Many of this content comes from http://blog.edgewa.re/
 ---
 
-# FAQs: Lockdrop
+# FAQs
 
 ## How do I retrieve my ETH after the Lockdrop is over?
 
@@ -91,6 +91,51 @@ If you signal, no ETH is moved, locked or otherwise removed from your control. I
 ## Why participate in the Lockdrop?
 
 You can earn fees as a validator, deploy WASM smart contracts to experiment with cutting-edge technology, and vote on the future of the network.
+
+
+
+## **What if I re-signaled because I lost my EDG key but have full control over my ETH?**
+
+There may be a small number of cases where a user signaled from an ETH account, mapping that address to an EDG account, but then lost the key to that EDG account. As a solution, they may have simply re-signaled from the ETH to a new EDG keypair.
+
+Under this change, that second signal would _not_ be acknowledged. **Instead, that user should utilize their control of the ETH and send to another address, then conduct a signal from there.**  This must be completed before the snapshot date of Sept 1 2019. **There is no way to utilize this option for a lock, only signals.** 
+
+## What happened with WithdrawDAO signal?
+
+On July 2nd 2019, Nick Johnson, the deployer of a contract called the WithdrawDAO utilized it to signal roughly 123,000 ETH to the Edgeware Lockdrop.
+
+> [nick.eth@nicksdjohnson](https://twitter.com/nicksdjohnson)  
+> I used the account that deployed the DAO Withdrawal contract to signal on Edgeware.  
+> [106](https://twitter.com/intent/like?tweet_id=1146018815836164096)[6:32 AM - Jul 2, 2019](https://twitter.com/nicksdjohnson/status/1146018815836164096)
+
+Subsequently, he published the private key to the WithdrawDAO..
+
+> [nick.eth@nicksdjohnson](https://twitter.com/nicksdjohnson) · [Jul 2, 2019](https://twitter.com/nicksdjohnson/status/1146018824715558913)  
+> All of this was almost certainly a dumb idea, and I apologise for any havoc or distrust caused.  
+> Here's what I'm doing now:
+
+..and announced he had destroyed his only copy of the Edgeware private key he used to signal.
+
+> [nick.eth@nicksdjohnson](https://twitter.com/nicksdjohnson) · [Jul 2, 201](https://twitter.com/nicksdjohnson/status/1146018826154213377)9  
+> 1. I've deleted the only copy I had of the Edgeware private key. If Edgeware credit the account, those funds will now be locked permanently. As it's impossible to prove I really did delete the key, I encourage them not to credit it \(or anyone else signalling for that matter\).
+
+> [nick.eth@nicksdjohnson](https://twitter.com/nicksdjohnson)  
+> 2. I'm hereby publishing the private key for the account that deployed the DAO withdrawal contract: D6C8ACE470AB0CE03125CAC6ABF2779C199D21A47D3E75E93C212B1EC23CFE51.  
+>   
+> Doing this in the first place would have been a much better way to make my point. Have fun with it.  
+> [6:32 AM - Jul 2, 2019](https://twitter.com/nicksdjohnson/status/1146018827685126144)
+
+[See nick.eth's other Tweets](https://twitter.com/nicksdjohnson)
+
+This allowed anyone to re-signal using the funds stored in WithdrawDAO.
+
+Now, the lockdrop process has a 'snapshot' function, that will activate at 00:00 UTC Sept 1. This snapshot looks at every ETH address that has sent a signal and checks the balance _at that time only_ \(preventing users from shuffling ETH around, signaling, and shuffling again to a new address.\)
+
+If multiple signals map the same ETH to different Edgeware addresses, the lockdrop process must decide which EDG address should receive the allocation for that signal.
+
+To solve this case, we've written into genesis process that an ETH address can only be signaled from _once_. All subsequent attempts to map it to a different EDG keypair will not be acknowledged. ****So, according to this condition, only the first signal from the WithdrawDAO will be processed: that of the deployer, Nick Johnson.
+
+However, the funds that will be allocated to Johnson's EDG account are lost because he destroyed his Edgeware private key- and instead this is the first known reduction in the circulating supply of EDG at launch time.
 
 ## What were the final terms of the Lockdrop?
 

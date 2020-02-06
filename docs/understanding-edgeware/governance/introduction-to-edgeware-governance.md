@@ -14,7 +14,7 @@
 
  Edgeware requires a first-class identity primitive so people can identify each other in the governance process.
 
-{% page-ref page="../../build-on-edgeware/modules/identity-module/" %}
+{% page-ref page="../identity-module/" %}
 
 
 

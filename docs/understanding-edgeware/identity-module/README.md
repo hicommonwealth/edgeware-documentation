@@ -1,4 +1,8 @@
-# Identity Module
+---
+description: This page derived from the Polkadot Identity module page.
+---
+
+# Identity
 
 Edgeware provides a naming system that allows participants to add personal information to their on-chain account and subsequently ask for verification of this information by [registrars](https://wiki.polkadot.network/docs/en/learn-identity#registrars).
 

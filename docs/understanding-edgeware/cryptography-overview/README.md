@@ -2,7 +2,7 @@
 description: 'https://wiki.polkadot.network/docs/en/learn-cryptography'
 ---
 
-# Cryptography Overview
+# Cryptography
 
 ### Hashing Algorithm
 

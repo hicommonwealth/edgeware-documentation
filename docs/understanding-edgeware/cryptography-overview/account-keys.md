@@ -21,7 +21,9 @@ At the same time, `sr25519` makes implementing more complex protocols safer. In 
 
 #### "Controller" and "Stash" Keys
 
-When we talk about "controller" and "stash" keys, we usually talk about them in the context of running a validator or nominating DOTs, but they are useful concepts for all users to know. Both keys are types of account keys. They are distinguished by their intended use, not by an underlying cryptographic difference. All the info mentioned in the parent section applies to these keys. When creating new controller or stash keys, all cryptography supported by account keys are an available option.
+When we talk about "controller" and "stash" keys, we usually talk about them in the context of running a validator or nominating EDG to a validator, but they are useful concepts for all users to know. 
+
+Both keys are types of account keys. They are distinguished by their intended use, not by an underlying cryptographic difference. All the info mentioned in the parent section applies to these keys. When creating new controller or stash keys, all cryptography supported by account keys are an available option.
 
 The controller key is a semi-online key that will be in the direct control of a user, and used to submit manual extrinsics. For validators or nominators, this means that the controller key will be used to start or stop validating or nominating. Controller keys should hold some DOTs to pay for fees, but they should not be used to hold huge amounts or life savings. Since they will be exposed to the internet with relative frequency, they should be treated carefully and occasionally replaced with new ones.
 
@@ -35,12 +37,12 @@ Session keys are hot keys that be must kept online by a validator to perform net
 
 Edgeware uses four session keys:
 
-* GRANDPA: ed25519
+* AURA: ed25519
 * BABE: sr25519
 * I'm Online: sr25519
 * Parachain: sr25519
 
 BABE requires keys suitable for use in a [Verifiable Random Function](https://wiki.polkadot.network/docs/en/learn-randomness#vrfs) as well as for digital signatures. Sr25519 keys have both capabilities and so are used for BABE.
 
-In the future, we plan to use a BLS key for GRANDPA because it allows for more efficient signature aggregation.
+
 
