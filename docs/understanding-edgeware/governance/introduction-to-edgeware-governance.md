@@ -38,7 +38,7 @@ Edgeware allows voters to nominate a set of accounts that hold certain rights ov
 
 This module allows individuals to vote on the allocation of a portion of newly minted EDG.
 
-{% page-ref page="treasury.md" %}
+{% page-ref page="treasury/" %}
 
 
 

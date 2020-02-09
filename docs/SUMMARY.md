@@ -7,6 +7,7 @@
 ## Understanding Edgeware
 
 * [What is Edgeware?](understanding-edgeware/what-is-edgeware.md)
+* [Getting Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
 * [Edgeware Accounts](understanding-edgeware/manage-your-account-wip/README.md)
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
   * [Nominate EDG to a Validator](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/README.md)
@@ -38,11 +39,12 @@
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
   * [Democracy \(Proposals  /Referenda\)](understanding-edgeware/governance/democracy-voting-module.md)
   * [Signaling](understanding-edgeware/governance/signaling-module.md)
-  * [Treasury](understanding-edgeware/governance/treasury.md)
+  * [Treasury](understanding-edgeware/governance/treasury/README.md)
+    * [Proposing a Treasury Spend](understanding-edgeware/governance/treasury/proposing-a-treasury-spend.md)
   * [Council](understanding-edgeware/governance/council/README.md)
+    * [Council Elections](understanding-edgeware/governance/council/council-elections.md)
     * [Voting for Council](understanding-edgeware/governance/council/voting-for-council.md)
     * [Run For Council](understanding-edgeware/governance/council/run-for-council.md)
-    * [Council Elections](understanding-edgeware/governance/council/council-elections.md)
 * [Cryptography](understanding-edgeware/cryptography-overview/README.md)
   * [Account Keys](understanding-edgeware/cryptography-overview/account-keys.md)
 * [Community](understanding-edgeware/join-the-community-wip/README.md)
