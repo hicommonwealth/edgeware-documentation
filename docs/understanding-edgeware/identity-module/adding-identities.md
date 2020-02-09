@@ -4,15 +4,13 @@ description: 'https://wiki.polkadot.network/docs/en/learn-identity'
 
 # Adding Identities
 
-Users can register some default fields like legal name, display name, website, Twitter handle, Riot handle, etc. along with extra, custom fields for which they would like attestations \(see [Judgements](https://wiki.polkadot.network/docs/en/learn-identity#judgements)\). Users must reserve funds in a bond to store their information on chain - 10 KSM per identity, and 2.5 KSM per each field beyond the legal name. These funds are _locked_, not spent - they are returned when the identity is cleared. Each field can store up to 32 bytes of information, so the data must be less than that. When inputting the data manually through the [Extrinsics UI](https://polkadot.js.org/apps/#/extrinsics), a [UTF8 to bytes](https://onlineutf8tools.com/convert-utf8-to-bytes) converter can help.
-
-
+## Adding Identities Using Polkadot.js
 
 The easiest way to add the built-in fields is to click the gear icon next to one's account and select "Set on-chain identity".
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image.png)
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 To add custom fields beyond the default ones, use the Extrinsics UI to submit a raw transaction by first clicking "Add Item" and adding any field name you like. The example below adds a field `steam` which is a user's [Steam](https://store.steampowered.com/) username. The first value is the field name in bytes \("steam"\) and the second is the account name in bytes \("theswader"\). The display name also has to be provided, otherwise the Identity pallet would consider it wiped if we submitted it with the "None" option still selected. That is to say, every time you make a change to your identity values, you need to re-submit the entire set of fields: the write operation is always "overwrite", never "append".
 

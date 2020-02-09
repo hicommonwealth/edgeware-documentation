@@ -8,5 +8,5 @@ To register a sub-account on an existing account, you must currently use the [Ex
 
 ![Sub account setup](https://wiki.polkadot.network/img/identity/06.jpg)
 
-Note that a deposit of 2.5KSM is required for every sub-account.
+Note that a deposit is required for every sub-account, at the same rate as additional ID beyond the default legal name field. 
 
