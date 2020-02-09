@@ -1,4 +1,4 @@
-# EDG Token Economics
+# Economics
 
 ### Supply
 
@@ -10,7 +10,7 @@ No names have been assigned for fractions of an EDG. This is a good opportunity 
 
 #### Inflation
 
-Initially, inflation is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation. 
+Initially, the ideal inflation rate is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation. 
 
 The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be disinflationary, with yearly inflation falling to approximately 16.6% in the second year. Additionally, a system-wide vote may further increase or decrease inflation. 
 

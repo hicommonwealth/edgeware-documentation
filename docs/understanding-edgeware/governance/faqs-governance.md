@@ -1,4 +1,4 @@
-# FAQs: Governance
+# FAQs
 
 ## One-person-one vote - what will prevent malicious players from signing on multiple nodes if it will cost little?
 

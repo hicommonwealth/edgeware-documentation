@@ -55,7 +55,5 @@ Edgware is most plainly an actively-governed smart contract blockchain. Emphasis
 
 … develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
 
-You can read more on an overview of Edgeware on our [site](https://edgewa.re/) and our [position paper](https://arena-attachments.s3.amazonaws.com/3108835/22388b9bb8a91965fe66f89dd4d6f0bb.pdf?1543353825). We appreciate any comments.
-
 
 

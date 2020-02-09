@@ -5,7 +5,7 @@ description: >-
   https://research.web3.foundation/en/latest/polkadot/NPoS/index.html
 ---
 
-# Nominated Proof-of-Stake  \(nPoS\)
+# Consensus  \(nPoS\)
 
 Edgeware uses nominated proof-of-stake \(NPoS\), a relatively new type of scheme used to select the validators who are allowed to participate in the consensus protocol. We also explain the peculiar way in which validators get elected. 
 

@@ -1,8 +1,4 @@
-# Democracy \(Proposals  /Referenda\)
-
-The democracy module to create and move different binding referendum along the voting process. Referendums allows for the execution of an arbitrary extrinsic call on the chain as the root user. This allows for execution of rather significant actions \(e.g. setting balance, modifying timestamps, etc\) without performing a runtime upgrade. 
-
-The module currently only supports binary supermajority-to-pass votes unless submitted by a council member \(which also supports supermajority-to-fail and simple majority\). Individuals vote on binary choice ballots that are tallied by coin-weight with lock-time adjustments. At the outset, all votes will be restricted to a two-week fixed period. In the future, the democracy module will be extended to many `VotingTypes`, they are: 
+# Democracy Features
 
 
 
@@ -24,7 +20,7 @@ At the resolution of the vote the `TallyType`, changes the method by which votes
 
  **One-person-one-vote:** where one account or identity can cast one vote. On Edgeware, one-person-one-vote may refer to a specific set of verified identities, such as verified Github accounts. 13 Initially, all referendum on Edgeware will be cast with both coin-weighting and lock-time-weighting. An important note, for coin-Weighted voting, a user cannot do a ”partial funds vote”–users can only vote and lock up all the funds for a given account for the lock period, or not vote at all. 
 
-
+### 
 
 ### Implementation Delay
 
@@ -33,6 +29,8 @@ At the resolution of the vote the `TallyType`, changes the method by which votes
 {% hint style="info" %}
 **Parameter Note:** The implementation delay for concluded referenda is set to 2 weeks.
 {% endhint %}
+
+### 
 
 ### Delegated Voting
 
@@ -43,9 +41,4 @@ Additionally, the democracy module allows for delegated voting, the middle point
 {% hint style="info" %}
 Delegation is limited to 5 levels deep. No vote can be delegated more than 5 times.
 {% endhint %}
-
-
-
-  
-
 

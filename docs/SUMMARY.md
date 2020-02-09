@@ -10,15 +10,16 @@
 * [Getting Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
 * [Edgeware Accounts](understanding-edgeware/manage-your-account-wip/README.md)
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
+  * [Send a transaction](understanding-edgeware/manage-your-account-wip/send-a-transaction.md)
   * [Nominate EDG to a Validator](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/README.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/stop-being-a-nominator-unbond.md)
-  * [Send a transaction](understanding-edgeware/manage-your-account-wip/send-a-transaction.md)
-* [EDG Token Economics](understanding-edgeware/token-economics/README.md)
+* [Network Parameters](understanding-edgeware/network-parameters.md)
+* [Economics](understanding-edgeware/token-economics/README.md)
   * [Token Supply Chart](understanding-edgeware/token-economics/token-supply-chart.md)
   * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
   * [Staking and Consensus Parameters](understanding-edgeware/token-economics/staking-and-consensus-parameters.md)
   * [Transaction Fees](understanding-edgeware/token-economics/transaction-fees.md)
-* [Nominated Proof-of-Stake  \(nPoS\)](understanding-edgeware/nominated-proof-of-stake-npos/README.md)
+* [Consensus  \(nPoS\)](understanding-edgeware/nominated-proof-of-stake-npos/README.md)
   * [Staking in Edgeware](understanding-edgeware/nominated-proof-of-stake-npos/staking-in-edgeware.md)
   * [Intro to Roles in NPoS](understanding-edgeware/nominated-proof-of-stake-npos/intro-to-roles-in-npos.md)
   * [Validators](understanding-edgeware/nominated-proof-of-stake-npos/validators.md)
@@ -34,10 +35,12 @@
   * [Judgements](understanding-edgeware/identity-module/judgements.md)
   * [Registrars](understanding-edgeware/identity-module/registrars.md)
 * [Governance](understanding-edgeware/governance/README.md)
-  * [Introduction to Edgeware Governance](understanding-edgeware/governance/introduction-to-edgeware-governance.md)
-  * [FAQs: Governance](understanding-edgeware/governance/faqs-governance.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
-  * [Democracy \(Proposals  /Referenda\)](understanding-edgeware/governance/democracy-voting-module.md)
+  * [Introduction to Edgeware Governance](understanding-edgeware/governance/introduction-to-edgeware-governance.md)
+  * [FAQs](understanding-edgeware/governance/faqs-governance.md)
+  * [Democracy](understanding-edgeware/governance/democracy-voting-module/README.md)
+    * [Democracy Features](understanding-edgeware/governance/democracy-voting-module/democracy-features.md)
+    * [View and Vote on Referenda](understanding-edgeware/governance/democracy-voting-module/view-and-vote-on-referenda.md)
   * [Signaling](understanding-edgeware/governance/signaling-module.md)
   * [Treasury](understanding-edgeware/governance/treasury/README.md)
     * [Proposing a Treasury Spend](understanding-edgeware/governance/treasury/proposing-a-treasury-spend.md)
@@ -51,7 +54,8 @@
   * [Community Channels](understanding-edgeware/join-the-community-wip/community-channels-validator-specific-and-more./README.md)
     * [Twitter](https://twitter.com/HeyEdgeware)
   * [FAQs: Community](understanding-edgeware/join-the-community-wip/faqs-community.md)
-* [FAQ: General](understanding-edgeware/faq.md)
+* [Ecosystem](understanding-edgeware/ecosystem.md)
+* [FAQ](understanding-edgeware/faq.md)
 
 ## Tools
 
@@ -63,8 +67,7 @@
 
 ## Validation + Nodes <a id="validation-nodes"></a>
 
-* [Validate on Edgeware](validation-nodes/validate-on-edgeware/README.md)
-  * [Validate on Edgeware using the UI](validation-nodes/validate-on-edgeware/validating-on-edgeware-ui.md)
+* [Validate on Edgeware](validation-nodes/validating-on-edgeware-ui.md)
 * [Setting up a Node](validation-nodes/setting-up-a-node/README.md)
   * [Using Docker](validation-nodes/setting-up-a-node/using-docker.md)
   * [Hardware Requirements](validation-nodes/setting-up-a-node/hardware-requirements.md)
@@ -72,7 +75,7 @@
   * [Set up a Public UI](validation-nodes/setting-up-a-node/setting-up-a-public-ui.md)
 * [Regenerating Keys with Edgeware Network ID](validation-nodes/regenerating-keys-with-edgeware-network-id.md)
 * [Frequently Used Commands](validation-nodes/frequently-used-commands.md)
-* [FAQs: Validation, Staking, Nodes](validation-nodes/faqs-validation-staking-nodes.md)
+* [FAQs](validation-nodes/faqs-validation-staking-nodes.md)
 
 ## Build on Edgeware
 

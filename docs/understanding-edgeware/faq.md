@@ -1,4 +1,6 @@
-# FAQ: General
+# FAQ
+
+
 
 ## How can I view participation statistics and results from the lockdrop?
 

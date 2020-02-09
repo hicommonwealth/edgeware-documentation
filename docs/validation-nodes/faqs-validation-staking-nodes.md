@@ -1,4 +1,4 @@
-# FAQs: Validation, Staking, Nodes
+# FAQs
 
 ## Why should I validate on Edgeware?
 

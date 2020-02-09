@@ -14,5 +14,7 @@ Validators perform two functions. First, verifying that the information containe
 
 {% page-ref page="slashing-consequences.md" %}
 
+{% page-ref page="../../validation-nodes/validating-on-edgeware-ui.md" %}
+
 
 
