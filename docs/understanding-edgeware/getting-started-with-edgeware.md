@@ -4,7 +4,7 @@ This page serves as a kind of 'Table of Contents' for guides useful to new users
 
 {% page-ref page="manage-your-account-wip/creating-an-account.md" %}
 
-{% page-ref page="../tools/wallets-and-account-managers.md" %}
+{% page-ref page="ecosystem/wallets-and-account-managers.md" %}
 
 {% page-ref page="identity-module/adding-identities.md" %}
 

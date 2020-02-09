@@ -63,5 +63,5 @@ Then click 'Add the account with the generated seed.'
 
 
 
-{% page-ref page="../../tools/wallets-and-account-managers.md" %}
+{% page-ref page="../ecosystem/wallets-and-account-managers.md" %}
 

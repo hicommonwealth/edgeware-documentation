@@ -54,16 +54,13 @@
   * [Community Channels](understanding-edgeware/join-the-community-wip/community-channels-validator-specific-and-more./README.md)
     * [Twitter](https://twitter.com/HeyEdgeware)
   * [FAQs: Community](understanding-edgeware/join-the-community-wip/faqs-community.md)
-* [Ecosystem](understanding-edgeware/ecosystem.md)
+* [Ecosystem & Tools](understanding-edgeware/ecosystem/README.md)
+  * [testEDG Faucet](https://faucets.blockxlabs.com/)
+  * [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
+  * [Telemetry \(Node Info\)](https://telemetry.polkadot.io/)
+  * [Block Explorers](understanding-edgeware/ecosystem/block-explorers.md)
+  * [Wallets and Account Managers](understanding-edgeware/ecosystem/wallets-and-account-managers.md)
 * [FAQ](understanding-edgeware/faq.md)
-
-## Tools
-
-* [Wallets and Account Managers](tools/wallets-and-account-managers.md)
-* [Block Explorers](tools/block-explorers.md)
-* [Telemetry \(Node Info\)](https://telemetry.polkadot.io/)
-* [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
-* [testEDG Faucet](https://faucets.blockxlabs.com/)
 
 ## Validation + Nodes <a id="validation-nodes"></a>
 

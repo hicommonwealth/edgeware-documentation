@@ -9,7 +9,7 @@ description: >-
 
 Edgeware uses nominated proof-of-stake \(NPoS\), a relatively new type of scheme used to select the validators who are allowed to participate in the consensus protocol. We also explain the peculiar way in which validators get elected. 
 
-## The NPoS scheme[¶]()
+## The NPoS scheme
 
 This nominator-validator arrangement gives strong security guarantees. It allows for the system to select validators with massive amounts of aggregate stake — much higher than any single party’s EDG holdings — and eliminate candidates with low stake. In fact, at any given moment we expect there to be a considerable fraction of all the EDG supply be staked in NPoS. This makes it very difficult for an adversarial entity to get validators elected \(as they need to build a fair amount of **reputation** to get the required backing from nominators\) and also very costly to attack the system if they do get elected \(because any attack will result in large amounts of EDG being slashed.
 
