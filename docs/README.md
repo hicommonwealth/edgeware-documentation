@@ -1,34 +1,27 @@
----
-description: This page reflects the /docs/readme.MD of the Github Repo.
----
+# Welcome
 
-# What is this page?
+## Announcements
 
-This site, the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
+**02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below.
 
+{% page-ref page="understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id.md" %}
 
+## What is Edgeware?
 
-## View the docs on GitBooks
+[**Edgeware**](https://edgewa.re/) ****is an:
 
-For a user friendly view of these documents, go to [http://docs.edgewa.re](http://docs.edgewa.re)
+* On-chain Governed,
+* Nominated Proof-of-Stake \(PoS\) Blockchain
+* Smart Contract Platform
+* with a WASM \(WebAssembly\) Runtime through Parity Substrate.
 
-## Contributing to Documentation
+It is designed to apply decision-making process to the runtime of the blockchain, but also to the decision-making processes themselves, in an effort to rapidly generate more effective governance solutions for blockchain platforms. 
 
-Commonwealth Labs, the core developer of Edgeware, encourages collaboration and will review all pull-requests and issues created in this repository. If you notice typos or grammatical errors, please feel free to directly create pull requests with these corrections. Larger contributions may start as issues to test the waters on the subject with the maintainers. It is generally preferable to create a pull request over an issue to propose a change to the wiki content.
+Participants in Edgeware vote, delegate, and fund each other to upgrade the network.
 
-## Internationalization
+Edgeware users value the platform for it's commitment and potential to fulfill more decentralized and user-owned blockchain platforms, both for the governance mechanisms as well as it's unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance. 
 
-We support the translation of these docs- Commonwealth Labs may initially fund translation to Chinese in addition to English.
+Edgeware is within the Polkadot Ecosystem.
 
-## Contact
-
-You can reach the Commonwealth Team on Discord [https://discord.gg/5HMnfY](https://discord.gg/5HMnfY)
-
-## License
-
-These documents are intended to be licensed in accordance with open source principles- the exact licensure has yet to be selected.
-
-## Thanks
-
-Gratitude to other platforms who have written documentation- we have modeled our approach and language from the work of the Polkadot Wiki and more.
+**This site,** the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 

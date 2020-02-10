@@ -5,7 +5,7 @@
 There are initially 5,000,000,000 \(five billion\) EDG tokens minted, divisible up to 18 decimal places.
 
 {% hint style="info" %}
-No names have been assigned for fractions of an EDG. This is a good opportunity for a proposal. 
+No names have been assigned for fractions of an EDG, we refer to them by the default dollars/cents \(1 EDG is a dollar, one EDG cent is 0.01 EDG.\) This is a good opportunity for a proposal.
 {% endhint %}
 
 #### Inflation
