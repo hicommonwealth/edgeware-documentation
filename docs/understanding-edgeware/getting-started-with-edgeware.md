@@ -12,7 +12,7 @@ This page serves as a kind of 'Table of Contents' for guides useful to new users
 
 {% page-ref page="governance/introduction-to-edgeware-governance.md" %}
 
-{% page-ref page="join-the-community-wip/community-channels-validator-specific-and-more./" %}
+{% page-ref page="community-channels-validator-specific-and-more./" %}
 
 {% page-ref page="governance/council/voting-for-council.md" %}
 

@@ -46,10 +46,9 @@
     * [Run For Council](understanding-edgeware/governance/council/run-for-council.md)
 * [Cryptography](understanding-edgeware/cryptography-overview/README.md)
   * [Account Keys](understanding-edgeware/cryptography-overview/account-keys.md)
-* [Community](understanding-edgeware/join-the-community-wip/README.md)
-  * [Community Channels](understanding-edgeware/join-the-community-wip/community-channels-validator-specific-and-more./README.md)
-    * [Twitter](https://twitter.com/HeyEdgeware)
-  * [FAQs: Community](understanding-edgeware/join-the-community-wip/faqs-community.md)
+* [Community](understanding-edgeware/community-channels-validator-specific-and-more./README.md)
+  * [FAQs: Community](understanding-edgeware/community-channels-validator-specific-and-more./faqs-community.md)
+  * [Twitter](https://twitter.com/HeyEdgeware)
 * [Validation](understanding-edgeware/validating-on-edgeware-ui/README.md)
   * [FAQs](understanding-edgeware/validating-on-edgeware-ui/faqs-validation-staking-nodes.md)
   * [Frequently Used Commands](understanding-edgeware/validating-on-edgeware-ui/frequently-used-commands.md)
@@ -70,11 +69,11 @@
 
 ## Build on Edgeware
 
-* [What is Substrate?](build-on-edgeware/what-is-substrate/README.md)
+* [Substrate](build-on-edgeware/what-is-substrate/README.md)
   * [Substrate Documentation](https://substrate.dev/docs/)
   * [Substrate APIs](https://polkadot.js.org/api/)
-* [Developer Quick Start](build-on-edgeware/developer-quick-start.md)
-* [Smart Contracts on Edgeware](build-on-edgeware/smart-contracts-on-edgeware/README.md)
+* [Install Edgeware](build-on-edgeware/developer-quick-start.md)
+* [Smart Contracts](build-on-edgeware/smart-contracts-on-edgeware/README.md)
   * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
   * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
   * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
@@ -84,12 +83,14 @@
 
 ## Lockdrop \(2019\)
 
-* [Intro to the Edgeware Lockdrop](lockdrop-2019/intro-to-the-edgeware-lockdrop/README.md)
+* [Edgeware Lockdrop](lockdrop-2019/intro-to-the-edgeware-lockdrop/README.md)
   * [How Users Participated](lockdrop-2019/intro-to-the-edgeware-lockdrop/how-users-participated.md)
   * [Retrieving your ETH from the Lockdrop Contract](lockdrop-2019/intro-to-the-edgeware-lockdrop/retrieving-your-eth-from-the-lockdrop-contract.md)
   * [Gini Coefficient of Edgeware](lockdrop-2019/intro-to-the-edgeware-lockdrop/gini-coefficient-of-edgeware.md)
   * [Lockdrop Contract Specifications](lockdrop-2019/intro-to-the-edgeware-lockdrop/lockdrop-contract-specifications.md)
-* [Blog.Edgewa.re Archive](lockdrop-2019/blog.edgewa.re-archive/README.md)
+* [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
+* [Stats](https://commonwealth.im/edgeware/stats)
+* [Archive](lockdrop-2019/blog.edgewa.re-archive/README.md)
   * [MLC Updated after a Denial of Service bug repaired, no impact to users.](lockdrop-2019/blog.edgewa.re-archive/mlc-updated-after-a-denial-of-service-bug-repaired-no-impact-to-users..md)
   * [Generalized Lock Policy: Who Can Appeal and How](lockdrop-2019/blog.edgewa.re-archive/generalized-lock-policy-who-can-appeal-and-how.md)
   * [Community Guides to Edgeware Lockdrop](lockdrop-2019/blog.edgewa.re-archive/community-guides-to-edgeware-lockdrop.md)
@@ -98,18 +99,17 @@
   * [The Norms of the Edgeware Lockdrop](lockdrop-2019/blog.edgewa.re-archive/the-norms-of-the-edgeware-lockdrop.md)
   * [Full Details on the Edgeware Lockdrop](lockdrop-2019/blog.edgewa.re-archive/full-details-on-the-edgeware-lockdrop.md)
   * [Final Terms and Updates to the Edgeware Lockdrop](lockdrop-2019/blog.edgewa.re-archive/final-terms-and-updates-to-the-edgeware-lockdrop.md)
-* [Participation Statistics and Lookup](https://commonwealth.im/edgeware/stats)
-* [Lockdrop Contracts \(Github\)](https://github.com/hicommonwealth/edgeware-lockdrop)
 * [FAQs](lockdrop-2019/faqs-lockdrop.md)
 
 ## Develop Edgeware
 
+* [Open Source Repositories](develop-edgeware/open-source-repositories/README.md)
+  * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
+  * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
+  * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
 * [Contribution and Style Guides](develop-edgeware/contribution-guide-wip/README.md)
   * [Documentation Style Guide](develop-edgeware/contribution-guide-wip/documentation-style-guide.md)
   * [Code Style Guide](develop-edgeware/contribution-guide-wip/style-guide.md)
-* [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
-* [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
-* [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
 
 ## Links
 

@@ -1,4 +1,4 @@
-# Intro to the Edgeware Lockdrop
+# Edgeware Lockdrop
 
 The Edgeware network was   launched with a ’lockdrop’ of Edgeware tokens to Ether holders. 
 

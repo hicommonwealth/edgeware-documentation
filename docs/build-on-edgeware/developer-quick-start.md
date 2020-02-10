@@ -1,4 +1,4 @@
-# Developer Quick Start
+# Install Edgeware
 
 
 

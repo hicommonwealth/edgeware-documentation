@@ -4,7 +4,7 @@ description: >-
   smart contracts.
 ---
 
-# Smart Contracts on Edgeware
+# Smart Contracts
 
 Edgeware smart contracts may be written in any Wasm-compatible higher level language. Already, there are well-tested toolchains for compiling C, C++, and Rust to Wasm, and independent work is in progress for compiling a subset of JavaScript to Wasm through the AssemblyScript project. 
 
