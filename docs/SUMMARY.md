@@ -59,6 +59,7 @@
     * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/hardware-requirements.md)
     * [Set up Node Monitoring](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/setting-up-monitoring.md)
     * [Set up a Public UI](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/setting-up-a-public-ui.md)
+* [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/intro-to-the-edgeware-lockdrop/README.md)
   * [FAQs](understanding-edgeware/intro-to-the-edgeware-lockdrop/faqs-lockdrop.md)
   * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
