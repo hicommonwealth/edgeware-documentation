@@ -2,7 +2,7 @@
 
 ## Announcements
 
-**🎊 Mainnet Launch is 02/12/2020 at 9 am EST🎊**
+**🎊 Mainnet Launch is 02/12/2020 at 10 am EST🎊**
 
 **02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below, as a best practice. Read more below.
 
