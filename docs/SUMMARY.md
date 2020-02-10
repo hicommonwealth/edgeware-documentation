@@ -1,12 +1,12 @@
 # Table of contents
 
 * [What is this page?](README.md)
-* [Edgeware White Paper](https://arena-attachments.s3.amazonaws.com/4643268/c8d128724f36b716660e4bf21823e760.pdf?1563310093)
 * [Edgeware Homepage](https://edgewa.re)
 
 ## Understanding Edgeware
 
-* [What is Edgeware?](understanding-edgeware/what-is-edgeware.md)
+* [What is Edgeware?](understanding-edgeware/what-is-edgeware/README.md)
+  * [Edgeware White Paper](https://arena-attachments.s3.amazonaws.com/4643268/c8d128724f36b716660e4bf21823e760.pdf?1563310093)
 * [Get Started](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/manage-your-account-wip/README.md)
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
