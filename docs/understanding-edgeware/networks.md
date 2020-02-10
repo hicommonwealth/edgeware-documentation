@@ -22,7 +22,8 @@ Explore these networks with a Block Explorer.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Edgeware Mainnet</td>
+      <td style="text-align:left">Edgeware <b>Mainnet</b>
+      </td>
       <td style="text-align:left">
         <p>wss://mainnet1.edgewa.re</p>
         <p>wss://mainnet2.edgewa.re</p>
@@ -49,7 +50,8 @@ Explore these networks with a Block Explorer.
       <td style="text-align:left">Launches Feb 12 2020 at 10am EST.</td>
     </tr>
     <tr>
-      <td style="text-align:left">Edgeware Berlin Testnet</td>
+      <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
+      </td>
       <td style="text-align:left">
         <p>wss://berlin1.edgewa.re</p>
         <p>wss://berlin2.edgewa.re</p>

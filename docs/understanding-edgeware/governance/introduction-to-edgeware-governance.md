@@ -1,4 +1,4 @@
-# Introduction to Edgeware Governance
+# Edgeware Governance
 
 ## Edgeware Governance
 

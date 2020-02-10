@@ -6,13 +6,14 @@ This document contains all the information one should need to start validating o
 
 * _**stash**_ - the stash keypair is where most of your funds should be located. It can be kept in cold storage if necessary.
 * _**controller**_ - the controller is the keypair that will control your validator settings. It should have a smaller balance, e.g. 10-100 EDG
-- _**session**_ - the 4 session keypairs are hot keys that are stored on your validator node. They do not need to have balances.
+* _**session**_ - the 4 session keypairs are hot keys that are stored on your validator node. They do not need to have balances.
 
 The four session keys are defined as follows:
-- Aura ED25519 key
-- Grandpa ED25519 key
-- ImOnline ED25519 key
-- AuthorityDiscovery SR25519 key
+
+* Aura ED25519 key
+* Grandpa ED25519 key
+* ImOnline ED25519 key
+* AuthorityDiscovery SR25519 key
 
 ## Requirements
 
@@ -20,7 +21,7 @@ The four session keys are defined as follows:
 2. Instructions for setting up a node are [here](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-a-Node). You will need to additionally add the `--validator` flag to run a validator node.
 3. You should have a wallet, such as the `polkadot-js` extension, installed in your browser with the stash and controller keypairs. If you don't have it, get it [here](https://github.com/polkadot-js/extension).
 
-If you need to request a testnet EDG balance, just ask on [Discord](1).
+If you need to request a testnet EDG balance, just ask on [Discord](https://github.com/hicommonwealth/edgeware-documentation/tree/3f5e414b85d1fc50c76d7ab203ea3cef4f078e21/docs/understanding-edgeware/validating-on-edgeware-ui/1/README.md).
 
 ### 1. Install the Edgeware node
 
