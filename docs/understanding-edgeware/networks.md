@@ -63,7 +63,8 @@ Explore these networks with block explorers.
         <p>wss://berlin9.edgewa.re</p>
         <p>wss://berlin10.edgewa.re</p>
       </td>
-      <td style="text-align:left">Live. Mirrors mainnet specification</td>
+      <td style="text-align:left"><b>Live.</b> Mirrors mainnet specification and EDG Lockdrop allocation.
+        Launched Feb 2020.</td>
     </tr>
   </tbody>
 </table>
