@@ -1,10 +1,4 @@
----
-description: >-
-  This page archives articles from blog.edgewa.re -- for official
-  communications, visit Commonwealth.im/edgeware
----
-
-# Archive
+# Blog.Edgewa.re Archive
 
 In order to preserve previous guidance and policy from the first Edgeware Lockdrop \(2019\), we've archived the main and relevant articles under this section.
 

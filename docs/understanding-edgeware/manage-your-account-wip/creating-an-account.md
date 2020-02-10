@@ -6,7 +6,7 @@ There are currently two ways to generate an account in Edgeware.
 **If you generated an account during the lockdrop period,** you need to regenerate your public address from your secret phrase or seed. At this time, the only way to do this is through a command line tool. 
 {% endhint %}
 
-{% page-ref page="regenerating-keys-with-edgeware-network-id.md" %}
+{% page-ref page="../../validation-nodes/regenerating-keys-with-edgeware-network-id.md" %}
 
 ## Create an Edgeware Account
 

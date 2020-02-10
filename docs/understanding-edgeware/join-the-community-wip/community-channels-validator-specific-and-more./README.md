@@ -1,18 +1,12 @@
-# Community
+# Community Channels
 
 ## Official \(Commonwealth Labs-launched channels\)
 
+**Official Edgeware Telegram Channel**: [https://t.me/heyedgeware](https://t.me/heyedgeware)
 
+**Official Edgeware** _**Validator**_ **Telegram Channel:** [https://t.me/EdgewareValidators](https://t.me/EdgewareValidators)
 
-
-
-
-
-**Telegram Channel**: [https://t.me/heyedgeware](https://t.me/heyedgeware)
-
-_**Validator**_ **Telegram Channel:** [https://t.me/EdgewareValidators](https://t.me/EdgewareValidators)
-
-**Discord with many sub-channels:**  [https://discord.gg/njDnHDk](https://discord.gg/njDnHDk)
+**Edgeware Discord with many subchannels:**  [https://discord.gg/njDnHDk](https://discord.gg/njDnHDk)
 
 **Twitter:** [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware)
 
