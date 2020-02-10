@@ -1,5 +1,5 @@
 ---
-description: This page gratefully cloned from the Kusama docs.
+description: This page gratefully cloned and edited from the Kusama docs.
 ---
 
 # Nominate EDG to a Validator
