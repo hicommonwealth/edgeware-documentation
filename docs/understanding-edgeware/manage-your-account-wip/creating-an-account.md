@@ -1,9 +1,9 @@
 # Creating an Account
 
-There are currently two ways to generate an account in Edgeware. 
+There are currently two main ways to generate an account in Edgeware. 
 
 {% hint style="info" %}
-**If you generated an account during the lockdrop period,** you need to regenerate your public address from your secret phrase or seed. At this time, the only way to do this is through a command line tool. 
+**If you generated an account during the lockdrop period,** you need to regenerate your public address from your secret phrase or seed. At this time, the only way to do this is through [a command line tool,  Subkey.](https://edgeware.gitbook.io/edgeware/understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id)
 {% endhint %}
 
 {% page-ref page="regenerating-keys-with-edgeware-network-id.md" %}

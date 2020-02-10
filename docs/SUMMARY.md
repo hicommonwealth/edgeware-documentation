@@ -9,6 +9,7 @@
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
   * [Connect an Account to a Wallet](understanding-edgeware/manage-your-account-wip/connect-an-account-to-a-wallet.md)
   * [Send a transaction](understanding-edgeware/manage-your-account-wip/send-a-transaction.md)
+  * [Signing a transaction using Subkey](understanding-edgeware/manage-your-account-wip/signing-a-transaction-using-subkey.md)
   * [Regenerating Keys with Edgeware Network ID](understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id.md)
   * [Nominate EDG to a Validator](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/README.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/stop-being-a-nominator-unbond.md)

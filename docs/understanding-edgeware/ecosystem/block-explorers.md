@@ -1,14 +1,10 @@
 # Block Explorers
 
-#### Subscan
+## Subscan
 
-{% embed url="https://edgeware.subscan.io/" %}
+{% embed url="https://edgeware.subscan.io/" caption="" %}
 
+## Polkascan
 
-
-#### Polkascan
-
-{% embed url="https://polkascan.io/pre/edgeware-berlin" %}
-
-
+{% embed url="https://polkascan.io/pre/edgeware-berlin" caption="" %}
 

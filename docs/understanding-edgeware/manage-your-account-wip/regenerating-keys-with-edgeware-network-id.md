@@ -1,6 +1,17 @@
 # Regenerating Keys with Edgeware Network ID
 
+## Background
 
+During the lockdrop, the keypairs that were generated with Subkey were encoded using the Subkey Default Network ID.  This impacts the Public Address \(SS58 Address Format\) that Subkey outputs in certain cases. The secret phrase/seed, and public key are not impacted by this change.
+
+1. You can always use the Default-Network-ID-encoded Public Address to **receive** funds safely.
+2.  However, It is a 'best practice' to use the new Edgeware-network-ID version of your address when interacting with the Edgeware network, including sending funds.
+
+## Steps
+
+{% hint style="info" %}
+This process requires the latest version of the Subkey program in order to select Edgeware as the network. 
+{% endhint %}
 
 You can generate a new key with the Edgeware network ID using
 
@@ -15,7 +26,7 @@ subkey -n edgeware inspect "INSERT MNEMONIC HERE"
 ```
 
 {% hint style="info" %}
-On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 outside of Commonwealth.im will likely result in serious errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
+On Commonwealth.im, when Edgeware mainnet is enabled, the inputs will auto-derive the SS58 with the correct network ID, however, using the default-ID-ss58 outside of Commonwealth.im will likely result in errors that may endanger funds. To be safe, always use the Edgeware Network ID SS58 Address.
 {% endhint %}
 
 ## Examples
