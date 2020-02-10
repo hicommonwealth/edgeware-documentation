@@ -6,6 +6,11 @@ description: >-
 
 # Networks
 
+Explore these networks with block explorers.  
+
+
+{% page-ref page="ecosystem/block-explorers.md" %}
+
 
 
 <table>
