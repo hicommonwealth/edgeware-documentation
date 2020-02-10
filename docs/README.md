@@ -1,5 +1,13 @@
 # Welcome
 
+## Announcements
+
+**02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below.
+
+{% page-ref page="understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id.md" %}
+
+## What is Edgeware?
+
 [**Edgeware**](https://edgewa.re/) ****is an:
 
 * On-chain Governed,
@@ -16,12 +24,4 @@ Edgeware users value the platform for it's commitment and potential to fulfill m
 Edgeware is within the Polkadot Ecosystem.
 
 **This site,** the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
-
-
-
-{% page-ref page="understanding-edgeware/getting-started-with-edgeware.md" %}
-
-
-
-## 
 

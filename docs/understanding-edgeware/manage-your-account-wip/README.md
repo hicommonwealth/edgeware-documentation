@@ -1,4 +1,4 @@
-# Edgeware Accounts
+# Accounts
 
 With an Edgeware account, you can transact, interact with smart contracts, participate in Edgeware governance, and participate in Validating and Nominating. 
 
