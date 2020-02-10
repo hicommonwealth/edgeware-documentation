@@ -34,7 +34,7 @@ Returns will vary based on several factors including, how many EDG are staked fo
 
 Annual inflation of the EDG supply will not exceed 20%.
 
-{% page-ref page="../understanding-edgeware/token-economics/inflation-model-calculator.md" %}
+{% page-ref page="../token-economics/inflation-model-calculator.md" %}
 
 
 

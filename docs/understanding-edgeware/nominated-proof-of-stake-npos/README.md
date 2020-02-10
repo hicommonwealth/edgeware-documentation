@@ -17,7 +17,7 @@ This nominator-validator arrangement gives strong security guarantees. It allows
 "Slashing" is the loss or taking of some staked EDG and transferring it to the Edgeware Treasury. 
 {% endhint %}
 
-Our NPoS scheme is much more efficient than proof-of-work \(PoW\) and faster than standard proof-of-stake \(PoS\). Networks with deterministic finality must have a limited validator set \(the size can be changed with governance\). NPoS allows for virtually all EDG holders to continuously participate, thus maintaining high levels of security by putting more value at stake and allowing more people to earn a yield based on their holdings.
+The NPoS scheme is much more efficient than proof-of-work \(PoW\) and faster than standard proof-of-stake \(PoS\). Networks with deterministic finality must have a limited validator set \(the size can be changed with governance\). NPoS allows for virtually all EDG holders to continuously participate, thus maintaining high levels of security by putting more value at stake and allowing more people to earn a yield based on their holdings.
 
 {% hint style="info" %}
 Through nomination, all EDG holders, not merely technically-capable validators, can participate in securing the network and benefitting from rewards. 

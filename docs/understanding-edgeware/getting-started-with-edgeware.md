@@ -10,8 +10,6 @@ This page serves as a kind of 'Table of Contents' for guides useful to new users
 
 {% page-ref page="manage-your-account-wip/nominate-edg-to-a-validator/" %}
 
-{% page-ref page="nominated-proof-of-stake-npos/staking-in-edgeware.md" %}
-
 {% page-ref page="governance/introduction-to-edgeware-governance.md" %}
 
 {% page-ref page="join-the-community-wip/community-channels-validator-specific-and-more./" %}
