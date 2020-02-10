@@ -1,11 +1,11 @@
 # Table of contents
 
-* [What is this page?](README.md)
-* [Edgeware Homepage](https://edgewa.re)
+* [Welcome](README.md)
 
 ## Understanding Edgeware
 
 * [What is Edgeware?](understanding-edgeware/what-is-edgeware/README.md)
+  * ["Meet Edgeware"](understanding-edgeware/what-is-edgeware/meet-edgeware.md)
   * [Edgeware White Paper](https://arena-attachments.s3.amazonaws.com/4643268/c8d128724f36b716660e4bf21823e760.pdf?1563310093)
 * [Get Started](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/manage-your-account-wip/README.md)
@@ -52,14 +52,14 @@
   * [Community Channels](understanding-edgeware/join-the-community-wip/community-channels-validator-specific-and-more./README.md)
     * [Twitter](https://twitter.com/HeyEdgeware)
   * [FAQs: Community](understanding-edgeware/join-the-community-wip/faqs-community.md)
-* [Validation](understanding-edgeware/validating-on-edgeware-ui/README.md)
-  * [FAQs](understanding-edgeware/validating-on-edgeware-ui/faqs-validation-staking-nodes.md)
-  * [Frequently Used Commands](understanding-edgeware/validating-on-edgeware-ui/frequently-used-commands.md)
-  * [Setting up a Node](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/README.md)
-    * [Using Docker](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/using-docker.md)
-    * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/hardware-requirements.md)
-    * [Set up Node Monitoring](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/setting-up-monitoring.md)
-    * [Set up a Public UI](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/setting-up-a-public-ui.md)
+* [Validation](validation-nodes/validating-on-edgeware-ui.md)
+  * [FAQs](validation-nodes/faqs-validation-staking-nodes.md)
+  * [Frequently Used Commands](validation-nodes/frequently-used-commands.md)
+  * [Setting up a Node](validation-nodes/setting-up-a-node/README.md)
+    * [Using Docker](validation-nodes/setting-up-a-node/using-docker.md)
+    * [Hardware Requirements](validation-nodes/setting-up-a-node/hardware-requirements.md)
+    * [Set up Node Monitoring](validation-nodes/setting-up-a-node/setting-up-monitoring.md)
+    * [Set up a Public UI](validation-nodes/setting-up-a-node/setting-up-a-public-ui.md)
 * [Ecosystem & Tools](understanding-edgeware/ecosystem/README.md)
   * [testEDG Faucet](https://faucets.blockxlabs.com/)
   * [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
@@ -74,7 +74,7 @@
 
 ## Build on Edgeware
 
-* [What is Substrate?](build-on-edgeware/what-is-substrate/README.md)
+* [What is Substrate?](build-on-edgeware/what-is-substrate.md)
   * [Substrate Documentation](https://substrate.dev/docs/)
   * [Substrate APIs](https://polkadot.js.org/api/)
 * [Developer Quick Start](build-on-edgeware/developer-quick-start.md)

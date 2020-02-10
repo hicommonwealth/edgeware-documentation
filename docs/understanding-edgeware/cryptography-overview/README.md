@@ -16,12 +16,6 @@ Sr25519 is based on the same underlying [Curve25519](https://en.wikipedia.org/wi
 
 The names Schnorrkel and Ristretto come from the two Rust libraries that implement this scheme, the [Schnorrkel](https://github.com/w3f/schnorrkel) library for Schnorr signatures and the [Ristretto](https://ristretto.group/ristretto.html) library that makes it possible to use cofactor-8 curves like Curve25519.
 
-
-
-[**Learn more about Substrate-based chain cryptography at the Substrate Developer Hub.**](https://substrate.dev/docs/en/conceptual/cryptography/)\*\*\*\*
-
-
-
 {% page-ref page="account-keys.md" %}
 
 

@@ -5,7 +5,7 @@ description: >-
   checked using the instructions below.
 ---
 
-# Parameters
+# Network Parameters
 
 ## Accounts and Transactions
 

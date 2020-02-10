@@ -2,7 +2,7 @@
 description: 'https://wiki.polkadot.network/docs/en/learn-staking'
 ---
 
-# Account Keys: Stash and Controller
+# Stash and Controller
 
 ### Accounts
 
