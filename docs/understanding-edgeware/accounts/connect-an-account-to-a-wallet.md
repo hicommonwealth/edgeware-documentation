@@ -1,13 +1,11 @@
 # Connect an Account to a Wallet
 
-There are several ways to connect your existing account from the Lockdrop or other events to an account manager or wallet. 
-
-{% tabs %}
-{% tab title="Polkadot.js Extension" %}
-This method may not work for the Testnet, but will work for mainnet launch on Feb 12 2020.   
+There are several ways to connect your existing account from the Lockdrop or other events to an account manager or wallet.   
   
 First, install the [Polkadot.js Browser Extension](https://github.com/polkadot-js/extension):
 
+{% tabs %}
+{% tab title="Polkadot.js Extension" %}
 * On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
 * On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/) 
 * You will need your seed phrase, a series of words.
@@ -18,7 +16,7 @@ Click the button stating "I have a pre-existing seed, import the account."
 
 Enter your mnemonic phrase and hit the confirm button.  
   
-Next, visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer), ensure you are connected to the Edgeware network by clicking the top left network logo and selecting the network you want to connect to.   
+Next, visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer), ensure you are connected to t[he Edgeware network](../networks.md) by clicking the top left network logo and selecting the network you want to connect to.   
   
 Once connected, the extension will prompt you to authorize connecting your local wallet to the service.Select your account, enter your wallet password and authorize the interaction.   
   

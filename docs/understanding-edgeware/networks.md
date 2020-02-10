@@ -6,8 +6,7 @@ description: >-
 
 # Networks
 
-Explore these networks with block explorers.  
-
+Explore these networks with a Block Explorer.
 
 {% page-ref page="ecosystem/block-explorers.md" %}
 
