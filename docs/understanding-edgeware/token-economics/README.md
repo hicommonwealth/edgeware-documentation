@@ -8,9 +8,11 @@ There are initially 5,000,000,000 \(five billion\) EDG tokens minted, divisible 
 No names have been assigned for fractions of an EDG, we refer to them by the default dollars/cents \(1 EDG is a dollar, one EDG cent is 0.01 EDG.\) This is a good opportunity for a proposal.
 {% endhint %}
 
+
+
 #### Inflation
 
-Initially, the ideal inflation rate is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation. 
+Initially, the ideal inflation rate is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation at the target staking rate. 
 
 The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be disinflationary, with yearly inflation falling to approximately 16.6% in the second year. Additionally, a system-wide vote may further increase or decrease inflation. 
 

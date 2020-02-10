@@ -2,11 +2,12 @@
 
 * [Welcome](README.md)
 
-## Understanding Edgeware
+## Edgeware <a id="understanding-edgeware"></a>
 
 * [🎊 Get Started](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/manage-your-account-wip/README.md)
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
+  * [Connect an Account to a Wallet](understanding-edgeware/manage-your-account-wip/connect-an-account-to-a-wallet.md)
   * [Send a transaction](understanding-edgeware/manage-your-account-wip/send-a-transaction.md)
   * [Regenerating Keys with Edgeware Network ID](understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id.md)
   * [Nominate EDG to a Validator](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/README.md)
