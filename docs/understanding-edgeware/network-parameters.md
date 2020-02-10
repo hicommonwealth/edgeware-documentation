@@ -7,7 +7,9 @@ description: >-
 
 # Parameters
 
-
+{% hint style="info" %}
+You can use the Polkadot.js apps to confirm the current value of these parameters on a testnet or mainnet at[ Chain State tab &gt; Constants &gt; Select Parameter](https://polkadot.js.org/apps/#/chainstate/constants)
+{% endhint %}
 
 ## Accounts and Transactions
 

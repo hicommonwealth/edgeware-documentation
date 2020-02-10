@@ -40,8 +40,8 @@ Once you sign the transaction, the network receives it and you are done. You can
 {% page-ref page="../ecosystem/block-explorers.md" %}
 {% endtab %}
 
-{% tab title="Second Tab" %}
-
+{% tab title="Using Commonwealth.im" %}
+Coming soon.
 {% endtab %}
 {% endtabs %}
 
