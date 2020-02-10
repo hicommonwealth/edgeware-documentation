@@ -6,7 +6,13 @@ This document contains all the information one should need to start validating o
 
 * _**stash**_ - the stash keypair is where most of your funds should be located. It can be kept in cold storage if necessary.
 * _**controller**_ - the controller is the keypair that will control your validator settings. It should have a smaller balance, e.g. 10-100 EDG
-* _**session**_ - the 3 session keypairs are hot keys that are stored on your validator node. They do not need to have balances.
+- _**session**_ - the 4 session keypairs are hot keys that are stored on your validator node. They do not need to have balances.
+
+The four session keys are defined as follows:
+- Aura ED25519 key
+- Grandpa ED25519 key
+- ImOnline ED25519 key
+- AuthorityDiscovery SR25519 key
 
 ## Requirements
 
