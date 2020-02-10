@@ -4,14 +4,14 @@ description: This page gratefully cloned from the Kusama docs.
 
 # Nominate EDG to a Validator
 
-## How to be a Nominator <a id="how-to-be-a-nominator"></a>
-
-This guide will cover how to nominate some validators in the Edgeware ecosystem.
+This guide will cover how to nominate validators in the Edgeware ecosystem. 
 
 {% hint style="info" %}
 Nominating a Validator means that you delegate your EDG to be used for their validation purposes, and exposes you to the risk that they may 'misbehave' according to the network, and have their AND your nominated EDG slashed, or taken as punishment. Nominate responsibly.
 {% endhint %}
 
+{% tabs %}
+{% tab title="Using the Polkadot.js UI" %}
 ### Step 1: Bond your tokens <a id="step-1-bond-your-tokens"></a>
 
 On the [Polkadot UI](https://polkadot.js.org/apps) navigate to the "Staking" tab.
@@ -24,9 +24,11 @@ The "Staking Overview" subsection will show you all the active validators and th
 
 Pick "Account Actions", then click the blue "New Stake" button.
 
-You will see a modal window that looks like the below:
-
 ![Bonding](https://guide.kusama.network/en/latest/img/NPoS/nominate2.png)
+
+You will see a modal window that looks like the above.  
+  
+test
 
 Select a "value bonded" that is **less** than the total amount of EDG you have, so you have some left over to pay transaction fees. Be mindful of the reaping threshold - the amount that must remain in an account lest it be burned. That amount is 0.001 in Edgeware, so it's recommended to keep at least 0.001 EDG in your account to be on the safe side.
 
@@ -42,6 +44,8 @@ You are now bonded. Being bonded means your tokens are locked and **could be** [
 
 Click on "Nominate" on an account you've bonded and you may  be presented with another popup asking you to select some validators, otherwise enter the validating address of the validator you wish to nominate.
 
+
+
 ![Nominating validators](https://guide.kusama.network/en/latest/img/NPoS/nominate.png)
 
 Select them, confirm the transaction, and you're done - you are now nominating. You should notice your balance increasing shortly.
@@ -51,6 +55,14 @@ Select them, confirm the transaction, and you're done - you are now nominating. 
 At some point, you might decide to stop nominating one or more validators. You can always change who you're nominating, but you cannot withdraw your tokens unless you unbond them. 
 
 {% page-ref page="stop-being-a-nominator-unbond.md" %}
+{% endtab %}
+
+{% tab title="using Subkey to Sign Transactions Securely" %}
+Coming soon.
+{% endtab %}
+{% endtabs %}
+
+###  <a id="step-1-bond-your-tokens"></a>
 
 
 
