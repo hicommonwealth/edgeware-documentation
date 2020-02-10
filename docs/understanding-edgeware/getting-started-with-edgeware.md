@@ -6,15 +6,15 @@ description: >-
 
 # 🎊 Get Started
 
-{% page-ref page="manage-your-account-wip/creating-an-account.md" %}
+{% page-ref page="accounts/creating-an-account.md" %}
 
 {% page-ref page="ecosystem/wallets-and-account-managers.md" %}
 
-{% page-ref page="manage-your-account-wip/connect-an-account-to-a-wallet.md" %}
+{% page-ref page="accounts/connect-an-account-to-a-wallet.md" %}
 
 {% page-ref page="identity-module/adding-identities.md" %}
 
-{% page-ref page="manage-your-account-wip/nominate-edg-to-a-validator/" %}
+{% page-ref page="accounts/nominate-edg-to-a-validator/" %}
 
 {% page-ref page="governance/introduction-to-edgeware-governance.md" %}
 

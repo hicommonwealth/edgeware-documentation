@@ -4,7 +4,7 @@
 
 **02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below.
 
-{% page-ref page="understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id.md" %}
+{% page-ref page="understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md" %}
 
 ## What is Edgeware?
 

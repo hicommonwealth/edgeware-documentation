@@ -39,7 +39,7 @@ Voting on proposals in the Referendum chamber lasts 7 days and, if approved, the
 
 **All the tokens in the account you selected will be locked until the referendum ends.** If you voted `aye` and the proposal has passed, your tokens will be locked until the proposal has been enacted in eight\* days. It is recommended that you do **not** vote with the entirety of your EDG, as your tokens will be locked up for some time, so **you should create a voting account** and transfer the amount of EDG you want to vote with before voting.
 
-{% page-ref page="../../manage-your-account-wip/creating-an-account.md" %}
+{% page-ref page="../../accounts/creating-an-account.md" %}
 
 
 
