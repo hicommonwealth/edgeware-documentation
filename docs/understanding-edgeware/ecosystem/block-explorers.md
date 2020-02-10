@@ -8,7 +8,7 @@
 
 #### Polkascan
 
-{% embed url="https://polkascan.io/pre/edgeware-testnet" %}
+{% embed url="https://polkascan.io/pre/edgeware-berlin" %}
 
 
 
