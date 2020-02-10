@@ -7,13 +7,13 @@
 ## Understanding Edgeware
 
 * [What is Edgeware?](understanding-edgeware/what-is-edgeware.md)
-* [Getting Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
-* [Edgeware Accounts](understanding-edgeware/manage-your-account-wip/README.md)
+* [Get Started](understanding-edgeware/getting-started-with-edgeware.md)
+* [Accounts](understanding-edgeware/manage-your-account-wip/README.md)
   * [Creating an Account](understanding-edgeware/manage-your-account-wip/creating-an-account.md)
   * [Send a transaction](understanding-edgeware/manage-your-account-wip/send-a-transaction.md)
   * [Nominate EDG to a Validator](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/README.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/manage-your-account-wip/nominate-edg-to-a-validator/stop-being-a-nominator-unbond.md)
-* [Network Parameters](understanding-edgeware/network-parameters.md)
+* [Parameters](understanding-edgeware/network-parameters.md)
 * [Economics](understanding-edgeware/token-economics/README.md)
   * [Token Supply Chart](understanding-edgeware/token-economics/token-supply-chart.md)
   * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
@@ -76,22 +76,17 @@
 
 ## Build on Edgeware
 
-* [What is Substrate?](build-on-edgeware/what-is-substrate.md)
+* [What is Substrate?](build-on-edgeware/what-is-substrate/README.md)
+  * [Substrate Documentation](https://substrate.dev/docs/)
+  * [Substrate APIs](https://polkadot.js.org/api/)
 * [Developer Quick Start](build-on-edgeware/developer-quick-start.md)
 * [Smart Contracts on Edgeware](build-on-edgeware/smart-contracts-on-edgeware/README.md)
+  * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
+  * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
   * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
   * [WebAssembly \(Wasm\)](build-on-edgeware/smart-contracts-on-edgeware/webassembly-wasm.md)
-  * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
-  * [WASM Runtime](build-on-edgeware/smart-contracts-on-edgeware/wasm-runtime.md)
   * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
-  * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
   * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
-* [Modules](build-on-edgeware/modules/README.md)
-  * [Modules:-Governance](build-on-edgeware/modules/modules-governance.md)
-  * [Modules:-Adding-a-Module](build-on-edgeware/modules/modules-adding-a-module.md)
-  * [Modules:-Voting](build-on-edgeware/modules/modules-voting.md)
-* [Substrate APIs](https://polkadot.js.org/api/)
-* [Substrate Documentation](https://substrate.dev/docs/)
 
 ## Lockdrop \(2019\)
 

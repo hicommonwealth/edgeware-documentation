@@ -1,4 +1,4 @@
-# Getting Started with Edgeware
+# Get Started
 
 This page serves as a kind of 'Table of Contents' for guides useful to new users on Edgeware.
 

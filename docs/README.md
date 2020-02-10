@@ -6,8 +6,6 @@ description: This page reflects the /docs/readme.MD of the Github Repo.
 
 This site, the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
-
-
 ## View the docs on GitBooks
 
 For a user friendly view of these documents, go to [http://docs.edgewa.re](http://docs.edgewa.re)
