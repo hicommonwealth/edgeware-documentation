@@ -1,34 +1,34 @@
+---
+description: An FAQ page for Staking and Nominating questions.
+---
+
 # FAQs
 
-### Staking and Nominating FAQs[¶](https://guide.kusama.network/en/latest/try/staking/#staking-and-nominating-faqs) <a id="staking-and-nominating-faqs"></a>
-
-###  <a id="staking-and-nominating-faqs"></a>
-
-#### What is staking?[¶](https://guide.kusama.network/en/latest/try/staking/#what-is-staking) <a id="what-is-staking"></a>
+## What is staking?
 
 Staking allows EDG holders to participate in the security and availability of Edgeware by leveraging their tokens to validate. Validators who stake EDG, have an operational validator node, and behave honestly will get rewarded with EDG. Actors who misbehave or who are unavailable/offline will have a portion of their stake slashed as a penalty.
 
-#### What are the annual returns for staking?[¶](https://guide.kusama.network/en/latest/try/staking/#what-are-the-annual-returns-for-staking) <a id="what-are-the-annual-returns-for-staking"></a>
+## What are the annual returns for staking?
 
 The exact number will vary depending on the amount of EDG staked. We'll update this as we know more.
 
-#### What do I need to stake?[¶](https://guide.kusama.network/en/latest/try/staking/#what-do-i-need-to-stake) <a id="what-do-i-need-to-stake"></a>
+## What do I need to stake?
 
 To become a validator, you need a computer with recently up-to-date specifications, a stable and fast internet connection, and EDG to stake. If you do not have EDG to stake, it is also possible to convince nominators to nominate you. Once you have acquired enough stake to make it into the validator set, you will start validating.
 
 To become a nominator, you only need to have some EDG to stake.
 
-#### What is nominating? <a id="what-is-nominating"></a>
+## What is nominating?
 
 A nominator publishes a list of validator candidates that they trust, and puts down an amount of EDG at stake to support them with. If some of these candidates are elected as validators, they share with them the payments, or the sanctions, on a per-staked-EDG basis. Unlike validators, an unlimited number of parties can participate as nominators. As long as a nominator is diligent in their choice and only supports validator candidates with good security practices, their role carries low risk and provides a continuous source of revenue.
 
-#### Can I nominate multiple validators? <a id="can-i-nominate-multiple-validators"></a>
+## Can I nominate multiple validators?
 
 Yes. Validators are selected via the Phragmen Method. You can think of this is a version of "approval voting" - you can approve zero, one, or multiple validators \(although of course, if you do not nominate any validators, you are not nominating and thus will not receive any rewards\).
 
 For a more in-depth explanation of Phragmen, please see the [Polkadot Wiki Phragmen](https://wiki.polkadot.network/en/latest/polkadot/learn/phragmen/) page.
 
-#### What is the maximum annual interest and rewards possible when nominating or validating? <a id="what-is-the-maximum-annual-interest-and-rewards-possible-when-nominating-or-validating"></a>
+## What is the maximum annual interest and rewards possible when nominating or validating?
 
 Returns will vary based on several factors including, how many EDG are staked for a given validator, how much your proportion is in that stake, and how many validators are in the set at a given time.
 

@@ -1,21 +1,27 @@
-# Setting up a Node
+---
+description: This guide covers how to set up an Edgeware node.
+---
 
-This guide covers how to set up an Edgeware node. There are two ways you can proceed:
+# Set up an Edgeware Node
+
+\]here are two ways you can set up an Edgeware node:
 
 * Setting up a private node, e.g. if you would like to run a validator
 * Setting up a public node, e.g. if you want to run connect services or dapps to Edgeware
 
 If you are running a private node, you will only need to follow **steps 0 and 1** of this guide. Otherwise, we will guide you through setting up an SSL certificate in **steps 2 and 3**, so any browser can securely connect to your node. \(Most people, including validators, only need to set up a private node.\)
 
-## 0. Provisioning a server
+{% tabs %}
+{% tab title="Create a Private Node" %}
+### 0. Provisioning a server
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.:
 
-* [Vultr](https://www.vultr.com)
-* [DigitalOcean](https://www.digitalocean.com)
-* [Linode](https://www.linode.com)
-* [OVH](https://www.ovh.com.au)
-* [Contabo](https://contabo.com)
+* [Vultr](https://www.vultr.com/)
+* [DigitalOcean](https://www.digitalocean.com/)
+* [Linode](https://www.linode.com/)
+* [OVH](https://www.ovh.com.au/)
+* [Contabo](https://contabo.com/)
 * [Scaleway](https://www.scaleway.com/en/)
 * Amazon AWS, etc.
 
@@ -25,7 +31,7 @@ If you are running a public node, set up DNS from a domain name that you own to 
 
 SSH into the server.
 
-## 1. Installing Edgeware and setting it up as a system service
+### 1. Installing Edgeware and setting it up as a system service
 
 First, clone the `edgeware-node` repo, install any dependencies, and run the required build scripts.
 
@@ -86,7 +92,96 @@ You should see the node connecting to the network and syncing the latest blocks.
 journalctl -u edgeware.service -f
 ```
 
-## 2. Configuring an SSL certificate \(public nodes only\)
+### ...
+
+### 5. Next steps
+
+Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-monitoring).
+{% endtab %}
+
+{% tab title="Create a Public Node" %}
+### 0. Provisioning a server
+
+Provision an appropriately sized server from a reputable VPS provider, e.g.:
+
+* [Vultr](https://www.vultr.com/)
+* [DigitalOcean](https://www.digitalocean.com/)
+* [Linode](https://www.linode.com/)
+* [OVH](https://www.ovh.com.au/)
+* [Contabo](https://contabo.com/)
+* [Scaleway](https://www.scaleway.com/en/)
+* Amazon AWS, etc.
+
+### Hardware Requirements
+
+We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
+
+If you are running a public node, set up DNS from a domain name that you own to point to the server. We will use `testnet1.edgewa.re`. \(You don't need to do this if you are setting up a private node.\)
+
+SSH into the server.
+
+### 1. Installing Edgeware and setting it up as a system service
+
+First, clone the `edgeware-node` repo, install any dependencies, and run the required build scripts.
+
+```text
+apt update
+apt install -y gcc libc6-dev
+apt install -y cmake pkg-config libssl-dev git clang libclang-dev
+
+# Prefetch SSH publickeys
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+# Install rustup
+curl https://sh.rustup.rs -sSf | sh -s -- -y
+source /root/.cargo/env
+export PATH=/root/.cargo/bin:$PATH
+
+# Get packages
+git clone https://github.com/hicommonwealth/edgeware-node.git
+cd edgeware-node
+
+# Build packages
+./setup.sh
+```
+
+Set up the node as a system service. To do this, navigate into the root directory of the `edgeware-node` repo and execute the following to create the service configuration file:
+
+```text
+{
+    echo '[Unit]'
+    echo 'Description=Edgeware'
+    echo '[Service]'
+    echo 'Type=exec'
+    echo 'WorkingDirectory='`pwd`
+    echo 'ExecStart='`pwd`'/target/release/edgeware --chain=edgeware --ws-external --rpc-cors "*"'
+    echo '[Install]'
+    echo 'WantedBy=multi-user.target'
+} > /etc/systemd/system/edgeware.service
+```
+
+**Note: This will create an Edgeware server that accepts incoming connections from anyone on the internet. If you are using the node as a validator, you should instead remove the `ws-external` flag, so Edgeware does not accept outside connections.**
+
+Double check that the config has been written to `/etc/systemd/system/edgeware.service` correctly. If so, enable the service so it runs on startup, and then try to start it now:
+
+```text
+systemctl enable edgeware
+systemctl start edgeware
+```
+
+Check the status of the service:
+
+```text
+systemctl status edgeware
+```
+
+You should see the node connecting to the network and syncing the latest blocks. If you need to tail the latest output, you can use:
+
+```text
+journalctl -u edgeware.service -f
+```
+
+### 2. Configuring an SSL certificate \(public nodes only\)
 
 We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
 
@@ -136,7 +231,7 @@ IMPORTANT NOTES:
    "certbot renew"
 ```
 
-## 3. Configuring a Websockets proxy \(public nodes only\)
+### 3. Configuring a Websockets proxy \(public nodes only\)
 
 First, install nginx:
 
@@ -212,29 +307,22 @@ You can now try to connect to your new node from [polkadot.js/apps](https://polk
 curl --include --no-buffer --header "Connection: Upgrade" --header "Upgrade: websocket" --header "Host: $name:80" --header "Origin: http://$name:80" --header "Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==" --header "Sec-WebSocket-Version: 13" http://$name:9944/
 ```
 
-## 4. Connecting to your node
+### 4. Connecting to your node
 
 Congratulations on your new node! If you set up public DNS and a SSL certificate in steps 2 and 3, you should be able to connect to it now from [polkadot-js/apps](https://polkadot.js.org/apps/#/settings):
 
 ![](https://user-images.githubusercontent.com/1273926/66156368-631b3400-e5d6-11e9-8254-33040f87ee4f.png)
-
-Otherwise, you should be able to use [edgeware-cli](https://github.com/hicommonwealth/edgeware-cli) to connect to it:
-
-```text
-git clone https://github.com/hicommonwealth/edgeware-cli.git
-cd edgeware-cli
-yarn
-bin/edge -r ws://testnet1.edgewa.re:9944 balances freeBalance 5G8jA2TLTQqnofx2jCE1MAtaZNqnJf1ujv7LdZBv2LGznJE2
-```
 
 In general, you should use these URLs to connect to your node:
 
 * `ws://testnet1.edgewa.re:9944` if you set it up as a public node with `--ws-external` in step 1
 * `wss://testnet1.edgewa.re` if you set it up as a public node and also followed steps 2 and 3
 
-## 5. Next steps
+### 5. Next steps
 
-Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to \[\[Setting up monitoring\]\].
+Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-monitoring).
+{% endtab %}
+{% endtabs %}
 
-You may also wish to proceed to \[\[Validating on Edgeware\]\].
+### 
 
