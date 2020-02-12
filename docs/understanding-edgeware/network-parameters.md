@@ -8,7 +8,7 @@ description: >-
 # Parameters
 
 {% hint style="info" %}
-You can use the Polkadot.js apps to confirm the current value of these parameters on a testnet or mainnet at[ Chain State tab &gt; Constants &gt; Select Parameter](https://polkadot.js.org/apps/#/chainstate/constants)
+This page reflects the runtime [file of the chain viewable at Github](https://github.com/hicommonwealth/edgeware-node/blob/master/node/runtime/src/lib.rs), which is the final source of authority.  You can also use the Polkadot.js apps to confirm the current value of these parameters on a testnet or mainnet at[ Chain State tab &gt; Constants &gt; Select Parameter](https://polkadot.js.org/apps/#/chainstate/constants)
 {% endhint %}
 
 ## Accounts and Transactions
@@ -24,7 +24,6 @@ You can use the Polkadot.js apps to confirm the current value of these parameter
 
 | Parameter | Value |
 | :--- | :--- |
-| **Runtime Version** | 28 |
 | **Consensus Mechanism** | AURA |
 | **Finality Gadget** | GRANDPA |
 
