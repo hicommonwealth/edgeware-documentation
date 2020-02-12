@@ -11,7 +11,7 @@
   * [Connect an Account to a Wallet](understanding-edgeware/accounts/connect-an-account-to-a-wallet.md)
   * [Send a transaction](understanding-edgeware/accounts/send-a-transaction.md)
   * [Signing a transaction using Subkey](understanding-edgeware/accounts/signing-a-transaction-using-subkey.md)
-  * [Regenerating Keys with Edgeware Network ID](understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md)
+  * [Regenerating Public Addresses with the Edgeware Network ID](understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md)
   * [Nominate EDG to a Validator](understanding-edgeware/accounts/nominate-edg-to-a-validator/README.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/accounts/nominate-edg-to-a-validator/stop-being-a-nominator-unbond.md)
 * [Parameters](understanding-edgeware/network-parameters.md)

@@ -1,4 +1,8 @@
-# Regenerating Keys with Edgeware Network ID
+---
+description: T
+---
+
+# Regenerating Public Addresses with the Edgeware Network ID
 
 ## Background
 
@@ -6,6 +10,7 @@ During the lockdrop, the keypairs that were generated with Subkey were encoded u
 
 1. You can always use the Default-Network-ID-encoded Public Address to **receive** funds safely.
 2.  However, It is a 'best practice' to use the new Edgeware-network-ID version of your address when interacting with the Edgeware network, including sending funds.
+3. You will need to re-generate your public address to use Block Explorer tools. 
 
 ## Steps
 
