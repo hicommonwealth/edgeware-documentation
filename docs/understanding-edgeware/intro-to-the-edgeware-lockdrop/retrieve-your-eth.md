@@ -1,5 +1,11 @@
 # Retrieve your ETH
 
+There are two ways to retrieve your ETH from a lockdrop user contract.
+
+{% hint style="info" %}
+First ensure your LUC's ETH lock duration has passed and is now unlocked by checking the unlock date manually or using the Commonwealth Stats tool, otherwise the attempt will fail. 
+{% endhint %}
+
 {% tabs %}
 {% tab title="Commonwealth Unlock Tool " %}
 ### Prerequisites
@@ -20,7 +26,13 @@ If you are not sure which you used, examine the transactions at your participati
 
 Enter your participating ETH address and hit "Get Locks" button.
 
-View the LUC instances and select unlock to cue a Metamask or web3 wallet transaction. Send the transaction. 
+View the LUC instances and select unlock to cue a Metamask or web3 wallet transaction. Send the transaction.  
+
+{% hint style="info" %}
+Unlock attempts fail due to two main reasons:  
+- The LUC is not yet past it's unlock date of 3, 6 or 12 months.   
+- The gas limit needs to be increased to 40k.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Send a Transaction Manually" %}
@@ -43,11 +55,13 @@ View the LUC instances and select unlock to cue a Metamask or web3 wallet transa
 7. Confirm that your transaction speed \(and therefore transaction fee cost\) is satisfactory. \(More fee means quicker processing by the network.\)
 8. Hit Next
 
+{% hint style="info" %}
+Unlock attempts fail due to two main reasons:  
+- The LUC is not yet past it's unlock date of 3, 6 or 12 months.   
+- The gas limit needs to be increased to 40k.
+{% endhint %}
+
 Now watch for the transaction to be finalized, and confirm that your ETH arrived home safely.
 {% endtab %}
 {% endtabs %}
-
-
-
-
 
