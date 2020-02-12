@@ -1,5 +1,15 @@
 # Lockdrop
 
+
+
+{% page-ref page="finding-your-lockdrop-user-contract-luc.md" %}
+
+{% page-ref page="retrieve-your-eth.md" %}
+
+
+
+## Description
+
 The Edgeware network was  launched with a ’lockdrop’ of Edgeware tokens to Ether holders. 
 
 A Lockdrop is an airdrop where token holders of one network lock 5 their tokens in a smart contract for a fixed or variable time period, the ’lock duration.’ The purpose of this novel method of token distribution is to more fairly, securely and widely align incentives among the active participants, select for and incentivize committed initial participants of the network, and leverage existing token distributions in order to create relatively more diverse and wide distributions. 

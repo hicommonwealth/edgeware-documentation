@@ -1,10 +1,11 @@
-# Lockdrop Contract Specifications
+# Contract  & Specifications
 
 The lockdrop contract is a simple two function smart contract. When the function lock is called with the interface specified below via the Master Contract Lockdrop, a new Lockdrop User Contract is created that holds the timelocked ETH. Note, when `isValidator` is yes, the total allocated EDG may be staked at the time of distribution. 
 
 Notably, the Master Lockdrop Contract \(MLC\) itself does not hold the totality of locked ETH, instead, when calling lock, an individual Lockdrop User Contract \(LUC\) is created which holds the participant’s time-locked ETH. This 2-step arrangement reduces the potential value and feasibility of a malicious attack. Further, the Master Lockdrop and Lockdrop User Contracts are extremely simple. 
 
-In particular, the LUC contract is forty-five instructions until completing the call with no jumps. These have been audited by a third-party, Quantstamp. 
+In particular, the LUC contract is forty-five instructions until completing the call with no jumps. These have been audited by a third-party, Quantstamp.   
+
 
 
 
