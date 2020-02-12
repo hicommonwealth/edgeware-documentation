@@ -4,13 +4,15 @@ description: >-
   users on Edgeware.
 ---
 
-# 🎊 Get Started
+# 🎊 Get Started with Edgeware
 
 
 
 {% page-ref page="accounts/creating-an-account.md" %}
 
 {% page-ref page="accounts/check-your-balance-via-block-explorer.md" %}
+
+{% page-ref page="intro-to-the-edgeware-lockdrop/retrieve-your-eth/" %}
 
 {% page-ref page="ecosystem/wallets-and-account-managers.md" %}
 

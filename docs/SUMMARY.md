@@ -4,7 +4,7 @@
 
 ## Edgeware <a id="understanding-edgeware"></a>
 
-* [🎊 Get Started](understanding-edgeware/getting-started-with-edgeware.md)
+* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
