@@ -2,7 +2,7 @@
 description: This is a short guide to finding your lockdrop user contract address.
 ---
 
-# Finding your Lockdrop User Contract \(LUC\)
+# Find your Lockdrop User Contract \(LUC\)
 
 There are two ways to discover your LUC address if you haven't stored it:
 

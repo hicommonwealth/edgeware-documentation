@@ -64,7 +64,7 @@
 * [Lockdrop](understanding-edgeware/intro-to-the-edgeware-lockdrop/README.md)
   * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
   * [Retrieve your ETH](understanding-edgeware/intro-to-the-edgeware-lockdrop/retrieve-your-eth.md)
-  * [Finding your Lockdrop User Contract \(LUC\)](understanding-edgeware/intro-to-the-edgeware-lockdrop/finding-your-lockdrop-user-contract-luc.md)
+  * [Find your Lockdrop User Contract \(LUC\)](understanding-edgeware/intro-to-the-edgeware-lockdrop/finding-your-lockdrop-user-contract-luc.md)
   * [Stats](https://commonwealth.im/edgeware/stats)
   * [Archive](understanding-edgeware/intro-to-the-edgeware-lockdrop/blog.edgewa.re-archive/README.md)
     * [How Users Participated](understanding-edgeware/intro-to-the-edgeware-lockdrop/blog.edgewa.re-archive/how-users-participated.md)
