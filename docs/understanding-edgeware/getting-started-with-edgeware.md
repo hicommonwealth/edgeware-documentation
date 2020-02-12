@@ -6,8 +6,6 @@ description: >-
 
 # 🎊 Get Started with Edgeware
 
-
-
 {% page-ref page="accounts/creating-an-account.md" %}
 
 {% page-ref page="accounts/check-your-balance-via-block-explorer.md" %}
