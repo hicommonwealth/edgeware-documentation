@@ -42,7 +42,7 @@ Unlock attempts fail due to two main reasons:
 * [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or a wallet with transaction abilities with _any_ account connected, it _does not_ have to be the original, but it **does** need enough ETH to pay the 'gas' \(the transaction fee\) for the transaction - likely equal or less than 0.00042 ETH.
 * The _contract_ address of your LUC. See link below if you need this.
 
-{% page-ref page="finding-your-lockdrop-user-contract-luc.md" %}
+{% page-ref page="../finding-your-lockdrop-user-contract-luc.md" %}
 
 ### Steps
 

@@ -10,7 +10,7 @@ The EDG tokens will be created upon Network Launch - currently scheduled for 10a
 
 {% page-ref page="finding-your-lockdrop-user-contract-luc.md" %}
 
-{% page-ref page="retrieve-your-eth.md" %}
+{% page-ref page="retrieve-your-eth/" %}
 
 
 
