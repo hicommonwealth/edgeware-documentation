@@ -6,7 +6,11 @@ description: >-
 
 # 🎊 Get Started
 
+
+
 {% page-ref page="accounts/creating-an-account.md" %}
+
+{% page-ref page="accounts/check-your-balance-via-block-explorer.md" %}
 
 {% page-ref page="ecosystem/wallets-and-account-managers.md" %}
 
