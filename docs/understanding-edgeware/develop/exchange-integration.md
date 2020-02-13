@@ -191,7 +191,7 @@ In Edgeware, account balances can be looked up within the `Balances` module usin
 
 NOTE: `FreeBalance` gives the total balance controlled by that account, but does not account for temporarily locked portions of balance, such as those locked for staking, voting or vesting. This information can be queried from the chain, but it is outside the scope of this document.
 
-The balance encodes the DOT token with 18 decimal places. To get the actual number of EDGs, you need to divide the 128-bit balance by 1E18 \(10\*\*18\). For completeness, The exact denominations of the Edgeware currency are:
+The balance encodes the EDGtoken with 18 decimal places. To get the actual number of EDGs, you need to divide the 128-bit balance by 1E18 \(10\*\*18\). For completeness, The exact denominations of the Edgeware currency are:
 
 | Balance value | Name |
 | :--- | :--- |
@@ -206,7 +206,7 @@ The balance encodes the DOT token with 18 decimal places. To get the actual numb
 
 To transfer a balance, a transaction must be constructed and sent. In constructing a transaction, there are two key parts: the general part of the transaction and the module-specific `function` part of the transaction with the latter generally needing information from the chain’s metadata must generally.
 
-In general, Polkadot’s transactions are encoded as _signed_ `Extrinsic`s in SCALE.  
+In general, Edgeware’s transactions are encoded as _signed_ `Extrinsic`s in SCALE.  
 To facilitate forward compatibility, extrinsics are double-encoded, so the initial encoding is passed back into SCALE \(as a `Vec<u8>`\) and the output of that is used. This has the effect of adding a small length prefix onto it allowing systems that cannot interpret the transaction data itself to still be able to pass them around as opaque packets of data.
 
 The SCALE format is given by `Extrinsic`:
@@ -250,7 +250,7 @@ Finally, we need to know what parameters to this function are expected in order 
 * `dest` with a type of `<T::Lookup as StaticLookup>::Source` \(aka `Address`\); and
 * `value` with a type of `Compact<T::Balance>` \(aka `Compact Balance`\).
 
-The `function` _in this case_ \(i.e. specifically and only for the Balance transfer transaction on Polkadot as of right now\) would be the struct:
+The `function` _in this case_ \(i.e. specifically and only for the Balance transfer transaction on Edgeware as of right now\) would be the struct:
 
 ```text
 struct BalanceTransferFunction:
