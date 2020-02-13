@@ -47,7 +47,7 @@ Explore these networks with a Block Explorer.
         <p>wss://mainnet20.edgewa.re</p>
         <p></p>
       </td>
-      <td style="text-align:left">Launches Feb 12 2020 at 10am EST.</td>
+      <td style="text-align:left">Launches Feb 17 2020 at 10am EST.</td>
     </tr>
     <tr>
       <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 

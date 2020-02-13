@@ -1,7 +1,5 @@
 # Lockdrop
 
-The Edgeware lockdrop was a token distribution event that occured between June 1-Aug 30 2019. **It is now closed.**
-
 {% hint style="info" %}
 The EDG tokens will be created upon Network Launch - currently scheduled for 10am, Monday, Feb 17, 2020. All EDG created through the lockdrop will exist at their owner's wallet addresses automatically.  See the Get Started page for managing your new EDG and Edgeware account, below. There is no need to 'retrieve' your EDG.
 {% endhint %}

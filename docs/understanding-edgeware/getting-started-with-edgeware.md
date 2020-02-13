@@ -10,7 +10,7 @@ description: >-
 
 {% page-ref page="accounts/check-your-balance-via-block-explorer.md" %}
 
-{% page-ref page="lockdrop/retrieve-your-eth/" %}
+{% page-ref page="intro-to-the-edgeware-lockdrop/retrieve-your-eth/" %}
 
 {% page-ref page="ecosystem/wallets-and-account-managers.md" %}
 
