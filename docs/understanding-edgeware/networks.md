@@ -16,6 +16,7 @@ Explore these networks with a Block Explorer.
   <thead>
     <tr>
       <th style="text-align:left">Network</th>
+      <th style="text-align:left">Network ID</th>
       <th style="text-align:left">Endpoints</th>
       <th style="text-align:left">Status</th>
     </tr>
@@ -23,6 +24,8 @@ Explore these networks with a Block Explorer.
   <tbody>
     <tr>
       <td style="text-align:left">Edgeware <b>Mainnet</b>
+      </td>
+      <td style="text-align:left"><code>0x07</code>
       </td>
       <td style="text-align:left">
         <p>wss://mainnet1.edgewa.re</p>
@@ -52,6 +55,8 @@ Explore these networks with a Block Explorer.
     <tr>
       <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
       </td>
+      <td style="text-align:left">Currently <code>0x07</code>
+      </td>
       <td style="text-align:left">
         <p>wss://berlin1.edgewa.re</p>
         <p>wss://berlin2.edgewa.re</p>
@@ -65,7 +70,7 @@ Explore these networks with a Block Explorer.
         <p>wss://berlin10.edgewa.re</p>
       </td>
       <td style="text-align:left"><b>Live.</b> Mirrors mainnet specification and EDG Lockdrop allocation.
-        Launched Feb 2020.</td>
+        Launched Feb 2020. Network ID will change.</td>
     </tr>
   </tbody>
 </table>
