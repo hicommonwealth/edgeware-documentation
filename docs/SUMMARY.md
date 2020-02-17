@@ -6,10 +6,10 @@
 
 * [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
-  * [Interact using Polkadot UI](understanding-edgeware/accounts/interact-using-polkadot-ui.md)
-  * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
   * [Connect an Account to a Wallet](understanding-edgeware/accounts/connect-an-account-to-a-wallet.md)
+  * [Interact using Polkadot UI](understanding-edgeware/accounts/interact-using-polkadot-ui.md)
+  * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
   * [Send a transaction](understanding-edgeware/accounts/send-a-transaction.md)
   * [Signing a transaction using Subkey](understanding-edgeware/accounts/signing-a-transaction-using-subkey.md)
   * [Regenerating Public Addresses with the Edgeware Network ID](understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md)
