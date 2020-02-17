@@ -18,6 +18,8 @@ The Polkadot.js Browser Extension does not display the Edgeware network ID encod
 This process requires the latest version of the Subkey program in order to select Edgeware as the network. 
 {% endhint %}
 
+
+
 You can generate a new key with the Edgeware network ID using
 
 ```text
