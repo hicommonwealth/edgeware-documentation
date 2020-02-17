@@ -1,7 +1,3 @@
----
-description: T
----
-
 # Regenerating Public Addresses with the Edgeware Network ID
 
 ## Background
@@ -10,7 +6,11 @@ During the lockdrop, the keypairs that were generated with Subkey were encoded u
 
 1. You can always use the Default-Network-ID-encoded Public Address to **receive** funds safely.
 2.  However, It is a 'best practice' to use the new Edgeware-network-ID version of your address when interacting with the Edgeware network, including sending funds.
-3. You will need to re-generate your public address to use Block Explorer tools. 
+3. You will need to re-generate your public address to use some Block Explorer tools. At this time, Polkascan utilizes the new Edgeware network ID encoding. 
+
+{% hint style="info" %}
+The Polkadot.js Browser Extension does not display the Edgeware network ID encoded at this time. The public address of your EDG wallet shown in the extension is encoded using the 'default network ID' of Subkey, the program that generates keypairs for Substrate-based chains. As a result, the public addresses shown may not be useful for using block explorers. 
+{% endhint %}
 
 ## Steps
 
