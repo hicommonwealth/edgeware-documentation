@@ -6,6 +6,7 @@
 
 * [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
+  * [Interact using Polkadot UI](understanding-edgeware/accounts/interact-using-polkadot-ui.md)
   * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
   * [Connect an Account to a Wallet](understanding-edgeware/accounts/connect-an-account-to-a-wallet.md)
@@ -104,6 +105,7 @@
     * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
     * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
 * [Ecosystem & Tools](understanding-edgeware/ecosystem/README.md)
+  * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
   * [Polkalert Node Monitoring](https://polkalert.com/)
   * [testEDG Faucet](https://faucets.blockxlabs.com/)
   * [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
