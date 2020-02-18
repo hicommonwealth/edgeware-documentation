@@ -4,8 +4,8 @@
 
 ## Edgeware <a id="understanding-edgeware"></a>
 
-* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware/README.md)
-  * [Intro to Polkadot UI](understanding-edgeware/getting-started-with-edgeware/interact-using-polkadot-ui.md)
+* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
+  * [Intro to Polkadot UI](understanding-edgeware/accounts/interact-using-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/getting-started-with-edgeware/faqs-for-new-users.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
@@ -53,17 +53,17 @@
   * [Nomination Period](understanding-edgeware/nominated-proof-of-stake-npos/nomination-period.md)
 * [Staking](understanding-edgeware/validating-on-edgeware-ui/README.md)
   * [Nominating](understanding-edgeware/validating-on-edgeware-ui/nominating/README.md)
-    * [Nominate EDG to a Validator](understanding-edgeware/validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator.md)
-    * [Stop Being a Nominator \(unbond\)](understanding-edgeware/validating-on-edgeware-ui/nominating/stop-being-a-nominator-unbond.md)
+    * [Nominate EDG to a Validator](understanding-edgeware/accounts/nominate-edg-to-a-validator/README.md)
+    * [Stop Being a Nominator \(unbond\)](understanding-edgeware/accounts/nominate-edg-to-a-validator/stop-being-a-nominator-unbond.md)
   * [Validation](understanding-edgeware/validating-on-edgeware-ui/validation/README.md)
-    * [Set up an Edgeware Node](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/README.md)
-      * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/hardware-requirements.md)
-    * [Set up Node Monitoring](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-monitoring.md)
-    * [Start your Validator](understanding-edgeware/validating-on-edgeware-ui/validation/start-your-validator.md)
-    * [Frequently Used Commands](understanding-edgeware/validating-on-edgeware-ui/validation/frequently-used-commands.md)
-    * [Set up a Public UI](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-public-ui.md)
+    * [Set up an Edgeware Node](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/README.md)
+      * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-node/hardware-requirements.md)
+    * [Set up Node Monitoring](understanding-edgeware/validating-on-edgeware-ui/setting-up-monitoring.md)
+    * [Start your Validator](understanding-edgeware/validating-on-edgeware-ui/start-your-validator.md)
+    * [Frequently Used Commands](understanding-edgeware/validating-on-edgeware-ui/frequently-used-commands.md)
+    * [Set up a Public UI](understanding-edgeware/validating-on-edgeware-ui/setting-up-a-public-ui.md)
   * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
-  * [Slashing Consequences](understanding-edgeware/validating-on-edgeware-ui/slashing-consequences.md)
+  * [Slashing Consequences](understanding-edgeware/nominated-proof-of-stake-npos/slashing-consequences.md)
   * [FAQs](understanding-edgeware/validating-on-edgeware-ui/faqs-validation-staking-nodes.md)
 * [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/lockdrop/README.md)
@@ -108,6 +108,8 @@
     * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
     * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
 * [Ecosystem & Tools](understanding-edgeware/ecosystem/README.md)
+  * [Exchanges](understanding-edgeware/ecosystem/exchanges.md)
+  * [Parachain Status](understanding-edgeware/ecosystem/parachain-status.md)
   * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
   * [Polkalert Node Monitoring](https://polkalert.com/)
   * [testEDG Faucet](https://faucets.blockxlabs.com/)
@@ -119,5 +121,6 @@
 
 ## Links
 
-* [Commonwealth Labs](https://commonwealth.im)
+* [Commonwealth.im](https://commonwealth.im)
+* [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 
