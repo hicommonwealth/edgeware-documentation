@@ -4,7 +4,8 @@
 
 ## Edgeware <a id="understanding-edgeware"></a>
 
-* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware.md)
+* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware/README.md)
+  * [FAQs for New Users](understanding-edgeware/getting-started-with-edgeware/faqs-for-new-users.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
   * [Connect an Account to a Wallet](understanding-edgeware/accounts/connect-an-account-to-a-wallet.md)
