@@ -6,8 +6,6 @@ description: This page gratefully cloned and edited from the Kusama docs.
 
 This guide will cover how to nominate validators in the Edgeware ecosystem. 
 
-
-
 {% hint style="info" %}
 Nominating a Validator means that you delegate your EDG to be used for their validation purposes, and exposes you to the risk that the Validator may 'misbehave' according to the network, resulting in theirs AND your nominated EDG 'slashed,' or taken by the system as a disincentive to misbehave. Nominate responsibly.
 {% endhint %}

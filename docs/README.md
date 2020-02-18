@@ -2,7 +2,7 @@
 
 ## Announcements
 
-**🎊 Edgeware is Live.**
+**🎊 Mainnet Launch is postponed to 02/17/2020 at 10 am EST \(3PM Monday UTC\)🎊** Join us for the [**launch party call starting at 9am.**](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXRubWJlMjBncThpNHRxbTZmYzB0azE1NHEgY29tbW9ud2VhbHRoLmltX2loYnM4OTJwcXVidm9ndG9pbTZjMWhmN2NrQGc&tmsrc=commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com) ****See the [Network Endpoints](understanding-edgeware/networks.md) to prepare. 
 
 **02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below, as a best practice. Read more below.
 

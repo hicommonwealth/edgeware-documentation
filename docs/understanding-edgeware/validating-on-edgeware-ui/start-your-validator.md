@@ -71,7 +71,7 @@ Upgrade: websocket
 
 ## 2. Connect via the interface
 
-Go to the [polkadot-js web interface](https://polkadot.js.org/apps/#/settings) and connect to a custom node, e.g. berlin1.edgewa.re. See [Networks for current networks and endpoints you may connect to](../../networks.md).
+Go to the [polkadot-js web interface](https://polkadot.js.org/apps/#/settings) and connect to a custom node, e.g. berlin1.edgewa.re. See [Networks for current networks and endpoints you may connect to](../networks.md).
 
 The interface should show the correct latest block.
 
