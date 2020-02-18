@@ -6,6 +6,12 @@ description: >-
 
 # 🎊 Get Started with Edgeware
 
+
+
+{% page-ref page="interact-using-polkadot-ui.md" %}
+
+
+
 ### Account Basics
 
 {% page-ref page="../accounts/creating-an-account.md" %}
@@ -22,7 +28,7 @@ description: >-
 
 ### Staking
 
-{% page-ref page="../validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator/" %}
+{% page-ref page="../validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator.md" %}
 
 ### Governance
 
