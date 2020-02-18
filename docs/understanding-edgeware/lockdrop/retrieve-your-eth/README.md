@@ -65,7 +65,7 @@ Now watch for the transaction to be finalized, and confirm that your ETH arrived
 {% endtab %}
 {% endtabs %}
 
-{% page-ref page="../../getting-started-with-edgeware/" %}
+{% page-ref page="../../getting-started-with-edgeware.md" %}
 
 
 
