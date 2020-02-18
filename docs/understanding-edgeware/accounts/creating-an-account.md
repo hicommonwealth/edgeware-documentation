@@ -3,14 +3,34 @@
 There are currently two main ways to generate an account in Edgeware. 
 
 {% hint style="info" %}
-**If you generated an account during the lockdrop period,** you need to regenerate your public address from your secret phrase or seed. At this time, the only way to do this is through [a command line tool,  Subkey.](https://edgeware.gitbook.io/edgeware/understanding-edgeware/manage-your-account-wip/regenerating-keys-with-edgeware-network-id)
-{% endhint %}
+**If you generated an account during the lockdrop period,** you need to [regenerate your public address from your secret phrase or seed. ](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)At this time, the only way to do this is through a command line tool,  Subkey.
 
 {% page-ref page="regenerating-keys-with-edgeware-network-id.md" %}
+{% endhint %}
 
 ## Create an Edgeware Account
 
 {% tabs %}
+{% tab title="Polkadot.js Browser Extension" %}
+First, [Install Polkadot.Js](https://github.com/polkadot-js/extension) \(Scroll to bottom for links\)
+
+Click the Orange P symbol in your extensions
+
+Click "I want to create a new account with a new seed." 
+
+![](../../.gitbook/assets/screen-shot-2020-02-06-at-5.37.08-pm.png)
+
+{% hint style="info" %}
+Store your mnemonic seed somewhere securely. You will need it to maintain access to your account.
+{% endhint %}
+
+Next, enter in a password for your account. **You should also store this securely.** 
+
+Then click 'Add the account with the generated seed.'  
+   
+**Your new account should display in the list of accounts now and is ready for use. Click the identicon to the left to copy your public address.**
+{% endtab %}
+
 {% tab title="Subkey \(Command Line\)" %}
 Subkey is a command line program that provides the most secure way to generate keypairs, but requires a firm understanding of command line tools and dependencies. If you are not technically strong here, consider using the Polkadot.js Browser Extension on Tab 2. 
 
@@ -34,26 +54,6 @@ If you previously generated an account without the `-n edgeware` flag, you need 
 
 You can use `subkey -n edgeware inspect "YOUR SECRET PHRASE HERE"` to obtain the network-ID inclusive Address \(SS58\)
 {% endhint %}
-{% endtab %}
-
-{% tab title="Polkadot.js Browser Extension" %}
-First, [Install Polkadot.Js](https://github.com/polkadot-js/extension) \(Scroll to bottom for links\)
-
-Click the Orange P symbol in your extensions
-
-Click "I want to create a new account with a new seed." 
-
-![](../../.gitbook/assets/screen-shot-2020-02-06-at-5.37.08-pm.png)
-
-{% hint style="info" %}
-Store your mnemonic seed somewhere securely. You will need it to maintain access to your account.
-{% endhint %}
-
-Next, enter in a password for your account. **You should also store this securely.** 
-
-Then click 'Add the account with the generated seed.'  
-   
-**Your new account should display in the list of accounts now and is ready for use.**
 {% endtab %}
 {% endtabs %}
 
