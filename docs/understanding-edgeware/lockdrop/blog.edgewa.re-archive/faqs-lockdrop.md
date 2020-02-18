@@ -84,16 +84,6 @@ You can earn fees as a validator, deploy WASM smart contracts to experiment with
 
 
 
-## Are there video guides?
-
-Here is a list of links for community videos and translated guides: 
-
-{% embed url="https://blog.edgewa.re/other-videos-guides-and-resources-multi-language-for-the-lockdrop/" %}
-
-
-
-
-
 ## **What if I re-signaled because I lost my EDG key but have full control over my ETH?**
 
 There may be a small number of cases where a user signaled from an ETH account, mapping that address to an EDG account, but then lost the key to that EDG account. As a solution, they may have simply re-signaled from the ETH to a new EDG keypair.
