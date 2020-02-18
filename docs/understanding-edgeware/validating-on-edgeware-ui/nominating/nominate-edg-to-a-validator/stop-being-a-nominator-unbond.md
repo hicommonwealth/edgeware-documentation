@@ -30,6 +30,13 @@ Select the amount you wish to unbond and click Unbond, then confirm the transact
 
 If successful, your balance will show as "unbonding" with an indicator of how many more blocks remain until the amount is fully unlocked.
 
+**Unbonding Duration**  
+Once you bond, a period of 7 days must pass before you can unbond tokens.
+
+{% hint style="info" %}
+**Parameter Note:** Unbonding Duration: 7 days. The length of time that must pass before you can unbond. 
+{% endhint %}
+
 ![Unbonding duration](https://wiki.polkadot.network/img/NPoS/unbond4.png)
 
 This duration will vary depending on the network you're on.
