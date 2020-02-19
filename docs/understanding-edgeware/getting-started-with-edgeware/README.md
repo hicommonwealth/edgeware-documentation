@@ -10,6 +10,8 @@ description: >-
 
 {% page-ref page="interact-using-polkadot-ui.md" %}
 
+{% page-ref page="faqs-for-new-users.md" %}
+
 
 
 ### Account Basics
