@@ -22,6 +22,10 @@ Edgeware accounts may have two address forms - one that encodes a Substrate Defa
 
 At this time, there are several low liquidity markets \(~150$ daily volume\) that list EDG. You should examine the security of these exchanges before making any purchases. Never buy seed phrases directly, your funds can be stolen. 
 
+
+
+
+
 ## Staking, Validation and Nomination
 
 ### Can I start staking EDG?
@@ -38,12 +42,9 @@ Validators are elected from a pool of the top 60 most-bonded validators. This el
 
 Bonding periods last 7 days.
 
-### Why can't I send/sign my Nomination transaction? 
+### Why can't I send/sign my Nomination transaction?
 
-* Check that the Controller account has funds to pay transaction fees, this is the most common reason for issues. **If you get this error**: `staking.nominate`
-
-  `submitAndWatchExtrinsic(extrinsic: Extrinsic): ExtrinsicStatus:: 1010: Invalid Transaction: Payment`
-
+* Check that the Controller account has funds to pay transaction fees, this is the most common reason for issues.
 * Check that your Destination field in the Polkadot UI is set to the network default - and not to Kusama or other networks. 
 
 ### Why is it recommended to use a different account for Stash and Controller?
