@@ -18,7 +18,7 @@ Nominating a Validator means that you delegate your EDG to be used for their val
 
 
 * Have some EDG that you want to bond & stake in an account - we will call this the "**Stash**."
-* Have a minimum amount of EDG in another account that will control the nomination, we'll call this account the "**Controller.**" It will be used to pay the transaction fees, _without funds to pay fees, the nomination transaction will fail._
+* Send only 5-10 EDG to another account that will control the nomination, we'll call this account the "**Controller.**" It will be used to pay the transaction fees, _without funds to pay fees, the nomination transaction will fail._ The stash and controller are separate for security.
 * Research and select Validators to nominate. See link below for Validator list and details.
 
   
