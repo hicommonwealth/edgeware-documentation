@@ -45,8 +45,8 @@ This page reflects the runtime [file of the chain viewable at Github](https://gi
 | **Parameter** | Value | Description |
 | :--- | :--- | :--- |
 | **Validator Slots** | 60 | The total number of slots for active validation. |
-| **Validator Bonding Duration** | 7 days | How long until your funds will be transferrable after unbonding. |
-| **Slash Deferral Duration** | 7 days | Prevents overslashing and validators "escaping" and getting their nominators slashed with no repercussions to themselves |
+| **Validator Bonding Duration** |  28 Eras \(7 days\) | How long until you can unbond your funds after staking |
+| **Slash Deferral Duration** | 28 Eras \(7 days\) | Prevents overslashing and validators "escaping" and getting their nominators slashed with no repercussions to themselves |
 | **Slash Cancellation Vote** | Requires 3/4 of Council to Approve |  |
 | **Validator Term Duration** |  | The time for which a validator is in the set after being elected. Note, this duration can be shortened in the case that a validator misbehaves. |
 | **Nomination Period** |  | Countdown until a new validator set is elected according to Phragmen's method. |
@@ -139,7 +139,7 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
     <tr>
       <td style="text-align:left"><b>Minimum Inflation</b>
       </td>
-      <td style="text-align:left">0_025_000</td>
+      <td style="text-align:left">.025</td>
       <td style="text-align:left">The min. inflation rate the system will permit.</td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
       </td>
       <td style="text-align:left">
         <p>&lt;b&gt;&lt;/b&gt;</p>
-        <p>0_100_000</p>
+        <p>0.1</p>
       </td>
       <td style="text-align:left">The max. inflation rate the system will permit.</td>
     </tr>
@@ -155,19 +155,20 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
       <td style="text-align:left"><b>Ideal Staking Rate</b>
       </td>
       <td style="text-align:left">
-        <p>&lt;b&gt;&lt;/b&gt;</p>
-        <p>0_800_000</p>
+        <p></p>
+        <p>0.8</p>
       </td>
       <td style="text-align:left">The ideal proportion of EDG tokens staked compared to total EDG supply.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Falloff Rate</b>
+      <td style="text-align:left"><b>Falloff (Decay) Rate</b>
       </td>
       <td style="text-align:left">
         <p>&lt;b&gt;&lt;/b&gt;</p>
-        <p>0_050_000,</p>
+        <p>0.05</p>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The decay rate on inflation when the actual staking rate becomes greater
+        than the ideal staking rate.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b>Max Piece Count</b>
@@ -178,8 +179,14 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
     <tr>
       <td style="text-align:left"><b>Test Precision</b>
       </td>
-      <td style="text-align:left">0_005_000</td>
+      <td style="text-align:left">0.005</td>
       <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Ideal Interest Rate</b>
+      </td>
+      <td style="text-align:left">12.5%</td>
+      <td style="text-align:left">The ideal returns that an individual validator earns.</td>
     </tr>
   </tbody>
 </table>

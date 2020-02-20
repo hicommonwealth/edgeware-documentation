@@ -17,7 +17,6 @@
 * [Economics](understanding-edgeware/token-economics/README.md)
   * [Token Supply Chart](understanding-edgeware/token-economics/token-supply-chart.md)
   * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
-  * [Staking and Consensus Parameters](understanding-edgeware/token-economics/staking-and-consensus-parameters.md)
   * [Transaction Fees](understanding-edgeware/token-economics/transaction-fees.md)
 * [Identity](understanding-edgeware/identity-module/README.md)
   * [Adding Identities](understanding-edgeware/identity-module/adding-identities.md)
@@ -118,6 +117,7 @@
   * [testEDG Faucet](https://faucets.blockxlabs.com/)
   * [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
 * [FAQ](understanding-edgeware/faq.md)
+* [Glossary](https://substrate.dev/docs/en/overview/glossary)
 
 ## Links
 
