@@ -21,7 +21,7 @@ It is designed to apply decision-making process to the runtime of the blockchain
 
 Participants in Edgeware vote, delegate, and fund each other to upgrade the network.
 
-Edgeware users value the platform for it's commitment and potential to fulfill more decentralized and user-owned blockchain platforms, both for the governance mechanisms as well as it's unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance. 
+Edgeware users value the platform for its commitment and potential to fulfill more decentralized and user-owned blockchain platforms, both for the governance mechanisms as well as its unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance. 
 
 Edgeware is within the Polkadot Ecosystem.
 
