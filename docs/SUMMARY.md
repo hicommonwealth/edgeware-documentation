@@ -8,6 +8,7 @@
   * [Intro to Polkadot UI](understanding-edgeware/getting-started-with-edgeware/interact-using-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/getting-started-with-edgeware/faqs-for-new-users.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
+  * [Balance Types](understanding-edgeware/accounts/balance-types.md)
   * [Creating an Account](understanding-edgeware/accounts/creating-an-account.md)
   * [Connect an Account to a Wallet](understanding-edgeware/accounts/connect-an-account-to-a-wallet.md)
   * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
