@@ -58,6 +58,7 @@
   * [Validation](understanding-edgeware/validating-on-edgeware-ui/validation/README.md)
     * [Set up an Edgeware Node](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/README.md)
       * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/hardware-requirements.md)
+    * [Upgrading your Validator \(Polkadot\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade)
     * [Set up Node Monitoring](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-monitoring.md)
     * [Start your Validator](understanding-edgeware/validating-on-edgeware-ui/validation/start-your-validator.md)
     * [Frequently Used Commands](understanding-edgeware/validating-on-edgeware-ui/validation/frequently-used-commands.md)
