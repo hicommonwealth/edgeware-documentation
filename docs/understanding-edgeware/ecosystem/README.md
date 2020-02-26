@@ -4,7 +4,3 @@
 
 {% page-ref page="wallets-and-account-managers.md" %}
 
-
-
-
-
