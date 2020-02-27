@@ -1,4 +1,2 @@
-# Core Development
-
-
+# Edgeware Core
 

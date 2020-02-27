@@ -1,7 +1,5 @@
 # FAQ
 
-
-
 ## How can I view participation statistics and results from the lockdrop?
 
 At Commonwealth.im: [https://commonwealth.im/\#!/stats/edgeware](https://commonwealth.im/#!/stats/edgeware)
@@ -16,11 +14,9 @@ In the future, the network may vote to make Edgeware a relay chain, just like Po
 
 ## Are there video guides?
 
-Here is a list of links for community videos and translated guides: 
+Here is a list of links for community videos and translated guides:
 
-{% embed url="https://blog.edgewa.re/other-videos-guides-and-resources-multi-language-for-the-lockdrop/" %}
-
-
+{% embed url="https://blog.edgewa.re/other-videos-guides-and-resources-multi-language-for-the-lockdrop/" caption="" %}
 
 ## What will Commonwealth Lab's relation to Edgeware be after launch?
 
@@ -29,8 +25,6 @@ We will remain a core developer interested in the health and success of the netw
 ## What are the staking and token economics of the network?
 
 There are initially 5,000,000,000 \(five billion\) EDG tokens minted, divisible up to 18 decimal places. Initially, inflation is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation. The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be disinflationary, with yearly inflation falling to approximately 16.6% in the second year. Additionally, a system-wide vote may further increase or decrease inflation. Half of the inflation will be voted upon by token holders for various uses.
-
-
 
 ## How many validators will there be?
 
@@ -57,36 +51,10 @@ There are numerous reasons to build on Edgeware. The first is that Substrate and
 We are Ethereum supporters! We also believe Ethereum will benefit from the growth of complementary ecosystems.
 
 1. Lockdrop: The lockdrop will timelock ETH for up to a year as people go "long ETH and EDG". Remember, only ETH holders can participate! This adds another layer of utility to ETH and lowers circulating supply, which will likely enhance the economic security of Ethereum as it switches to a Casper-style consensus.
-
 2. Bridging Networks: We think one of the first proposals that the community should work on is a game-theoretically sound ETH-EDG bridge. In the long term, this will allows fees and value to both to ETH and EDG. With a bridge in place, we anticipate that Ethereum dapps/protocols will be able to use Edgeware to scale, much in the same way that Loom Network and other protocols help scale Ethereum. Similarly, any tokens created on Edgeware can be custodied and "moved" over to Ethereum via the bridge, where they can be used in Ethereum's DeFi network \(e.g. traded on 0x, collateralized on Maker and Compound, and bundled using Set\).
-
 3. Accelerating Development: Edgeware is be a progressive network that will incorporate scaling and governance tech at a faster pace than Ethereum, but we expect most of these improvements will be backported to Ethereum. We think the net effect will be substantially beneficial for both ecosystems. As one example, at Commonwealth we are building a multi-chain governance tool to make governance on ETH, EDG, or any other chain easier, and Edgeware will allow us to test out several governance models that we will apply across the ecosystem.
 
 ## Is Edgeware a fork of Ethereum?
 
 No, it's a new chain built on a completely different codebase \(Parity Substrate\) with a different runtime and security model. While Ethereum holders can participate in the lockdrop, EDG will otherwise be an entirely separate network. However, we anticipate that a bridge will be built for ETH-EDG so that both chains can work together.
-
-## 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

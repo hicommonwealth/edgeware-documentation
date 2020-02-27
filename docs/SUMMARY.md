@@ -56,6 +56,7 @@
     * [Nominate EDG to a Validator](understanding-edgeware/validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/validating-on-edgeware-ui/nominating/stop-being-a-nominator-unbond.md)
   * [Validation](understanding-edgeware/validating-on-edgeware-ui/validation/README.md)
+    * [FAQs](understanding-edgeware/validating-on-edgeware-ui/validation/faqs.md)
     * [Set up an Edgeware Node](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/README.md)
       * [Hardware Requirements](understanding-edgeware/validating-on-edgeware-ui/validation/setting-up-a-node/hardware-requirements.md)
     * [Upgrading your Validator \(Polkadot\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade)
