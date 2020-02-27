@@ -110,8 +110,10 @@
     * [Documentation Style Guide](understanding-edgeware/develop/contribution-guide-wip/documentation-style-guide.md)
     * [Code Style Guide](understanding-edgeware/develop/contribution-guide-wip/style-guide.md)
 * [Ecosystem & Tools](understanding-edgeware/ecosystem/README.md)
-  * [Chronologic: Transaction Automator](https://blog.chronologic.network/how-to-schedule-edgeware-edg-transactions-ed4bae4c5648)
   * [Wallets and Account Managers](understanding-edgeware/ecosystem/wallets-and-account-managers.md)
+  * [Node as a Service Providers](understanding-edgeware/ecosystem/node-as-a-service-providers.md)
+  * [Keygen and PubKey-Address Converter](https://edgewa.re/keygen/)
+  * [Chronologic: Transaction Automator](https://blog.chronologic.network/how-to-schedule-edgeware-edg-transactions-ed4bae4c5648)
   * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
   * [Telemetry \(Node Info\)](https://telemetry.polkadot.io/)
   * [Block Explorers](understanding-edgeware/ecosystem/block-explorers.md)
@@ -127,5 +129,4 @@
 
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
-* [Node as a Service Providers](node-as-a-service-providers.md)
 
