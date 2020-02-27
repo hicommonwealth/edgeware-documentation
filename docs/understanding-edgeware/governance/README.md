@@ -16,7 +16,7 @@ Edgeware stakeholders will be able to collaborate on the roadmap of the network 
 
 
 
-### Governance [Parameters](../network-parameters.md) at Launch
+### Governance [Parameters](../network-parameters/) at Launch
 
 * **Launch period:** 7 days
 * **Voting period:** 7 days

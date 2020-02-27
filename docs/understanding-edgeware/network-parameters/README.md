@@ -65,7 +65,7 @@ This page reflects the runtime [file of the chain viewable at Github](https://gi
 | **Veto** | Not active |  |
 | **Proposal Cancellation Vote** | 2/3 of council to Approve Cancellation |  |
 | **Cool-off Period after Proposal Cancellation** | 7 days | The time a veto from the technical committee lasts before the proposal can be submitted again. |
-| **Min. EDG Deposit to Vote** | ??? |  |
+| **Min. EDG Deposit to Vote** | 100 EDG |  |
 
 **Vote Weighting by Lock Time**  
 The schedule of weight boosts on a quadratic curve - meaning that exponentially increasing locktimes are required to achieve lesser proportional boosts in weight.
