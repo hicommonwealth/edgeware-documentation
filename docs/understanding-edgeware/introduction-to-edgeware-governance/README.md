@@ -1,4 +1,4 @@
-# Edgeware Governance
+# Governance
 
 ## Edgeware Governance
 

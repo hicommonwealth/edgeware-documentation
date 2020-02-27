@@ -26,7 +26,7 @@
   * [Sub Accounts](understanding-edgeware/identity-module/sub-accounts.md)
   * [Judgements](understanding-edgeware/identity-module/judgements.md)
   * [Registrars](understanding-edgeware/identity-module/registrars.md)
-* [Edgeware Governance](understanding-edgeware/introduction-to-edgeware-governance/README.md)
+* [Governance](understanding-edgeware/introduction-to-edgeware-governance/README.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
   * [Intro to On-Chain Governance](understanding-edgeware/introduction-to-edgeware-governance/governance.md)
   * [Council](understanding-edgeware/introduction-to-edgeware-governance/council/README.md)
