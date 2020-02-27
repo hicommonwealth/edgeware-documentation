@@ -1,6 +1,4 @@
-# Governance
-
-## Intro to On-Chain Governance
+# Intro to On-Chain Governance
 
 A substantial majority \(estimated 80%\) of utility tokens and smart contract blockchains have indicated their intention to move to on-chain and decentralized governance. However, at the time of writing, there are few successful implementations of on-chain governance. The few systems that have launched to date are primarily on-chain treasuries, delegated proof-of-stake \(DPoS\) systems, and direct token-weighted voting models. 
 

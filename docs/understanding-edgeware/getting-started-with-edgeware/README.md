@@ -34,15 +34,15 @@ description: >-
 
 ### Governance
 
-{% page-ref page="../governance/introduction-to-edgeware-governance.md" %}
+{% page-ref page="../introduction-to-edgeware-governance/" %}
 
 {% page-ref page="../community-channels-validator-specific-and-more./" %}
 
 {% page-ref page="../identity-module/adding-identities.md" %}
 
-{% page-ref page="../governance/council/voting-for-council.md" %}
+{% page-ref page="../introduction-to-edgeware-governance/council/voting-for-council.md" %}
 
-{% page-ref page="../governance/council/run-for-council.md" %}
+{% page-ref page="../introduction-to-edgeware-governance/council/run-for-council.md" %}
 
 
 

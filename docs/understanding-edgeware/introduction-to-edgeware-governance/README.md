@@ -9,7 +9,7 @@ The original governance of Edgeware is composed of two bodies:
 2\) **The Council** - Members of this body are elected through [approval voting](https://wiki.polkadot.network/en/latest/polkadot/node/governance/#how-to-be-a-council-member) of EDG holders, weighted by the number of tokens controlled. 
 
   
-The core functionality of Edgeware’s governance, and the tools of these two bodies, is implemented in several extensible modules that users interact with to conduct governance.
+The core functionality of Edgeware’s governance, and the tools of these two bodies, is implemented in several extensible modules that users interact with to conduct governance: the Treasury, Council and Democracy \(Referenda\) modules.
 
 ## Modules
 
@@ -29,9 +29,13 @@ Non-binding polls are an important part of the governance process for existing b
 
 
 
-### Democracy
+### Democracy \(Referenda\)
 
 The democracy module initially restricts votes on proposals to binary votes. This module allows for delegated voting–improving the total stake allocated towards a vote. Future upgrades should allows users to choose between many different methods for voting on a proposal \(e.g., binary or rank-choice\). 
+
+
+
+To better understand how the council is formed, please
 
 {% page-ref page="democracy-voting-module/" %}
 
@@ -64,8 +68,6 @@ Discuss governance proposals on the [Discussions tab at Commonwealth.im/Edgeware
 ### 
 
 ### Next..
-
-{% page-ref page="democracy-voting-module/view-and-vote-on-referenda.md" %}
 
 {% page-ref page="council/voting-for-council.md" %}
 

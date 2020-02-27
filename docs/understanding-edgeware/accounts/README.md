@@ -18,7 +18,7 @@ With an Edgeware account, you can transact, interact with smart contracts, parti
 
 {% page-ref page="../validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator.md" %}
 
-{% page-ref page="../governance/introduction-to-edgeware-governance.md" %}
+{% page-ref page="../introduction-to-edgeware-governance/" %}
 
 
 

@@ -5,19 +5,19 @@ description: >-
   Edgeware using the Polkadot UI.
 ---
 
-# Interacting with Referenda
+# Guides to Referenda
 
 The public referenda chamber is one of the two bodies of on-chain governance in Edgeware. The other body is the [council](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-join-council).
 
-Public referenda can be proposed and voted on by **any token holder in the system as long as they provide a bond**. 
-
-After a proposal is made, others can agree with it by _seconding_ it and putting up tokens equal to the original bond. 
-
-Every launch period, the most seconded proposal will be moved to the public referenda table for active voting.
+1. Public referenda can be proposed and voted on by **any token holder in the system as long as they provide a bond**.
+2. After a proposal is made, others can agree with it by _seconding_ it and putting up tokens equal to the original bond. 
+3. Every launch period, the most seconded proposal will be moved to the public referenda table for active voting.
 
 Voters who are willing to lock up their tokens for a greater duration of time can do so and get their vote amplified. For more details on the governance system please see [here](https://wiki.polkadot.network/docs/en/learn-governance).
 
+{% hint style="info" %}
 This guide will instruct token holders how to propose, delegate votes, and vote on public referenda using the Democracy module as it's implemented in Edgeware using [the Polkadot UI.](https://polkadot.js.org/apps/#/explorer)
+{% endhint %}
 
 ### Important Parameters
 
@@ -40,15 +40,7 @@ These parameters can change based on governance. Refer to [Network Parameters](h
 | Enactment Period | 10 days | The minimum time period for locking funds _and_ the period between a proposal being approved and enacted |
 | Cool off Period | 7 days | The time period where a proposal may not be re-submitted after being vetoed. |
 
-**Voting Period** - How often votes for referenda are tallied.
-
-**Emergency Voting Period** - The minimum voting period for a fast-tracked emergency referendum.
-
-**Minimum Deposit** - The minimum amount to be used as a deposit for a public referendum proposal.
-
-**Enactment Period** - The minimum period for locking funds _and_ the period between a proposal being approved and enacted.
-
-**Cooloff Period** - The period in blocks where a proposal may not be re-submitted after being vetoed.
+\*\*\*\*
 
 ### Proposing an Action
 
@@ -99,6 +91,19 @@ Once successful you will see your second appear in the dropdown in the proposal 
 ![second result](https://wiki.polkadot.network/docs/assets/democracy/second_result.png)
 
 ### Voting on a Proposal
+
+
+
+**Prerequisites to Vote:** 
+
+* Have an EDG Account
+* Have EDG Tokens
+* Be prepared to have **your EDG locked** during the duration of the referenda. \( Voting Period is 7 days\)
+* Additionally, If you vote `aye` \('approve,' 'yes', 'in support'\) for a proposal and it passes, your tokens will be **locked** until the proposal has been enacted \(another 7 days.\)
+
+{% hint style="info" %}
+**Voting locks all of the tokens in the account you use to vote,** and weights your votes accordingly. In order to avoid having your entire EDG supply locked, create a separate voting account and transfer the amount you wish to vote with, over to that account first.
+{% endhint %}
 
 At the end of each launch period, the most seconded proposal will move to referendum. During this time you can cast a vote for or against the proposal. You may also lock up your tokens for a greater length of time to weigh your vote more strongly. During the time your tokens are locked, you are unable to transfer them, however they can still be used for further votes. Locks are layered on top of each other, so an eight week lock does not become a 15 week lock if you vote again a week later, rather another eight week lock is placed to extend the lock just one extra week.
 
