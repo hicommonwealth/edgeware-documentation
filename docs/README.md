@@ -4,13 +4,13 @@
 
 **🎊 Edgeware is Live.**
 
-**02/10/2020** We recommend all Edgeware users regenerate their keypair's public address using Subkey if possible according to the instructions linked below, as a best practice. Read more below.
+**02/10/2020** We recommend all Edgeware users discover or generate their Edgeware-network-ID encoded addresses, as lockdrop created addresses lack this encoding. See the link below for options: 
 
 {% page-ref page="understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md" %}
 
 ## What is Edgeware?
 
-[**Edgeware**](https://edgewa.re/) _\*\*_is an:
+[**Edgeware**](https://edgewa.re/) is an:
 
 * On-chain Governed,
 * Nominated Proof-of-Stake \(PoS\) Blockchain
