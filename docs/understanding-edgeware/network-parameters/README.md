@@ -45,7 +45,7 @@ This page reflects the runtime [file of the chain viewable at Github](https://gi
 | **Parameter** | Value | Description |
 | :--- | :--- | :--- |
 | **Validator Slots** | 60 | The total number of slots for active validation. |
-| **Validator Bonding Duration** |  28 Eras \(7 days\) | How long until you can unbond your funds after staking |
+| **Validator Bonding Duration** |  28 hours | How long until you can unbond your funds after staking |
 | **Slash Deferral Duration** | 28 Eras \(7 days\) | Prevents overslashing and validators "escaping" and getting their nominators slashed with no repercussions to themselves |
 | **Slash Cancellation Vote** | Requires 3/4 of Council to Approve |  |
 | **Validator Term Duration** |  | The time for which a validator is in the set after being elected. Note, this duration can be shortened in the case that a validator misbehaves. |
