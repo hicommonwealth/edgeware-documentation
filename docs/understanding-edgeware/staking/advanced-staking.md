@@ -1,18 +1,18 @@
 # Advanced: Staking
 
+## Staking
 
+_This guide edited from the Polkadot Wiki with gratitude_
 
-## Staking <a id="__docusaurus"></a>
+Edgeware uses NPoS \(Nominated Proof-of-Stake\) as its mechanism for selecting the validator set. It is designed with the roles of **validators** and **nominators**, to maximize chain security. Actors who are interested in maintaining the network can run a validator node. At genesis, Edgeware will have a limited amount of slots available for these validators, but this number will grow over time to over one thousand.
 
-Polkadot uses NPoS \(Nominated Proof-of-Stake\) as its mechanism for selecting the validator set. It is designed with the roles of **validators** and **nominators**, to maximize chain security. Actors who are interested in maintaining the network can run a validator node. At genesis, Polkadot will have a limited amount of slots available for these validators, but this number will grow over time to over one thousand.
+The system encourages EDG holders to participate as nominators. Nominators may back up to 16 validators as trusted validator candidates.
 
-The system encourages DOT holders to participate as nominators. Nominators may back up to 16 validators as trusted validator candidates.
-
-Validators assume the role of producing new blocks in BABE, validating parachain blocks, and guaranteeing finality. Nominators can choose to back select validators with their stake.
+Validators assume the role of producing new blocks, validating blocks, and guaranteeing finality. Nominators can choose to back select validators with their stake.
 
 The staking system pays out rewards equally to all validators. Distribution of the rewards are pro-rata to all stakers after the validator payment is deducted. In this way, the network incents the nomination of lower-staked validators to create an equally-staked validator set.
 
-### How does staking work in Polkadot?
+### How does staking work in Edgeware?
 
 #### 1. Identifying which role you are
 
@@ -105,7 +105,7 @@ Slashing will happen if a validator misbehaves \(e.g. goes offline, attacks the 
 
 Validator pools with larger total stake backing them will get slashed more harshly than less popular ones, so we encourage nominators to shift their nominations to less popular validators to reduce the possible losses.
 
-Based on Polkadot's latest codebase, the following slashing conditions have been implemented:
+Based on Edgeware's latest codebase, the following slashing conditions have been implemented:
 
 #### Unresponsiveness
 
