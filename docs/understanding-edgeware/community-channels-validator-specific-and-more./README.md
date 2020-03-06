@@ -1,26 +1,20 @@
+---
+description: A crowdsourced list of Edgeware discussion platforms.
+---
+
 # Community
 
-## Official \(Commonwealth Labs-launched channels\)
+| Group Name | Link |
+| :--- | :--- |
+| **Commonwealth Edgeware** | [https://commonwealth.im/edgeware](https://commonwealth.im/edgeware) |
+| **General Telegram** | [https://t.me/heyedgeware](https://t.me/heyedgeware) |
+| Validator Telegram | [https://t.me/EdgewareValidators](https://t.me/EdgewareValidators) |
+| Market Data Telegram | [https://t.me/edgewareeconomics](https://t.me/edgewareeconomics) |
+| Discord | [https://discord.gg/njDnHDk](https://discord.gg/njDnHDk) |
+| Twitter | [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
+| Edgeware Türkiye | [https://t.me/EdgewareTUR](https://t.me/EdgewareTUR) |
+| Edgeware India | [https://t.me/EdgewareIndia](https://t.me/EdgewareIndia) |
+| Edgeware&Wetez | Chinese lang. Contact WeChat ID kamiesheep for invite. |
 
-
-
-
-
-
-
-**Telegram Channel**: [https://t.me/heyedgeware](https://t.me/heyedgeware)
-
-_**Validator**_ **Telegram Channel:** [https://t.me/EdgewareValidators](https://t.me/EdgewareValidators)
-
-**Discord with many sub-channels:**  [https://discord.gg/njDnHDk](https://discord.gg/njDnHDk)
-
-**Twitter:** [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware)
-
-## Community-Led Channels
-
-Telegram: Edgeware Türkiye 🇹🇷: [https://t.me/EdgewareTUR](https://t.me/EdgewareTUR)
-
-Telegram: Edgeware India 🇮🇳: [https://t.me/EdgewareIndia](https://t.me/EdgewareIndia)
-
-WeChat: Edgeware&Wetez 🇨🇳 A Chinese and private WeChat led by Staking group Wetez, contact WeChat ID kamiesheep for invite.
+\*\*\*\*
 

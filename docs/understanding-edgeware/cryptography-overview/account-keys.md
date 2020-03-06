@@ -23,7 +23,7 @@ These abstractions are:
   * **Controller Key:** The Controller account signals choices on behalf of the Stash account, like payout preferences, but should only hold a minimal amount of funds to pay transaction fees. Its private key should be secure as it can affect validator settings, but will be used somewhat regularly for validator maintenance.
 * **Session Keys:** Session keys are "hot" keys kept in the validator client and used for signing certain validator operations. They should never hold funds.
 
-{% page-ref page="../nominated-proof-of-stake-npos/intro-to-roles-in-npos.md" %}
+{% page-ref page="../staking/intro-to-roles-in-npos.md" %}
 
 ### More on Account Keys
 

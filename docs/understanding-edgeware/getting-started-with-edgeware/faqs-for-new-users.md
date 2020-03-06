@@ -32,7 +32,7 @@ Yes, Edgeware launched with a fully functional proof-of-stake nomination \(also 
 
 Validators are elected from a pool of the top 60 most-bonded validators. This election method is not based on amount alone, but a complex algorithm called the Phragmen Method.
 
-{% page-ref page="../nominated-proof-of-stake-npos/the-sequential-phragmen-method.md" %}
+{% page-ref page="../staking/the-sequential-phragmen-method.md" %}
 
 ### **When can I unbond my nominated tokens?**
 

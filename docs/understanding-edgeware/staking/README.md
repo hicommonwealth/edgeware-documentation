@@ -2,7 +2,7 @@
 
 Validation requires establishing a node, setting up your account and keys, and bonding EDG in order to verify blocks and secure the network. Follow these steps, in order, to get started.
 
-{% page-ref page="../nominated-proof-of-stake-npos/intro-to-roles-in-npos.md" %}
+{% page-ref page="intro-to-roles-in-npos.md" %}
 
 {% page-ref page="nominating/nominate-edg-to-a-validator.md" %}
 
@@ -16,7 +16,7 @@ Validation requires establishing a node, setting up your account and keys, and b
 
 {% page-ref page="validation/start-your-validator.md" %}
 
-{% page-ref page="../nominated-proof-of-stake-npos/validator-elections.md" %}
+{% page-ref page="validator-elections.md" %}
 
 
 

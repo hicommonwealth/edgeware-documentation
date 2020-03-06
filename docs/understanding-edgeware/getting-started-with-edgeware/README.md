@@ -30,7 +30,7 @@ description: >-
 
 ### Staking
 
-{% page-ref page="../validating-on-edgeware-ui/nominating/nominate-edg-to-a-validator.md" %}
+{% page-ref page="../staking/nominating/nominate-edg-to-a-validator.md" %}
 
 ### Governance
 
