@@ -19,11 +19,13 @@
 
 It is designed to apply decision-making process to the runtime of the blockchain, but also to the decision-making processes themselves, in an effort to rapidly generate more effective governance solutions for blockchain platforms.
 
-Participants in Edgeware vote, delegate, and fund each other to upgrade the network.
+Participants can vote, delegate, and fund improvements and upgrades through DAOs, economic mechanisms, cryptographic voting systems, and more.
 
-Edgeware users value the platform for its commitment and potential to fulfill more decentralized and user-owned blockchain platforms, both for the governance mechanisms as well as its unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance.
+Edgeware emphasizes user ownership and true decentralization through its governance mechanisms and through its unique token distribution mechanism, the lockdrop. Participants in Edgeware’s lockdrop staked a total of 1.1 million ETH and have a voice in the future of the network; their votes and delegations fund network upgrades.
+
+Edgeware users value the platform for its commitment and potential to fulfill this more decentralized and user-owned vision, both for the governance mechanisms as well as its unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance.
 
 Edgeware is within the Polkadot Ecosystem.
 
-**This site,** the Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
+**This site,** Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
