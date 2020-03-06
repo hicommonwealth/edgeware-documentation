@@ -45,6 +45,7 @@
   * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
   * [Account Keys](understanding-edgeware/cryptography-overview/account-keys.md)
 * [Community](understanding-edgeware/community-channels-validator-specific-and-more./README.md)
+  * [Working Groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
   * [FAQs: Community](understanding-edgeware/community-channels-validator-specific-and-more./faqs-community.md)
   * [Twitter](https://twitter.com/HeyEdgeware)
 * [Staking](understanding-edgeware/staking/README.md)

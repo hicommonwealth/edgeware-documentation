@@ -2,7 +2,9 @@
 
 ## Is there an Ambassador Program?
 
-We're currently exploring new ways to run and coordinate a self-funded ambassador program paid through the Treasury. Stay tuned!
+Edgeware has a set of Working Groups open to anyone who wants to participate - doocracy!
+
+[https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
 
 ## 
 
