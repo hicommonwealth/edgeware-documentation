@@ -49,6 +49,7 @@
   * [FAQs: Community](understanding-edgeware/community-channels-validator-specific-and-more./faqs-community.md)
   * [Twitter](https://twitter.com/HeyEdgeware)
 * [Staking](understanding-edgeware/staking/README.md)
+  * [Advanced: Staking](understanding-edgeware/staking/advanced-staking.md)
   * [Intro to Roles in NPoS](understanding-edgeware/staking/intro-to-roles-in-npos.md)
   * [Nominating](understanding-edgeware/staking/nominating/README.md)
     * [Nominate EDG to a Validator](understanding-edgeware/staking/nominating/nominate-edg-to-a-validator.md)
