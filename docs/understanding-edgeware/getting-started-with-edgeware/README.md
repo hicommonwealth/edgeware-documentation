@@ -4,7 +4,7 @@ description: >-
   users on Edgeware.
 ---
 
-# 🎊 Get Started with Edgeware
+# 🎊 Get Started
 
 
 

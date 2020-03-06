@@ -4,7 +4,7 @@
 
 ## Edgeware <a id="understanding-edgeware"></a>
 
-* [🎊 Get Started with Edgeware](understanding-edgeware/getting-started-with-edgeware/README.md)
+* [🎊 Get Started](understanding-edgeware/getting-started-with-edgeware/README.md)
   * [Intro to Polkadot UI](understanding-edgeware/getting-started-with-edgeware/interact-using-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/getting-started-with-edgeware/faqs-for-new-users.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
