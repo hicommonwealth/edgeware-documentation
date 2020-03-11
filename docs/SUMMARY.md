@@ -52,6 +52,7 @@
   * [Advanced: Staking](understanding-edgeware/staking/advanced-staking.md)
   * [Intro to Roles in NPoS](understanding-edgeware/staking/intro-to-roles-in-npos.md)
   * [Nominating](understanding-edgeware/staking/nominating/README.md)
+    * [See Your Nominated Amounts per Validator](understanding-edgeware/staking/nominating/see-your-nominated-amounts-per-validator.md)
     * [Nominate EDG to a Validator](understanding-edgeware/staking/nominating/nominate-edg-to-a-validator.md)
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/staking/nominating/stop-being-a-nominator-unbond.md)
   * [Nomination Period](understanding-edgeware/staking/nomination-period.md)

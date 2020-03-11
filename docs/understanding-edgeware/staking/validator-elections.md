@@ -12,7 +12,7 @@ To achieve proportional representation regardless of that fact, the total pool o
 
 The illustration represents a typical input to the election process, with nominators on the left having different amounts of stake, and connected by lines to those validator candidates on the right that they trust \(for simplicity, validators have no stake of their own in this example, though they will in a real scenario\).
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
  Suppose we need to elect n=4 validators. The fair representation property roughly translates to the rule that any nominator holding at least one n-th of the total stake is guaranteed to have at least one of their trusted validators elected. As the total stake is 40 EDG and a fourth of it is 10 EDG, the first two nominators are guaranteed to be represented by a validator. In the image below we see three possible election results: one that violates the fair representation property and two that achieve it.
 
