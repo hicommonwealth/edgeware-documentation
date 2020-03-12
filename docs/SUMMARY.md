@@ -58,6 +58,7 @@
     * [Stop Being a Nominator \(unbond\)](understanding-edgeware/staking/nominating/stop-being-a-nominator-unbond.md)
   * [Nomination Period](understanding-edgeware/staking/nomination-period.md)
   * [Validation](understanding-edgeware/staking/validation/README.md)
+    * [More Validator Guides](https://wiki.polkadot.network/docs/en/maintain-validator)
     * [FAQs](understanding-edgeware/staking/validation/faqs.md)
     * [Set up an Edgeware Node](understanding-edgeware/staking/validation/setting-up-a-node/README.md)
       * [Hardware Requirements](understanding-edgeware/staking/validation/setting-up-a-node/hardware-requirements.md)
