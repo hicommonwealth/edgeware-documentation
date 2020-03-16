@@ -8,5 +8,5 @@ To see the absolute values of how the Phragmen method allocates your nominated E
 4. Find your account ID in the list to see your stake towards this validator.
 5. Repeat for as many validators as you want to examine.
 
-![](../../../.gitbook/assets/image%20%286%29.png)
+![](../../../.gitbook/assets/image%20%287%29.png)
 
