@@ -16,5 +16,7 @@ This list is provided without endorsement by Commonwealth Labs, the core develop
 | BKEX | EDG/USDT | [https://www.bkex.com/trade/EDG\_USDT](https://www.bkex.com/trade/EDG_USDT) |
 | MXC | DG USDT | [https://www.mxc.com/trade/easy\#EDG\_USDT](https://www.mxc.com/trade/easy#EDG_USDT) |
 | HotBit | EDG/BTC and EDG/USDT | [https://www.hotbit.io/exchange](https://www.hotbit.io/exchange?symbol=EDG_BTC) |
-|  |  |  |
+| Biki | EDG/USDT | [https://www.biki.com/en\_US/trade/EDG\_USDT](https://www.biki.com/en_US/trade/EDG_USDT) |
+
+
 
