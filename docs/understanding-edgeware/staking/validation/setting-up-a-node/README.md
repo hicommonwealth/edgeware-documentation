@@ -152,7 +152,7 @@ Set up the node as a system service. To do this, navigate into the root director
     echo '[Unit]'
     echo 'Description=Edgeware'
     echo '[Service]'
-    echo 'Type=exec'
+    echo 'LimitNOFILE=infinity'
     echo 'WorkingDirectory='`pwd`
     echo 'ExecStart='`pwd`'/target/release/edgeware --chain=edgeware --ws-external --rpc-cors "*"'
     echo '[Install]'
