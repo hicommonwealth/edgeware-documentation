@@ -13,7 +13,7 @@ If you are running a private node, you will only need to follow **steps 0 and 1*
 
 {% tabs %}
 {% tab title="Create a Private Node" %}
-### 0. Provisioning a server
+## 0. Provisioning a server
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.:
 
@@ -31,7 +31,7 @@ If you are running a public node, set up DNS from a domain name that you own to 
 
 SSH into the server.
 
-### 1. Installing Edgeware and setting it up as a system service
+## 1. Installing Edgeware and setting it up as a system service
 
 First, clone the `edgeware-node` repo, install any dependencies, and run the required build scripts.
 
@@ -92,15 +92,15 @@ You should see the node connecting to the network and syncing the latest blocks.
 journalctl -u edgeware.service -f
 ```
 
-### ...
+## ...
 
-### 5. Next steps
+## 5. Next steps
 
 Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-monitoring).
 {% endtab %}
 
 {% tab title="Create a Public Node" %}
-### 0. Provisioning a server
+## 0. Provisioning a server
 
 Provision an appropriately sized server from a reputable VPS provider, e.g.:
 
@@ -112,7 +112,7 @@ Provision an appropriately sized server from a reputable VPS provider, e.g.:
 * [Scaleway](https://www.scaleway.com/en/)
 * Amazon AWS, etc.
 
-### Hardware Requirements
+## Hardware Requirements
 
 We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
 
@@ -120,7 +120,7 @@ If you are running a public node, set up DNS from a domain name that you own to 
 
 SSH into the server.
 
-### 1. Installing Edgeware and setting it up as a system service
+## 1. Installing Edgeware and setting it up as a system service
 
 First, clone the `edgeware-node` repo, install any dependencies, and run the required build scripts.
 
@@ -181,7 +181,7 @@ You should see the node connecting to the network and syncing the latest blocks.
 journalctl -u edgeware.service -f
 ```
 
-### 2. Configuring an SSL certificate \(public nodes only\)
+## 2. Configuring an SSL certificate \(public nodes only\)
 
 We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
 
@@ -231,7 +231,7 @@ IMPORTANT NOTES:
    "certbot renew"
 ```
 
-### 3. Configuring a Websockets proxy \(public nodes only\)
+## 3. Configuring a Websockets proxy \(public nodes only\)
 
 First, install nginx:
 
@@ -303,7 +303,7 @@ You can now try to connect to your new node from [polkadot.js/apps](https://polk
 curl --include --no-buffer --header "Connection: Upgrade" --header "Upgrade: websocket" --header "Host: $name:80" --header "Origin: http://$name:80" --header "Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==" --header "Sec-WebSocket-Version: 13" http://$name:9944/
 ```
 
-### 4. Connecting to your node
+## 4. Connecting to your node
 
 Congratulations on your new node! If you set up public DNS and a SSL certificate in steps 2 and 3, you should be able to connect to it now from [polkadot-js/apps](https://polkadot.js.org/apps/#/settings):
 
@@ -314,11 +314,9 @@ In general, you should use these URLs to connect to your node:
 * `ws://testnet1.edgewa.re:9944` if you set it up as a public node with `--ws-external` in step 1
 * `wss://testnet1.edgewa.re` if you set it up as a public node and also followed steps 2 and 3
 
-### 5. Next steps
+## 5. Next steps
 
 Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](https://github.com/hicommonwealth/edgeware-node/wiki/Setting-up-monitoring).
 {% endtab %}
 {% endtabs %}
-
-### 
 
