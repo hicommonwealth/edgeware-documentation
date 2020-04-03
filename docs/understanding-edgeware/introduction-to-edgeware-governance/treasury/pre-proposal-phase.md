@@ -1,8 +1,22 @@
 # Treasury Proposal Guide
 
-Once you have an idea that might be appropriate for funding from the Edgeware Treasury, you can complete several steps to test the public interest, convey your argument, and then submit your formal treasury proposal.  This guide is written as a recommendation both to proposers and decisionmakers, and will track best practices over time as they emerge. 
+### Intro
 
-### Project Concepts 
+Once you have an idea that might be appropriate for funding from the Edgeware Treasury, you can complete several steps to test the public interest, convey your argument, and then submit your formal treasury proposal.  This guide is written as a recommendation both to proposers and decision-makers, and will track best practices over time as they emerge.  
+
+Similar to traditional RFPs \(request for proposals\) that governments use to solicit bids for work, treasury spends optimize the productive value of the EDG and seek to extract maximum work for their recipients. Proposers should be prepared to defend their position or experience competitive bids for the same or similar work. 
+
+### Technical Process of a Treasury Spend
+
+1. Pre-Proposal Stage - Planning, writing, advocacy, outreach.
+2. Treasury Spend Proposed
+3. Council either adopts or refuses the proposal.
+4. If approved, it enters a queue within a budget period of 24 days. 
+   1. The treasury attempts to fulfill as many spends in the queue within this time period.
+   2. At the end of a budget period, the remaining treasury balance is subject to a small percentage burn. This incentivizes the usage of funds and creates deflation through the destruction of EDG.
+5. If refused, the treasury proposal remains able to be accepted until the end of the 24 day period, then it is removed from the consideration table but can be resubmitted.
+
+### Plausible Project Concepts 
 
 Projects that serve the broader Edgeware ecosystem are much more likely to succeed than other kinds of efforts. 
 

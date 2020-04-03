@@ -1,15 +1,8 @@
 # Treasury
 
-While validators are often the only stakeholder natively incentivized in other blockchains, Edgeware has a treasury mechanism to permit creative incentivization of all stakeholders in the ecosystem, including core and dapp development, ecosystem support and much more. These funds can be deployed through a Treasury Spend action which is subject to council approval. 
+Edgeware uses a treasury mechanism to achieve self-sustainability and permit creative incentivization of all stakeholders in the ecosystem, including core and dapp development, ecosystem support and much more. 
 
-### Technical Process of a Treasury Spend
-
-1. Treasury Spend Proposed
-2. Council either adopts or refuses the proposal.
-3. If approved, it enters a queue within a budget period of 24 days. 
-   1. The treasury attempts to fulfill as many spends in the queue within this time period.
-   2. At the end of a budget period, the remaining treasury balance is subject to a small percentage burn. This incentivizes the usage of funds and creates deflation through the destruction of EDG.
-4. If refused, the treasury proposal remains able to be accepted until the end of the 24 day period, then it is removed from the consideration table but can be resubmitted.
+These funds can be deployed through a Treasury Spend action which is subject to council approval. 
 
 ### EDG Accrual to the Treasury
 
