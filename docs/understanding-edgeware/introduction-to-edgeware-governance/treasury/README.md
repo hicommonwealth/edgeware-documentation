@@ -1,7 +1,5 @@
 # Treasury
 
-### 
-
 While validators are often the only stakeholder natively incentivized in other blockchains, Edgeware has a treasury mechanism to permit creative incentivization of all stakeholders in the ecosystem, including core and dapp development, ecosystem support and much more. These funds can be deployed through a Treasury Spend action which is subject to council approval. 
 
 ### Technical Process of a Treasury Spend
