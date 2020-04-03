@@ -2,9 +2,9 @@
 
 Once you have an idea that might be appropriate for funding from the Edgeware Treasury, you can complete several steps to test the public interest, convey your argument, and then submit your formal treasury proposal.  This guide is written as a recommendation both to proposers and decisionmakers, and will track best practices over time as they emerge. 
 
-### Appropriate Project Concepts
+### Project Concepts 
 
-Projects that serve the broader Edgeware ecosystem including:
+Projects that serve the broader Edgeware ecosystem are much more likely to succeed than other kinds of efforts. 
 
 * **Open source** projects; some closed source may be successful depending on the case.
 * Tooling and Developer experience
