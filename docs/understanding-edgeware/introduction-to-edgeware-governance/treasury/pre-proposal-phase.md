@@ -31,22 +31,25 @@ This list is not exhaustive, but it gives you a sense of what sorts of things ar
 The first step is to describe the proposal in full to the community.  A great place to start is a single document that contains all the following information. Once the document is ready, create the on-chain spend in the next step, then share the document after.
 
 1. Date of Proposal
-2. Who is proposing?
+2. Who is proposing? 
    1. What is their motivation?
    2. Do they have any conflicts of interest?
+   3. To who do these payments go?
+      1. For building, who will be handling what? 
+      2. What is their background and expertise? Describe the whole team.
 3. What is the historical context of this proposal?
    1. What previous actions does this proposal relate to?
    2. Does it have any impacts on future actions to note?
 4. Clear, short Problem Statement and Proposed Solution 
-5. Evidence for Solution 
-6. Who does this solution help?
-7. Financial Details for all Proposed Transfers
+   1. Evidence for that Solution 
+   2. Who does this solution help?
+5. Financial Details for all Proposed Transfers
    1. Amount/s requested
    2. Financial timeline  - when are installments due?
-   3. To who do these payments go?
+   3. What are the Addresses of the fund recipients?
    4. Who will be managing the funds, how can we contact them?
    5. How will the manager of the funds report on status proactively? Where we can follow progress and ask questions?
-8. License \(if applicable\)
+6. License \(if applicable\)
 
 
 
