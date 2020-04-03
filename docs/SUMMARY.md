@@ -37,7 +37,7 @@
     * [Voting for Council](understanding-edgeware/introduction-to-edgeware-governance/council/voting-for-council.md)
     * [Run For Council](understanding-edgeware/introduction-to-edgeware-governance/council/run-for-council.md)
   * [Treasury](understanding-edgeware/introduction-to-edgeware-governance/treasury/README.md)
-    * [Proposing a Treasury Spend](understanding-edgeware/introduction-to-edgeware-governance/treasury/proposing-a-treasury-spend.md)
+    * [Treasury Proposal Guide](understanding-edgeware/introduction-to-edgeware-governance/treasury/pre-proposal-phase.md)
   * [Signaling](understanding-edgeware/introduction-to-edgeware-governance/signaling-module.md)
   * [Democracy](understanding-edgeware/introduction-to-edgeware-governance/democracy-voting-module/README.md)
     * [Guides to Referenda](understanding-edgeware/introduction-to-edgeware-governance/democracy-voting-module/interacting-with-referenda.md)
