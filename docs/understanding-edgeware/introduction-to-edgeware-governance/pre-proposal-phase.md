@@ -90,7 +90,7 @@ The first step is to describe the proposal in full to the community.  A great pl
 
 ### Propose The Spend On-Chain
 
-When you propose a treasury spend,  **a deposit totaling 5% of the proposed spend amount, with a minimum of 1000 EDG is required.This deposit will be slashed if the proposal is rejected,** and returned if the proposal was accepted.
+To propose a treasury spend, **a deposit totaling 5% of the proposed spend amount, with a minimum of 1000 EDG is required.This deposit will be slashed if the proposal is rejected,** and returned if the proposal was accepted.
 
 One way to create the proposal is to use the Polkadot JS Apps [website](https://polkadot.js.org/apps). From the website, use either the [extrinsics tab](https://polkadot.js.org/apps/#/extrinsics) and select the Treasury pallet, then `proposeSpend` and enter the desired amount and recipient, **or** use the [Treasury tab](https://polkadot.js.org/apps/#/treasury) and its dedicated Submit Proposal button:
 
@@ -112,7 +112,7 @@ Now the council can take action, either turning it into a motion to approve or a
 
 ### Speak with the Community
 
-Because the formal spend proposal lacks metadata for efficiency, sharing the details about the proposal off-chain is essential. We recommend using [Commonwealth.im/Edgeware](https://Commonwealth.im/edgeware) and the community channels including telegram and discord.
+Because the formal spend proposal lacks metadata for efficiency, sharing the details about the proposal off-chain is essential. We recommend using [Commonwealth.im/Edgeware](https://commonwealth.im/edgeware/discussions) and the community channels including telegram and discord.
 
 * Post a discussion thread on Commonwealth
 * Tag the title and body with **EDG\_TP\_\#** where \# is the official number of your treasury proposal, found on block explorers or Polkadot UI. 
