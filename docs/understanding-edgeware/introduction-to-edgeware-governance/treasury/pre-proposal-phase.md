@@ -28,7 +28,7 @@ This list is not exhaustive, but it gives you a sense of what sorts of things ar
 
 ### Proposal Description Document
 
-The first step is to describe the proposal in full to the community.  A great place to start is a single document that contains all the following information:
+The first step is to describe the proposal in full to the community.  A great place to start is a single document that contains all the following information. Once the document is ready, create the on-chain spend in the next step, then share the document after.
 
 1. Date of Proposal
 2. Who is proposing?
@@ -48,9 +48,7 @@ The first step is to describe the proposal in full to the community.  A great pl
    5. How will the manager of the funds report on status proactively? Where we can follow progress and ask questions?
 8. License \(if applicable\)
 
-### Optional: Use the signaling tool to poll for sentiment before proceeding to a formal vote.
 
-Edgeware has a signaling module that allows users to create on chain polls on a coinvote basis. This is a good way to test sentiment on complex issues before investing further in the treasury proposal. This step may not be necessary for uncontentious or simple proposals.
 
 ### Propose The Spend On-Chain
 
