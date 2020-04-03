@@ -2,7 +2,7 @@
 
 Edgeware uses a treasury mechanism to achieve self-sustainability and permit creative incentivization of all stakeholders in the ecosystem, including core and dapp development, ecosystem support and much more. 
 
-These funds can be deployed through a Treasury Spend action which is subject to council approval. 
+These funds can be deployed through a Treasury Spend action which is subject to council approval but can be proposed by any EDG holder. 
 
 ## EDG Accrual to the Treasury
 
@@ -24,7 +24,7 @@ The treasury obtains funds in several ways that mimic governments - minting, fee
 
 Once you have an idea that might be appropriate for funding from the Edgeware Treasury, you can complete several steps to test the public interest, convey your argument, and then submit your formal treasury proposal.  This guide is written as a recommendation both to proposers and decision-makers, and will track best practices over time as they emerge.  
 
-Similar to traditional RFPs \(request for proposals\) that governments use to solicit bids for work, treasury spends optimize the productive value of the EDG and seek to extract maximum work for their recipients. Proposers should be prepared to defend their position or experience competitive bids for the same or similar work. 
+Similar to [traditional RFP](https://en.wikipedia.org/wiki/Request_for_proposal)s \(request for proposals\) that governments use to solicit bids for work, treasury spends optimize the productive value of the EDG and seek to extract maximum work for their recipients. Proposers should be prepared to defend their position or experience competitive bids for the same or similar work. 
 
 ### Technical Process of a Treasury Spend
 
@@ -77,13 +77,14 @@ The first step is to describe the proposal in full to the community.  A great pl
 4. Clear, short Problem Statement and Proposed Solution 
    1. Evidence for that Solution 
    2. Who does this solution help?
-5. Financial Details for all Proposed Transfers
+5. Describe, if relevant, the Milestone Structure of goals and disbursements.
+6. Financial Details for all Proposed Transfers
    1. Amount/s requested
    2. Financial timeline  - when are installments due?
    3. What are the Addresses of the fund recipients?
    4. Who will be managing the funds, how can we contact them?
    5. How will the manager of the funds report on status proactively? Where we can follow progress and ask questions?
-6. License \(if applicable\)
+7. License \(if applicable\)
 
 
 
