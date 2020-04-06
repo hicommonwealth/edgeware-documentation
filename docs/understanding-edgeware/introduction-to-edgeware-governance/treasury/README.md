@@ -64,6 +64,10 @@ This list is not exhaustive, but it gives you a sense of what sorts of things ar
 
 The first step is to describe the proposal in full to the community.  A great place to start is a single document that contains all the following information. Once the document is ready, create the on-chain spend in the next step, then share the document after.
 
+{% hint style="info" %}
+Proposals are best understood when they focus on one main project or goal at a time. Multi-goal proposals should be segmented into milestones with payment segmented accordingly.
+{% endhint %}
+
 1. Date of Proposal
 2. Who is proposing? 
    1. What is their motivation?
