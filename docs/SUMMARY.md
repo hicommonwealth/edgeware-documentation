@@ -134,7 +134,8 @@
   * [Polkalert Node Monitoring](https://polkalert.com/)
   * [testEDG Faucet](https://faucets.blockxlabs.com/)
   * [Subkey: Keypair Generation and Tools](https://substrate.dev/docs/en/ecosystem/subkey)
-* [FAQ](understanding-edgeware/faq.md)
+* [FAQ](understanding-edgeware/faq/README.md)
+  * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
 
 ## Links
