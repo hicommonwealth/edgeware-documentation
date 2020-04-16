@@ -29,6 +29,8 @@
   * [Sub Accounts](understanding-edgeware/identity-module/sub-accounts.md)
   * [Judgements](understanding-edgeware/identity-module/judgements.md)
   * [Registrars](understanding-edgeware/identity-module/registrars.md)
+* [Treasury](understanding-edgeware/treasury/README.md)
+  * [Tipping Function](understanding-edgeware/treasury/tipping-function.md)
 * [Governance](understanding-edgeware/introduction-to-edgeware-governance/README.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
   * [Intro to On-Chain Governance](understanding-edgeware/introduction-to-edgeware-governance/governance.md)
@@ -36,8 +38,6 @@
     * [Council Elections](understanding-edgeware/introduction-to-edgeware-governance/council/council-elections.md)
     * [Voting for Council](understanding-edgeware/introduction-to-edgeware-governance/council/voting-for-council.md)
     * [Run For Council](understanding-edgeware/introduction-to-edgeware-governance/council/run-for-council.md)
-  * [Treasury and Spend Proposals](understanding-edgeware/introduction-to-edgeware-governance/treasury/README.md)
-    * [Tipping Function](understanding-edgeware/introduction-to-edgeware-governance/treasury/tipping-function.md)
   * [Signaling](understanding-edgeware/introduction-to-edgeware-governance/signaling-module.md)
   * [Democracy](understanding-edgeware/introduction-to-edgeware-governance/democracy-voting-module/README.md)
     * [Guides to Referenda](understanding-edgeware/introduction-to-edgeware-governance/democracy-voting-module/interacting-with-referenda.md)
@@ -134,9 +134,8 @@
 * [FAQ](understanding-edgeware/faq/README.md)
   * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
-* [Contribution and Style Guides](understanding-edgeware/contribution-guide-wip/README.md)
-  * [Documentation Style Guide](understanding-edgeware/contribution-guide-wip/documentation-style-guide.md)
-  * [Code Style Guide](understanding-edgeware/contribution-guide-wip/style-guide.md)
+* [Documentation Style Guide](understanding-edgeware/documentation-style-guide.md)
+* [Code Style Guide](understanding-edgeware/style-guide.md)
 
 ## Links
 
