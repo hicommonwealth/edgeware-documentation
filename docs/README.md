@@ -2,7 +2,7 @@
 
 ## Announcements
 
-**🎊 Edgeware is Live.**
+**🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more. 
 
 **02/10/2020** We recommend all Edgeware users discover or generate their Edgeware-network-ID encoded addresses, as lockdrop created addresses lack this encoding. See the link below for options: 
 

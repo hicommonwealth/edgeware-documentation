@@ -4,6 +4,10 @@ Edgeware uses a treasury mechanism to achieve self-sustainability and permit cre
 
 These funds can be deployed through a Treasury Spend action which is subject to council approval but can be proposed by any EDG holder. 
 
+{% hint style="info" %}
+Substrate Documentation for the Treasury Module is found at [https://substrate.dev/rustdocs/master/pallet\_treasury/index.html](https://substrate.dev/rustdocs/master/pallet_treasury/index.html)
+{% endhint %}
+
 ## EDG Accrual to the Treasury
 
 The treasury obtains funds in several ways that mimic governments - minting, fees and taxes.
