@@ -1,5 +1,9 @@
 # Tipping Function
 
+{% hint style="info" %}
+Substrate Documentation for this function is at: [https://substrate.dev/rustdocs/master/pallet\_treasury/index.html\#tipping](https://substrate.dev/rustdocs/master/pallet_treasury/index.html#tipping) 
+{% endhint %}
+
 The treasury module also contains a more ad-hoc way of distributing funds from the treasury to a single recipient, called Tipping.
 
 1. Users join a tipping round.
@@ -9,9 +13,11 @@ The treasury module also contains a more ad-hoc way of distributing funds from t
 5. The Treasury calculates the median of the tip submissions.
 6. The beneficiary receives that median amount of EDG from the Treasury.
 
-This function is roughly built-out and no smooth UI exists to use this yet. See the Substrate docs for more details.
+| Function Supported by UI at: |
+| :--- |
+| [Polkadot Apps](https://polkadot.js.org/apps/#/explorer) |
 
-{% embed url="https://substrate.dev/rustdocs/master/pallet\_treasury/index.html\#tipping" %}
+
 
 
 
