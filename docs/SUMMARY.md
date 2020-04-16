@@ -94,9 +94,6 @@
     * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
     * [Substrate Documentation](https://substrate.dev/docs/)
     * [Substrate APIs](https://polkadot.js.org/api/)
-  * [Contribution and Style Guides](understanding-edgeware/develop/contribution-guide-wip/README.md)
-    * [Documentation Style Guide](understanding-edgeware/develop/contribution-guide-wip/documentation-style-guide.md)
-    * [Code Style Guide](understanding-edgeware/develop/contribution-guide-wip/style-guide.md)
 * [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/lockdrop/README.md)
   * [Find your Lockdrop User Contract \(LUC\)](understanding-edgeware/lockdrop/finding-your-lockdrop-user-contract-luc.md)
@@ -137,6 +134,9 @@
 * [FAQ](understanding-edgeware/faq/README.md)
   * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
+* [Contribution and Style Guides](understanding-edgeware/contribution-guide-wip/README.md)
+  * [Documentation Style Guide](understanding-edgeware/contribution-guide-wip/documentation-style-guide.md)
+  * [Code Style Guide](understanding-edgeware/contribution-guide-wip/style-guide.md)
 
 ## Links
 
