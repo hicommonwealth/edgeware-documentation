@@ -20,5 +20,7 @@ Duplicate proposals are not accepted by the system while one is active.
 
 You can manipulate the threshold of Motions to reject to prevent easy rejections because a lower threshold version cannot be submitted, reason being that it is a duplicate.  This may be considered a bug, exploit, or other unintended use. 
 
+Threshold parameters can be set to force simple-majority or supermajority on motions that may normally need less consensus. 
+
 
 
