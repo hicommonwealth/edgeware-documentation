@@ -32,8 +32,8 @@ Similar to [traditional RFP](https://en.wikipedia.org/wiki/Request_for_proposal)
 
 ### Technical Process of a Treasury Spend
 
-1. Pre-Proposal Stage - Planning, writing, advocacy, outreach.
-2. Treasury Spend Proposed
+1. Pre-Proposal Stage - Planning, writing, advocacy, outreach, discussion.
+2. Treasury Spend Proposed On-chain
 3. Council either adopts or refuses the proposal.
 4. If approved, it enters a queue within a budget period of 24 days. 
    1. The treasury attempts to fulfill as many spends in the queue within this time period.

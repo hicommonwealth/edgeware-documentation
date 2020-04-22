@@ -36,6 +36,7 @@
   * [Intro to On-Chain Governance](understanding-edgeware/introduction-to-edgeware-governance/governance.md)
   * [Council](understanding-edgeware/introduction-to-edgeware-governance/council/README.md)
     * [Council Elections](understanding-edgeware/introduction-to-edgeware-governance/council/council-elections.md)
+    * [Council Operations and Resources](understanding-edgeware/introduction-to-edgeware-governance/council/council-operations-and-resources.md)
     * [Voting for Council](understanding-edgeware/introduction-to-edgeware-governance/council/voting-for-council.md)
     * [Run For Council](understanding-edgeware/introduction-to-edgeware-governance/council/run-for-council.md)
   * [Signaling](understanding-edgeware/introduction-to-edgeware-governance/signaling-module.md)
