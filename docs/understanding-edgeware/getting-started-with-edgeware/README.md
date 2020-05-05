@@ -32,6 +32,12 @@ description: >-
 
 {% page-ref page="../staking/nominating/nominate-edg-to-a-validator.md" %}
 
+### Apply for a Development Grant
+
+{% page-ref page="../treasury/" %}
+
+
+
 ### Governance
 
 {% page-ref page="../introduction-to-edgeware-governance/" %}
