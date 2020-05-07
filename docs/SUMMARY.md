@@ -19,6 +19,7 @@
 * [Parameters](understanding-edgeware/network-parameters/README.md)
   * [More on Time](understanding-edgeware/network-parameters/more-on-time.md)
 * [Economics](understanding-edgeware/token-economics/README.md)
+  * [Network Staking Simulator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing)
   * [Total Supply API URL](https://edgeware-supply.now.sh/)
   * [Token Supply Chart](understanding-edgeware/token-economics/token-supply-chart.md)
   * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
