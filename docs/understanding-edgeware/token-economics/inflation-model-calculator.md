@@ -9,7 +9,7 @@ description: >-
 
 The following graph lets you input network parameters and will provide an annualized yearly return rate for a single validator.   
   
-You can [click here to see details, alter the parameters, and experiment with different values.](https://www.desmos.com/calculator/lgtgtbgvwm)  
+You can [click here to see details, alter the parameters, and experiment with different values.](https://www.desmos.com/calculator/1ghpu42zin)  
   
 
 
