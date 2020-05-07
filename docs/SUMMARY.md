@@ -22,7 +22,7 @@
   * [Network Staking Simulator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing)
   * [Total Supply API URL](https://edgeware-supply.now.sh/)
   * [Token Supply Chart](understanding-edgeware/token-economics/token-supply-chart.md)
-  * [Inflation Model Calculator](understanding-edgeware/token-economics/inflation-model-calculator.md)
+  * [Return Rate Calculator for Validators](understanding-edgeware/token-economics/inflation-model-calculator.md)
   * [Transaction Fees](understanding-edgeware/token-economics/transaction-fees.md)
 * [Identity](understanding-edgeware/identity-module/README.md)
   * [Adding Identities](understanding-edgeware/identity-module/adding-identities.md)

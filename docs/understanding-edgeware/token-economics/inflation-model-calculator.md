@@ -5,11 +5,13 @@ description: >-
   of the economic model of Edgeware.
 ---
 
-# Inflation Model Calculator
+# Return Rate Calculator for Validators
 
-The following graph shows the inflation rate and interest rate curves as determined by the initial Edgeware launch parameters. You can [click here to see details, alter the parameters, and experiment with different values.](https://www.desmos.com/calculator/tdebntcxns)
+The following graph lets you input network parameters and will provide an annualized yearly return rate for a single validator.   
+  
+You can [click here to see details, alter the parameters, and experiment with different values.](https://www.desmos.com/calculator/lgtgtbgvwm)  
+  
 
-{% embed url="https://www.desmos.com/calculator/tdebntcxns" %}
 
 
 
