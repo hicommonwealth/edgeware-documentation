@@ -132,6 +132,12 @@ Make sure your node is running with the `--rpc-cors="*"` flag, so WebSocket conn
 
 Test nodeup:
 
+{% hint style="warning" %}
+**Prerequisite**: You may need to enter`install npm` for the following  steps to succeed.
+{% endhint %}
+
+
+
 ```text
 node index.js
 ```
