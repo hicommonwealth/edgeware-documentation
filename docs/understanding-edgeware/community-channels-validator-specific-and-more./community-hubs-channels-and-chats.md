@@ -1,3 +1,9 @@
+---
+description: >-
+  Listing of social media, discussion platforms, and news channels for the
+  Edgeware ecosystem
+---
+
 # Community Hubs, Channels and Chats
 
 
