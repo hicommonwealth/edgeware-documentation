@@ -10,7 +10,13 @@ Explore these networks with a Block Explorer.
 
 {% page-ref page="ecosystem/block-explorers.md" %}
 
+#### Syntax for connection:
 
+* wss://networkNameNumber.edgewa.re
+
+  or \(if wss: fails\)
+
+* ws://networkNameNumber.edgewa.re:9944
 
 <table>
   <thead>
@@ -50,7 +56,7 @@ Explore these networks with a Block Explorer.
         <p>wss://mainnet20.edgewa.re</p>
         <p></p>
       </td>
-      <td style="text-align:left">Launches Feb 17 2020 at 10am EST.</td>
+      <td style="text-align:left">Live</td>
     </tr>
     <tr>
       <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
@@ -70,7 +76,7 @@ Explore these networks with a Block Explorer.
         <p>wss://berlin10.edgewa.re</p>
       </td>
       <td style="text-align:left"><b>Live.</b> Mirrors mainnet specification and EDG Lockdrop allocation.
-        Launched Feb 2020. Network ID will change.</td>
+        Launched Feb 2020. Network ID will change with updates.</td>
     </tr>
   </tbody>
 </table>

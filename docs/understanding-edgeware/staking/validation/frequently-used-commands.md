@@ -10,10 +10,17 @@ subkey -n edgeware generate 
 
 ## Running a node
 
-To start up the Edgeware node and connect to testnet 0.9.0, run:
+To start up the Edgeware node and connect to testnet 3.0.5 \(This may be out of date!, run:
+
+{% hint style="danger" %}
+The testnet shown here may be out of date. Check the version and JSON name. 
+{% endhint %}
+
+  
+
 
 ```text
-./target/release/edgeware --chain=chains/testnet-0.9.0.json --name <INSERT_NAME>
+./target/release/edgeware --chain=chains/testnet-3.0.5.json --name <INSERT_NAME>
 ```
 
 To run a chain locally for development purposes:
@@ -58,14 +65,11 @@ subkey inspect "west paper guide park design weekend radar chaos space giggle ex
 
 ## Public nodes
 
-Commonwealth Labs maintains several public nodes for testnet v0.8:
+Commonwealth Labs maintains several public node on mainnet and testnet. Please refer to the following page for the latest node contacts.
 
-* testnet1.edgewa.re
-* testnet2.edgewa.re
-* testnet3.edgewa.re
-* testnet4.edgewa.re
-* testnet5.edgewa.re
-* testnet6.edgewa.re
+{% page-ref page="../../networks.md" %}
+
+
 
 **Syntax:**
 
