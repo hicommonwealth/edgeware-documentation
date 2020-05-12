@@ -40,3 +40,14 @@ It is the wish of Commonwealth Lab that users have access to a variety of platfo
 | Edgeware **Twitter** | [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
 | Edgeware **Announcements TG Channel** | [https://t.me/edgeware\_announcements](https://t.me/edgeware_announcements) |
 
+### 
+
+### Working Groups
+
+| Name | Link |
+| :--- | :--- |
+| Governance | [https://commonwealth.im/edgeware/proposal/discussion/370-governance-working-group](https://commonwealth.im/edgeware/proposal/discussion/370-governance-working-group) |
+| Validators | [https://commonwealth.im/edgeware-validators/](https://commonwealth.im/edgeware-validators/) |
+| Builders | [https://commonwealth.im/edgeware/proposal/discussion/371-builders-working-group](https://commonwealth.im/edgeware/proposal/discussion/371-builders-working-group) |
+| Brand | [https://commonwealth.im/edgeware/proposal/discussion/372-brand-working-group](https://commonwealth.im/edgeware/proposal/discussion/372-brand-working-group) |
+
