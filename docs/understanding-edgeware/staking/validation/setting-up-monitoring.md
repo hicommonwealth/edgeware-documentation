@@ -28,12 +28,13 @@ Use monit to keep mmonit up:
 
 ```text
 {
-    echo 'check process mmonit with pidfile '`pwd`'/mmonit/logs/mmonit.pid'
-    echo '  start program = "'`pwd`'/mmonit/bin/mmonit"'
-    echo '  stop program = "'`pwd`'/mmonit/bin/mmonit stop"'
+    echo 'check process mmonit with pidfile 'pwd'/mmonit/logs/mmonit.pid'
+    echo '  start program = "'pwd'/mmonit/bin/mmonit"'
+    echo '  stop program = "'pwd'/mmonit/bin/mmonit stop"'
     echo 'set httpd port 2812 and use address localhost'
     echo '  allow localhost'
 } > /etc/monit/monitrc
+
 
 mmonit reload
 mmonit validate
