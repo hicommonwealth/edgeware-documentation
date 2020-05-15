@@ -143,4 +143,5 @@
 
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
+* [Lockdrop Allocation Formula](lockdrop-allocation-formula.md)
 
