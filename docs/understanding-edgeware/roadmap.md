@@ -4,8 +4,8 @@
 
 ### Increasing Validator Count via Governance Action 
 
-* Currently 60 to 85 proposed.
-* Promotes network security and decentralization. 
+* Currently 85 validators.
+* Increasing the validator count promotes network security and decentralization. 
 
 ### Adding Registrars to Improve On-Chain ID verification of Important Figures, including Validators and Council
 
@@ -14,8 +14,8 @@
 ### Smart Contract Functionality 
 
 * Dependent upon Development of Compilers and the Ink! Smart Contract Language
-* Native Ink! Utilizes Smart Contract Substrate Palette
-* Palette may also support Solidity Wasm.
+* Native Ink! Utilizes Smart Contract Substrate Pallet
+* Pallet may also support Solidity Wasm.
 
 ### Onboard the Ethereum Ecosystem, Dapps and Developers 
 
@@ -30,7 +30,7 @@
 
 ### Assess Opportunity on Polkadot 
 
-* Polkadot expected to launch in 2020.
+* Polkadot launched in May 2020, parachains to be added later this year.
 * Will require that the community approve and plan to acquire DOTs for parachain slot auction.
 
 ![](../.gitbook/assets/image%20%2810%29.png)
