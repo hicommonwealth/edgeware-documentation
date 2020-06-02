@@ -1,8 +1,29 @@
 # Economics
 
-### Supply
+### 
 
-There are initially 5,000,000,000 \(five billion\) EDG tokens minted, divisible up to 18 decimal places.
+### 
+
+|  | DOT |
+| :--- | :--- |
+| **Total Initial Supply** | 5 Million |
+| **Total Planned Inflation** | The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be **disinflationary**, with yearly inflation falling to approximately 16.6% in the second year and so on. |
+| **Maximum Token Supply** | Unlimited by governance. |
+| **Inflation Rate** | [Dependent upon the staking rate](https://docs.google.com/spreadsheets/d/1QCs1KgGGAEIDugOHHD6n8kI4UG2v5nO_DwXt-D8El4A/edit#gid=494484132) in the network, but maxes out at 20% as the staking ratio approaches 80% currently. This latter will likely shift to 50% through governance \(the 'ideal staking rate'\) |
+| **Maximum Stake** | No maximum |
+| **Minimum Stake** | No minimum |
+| **Unbonding / Undelegating period** | 6 Hours currently \(unverified\) , but should become several days after an upcoming upgrade. |
+| **Token Type** | Native Platform Token \(like ETH\) |
+| **Ticker** | EDG |
+| **Decimal Places** | 18 |
+| **Inflation per Block** | ~95 EDG |
+| **Ideal Inflation Rat**e | 158 EDG per block |
+
+### Consensus
+
+Edgeware uses Nominated Proof of Stake \(NPoS\) as its consensus method. There is a [known and limited](https://polkadot.js.org/apps/#/staking) number of validators in the active set and this active set number is decided by governance. Inclusion in the active set is determined by your total self-bonded and delegated stake. The minimum stake to get in the active set varies daily and depends upon the number of validators attempting to be included and the amount of stake on each. In a NPoS system, each elected validator has equal say in consensus and is rewarded equally, not according to the proportion of stake, as a result it is incentivized for a validator to distribute their stake and run multiple validator nodes-- not only among their own nodes but potentially among other validators to normalize stake across the set, something NPoS does to help prevent centralized stake. 
+
+### 
 
 {% hint style="info" %}
 No names have been assigned for fractions of an EDG, we refer to them by the default dollars/cents \(1 EDG is a dollar, one EDG cent is 0.01 EDG.\) This is a good opportunity for a proposal.
@@ -10,39 +31,40 @@ No names have been assigned for fractions of an EDG, we refer to them by the def
 
 
 
+{% page-ref page="inflation-model-calculator.md" %}
+
+{% page-ref page="token-supply-chart.md" %}
+
 ## Inflation
 
 
 
 **Inflation is currently ~95 EDG / block.**  
     
-The genesis specification parameters \(in decimal\) related to this ideal condition, and what the algorithm uses are:  
-   
-`min_inflation: 0.025`
+The genesis specification parameters \(in decimal\) related to this ideal condition, and what the algorithm uses are:
 
-`max_inflation: 0.125`
-
- `ideal_stake (rate): 0.800`
-
- `Decay Rate aka falloff: 0.050`
-
+| Parameter | Value |
+| :--- | :--- |
+| Minimum Inflation | 0.025 |
+| Maximum Inflation | 0.125 |
+| Ideal Staking Rate | 0.800 |
+| Decay Rate \(aka Falloff\) | 0.050 |
 
 
-Initially, the **ideal inflation rate** is set to 158 EDG per block. This implies approximately 997,220,160 EDG in the first year, or just under 20% inflation at the target staking rate. 
-
-The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be disinflationary, with yearly inflation falling to approximately 16.6% in the second year. 
-
-Additionally, a system-wide vote may further increase or decrease inflation. 
-
-{% page-ref page="token-supply-chart.md" %}
-
-{% page-ref page="inflation-model-calculator.md" %}
 
 
 
 ### Token Uses
 
-On Edgeware, EDG has multiple functions. EDG entitles holders both staking and voting rights and the right to participate in governance and elections, proposal-making, as well as the ability to delegate this right to another account. EDG is also used to pay for state changes within the Wasm smart contract module.
+On Edgeware, EDG has multiple functions.
+
+* Staking 
+* Voting \(Governance, elections, proposal making.\)
+* Staking Delegation
+* Voting Delegation
+* Pay transaction fees for state changes in smart contracts.
+
+
 
 
 

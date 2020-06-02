@@ -191,6 +191,8 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
   </tbody>
 </table>
 
+
+
 ## Contract configuration
 
 | Parameter | Value | Description |

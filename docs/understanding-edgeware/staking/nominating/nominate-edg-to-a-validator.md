@@ -1,7 +1,3 @@
----
-description: This page gratefully cloned and edited from the Kusama docs.
----
-
 # Nominate EDG to a Validator
 
 This guide will cover how to nominate validators in the Edgeware ecosystem. 
