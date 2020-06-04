@@ -5,8 +5,6 @@ At this time, the two main block explorers are
 * [Polkascan](https://polkascan.io/pre/edgeware-berlin)
 * [Subscan](https://edgeware.subscan.io/)
 
-{% page-ref page="../ecosystem/block-explorers.md" %}
-
 Both of these explorers will only work with Public Addresses \(SS58\) that have the Edgeware network ID encoded.
 
 {% hint style="info" %}

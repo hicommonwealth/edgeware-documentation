@@ -22,8 +22,6 @@ description: >-
 
 {% page-ref page="../accounts/connect-an-account-to-a-wallet.md" %}
 
-{% page-ref page="../ecosystem/wallets-and-account-managers.md" %}
-
 ### Lockdrop
 
 {% page-ref page="../lockdrop/retrieve-your-eth/" %}

@@ -8,8 +8,6 @@ description: >-
 
 Explore these networks with a Block Explorer.
 
-{% page-ref page="ecosystem/block-explorers.md" %}
-
 #### Syntax for connection:
 
 * wss://networkNameNumber.edgewa.re

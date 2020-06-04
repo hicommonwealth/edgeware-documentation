@@ -63,5 +63,3 @@ You can use `subkey -n edgeware inspect "YOUR SECRET PHRASE HERE"` to obtain the
 
 
 
-{% page-ref page="../ecosystem/wallets-and-account-managers.md" %}
-
