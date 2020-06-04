@@ -5,7 +5,7 @@
 ### Token Economics Information
 
 | Value | Info |
-| :--- | :--- |
+| :---: | ---: |
 | **Total Initial Supply** | 5 Million |
 | **Total Planned Inflation** | The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be **disinflationary**, with yearly inflation falling to approximately 16.6% in the second year and so on. |
 | **Maximum Token Supply** | Unlimited by governance. |
@@ -30,6 +30,8 @@ No names have been assigned for fractions of an EDG, we refer to them by the def
 {% endhint %}
 
 ### [Staking Estimator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing) Spreadsheet 
+
+### 
 
 {% page-ref page="inflation-model-calculator.md" %}
 
