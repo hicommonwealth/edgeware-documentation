@@ -4,6 +4,7 @@
 
 * [Commonwealth](https://Commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
+* [Polkadash: A 'starter' kit UI for Substrate Chains](https://github.com/swader/polkadash)
 
 
 
