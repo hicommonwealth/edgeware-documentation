@@ -34,6 +34,7 @@
 * [Treasury](understanding-edgeware/treasury/README.md)
   * [Tipping Function](understanding-edgeware/treasury/tipping-function.md)
 * [Governance](understanding-edgeware/introduction-to-edgeware-governance/README.md)
+  * [Record of Council Sessions](understanding-edgeware/introduction-to-edgeware-governance/record-of-council-sessions.md)
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
   * [Intro to On-Chain Governance](understanding-edgeware/introduction-to-edgeware-governance/governance.md)
   * [Council](understanding-edgeware/introduction-to-edgeware-governance/council/README.md)

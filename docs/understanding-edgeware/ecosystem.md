@@ -70,7 +70,7 @@ This list is provided without endorsement by Commonwealth Labs, the core develop
 
 ### API Feeds
 
-* [Total Supply Endpoint for Edgeware](https://edgeware-supply.now.sh/) \(Does not subtract Treasury stash\)
+* [Edgeware Supply Endpoint,](https://edgeware-supply-mocha.now.sh/) includes total, circulating and treasury volume.
 
 
 
