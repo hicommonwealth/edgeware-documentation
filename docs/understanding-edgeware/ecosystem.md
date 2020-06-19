@@ -10,19 +10,28 @@
 
 ### Wallets
 
-* [**Commonwealth.im**](http://commonwealth.im/) **\(Sign-up in right top side, must connect EDG address\)** 
-  * At this time,  **the wallet is under development**. It supports viewing balances, sending and receiving transactions, and governance actions via the Commonwealth.im UI. The public addresses shown do not display the Edgeware network ID-encoded version at this time, but this feature is due by end-of-launch-week. You should regenerate your public address using the link below. 
-* [**Polkadot JS Browser Extension** ](https://github.com/polkadot-js/extension)**\(**[**Chrome**](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) **and** [**Firefox**](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)**\)**  
-  * Can be used to connect EDG addresses to Commonwealth.im. \(This is the Official Polkadot Wallet Extension\)
-  * Supports the most features via[ the Polkadot UI.](https://polkadot.js.org/apps/#/explorer)
-  * The Polkadot.js Browser Extension **does not display the Edgeware network ID encoded at this time.** The public address of your EDG wallet shown in the extension is encoded using the 'default network ID' of Subkey, the program that generates keypairs for Substrate-based chains. As a result, the public addresses shown may not be useful for using block explorers. You should regenerate your public key to derive the Edgeware network-ID-encoded public address, see above.
-* [MathWallet Browser Extension](https://www.mathwallet.org/en/)
-* [Polkawallet](https://polkawallet.io/) - A mobile wallet for Polkadot on both iOs and Android. Currently in development but a Beta version is available for download. Follow development on [GitHub](https://github.com/polkawallet-io/polkawallet-RN).
-* [SpeckleOS](https://www.speckleos.io/) - Browser extension wallet. In development - follow progress on [GitHub](https://github.com/SpeckleOS/speckle-browser-extension).
-* [Enzyme](http://blockxlabs.com/) - Browser extension wallet. Follow development on [GitHub](https://github.com/blockxlabs/enzyme/).
-* [Sakura ](https://github.com/w3finance/sakura)- Desktop Wallet for Polkadot Ecosystem. In development.
+This compilation of Substrate-supporting wallets is the target list to integrate EDG.
 
-### 
+| Wallet Name | Development State | Platform | EDG Supported |
+| :--- | :--- | :--- | :--- |
+| Signer | Live | IOS and Android | No |
+| Commonwealth.im | Live | Browser | Yes |
+| [Polkadot-JS](https://polkadot.js.org/apps/#/accounts) | Live | Browser | Yes |
+| [Polkadot.JS Plugin](https://github.com/polkadot-js/extension) | Live | Browser extension | Yes |
+| [Polkawallet](https://polkawallet.io/) | [Live](https://github.com/polkawallet-io/polkawallet-RN) | IOS and Android | No |
+| [Math Wallet](https://www.mathwallet.org/kusama-wallet/en/) | Live | Browser extension | Yes |
+| [Lunie](https://lunie.io/) | Live | Browser extension | No |
+| [Cobo Wallet](https://cobo.com/) | Building | IOS and Android | No |
+| [Polkadot{.js}](https://github.com/EthWorks/extension) | Building | Browser extension | No |
+| [MetaMask](https://metamask.io/index.html) | Building | IOS, Android, and browser extension | No |
+| [Speckle](https://github.com/GetSpeckle/speckle-browser-extension) | [Building](https://github.com/SpeckleOS/speckle-browser-extension) | Browser extension | No |
+| [Enzyme](https://getenzyme.dev/) | [Building](https://github.com/blockxlabs/enzyme/) | Browser extension | In Development |
+| [AirGap](https://airgap.it/) | Building | IOS and Android | No |
+| [Ledger App](https://zondax.ch/kusama.html#overview) | Building | Hardware | No |
+| [ImToken](https://token.im/) | Building | IOS and Android | No |
+| [KodaDot](https://kodadot.netlify.app/#/accounts) | Building | Browser | No |
+| [Subwallet](https://github.com/yxf/subwallet) | Building | CLI Wallet | No |
+| [Sakura](https://github.com/w3finance/sakura) | Building | Desktop | No |
 
 ### Exchanges
 
