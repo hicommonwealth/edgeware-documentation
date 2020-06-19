@@ -10,7 +10,7 @@
 
 ### Wallets
 
-This compilation of Substrate-supporting wallets is the target list to integrate EDG.
+This compilation of Substrate-supporting wallets is the target list to integrate EDG. Not all of these support EDG but may in the near future.
 
 | Wallet Name | Development State | Platform | EDG Supported |
 | :--- | :--- | :--- | :--- |
