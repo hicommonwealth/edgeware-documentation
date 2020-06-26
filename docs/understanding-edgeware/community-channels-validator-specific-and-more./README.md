@@ -4,8 +4,6 @@ description: Community events and channels.
 
 # Community
 
-
-
 ## **Chat & Discussion Channels**
 
 | Group Name | Link |
