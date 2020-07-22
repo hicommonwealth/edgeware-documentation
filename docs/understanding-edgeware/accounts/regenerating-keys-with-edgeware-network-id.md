@@ -4,7 +4,7 @@ description: >-
   lockdrop to the newer format used by block explorers and more.
 ---
 
-# Convert your Lockdrop Address to the New Format
+# Convert a Lockdrop Address to the New Format
 
 ## TL;DR
 
