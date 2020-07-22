@@ -1,4 +1,20 @@
-# Regenerating Public Addresses with the Edgeware Network ID
+---
+description: >-
+  This guide shows you how to convert an address generated in the Edgeware
+  lockdrop to the newer format used by block explorers and more.
+---
+
+# Convert your Lockdrop Address to the New Format
+
+## TL;DR
+
+Lockdrop addresses have an outdated format and need to be transformed to find your accounts on block explorers like Subscan.io. Subscan has a great tool for this, you can enter your public address to see the full list of network transformations of your address. You'll want to copy the one for Edgeware. Scroll down for background or more ways to do this.  
+  
+[https://edgeware.subscan.io/tools/ss58\_transform](https://edgeware.subscan.io/tools/ss58_transform)
+
+![](../../.gitbook/assets/screen-shot-2020-07-22-at-5.47.26-pm.png)
+
+## 
 
 ## Background
 
@@ -8,7 +24,7 @@ During the lockdrop, the keypairs that were generated with Subkey were encoded u
 2.  However, It is a 'best practice' to use the _new Edgeware-_network-ID version of your address when interacting with the Edgeware network, including sending funds.
 3. You will need to re-generate your public address to use some Block Explorer tools. At this time, Polkascan uses the new Edgeware network ID encoding. 
 
-You can get the new version of your address in two ways - the Polkadot UI or the Subkey tool. 
+You can also get the new version of your address in two other ways - the Polkadot UI or the Subkey tool. 
 
 {% hint style="warning" %}
 The Polkadot.js **Browser Extension** does not display the Edgeware network ID encoded at this time, **but the Polkadot UI does.**
@@ -17,6 +33,12 @@ The Polkadot.js **Browser Extension** does not display the Edgeware network ID e
 ## Steps
 
 {% tabs %}
+{% tab title="Easy Mode: Subscan Tool" %}
+[Visit this Subscan Tool](https://edgeware.subscan.io/tools/ss58_transform) and enter your address or public key to generate a list of many network-encoded versions of your address. Save the one marked Edgeware.
+
+![](../../.gitbook/assets/image%20%2812%29.png)
+{% endtab %}
+
 {% tab title="Using Polkadot UI" %}
 The easiest way to get your Edgeware network ID version of your public address is to use the Account or Address Book tool of [the Polkadot UI. ](https://polkadot.js.org/apps/#/explorer)
 
@@ -80,6 +102,10 @@ Secret phrase `submit hotel naive plate among decorate ghost speak exchange mimi
 ```
 {% endtab %}
 {% endtabs %}
+
+
+
+
 
 
 
