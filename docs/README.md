@@ -4,9 +4,9 @@
 
 **🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more. 
 
-**02/10/2020** We recommend all Edgeware users convert their Lockdrop addresses to the new network format.  See the link below for options: 
-
-{% page-ref page="understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id.md" %}
+{% hint style="warning" %}
+We recommend all Edgeware users convert their Lockdrop addresses to the new network format.  [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
+{% endhint %}
 
 ## What is Edgeware?
 
