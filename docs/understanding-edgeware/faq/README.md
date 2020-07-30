@@ -58,3 +58,22 @@ We are Ethereum supporters! We also believe Ethereum will benefit from the growt
 
 No, it's a new chain built on a completely different codebase \(Parity Substrate\) with a different runtime and security model. While Ethereum holders can participate in the lockdrop, EDG will otherwise be an entirely separate network. However, we anticipate that a bridge will be built for ETH-EDG so that both chains can work together.
 
+
+
+
+
+## I don't see proof of my rewards from nominating.
+
+Substrate is a little weird- there won't be a transaction or event that will show you where your balance increases from staking rewards. Using a Block Explorer that shows you your full balance like https://edgeware.Subscan.io, enter your reward-destination \(stash or otherwise\) account address and monitor the balance over a day to check that it is increasing.    
+
+
+## How do I claim my EDG from the lockdrop?
+
+No claim is necessary. When you participated in the lockdrop, you created an EDG Address. Your EDG is already at that address. You can check your balance with a Block Explorer. You may also need to convert your lockdrop address into the new format for a block explorer to find your account.
+
+{% page-ref page="../accounts/regenerating-keys-with-edgeware-network-id.md" %}
+
+## Why is my withdrawal from an exchange taking a long time?
+
+Edgeware launched with an early version of Substrate that experiences a lag in block finality. Most exchanges wait until blocks are finalized to process withdrawals. Most users see these complete within a few hours. This will be remedied in the Summer 2020 Upgrade to Substrate 2.
+
