@@ -100,6 +100,7 @@
     * [Substrate APIs](https://polkadot.js.org/api/)
 * [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/lockdrop/README.md)
+  * [Lockdrop Allocation Formula](understanding-edgeware/lockdrop/lockdrop-allocation-formula.md)
   * [Find your Lockdrop User Contract \(LUC\)](understanding-edgeware/lockdrop/finding-your-lockdrop-user-contract-luc.md)
   * [Check the Status of Your Lock Duration and Unlock Date](understanding-edgeware/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md)
   * [Retrieve your ETH](understanding-edgeware/lockdrop/retrieve-your-eth/README.md)
@@ -134,6 +135,5 @@
 
 ---
 
-* [Lockdrop Allocation Formula](lockdrop-allocation-formula.md)
 * [Exchanges](exchanges.md)
 

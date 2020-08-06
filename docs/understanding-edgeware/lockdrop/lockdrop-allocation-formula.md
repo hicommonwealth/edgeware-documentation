@@ -4,6 +4,10 @@
 
 From the [**Lockdrop Conclusion Metrics page**](https://commonwealth.im/edgeware/stats)**, backed up here:**
 
+{% hint style="success" %}
+The final ETH/EDG ratio is **1 ETH : 1,156 EDG.**
+{% endhint %}
+
 | Parameter | Value |
 | :--- | :--- |
 | Total Locked ETH | 1,199,728 ETH |
@@ -60,8 +64,4 @@ The total number of ETH locked.
 
 **Ratio of EDG to ETH**:   
 The number of lockdropped EDGs that one ETH can obtain. This parameter cannot be known until the end of the lockdrop event because the total ETH locked must be known. Since[ the event closed and stats have been published](https://commonwealth.im/edgeware/stats), it is understood to be **1 ETH : 1,156 EDG.**
-
-{% hint style="success" %}
-The ETH/EDG ratio is **1 ETH : 1,156 EDG.**
-{% endhint %}
 
