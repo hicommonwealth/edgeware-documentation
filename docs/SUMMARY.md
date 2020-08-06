@@ -8,6 +8,7 @@
   * [Intro to Polkadot UI](understanding-edgeware/getting-started-with-edgeware/interact-using-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/getting-started-with-edgeware/faqs-for-new-users.md)
 * [Roadmap](understanding-edgeware/roadmap.md)
+* [Exchanges](understanding-edgeware/exchanges.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Account Keys: Stash and Controller](understanding-edgeware/accounts/stash-and-controller.md)
   * [Balance Types](understanding-edgeware/accounts/balance-types.md)
@@ -132,8 +133,4 @@
 
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
-
----
-
-* [Exchanges](exchanges.md)
 
