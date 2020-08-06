@@ -135,4 +135,5 @@
 ---
 
 * [Lockdrop Allocation Formula](lockdrop-allocation-formula.md)
+* [Exchanges](exchanges.md)
 
