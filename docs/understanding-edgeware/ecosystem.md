@@ -1,4 +1,4 @@
-# Tools
+# Tools & Ecosystem
 
 ### Chain Interfaces
 
@@ -47,7 +47,13 @@ This list is provided without endorsement by Commonwealth Labs, the core develop
 | HotBit | EDG/BTC and EDG/USDT | [https://www.hotbit.io/exchange](https://www.hotbit.io/exchange?symbol=EDG_BTC) |  |
 | Biki | EDG/USDT | [https://www.biki.com/en\_US/trade/EDG\_USDT](https://www.biki.com/en_US/trade/EDG_USDT) | Has been known to disable withdrawal of EDG involuntarily.  |
 
+### Dapps
 
+| Dapp | Description |
+| :--- | :--- |
+| [Mailchain](https://mailchain.xyz/) | [An inbox-like messaging tool for sending on-chain and encrypted messages to accounts.](https://mailchain.xyz/) |
+
+### 
 
 ### Nodes and Deployment
 

@@ -121,7 +121,7 @@
   * [Gini Coefficient of Edgeware](understanding-edgeware/lockdrop/gini-coefficient-of-edgeware.md)
   * [Contract  & Specifications](understanding-edgeware/lockdrop/lockdrop-contract-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
-* [Tools](understanding-edgeware/ecosystem.md)
+* [Tools & Ecosystem](understanding-edgeware/ecosystem.md)
 * [FAQ](understanding-edgeware/faq/README.md)
   * [Parachain Status](understanding-edgeware/faq/parachain-status.md)
   * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
