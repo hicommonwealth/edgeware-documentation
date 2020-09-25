@@ -6,9 +6,9 @@
 
 | Value | Info |
 | :---: | ---: |
-| **Total Initial Supply** | 5 Million |
+| **Total Initial Supply** | 5 Billion |
 | **Total Planned Inflation** | The total amount of EDG minted will remain the same year after year, causing the percentage inflation to be **disinflationary**, with yearly inflation falling to approximately 16.6% in the second year and so on. |
-| **Maximum Token Supply** | Unlimited by governance. |
+| **Maximum Token Supply** | Variable by governance action. |
 | **Inflation Rate** | [Dependent upon the staking rate](https://docs.google.com/spreadsheets/d/1QCs1KgGGAEIDugOHHD6n8kI4UG2v5nO_DwXt-D8El4A/edit#gid=494484132) in the network, but maxes out at 20% as the staking ratio approaches 80% currently. This latter will likely shift to 50% through governance \(the 'ideal staking rate'\) |
 | **Maximum Stake** | No maximum |
 | **Minimum Stake** | No minimum |
