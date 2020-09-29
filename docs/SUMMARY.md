@@ -39,6 +39,7 @@
   * [Edgeware Governance Portal](https://commonwealth.im/edgeware/)
   * [Intro to On-Chain Governance](understanding-edgeware/introduction-to-edgeware-governance/governance.md)
   * [Council](understanding-edgeware/introduction-to-edgeware-governance/council/README.md)
+    * [Historical Council Record](understanding-edgeware/introduction-to-edgeware-governance/council/historical-council-record.md)
     * [Council Elections](understanding-edgeware/introduction-to-edgeware-governance/council/council-elections.md)
     * [Council Operations and Resources](understanding-edgeware/introduction-to-edgeware-governance/council/council-operations-and-resources.md)
     * [Voting for Council](understanding-edgeware/introduction-to-edgeware-governance/council/voting-for-council.md)
