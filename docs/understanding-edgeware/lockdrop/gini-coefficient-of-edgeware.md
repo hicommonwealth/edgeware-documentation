@@ -1,2 +1,0 @@
-# Gini Coefficient of Edgeware
-

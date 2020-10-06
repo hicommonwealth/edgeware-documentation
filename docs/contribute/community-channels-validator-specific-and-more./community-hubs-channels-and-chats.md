@@ -42,6 +42,14 @@ It is the wish of Commonwealth Lab that users have access to a variety of platfo
 
 ### 
 
+## Community-Led Channels
+
+Telegram: Edgeware Türkiye 🇹🇷: [https://t.me/EdgewareTUR](https://t.me/EdgewareTUR)
+
+Telegram: Edgeware India 🇮🇳: [https://t.me/EdgewareIndia](https://t.me/EdgewareIndia)
+
+WeChat: Edgeware&Wetez 🇨🇳 A Chinese and private WeChat led by Staking group Wetez, contact WeChat ID kamiesheep for invite.
+
 ### Working Groups
 
 | Name | Link |

@@ -1,2 +1,0 @@
-# FAQs for New Users
-
