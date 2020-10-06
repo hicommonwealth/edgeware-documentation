@@ -4,7 +4,7 @@
 
 ### Increasing Validator Count via Governance Action 
 
-* Currently 85 validators.
+* Currently 95 validators.
 * Increasing the validator count promotes network security and decentralization. 
 
 ### Adding Registrars to Improve On-Chain ID verification of Important Figures, including Validators and Council
