@@ -92,32 +92,30 @@
 
 ## Advanced Topics
 
-* [Untitled](advanced-topics/untitled.md)
+## Other Resources
 
-## Other Resources <a id="links"></a>
-
-* [Networks](links/networks.md)
-* [Exchanges](links/exchanges.md)
-* [FAQ](links/faq/README.md)
-  * [Parachain Status](links/faq/parachain-status.md)
-  * [Validator FAQs](links/faq/validator-faqs.md)
-* [Community](links/community/README.md)
-  * [Community Hubs, Channels and Chats](links/community/community-hubs-channels-and-chats.md)
+* [Networks](other-resources/networks.md)
+* [Exchanges](other-resources/exchanges.md)
+* [FAQ](other-resources/faq/README.md)
+  * [Parachain Status](other-resources/faq/parachain-status.md)
+  * [Validator FAQs](other-resources/faq/validator-faqs.md)
+* [Community](other-resources/community/README.md)
+  * [Community Hubs, Channels and Chats](other-resources/community/community-hubs-channels-and-chats.md)
   * [Working Groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
-  * [FAQs: Community](links/community/faqs-community/README.md)
+  * [FAQs: Community](other-resources/community/faqs-community/README.md)
     * [More Validator Guides](https://wiki.polkadot.network/docs/en/maintain-validator)
-    * [Set up an Edgeware Node](links/community/faqs-community/set-up-an-edgeware-node/README.md)
-      * [Hardware Requirements](links/community/faqs-community/set-up-an-edgeware-node/hardware-requirements.md)
+    * [Set up an Edgeware Node](other-resources/community/faqs-community/set-up-an-edgeware-node/README.md)
+      * [Hardware Requirements](other-resources/community/faqs-community/set-up-an-edgeware-node/hardware-requirements.md)
     * [Upgrading your Validator \(Polkadot\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade)
-    * [Set up Node Monitoring](links/community/faqs-community/set-up-node-monitoring.md)
-    * [Set up a Public UI](links/community/faqs-community/set-up-a-public-ui.md)
+    * [Set up Node Monitoring](other-resources/community/faqs-community/set-up-node-monitoring.md)
+    * [Set up a Public UI](other-resources/community/faqs-community/set-up-a-public-ui.md)
   * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
-  * [FAQs](links/community/faqs.md)
+  * [FAQs](other-resources/community/faqs.md)
 * [Participate](https://commonwealth.im)
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
-* [Tools & Ecosystem](links/tools-and-ecosystem.md)
+* [Tools & Ecosystem](other-resources/tools-and-ecosystem.md)
 
 ## Contribute
 
