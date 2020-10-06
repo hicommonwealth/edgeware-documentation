@@ -8,7 +8,6 @@
   * [Intro to Polkadot UI](understanding-edgeware/get-started/intro-to-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/get-started/faqs-for-new-users.md)
 * [Roadmap](understanding-edgeware/roadmap.md)
-* [Exchanges](understanding-edgeware/exchanges.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Account Keys: Stash and Controller](understanding-edgeware/accounts/account-keys-stash-and-controller.md)
   * [Balance Types](understanding-edgeware/accounts/balance-types.md)
@@ -51,18 +50,6 @@
 * [Cryptography](understanding-edgeware/cryptography/README.md)
   * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
   * [Account Keys](understanding-edgeware/cryptography/account-keys.md)
-* [Community](understanding-edgeware/community/README.md)
-  * [Community Hubs, Channels and Chats](understanding-edgeware/community/community-hubs-channels-and-chats.md)
-  * [Working Groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
-  * [FAQs: Community](understanding-edgeware/community/faqs-community/README.md)
-    * [More Validator Guides](https://wiki.polkadot.network/docs/en/maintain-validator)
-    * [Set up an Edgeware Node](understanding-edgeware/community/faqs-community/set-up-an-edgeware-node/README.md)
-      * [Hardware Requirements](understanding-edgeware/community/faqs-community/set-up-an-edgeware-node/hardware-requirements.md)
-    * [Upgrading your Validator \(Polkadot\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade)
-    * [Set up Node Monitoring](understanding-edgeware/community/faqs-community/set-up-node-monitoring.md)
-    * [Set up a Public UI](understanding-edgeware/community/faqs-community/set-up-a-public-ui.md)
-  * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
-  * [FAQs](understanding-edgeware/community/faqs.md)
 * [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/lockdrop/README.md)
   * [Lockdrop Allocation Formula](understanding-edgeware/lockdrop/lockdrop-allocation-formula.md)
@@ -85,11 +72,7 @@
   * [Gini Coefficient of Edgeware](understanding-edgeware/lockdrop/gini-coefficient-of-edgeware.md)
   * [Contract  & Specifications](understanding-edgeware/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
-* [Tools & Ecosystem](understanding-edgeware/tools-and-ecosystem.md)
-* [FAQ](understanding-edgeware/faq/README.md)
-  * [Parachain Status](understanding-edgeware/faq/parachain-status.md)
-  * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
-* [Glossary](https://substrate.dev/docs/en/overview/glossary)
+* [Exchanges](understanding-edgeware/exchanges.md)
 
 ## Edgeware Runtime
 
@@ -115,9 +98,26 @@
 
 ## Other Resources <a id="links"></a>
 
+* [FAQ](links/faq/README.md)
+  * [Parachain Status](links/faq/parachain-status.md)
+  * [Validator FAQs](links/faq/validator-faqs.md)
+* [Community](links/community/README.md)
+  * [Community Hubs, Channels and Chats](links/community/community-hubs-channels-and-chats.md)
+  * [Working Groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
+  * [FAQs: Community](links/community/faqs-community/README.md)
+    * [More Validator Guides](https://wiki.polkadot.network/docs/en/maintain-validator)
+    * [Set up an Edgeware Node](links/community/faqs-community/set-up-an-edgeware-node/README.md)
+      * [Hardware Requirements](links/community/faqs-community/set-up-an-edgeware-node/hardware-requirements.md)
+    * [Upgrading your Validator \(Polkadot\)](https://wiki.polkadot.network/docs/en/maintain-guides-how-to-upgrade)
+    * [Set up Node Monitoring](links/community/faqs-community/set-up-node-monitoring.md)
+    * [Set up a Public UI](links/community/faqs-community/set-up-a-public-ui.md)
+  * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
+  * [FAQs](links/community/faqs.md)
 * [Participate](https://commonwealth.im)
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
+* [Glossary](https://substrate.dev/docs/en/overview/glossary)
+* [Tools & Ecosystem](links/tools-and-ecosystem.md)
 
 ## Contribute
 
