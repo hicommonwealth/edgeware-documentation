@@ -17,7 +17,6 @@
   * [Check your Balance via Block Explorer](understanding-edgeware/accounts/check-your-balance-via-block-explorer.md)
   * [Send a transaction](understanding-edgeware/accounts/send-a-transaction.md)
   * [Convert a Lockdrop Address to the New Format](understanding-edgeware/accounts/convert-a-lockdrop-address-to-the-new-format.md)
-* [Participate](https://commonwealth.im)
 * [Parameters](understanding-edgeware/parameters/README.md)
   * [More on Time](understanding-edgeware/parameters/more-on-time.md)
 * [Economics](understanding-edgeware/economics/README.md)
@@ -64,27 +63,6 @@
     * [Set up a Public UI](understanding-edgeware/community/faqs-community/set-up-a-public-ui.md)
   * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
   * [FAQs](understanding-edgeware/community/faqs.md)
-* [Develop](understanding-edgeware/develop/README.md)
-  * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
-  * [Second State Ewasm VM for Substrate](https://github.com/second-state/substrate-ewasm)
-  * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
-  * [Edgeware Core](understanding-edgeware/develop/edgeware-core/README.md)
-    * [Install Edgeware](understanding-edgeware/develop/edgeware-core/install-edgeware.md)
-    * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
-    * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
-    * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
-  * [Smart Contracts](understanding-edgeware/develop/smart-contracts/README.md)
-    * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
-    * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
-    * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
-    * [WebAssembly \(Wasm\)](understanding-edgeware/develop/smart-contracts/webassembly-wasm.md)
-    * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
-    * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
-  * [Substrate](understanding-edgeware/develop/substrate/README.md)
-    * [Exchange Integration](understanding-edgeware/develop/substrate/exchange-integration.md)
-    * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
-    * [Substrate Documentation](https://substrate.dev/docs/)
-    * [Substrate APIs](https://polkadot.js.org/api/)
 * [Networks](understanding-edgeware/networks.md)
 * [Lockdrop](understanding-edgeware/lockdrop/README.md)
   * [Lockdrop Allocation Formula](understanding-edgeware/lockdrop/lockdrop-allocation-formula.md)
@@ -112,7 +90,6 @@
   * [Parachain Status](understanding-edgeware/faq/parachain-status.md)
   * [Validator FAQs](understanding-edgeware/faq/validator-faqs.md)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
-* [Documentation Style Guide](understanding-edgeware/documentation-style-guide.md)
 
 ## Edgeware Runtime
 
@@ -131,7 +108,6 @@
   * [Validator Elections](edgeware-runtime/staking/validator-elections.md)
   * [The Sequential Phragmen Method](edgeware-runtime/staking/the-sequential-phragmen-method.md)
   * [Slashing Consequences](edgeware-runtime/staking/slashing-consequences.md)
-* [Code Style Guide](edgeware-runtime/code-style-guide.md)
 
 ## Advanced Topics
 
@@ -139,10 +115,34 @@
 
 ## Other Resources <a id="links"></a>
 
+* [Participate](https://commonwealth.im)
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 
 ## Contribute
 
+* [Documentation Style Guide](contribute/documentation-style-guide.md)
+* [Code Style Guide](contribute/code-style-guide.md)
+* [Develop](contribute/develop/README.md)
+  * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
+  * [Second State Ewasm VM for Substrate](https://github.com/second-state/substrate-ewasm)
+  * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
+  * [Edgeware Core](contribute/develop/edgeware-core/README.md)
+    * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
+    * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
+    * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
+    * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
+  * [Smart Contracts](contribute/develop/smart-contracts/README.md)
+    * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
+    * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
+    * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
+    * [WebAssembly \(Wasm\)](contribute/develop/smart-contracts/webassembly-wasm.md)
+    * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
+    * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+  * [Substrate](contribute/develop/substrate/README.md)
+    * [Exchange Integration](contribute/develop/substrate/exchange-integration.md)
+    * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
+    * [Substrate Documentation](https://substrate.dev/docs/)
+    * [Substrate APIs](https://polkadot.js.org/api/)
 * [Untitled](contribute/untitled.md)
 
