@@ -133,8 +133,16 @@
   * [Slashing Consequences](edgeware-runtime/staking/slashing-consequences.md)
 * [Code Style Guide](edgeware-runtime/code-style-guide.md)
 
-## Links
+## Advanced Topics
+
+* [Untitled](advanced-topics/untitled.md)
+
+## Other Resources <a id="links"></a>
 
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
+
+## Contribute
+
+* [Untitled](contribute/untitled.md)
 
