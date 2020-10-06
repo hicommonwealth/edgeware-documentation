@@ -1,2 +1,0 @@
-# Lockdrop Allocation Formula
-
