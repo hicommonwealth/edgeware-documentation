@@ -1,2 +1,0 @@
-# Edgeware Core
-
