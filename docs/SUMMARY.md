@@ -72,7 +72,6 @@
   * [Gini Coefficient of Edgeware](understanding-edgeware/lockdrop/gini-coefficient-of-edgeware.md)
   * [Contract  & Specifications](understanding-edgeware/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
-* [Exchanges](understanding-edgeware/exchanges.md)
 
 ## Edgeware Runtime
 
@@ -98,6 +97,7 @@
 
 ## Other Resources <a id="links"></a>
 
+* [Exchanges](links/exchanges.md)
 * [FAQ](links/faq/README.md)
   * [Parachain Status](links/faq/parachain-status.md)
   * [Validator FAQs](links/faq/validator-faqs.md)
