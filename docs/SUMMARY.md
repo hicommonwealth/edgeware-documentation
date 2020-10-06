@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Roadmap](roadmap.md)
 
 ## Quickstart <a id="understanding-edgeware"></a>
 
 * [🎊 Get Started](understanding-edgeware/get-started/README.md)
   * [Intro to Polkadot UI](understanding-edgeware/get-started/intro-to-polkadot-ui.md)
   * [FAQs for New Users](understanding-edgeware/get-started/faqs-for-new-users.md)
-* [Roadmap](understanding-edgeware/roadmap.md)
 * [Accounts](understanding-edgeware/accounts/README.md)
   * [Account Keys: Stash and Controller](understanding-edgeware/accounts/account-keys-stash-and-controller.md)
   * [Balance Types](understanding-edgeware/accounts/balance-types.md)
@@ -65,7 +65,7 @@
   * [Democracy](edgeware-runtime/governance/democracy/README.md)
     * [Guides to Referenda](edgeware-runtime/governance/democracy/guides-to-referenda.md)
     * [Democracy Features](edgeware-runtime/governance/democracy/democracy-features.md)
-  * [FAQs](edgeware-runtime/staking/validation/faqs.md)
+  * [FAQs](edgeware-runtime/governance/faqs.md)
 * [Identity](edgeware-runtime/identity/README.md)
   * [Adding Identities](edgeware-runtime/identity/adding-identities.md)
   * [Clearing and Killing](edgeware-runtime/identity/clearing-and-killing.md)
@@ -144,5 +144,4 @@
     * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
     * [Substrate Documentation](https://substrate.dev/docs/)
     * [Substrate APIs](https://polkadot.js.org/api/)
-* [Untitled](contribute/untitled.md)
 
