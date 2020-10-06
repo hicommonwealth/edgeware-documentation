@@ -2,7 +2,7 @@
 
 * [Welcome](README.md)
 
-## Edgeware <a id="understanding-edgeware"></a>
+## Quickstart <a id="understanding-edgeware"></a>
 
 * [🎊 Get Started](understanding-edgeware/getting-started-with-edgeware/README.md)
   * [Intro to Polkadot UI](understanding-edgeware/getting-started-with-edgeware/interact-using-polkadot-ui.md)
@@ -134,4 +134,8 @@
 
 * [Commonwealth.im](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
+
+## Edgeware Runtime
+
+* [Untitled](edgeware-runtime/untitled.md)
 
