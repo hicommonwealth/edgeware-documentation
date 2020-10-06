@@ -1,0 +1,3 @@
+- Define pre-requisites (Solidity, Truffle?, web3js)
+- Differences between native Ethereum EVM Runtime and Edgeware EVM runtime
+- Link out to tutorial
