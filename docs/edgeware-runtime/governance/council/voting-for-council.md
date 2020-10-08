@@ -6,9 +6,7 @@ description: 'https://wiki.polkadot.network/docs/en/maintain-guides-how-to-vote-
 
 ## Intro <a id="__docusaurus"></a>
 
-The council is an elected body of on-chain accounts that are intended to represent the passive stakeholders of Edgeware. The council has two major tasks in governance: proposing referenda and vetoing dangerous or malicious referenda.  This guide will walk you through voting for councillors in the elections.
-
-
+The council is an elected body of on-chain accounts that are intended to represent the passive stakeholders of Edgeware. The council has two major tasks in governance: proposing referenda and vetoing dangerous or malicious referenda. This guide will walk you through voting for councillors in the elections.
 
 ### Voting for Councillors
 
@@ -45,5 +43,4 @@ Choose the account you want to remove the vote of and select the "electionsPhrag
 ![](https://wiki.polkadot.network/docs/assets/council/remove_vote.png)
 
 When the transaction is included in a block you should have your reserved tokens made liquid again and your vote will no longer be counting for any councillors in the elections starting in the next term.
-
 

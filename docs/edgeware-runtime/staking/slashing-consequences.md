@@ -12,7 +12,7 @@ Validator pools with larger total stake backing them will get slashed more harsh
 
 Based on Substate's latest codebase, the following slashing conditions have been implemented:
 
-#### Unresponsiveness
+### Unresponsiveness
 
 For every session, validators will send an "I'm Online" message to indicate they are online. If a validator produces no blocks during an epoch and fails to send the heartbeat, it will be reported as unresponsive. Depending on the repeated offenses and how many other validators were unresponsive or offline, slashing will occur.
 
@@ -28,11 +28,11 @@ Note that if less than 10% of all validators are offline, no penalty is enacted.
 
 Validators should have a well-architected network infrastructure to ensure the node is running to reduce the risk of being slashed. A high availability setup is desirable, preferably with backup nodes that kick in **only once the original node is verifiably offline** \(to avoid double-signing and being slashed for equivocation - see below\), together with proxy nodes to avoid being DDoSed when your validator node's IP address is exposed. A comprehensive guide on secure validator setup is in progress with the draft available [here](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator).
 
-#### GRANDPA Equivocation
+### GRANDPA Equivocation
 
 A validator signs two or more votes in the same round on different chains.
 
-#### BABE Equivocation
+### BABE Equivocation
 
 A validator produces two or more blocks on the relay chain in the same time slot.
 
@@ -50,13 +50,13 @@ Validators may run their nodes on multiple machines to make sure they can still 
 
 If you want to know more details about slashing, please look at our [research page](https://research.web3.foundation/en/latest/polkadot/slashing/amounts.html).
 
-### Reward Distribution
+## Reward Distribution
 
 Note that Kusama runs approximately 4x as fast as Polkadot, except for block production times. Polkadot will also produce blocks at approximately six second intervals.
 
 Rewards are recorded per session --- approximately one hour on Kusama and four hours on Polkadot --- and paid per era. It takes approximately six hours to finish one era, twenty-four hours on Polkadot. Thus, rewards will be distributed to the validators and nominators four times per day on Kusama and once per day on Polkadot.
 
-#### Example
+### Example
 
 ```text
     PER_ERA * BLOCK_TIME = **Reward Distribution Time**
@@ -72,4 +72,5 @@ For example, assume the block reward for a validator is 10 DOTs. A validator may
 
 Rewards can be directed to the same account \(controller\) or to the stash account \(and either increasing the staked value or not increasing the staked value\). It is also possible to top-up / withdraw some bonded DOTs without having to un-stake everything.
 
-### Inflation
+## Inflation
+

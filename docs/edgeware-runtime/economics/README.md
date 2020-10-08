@@ -1,7 +1,5 @@
 # Economics
 
-### 
-
 ### Token Economics Information
 
 | Value | Info |
@@ -21,26 +19,18 @@
 
 ### Consensus
 
-Edgeware uses Nominated Proof of Stake \(NPoS\) as its consensus method. There is a [known and limited](https://polkadot.js.org/apps/#/staking) number of validators in the active set and this active set number is decided by governance. Inclusion in the active set is determined by your total self-bonded and delegated stake. The minimum stake to get in the active set varies daily and depends upon the number of validators attempting to be included and the amount of stake on each. In a NPoS system, each elected validator has equal say in consensus and is rewarded equally, not according to the proportion of stake, as a result it is incentivized for a validator to distribute their stake and run multiple validator nodes-- not only among their own nodes but potentially among other validators to normalize stake across the set, something NPoS does to help prevent centralized stake. 
-
-### 
+Edgeware uses Nominated Proof of Stake \(NPoS\) as its consensus method. There is a [known and limited](https://polkadot.js.org/apps/#/staking) number of validators in the active set and this active set number is decided by governance. Inclusion in the active set is determined by your total self-bonded and delegated stake. The minimum stake to get in the active set varies daily and depends upon the number of validators attempting to be included and the amount of stake on each. In a NPoS system, each elected validator has equal say in consensus and is rewarded equally, not according to the proportion of stake, as a result it is incentivized for a validator to distribute their stake and run multiple validator nodes-- not only among their own nodes but potentially among other validators to normalize stake across the set, something NPoS does to help prevent centralized stake.
 
 {% hint style="info" %}
 No names have been assigned for fractions of an EDG, we refer to them by the default dollars/cents \(1 EDG is a dollar, one EDG cent is 0.01 EDG.\) This is a good opportunity for a proposal.
 {% endhint %}
 
-### [Staking Estimator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing) Spreadsheet 
-
-### 
-
-{% page-ref page="inflation-model-calculator.md" %}
-
-{% page-ref page="token-supply-chart.md" %}
+### [Staking Estimator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing) Spreadsheet
 
 ## Inflation
 
-**Inflation is currently ~95 EDG / block.**  
-    
+**Inflation is currently ~95 EDG / block.**
+
 The genesis specification parameters \(in decimal\) related to this ideal condition, and what the algorithm uses are:
 
 | Parameter | Value |
@@ -64,6 +54,5 @@ On Edgeware, EDG has multiple functions.
 
 ### [See and edit the full sheet.](https://docs.google.com/spreadsheets/d/1bKuD0GnQr-HZIrPdos6UuVBfOu27MxAuKqF5t2llOHM/edit)
 
-{% embed url="https://docs.google.com/spreadsheets/d/1bKuD0GnQr-HZIrPdos6UuVBfOu27MxAuKqF5t2llOHM/edit?usp=sharing" %}
-
+{% embed url="https://docs.google.com/spreadsheets/d/1bKuD0GnQr-HZIrPdos6UuVBfOu27MxAuKqF5t2llOHM/edit?usp=sharing" caption="" %}
 

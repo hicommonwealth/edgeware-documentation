@@ -19,15 +19,13 @@ Voters who are willing to lock up their tokens for a greater duration of time ca
 This guide will instruct token holders how to propose, delegate votes, and vote on public referenda using the Democracy module as it's implemented in Edgeware using [the Polkadot UI.](https://polkadot.js.org/apps/#/explorer)
 {% endhint %}
 
-### Important Parameters
+## Important Parameters
 
 The important parameters to be aware of when voting using the Democracry module are as follow:
 
 {% hint style="info" %}
 These parameters can change based on governance. Refer to [Network Parameters](https://docs.edgewa.re/understanding-edgeware/network-parameters#democracy-referenda) or the Node Runtime for the the most authoritative reference.
 {% endhint %}
-
-
 
 **Launch Period** - How often new public referenda are launched.
 
@@ -42,7 +40,7 @@ These parameters can change based on governance. Refer to [Network Parameters](h
 
 \*\*\*\*
 
-### Proposing an Action
+## Proposing an Action
 
 Proposing an action to be taken requires you to bond some tokens. In order to ensure you have enough tokens to make the minimum deposit you can check the parameter in the chain state.
 
@@ -60,7 +58,7 @@ Now your proposal is visible by anyone who accesses the chain and others can sec
 
 ![proposals](https://wiki.polkadot.network/docs/assets/democracy/proposals.png)
 
-### Submitting a Preimage
+## Submitting a Preimage
 
 The act of making a proposal is split from submitting the preimage for the proposal since the storage cost of submitting a large preimage could be pretty expensive. Allowing for the preimage submission to come as a separate transaction means that another account could submit the preimage for you if you don't have the funds to do so. It also means that you don't have to pay so many funds right away as you can prove the preimage hash out-of-band.
 
@@ -74,7 +72,7 @@ Once the transaction is included you should see the UI update with the informati
 
 ![proposals updated](https://wiki.polkadot.network/docs/assets/democracy/proposals_updated.png)
 
-### Seconding a Proposal
+## Seconding a Proposal
 
 Seconding a proposal means that you are agreeing with the proposal and backing it with an equal amount of deposit as was originally locked. By seconding a proposal you will move it higher up the rank of proposals. The most seconded proposal - in value, not number of supporters - will be tabled as a referendum to be voted on every launch period.
 
@@ -90,11 +88,9 @@ Once successful you will see your second appear in the dropdown in the proposal 
 
 ![second result](https://wiki.polkadot.network/docs/assets/democracy/second_result.png)
 
-### Voting on a Proposal
+## Voting on a Proposal
 
-
-
-**Prerequisites to Vote:** 
+**Prerequisites to Vote:**
 
 * Have an EDG Account
 * Have EDG Tokens
@@ -117,7 +113,7 @@ When you are comfortable with the decision you have made, click the blue "Vote" 
 
 ![voting](https://wiki.polkadot.network/docs/assets/democracy/voting.png)
 
-### Delegate a Vote
+## Delegate a Vote
 
 If you are too busy to keep up and vote on upcoming referenda, there is an option to delegate your vote to another account whose opinion you trust. When you delegate to another account, that account gets the added voting power of your tokens along with the conviction that you set. The conviction for delegation works just like the conviction for regular voting, except your tokens may be locked longer than they would normally since locking resets when you undelegate your vote.
 
@@ -133,7 +129,7 @@ After you send the delegate transaction, you can verify it went through by navig
 
 ![delegate state](https://wiki.polkadot.network/docs/assets/democracy/delegate_state.png)
 
-### Undelegate a Vote
+## Undelegate a Vote
 
 You may decide at some point in the future to remove your delegation to a target account. In this case, your tokens will be locked for the maximum amount of time in accordance with the conviction you set at the beginning of the delegation. For example, if you chose "2x" delegation for four weeks lock up time, your tokens will be locked for 4 weeks after sending the `undelegate` transaction. Once your vote has been undelegated, you are in control of making votes with it once again. You can start to vote directly, or chose a different account to act as your delegate.
 
@@ -143,11 +139,11 @@ The easiest way to do this is from the "Extrinsics" tab of Polkadot Apps. Select
 
 ![undelegate](https://wiki.polkadot.network/docs/assets/democracy/undelegate.png)
 
-### Proxies
+## Proxies
 
 Proxies can be used to vote on behalf of a stash account. Unlike delegation, the proxy is meant to act as a longer-term account that makes all the voting decisions for funds held in a different account. Delegation is a logical action, taken when you trust another account's judgement, while proxying is more of a recommended security practice for keeping your funds safe and using an active account with low funds instead.
 
-#### Setting a proxy
+### Setting a proxy
 
 Setting a proxy involves submitting a single transaction, the transaction type "setProxy" from the "democracy" pallet.
 
@@ -155,20 +151,21 @@ You can make this transaction from Polkadot Apps by navigating to the "Extrinsic
 
 ![set proxy](https://wiki.polkadot.network/docs/assets/democracy/set_proxy.png)
 
-#### Voting with a proxy
+### Voting with a proxy
 
 Making a vote on behalf of a stash requires a `proxyVote` transaction. When sending this transaction you will specify the index of the referendum that is being voted on as well as the judgement \(i.e. "Aye" for approval or "Nay" for rejection\).
 
 ![proxy vote](https://wiki.polkadot.network/docs/assets/democracy/proxy_vote.png)
 
-#### Removing a proxy
+### Removing a proxy
 
 At some point you may want to remove a proxy from being able to vote on behalf of a stash account. This is possible to do by submitting a `removeProxy` transaction from the stash account, targetting the proxy account.
 
 ![remove proxy](https://wiki.polkadot.network/docs/assets/democracy/remove_proxy.png)
 
-#### Resigning a proxy
+### Resigning a proxy
 
 If a proxy account wants to resign their proxy status for a different stash account this is possible to do by sending the `resignProxy` transaction. Simply call this transaction from the proxy account and all of its proxy responsibilities will be removed.
 
 ![resign proxy](https://wiki.polkadot.network/docs/assets/democracy/resign_proxy.png)
+

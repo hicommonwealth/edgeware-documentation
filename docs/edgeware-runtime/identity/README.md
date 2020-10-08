@@ -2,6 +2,8 @@
 description: 'https://wiki.polkadot.network/docs/en/learn-identity'
 ---
 
+# Identity
+
 ### Judgements
 
 After a user injects their information on chain, they can request judgement from a registrar. Users declare a maximum fee that they are willing to pay for judgement, and registrars whose fee is below that amount can provide a judgement.
@@ -58,7 +60,7 @@ Once the registrar has confirmed the identity, a green checkmark should appear n
 
 _Note that changing even a single field's value after you've been verified will un-verify your account and you will need to start the judgement process anew. However, you can still change fields while the judgement is going on - it's up to the registrar to keep an eye on the changes._
 
-# Clearing and Killing
+## Clearing and Killing
 
 **Clearing:** Users can clear their identity information and have their deposit returned. Clearing an identity also clears all sub accounts and returns their deposits.
 
@@ -70,7 +72,7 @@ _Note that changing even a single field's value after you've been verified will 
 
 Clearing is done through the [Extrinsics UI](https://polkadot.js.org/apps/#/extrinsics).
 
-# Sub Accounts
+## Sub Accounts
 
 Users can also link accounts by setting "sub accounts", each with its own identity, under a primary account. The system reserves a bond of 2 EDG for each sub account. An example of how you might use this would be a validation company running multiple validators. A single entity, "My Staking Company", could register multiple sub accounts that represent the [Stash accounts](https://wiki.polkadot.network/docs/en/learn-keys) of each of their validators.
 
@@ -109,3 +111,4 @@ Next, select "Submit Proposal" and enter the previously copied preimage hash. Th
 ![Submitting a proposal](https://wiki.polkadot.network/img/identity/13.jpg)
 
 At this point, EDG holders can second the motion. With enough seconds, the motion will become a referendum which is then voted on. If it passes, users will be able to request judgement from this registrar.
+

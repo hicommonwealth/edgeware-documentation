@@ -12,13 +12,11 @@ Submitting your candidacy for the council requires a bond of 1000 EDG.
 **Parameter Note:** The Candidacy Bond, or the current minimum bond to submit candidacy is 1000 EDG.
 {% endhint %}
 
- The bond will be forfeited if your candidacy does not win or become a runner-up, but if you become a member of the council you will eventually get your bond back. Runner-ups are selected after every round and are reserved members in case one of the winners gets forcefully removed.
+The bond will be forfeited if your candidacy does not win or become a runner-up, but if you become a member of the council you will eventually get your bond back. Runner-ups are selected after every round and are reserved members in case one of the winners gets forcefully removed.
 
 It is a good idea to announce your council intention before submitting your candidacy so that your supporters will know when they can start to vote for you. You can also vote for yourself in case no one else does.
 
 Go to [Polkadot Apps Dashboard](https://polkadot.js.org/apps), **connect to the Edgeware endpoint**, and navigate to the "Council" tab. Click the button on the right that says "Submit Candidacy."
-
-
 
 ### Steps to run for Council[¶](https://guide.kusama.network/en/latest/try/governance/#submit-oneself-as-a-council-candidate)
 
@@ -53,7 +51,4 @@ If you are one of the lucky ones to win a council election you will see your acc
 ![e](https://wiki.polkadot.network/docs/assets/council/member.png)
 
 Congratulations! Now you are able to participate on the council by making motions or vetoing proposals. It's a good idea to now add an Identity so that others know who the account belongs to and[ join the Commonwealth Edgeware forum.](https://commonwealth.im/edgeware/discussions)
-
-{% page-ref page="../../identity-module/adding-identities.md" %}
-
 

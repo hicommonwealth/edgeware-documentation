@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [Why Develop on Edgeware \(WIP\)](why-develop-on-edgeware-wip.md)
 * [Roadmap](roadmap.md)
 
 ## Quickstart
@@ -47,7 +48,7 @@
   * [Democracy](edgeware-runtime/governance/democracy/README.md)
     * [Guides to Referenda](edgeware-runtime/governance/democracy/guides-to-referenda.md)
     * [Democracy Features](edgeware-runtime/governance/democracy/democracy-features.md)
-  * [FAQs](edgeware-runtime/governance/faqs.md)
+  * [FAQs](edgeware-runtime/staking/validation/faqs.md)
 * [Identity](edgeware-runtime/identity/README.md)
   * [Adding Identities](edgeware-runtime/identity/adding-identities.md)
   * [Clearing and Killing](edgeware-runtime/identity/clearing-and-killing.md)

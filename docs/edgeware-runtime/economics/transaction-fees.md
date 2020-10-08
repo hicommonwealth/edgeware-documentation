@@ -1,2 +1,2 @@
-# Transaction Fees (WIP)
+# Transaction Fees
 

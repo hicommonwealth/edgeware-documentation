@@ -1,8 +1,6 @@
 # Validator FAQs
 
----
-description: An FAQ page for Staking and Nominating questions.
----
+## description: An FAQ page for Staking and Nominating questions.
 
 ## What is staking?
 
@@ -34,20 +32,17 @@ Returns will vary based on several factors including, how many EDG are staked fo
 
 Annual inflation of the EDG supply will not exceed 20%.
 
-{% page-ref page="../token-economics/inflation-model-calculator.md" %}
-
-
-
 Rewards from validating is expected to be ~ 20% annually, assuming no slashing and remaining in the validator set the entire time. Note that only some of the rewards come from supply inflation; other rewards come from transaction fees, tips, and the like.
 
 Maximum rewards are obtained when the percentage of all EDGs staked is at 80%.
 
-#### What do I need to nominate? <a id="what-do-i-need-to-nominate"></a>
+### What do I need to nominate? <a id="what-do-i-need-to-nominate"></a>
 
-All you need are some EDG and decide which validator to nominate.  
-  
+All you need are some EDG and decide which validator to nominate.
+
 **Why should I validate on Edgeware?**
 
 Edgeware is a proof-of-stake network, which requires Validators to ensure transactions are well-formed and to provide security on Edgeware.
 
 Validators also earn fees from both the block reward and transactions. Earned tokens can then be used to influence further governance decisions on the network.
+

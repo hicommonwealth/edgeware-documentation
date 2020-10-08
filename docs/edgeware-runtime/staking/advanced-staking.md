@@ -20,7 +20,7 @@ In staking, you can be either a [nominator or a validator](https://wiki.polkadot
 
 As a nominator, you can nominate one or more \(up to 16\) validator candidates that you trust to help you earn rewards in EDG. You can take a look at the [nominator guide](https://wiki.polkadot.network/docs/en/maintain-nominator) to understand what you are required to do when the mainnet launches.
 
-A validator node is required to be responsive 24/7, perform its expected duties in a timely manner, and avoid any slashable behavior. 
+A validator node is required to be responsive 24/7, perform its expected duties in a timely manner, and avoid any slashable behavior.
 
 #### 2. Nomination period
 
@@ -82,22 +82,15 @@ There are two different accounts for managing your funds: `Stash` and `Controlle
 
 We designed this hierarchy of separate key types so that validator operators and nominators can protect themselves much better than in systems with only one key. As a rule, you lose security anytime you use one key for multiple roles, or even if you use keys related by derivation. You should never use any account key for a "hot" session key in particular.
 
-Controller and Stash account keys can be either sr25519 or ed25519.   
-
-
-{% page-ref page="../accounts/stash-and-controller.md" %}
-
-
+Controller and Stash account keys can be either sr25519 or ed25519.
 
 ### Validators and nominators
 
-Since validator slots will be limited, most of those who wish to stake their DOTs and contribute economic security to the network will be nominators. Validators do most of the heavy lifting: they produce new block candidates, vote and come to consensus in GRANDPA, validate the STF of parachains, and possibly some other responsibilities regarding data availability and XCMP.   
-  
+Since validator slots will be limited, most of those who wish to stake their DOTs and contribute economic security to the network will be nominators. Validators do most of the heavy lifting: they produce new block candidates, vote and come to consensus in GRANDPA, validate the STF of parachains, and possibly some other responsibilities regarding data availability and XCMP.
+
 Nominators, on the other hand, do not need to do anything once they have bonded their EDG. The experience of the nominator is similar to "set it and forget it," while the validator will be doing active service for the network by performing the critical operations. For this reason, the validator has certain privileges regarding the payout of the staking mechanism and will be able to declare its own allocation before the share is divided to nominators.
 
 ![staking](https://wiki.polkadot.network/docs/assets/NPoS/article-2.png)
-
-#### 
 
 ### Slashing
 
@@ -124,7 +117,7 @@ Note that if less than 10% of all validators are offline, no penalty is enacted.
 Validators should have a well-architected network infrastructure to ensure the node is running to reduce the risk of being slashed. A high availability setup is desirable, preferably with backup nodes that kick in **only once the original node is verifiably offline** \(to avoid double-signing and being slashed for equivocation - see below\), together with proxy nodes to avoid being DDoSed when your validator node's IP address is exposed. A comprehensive guide on secure validator setup is in progress with the draft available [here](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator).
 
 **GRANDPA Equivocation:**  
- A validator signs two or more votes in the same round on different chains.
+A validator signs two or more votes in the same round on different chains.
 
 GRANDPA equivocation slashing penalty is calculated as below:
 
@@ -181,3 +174,4 @@ The plan is to start with 60 open validator positions and open more gradually. T
 
 * [How Nominated Proof of Stake will work in Polkadot](https://medium.com/web3foundation/how-nominated-proof-of-stake-will-work-in-polkadot-377d70c6bd43) - Blog post by Web3 Foundation researcher Alfonso Cevallos covering NPoS in Polkadot.
 * [Secure validator setup](https://wiki.polkadot.network/docs/en/maintain-guides-secure-validator)
+

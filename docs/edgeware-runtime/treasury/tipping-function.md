@@ -1,7 +1,7 @@
 # Tipping Function
 
 {% hint style="info" %}
-Substrate Documentation for this function is at: [https://substrate.dev/rustdocs/master/pallet\_treasury/index.html\#tipping](https://substrate.dev/rustdocs/master/pallet_treasury/index.html#tipping) 
+Substrate Documentation for this function is at: [https://substrate.dev/rustdocs/master/pallet\_treasury/index.html\#tipping](https://substrate.dev/rustdocs/master/pallet_treasury/index.html#tipping)
 {% endhint %}
 
 The treasury module also contains a more ad-hoc way of distributing funds from the treasury to a single recipient, called Tipping.
@@ -16,9 +16,4 @@ The treasury module also contains a more ad-hoc way of distributing funds from t
 | Function Supported by UI at: |
 | :--- |
 | [Polkadot Apps](https://polkadot.js.org/apps/#/explorer) |
-
-
-
-
-
 
