@@ -32,11 +32,10 @@
 ## Edgeware Runtime
 
 * [Balances](edgeware-runtime/balances/README.md)
-  * [Balance Types](edgeware-runtime/balances/balance-types.md)
-  * [Introduction](edgeware-runtime/balances/introduction.md)
-* [Cryptography](edgeware-runtime/cryptography/README.md)
   * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
-  * [Account Keys](edgeware-runtime/cryptography/account-keys.md)
+  * [check-your-balance-via-block-explorer](edgeware-runtime/balances/check-your-balance-via-block-explorer.md)
+  * [Balance Types](edgeware-runtime/balances/balance-types.md)
+  * [Stash and Controller Accounts](edgeware-runtime/balances/stash-and-controller-accounts.md)
 * [Parameters](edgeware-runtime/parameters/README.md)
   * [More on Time](edgeware-runtime/parameters/more-on-time.md)
 * [Economics](edgeware-runtime/economics/README.md)
