@@ -10,7 +10,7 @@ The EDG tokens will be created upon Network Launch - currently scheduled for 10a
 
 {% page-ref page="check-the-status-of-your-lock-duration-and-unlock-date.md" %}
 
-{% page-ref page="retrieve-your-eth/" %}
+{% page-ref page="../../quickstart/retrieve-your-eth/" %}
 
 ## Description
 

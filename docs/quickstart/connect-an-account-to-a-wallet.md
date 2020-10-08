@@ -22,7 +22,7 @@ Once connected, the extension will prompt you to authorize connecting your local
 
 You can now explore the chain and your account on Edgeware.
 
-![](../../.gitbook/assets/screen-shot-2020-02-10-at-3.03.43-am%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-3.03.43-am%20%281%29.png)
 {% endtab %}
 
 {% tab title="Commonwealth.im" %}

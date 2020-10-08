@@ -14,7 +14,7 @@ Click the Orange P symbol in your extensions
 
 Click "I want to create a new account with a new seed."
 
-![](../../.gitbook/assets/screen-shot-2020-02-06-at-5.37.08-pm%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-06-at-5.37.08-pm%20%282%29.png)
 
 {% hint style="info" %}
 Store your mnemonic seed somewhere securely. You will need it to maintain access to your account.

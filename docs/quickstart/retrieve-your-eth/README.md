@@ -2,7 +2,7 @@
 description: A guide on retrieving ETH locked in the Edgeware lockdrop event.
 ---
 
-# Retrieve your ETH
+# Retrieve your Locked ETH
 
 There are two ways to retrieve your ETH from a lockdrop user contract:
 
@@ -23,7 +23,7 @@ First, note the difference between a LUC and the MLC:
 
 To retrieve your ETH, your lock duration must be complete or the transaction will fail. Before proceeding with this guide, check that your duration is over:
 
-{% page-ref page="../check-the-status-of-your-lock-duration-and-unlock-date.md" %}
+{% page-ref page="../../edgeware-runtime/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md" %}
 
 {% tabs %}
 {% tab title="Send a Transaction Manually" %}

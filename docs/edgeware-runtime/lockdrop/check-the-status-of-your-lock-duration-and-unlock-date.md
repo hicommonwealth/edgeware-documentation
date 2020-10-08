@@ -34,7 +34,7 @@ If that number is ..
 
 Add the month value to the transaction date to find your unlock date and see if that date has passed yet. If so, your LUC is ready to release your ETH.
 
-{% page-ref page="retrieve-your-eth/" %}
+{% page-ref page="../../quickstart/retrieve-your-eth/" %}
 
 ### Example
 

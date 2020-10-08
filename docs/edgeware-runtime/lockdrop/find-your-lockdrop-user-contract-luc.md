@@ -40,5 +40,5 @@ This will show you:
 {% endtab %}
 {% endtabs %}
 
-{% page-ref page="retrieve-your-eth/" %}
+{% page-ref page="../../quickstart/retrieve-your-eth/" %}
 
