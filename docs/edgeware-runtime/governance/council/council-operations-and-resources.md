@@ -1,2 +1,0 @@
-# Council Operations and Resources
-
