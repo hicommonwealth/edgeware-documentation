@@ -115,7 +115,7 @@ match meal {
 
 ## Style
 
-* Panickers require explicit proofs they don't trigger. Calling `unwrap` is discouraged. The exception 
+* Panickers require explicit proofs they don't trigger. Calling `unwrap` is discouraged. The exception
 
   to this rule is test code. Avoiding panickers by restructuring code is preferred if feasible.
 
@@ -130,7 +130,7 @@ let mut target_path =
 
 * Unsafe code requires explicit proofs just as panickers do. When introducing unsafe code,
 
-  consider tradeoffs between efficiency on one hand and reliability, maintenance costs, and security on the other. 
+  consider tradeoffs between efficiency on one hand and reliability, maintenance costs, and security on the other.
 
   Here is a list of questions that may help evaluating the tradeoff while preparing or reviewing a PR:
 

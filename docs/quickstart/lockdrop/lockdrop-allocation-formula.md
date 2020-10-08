@@ -16,7 +16,7 @@ The final ETH/EDG ratio is **1 ETH : 1,156 EDG.**
 | EDG Distributed to Signals | 25.9 |
 | EDG Distributed via Genesis | 10% |
 | Effective Lockers ETH | 2772238 ETH |
-| Number of ETH Addresses participating in Locks  | 2869 |
+| Number of ETH Addresses participating in Locks | 2869 |
 | Number of ETH Addresses Participating in Signals | 1922 |
 | Effective Signalers ETH | 1120407 ETH |
 | Network Launch Date | Feb 17 2020 |
@@ -37,7 +37,7 @@ $$
 
 ### Variables
 
-**Timing Bonus Ratio:** User-Controlled Parameter.   
+**Timing Bonus Ratio:** User-Controlled Parameter.  
 The earlier you lock in the event schedule's 7 bonus periods, the higher this bonus modifier is. Per the above schedule, the parameter options are:
 
 | Time Period | Bonus Modifer |
@@ -50,17 +50,18 @@ The earlier you lock in the event schedule's 7 bonus periods, the higher this bo
 | August 15- August 29 | 1.05 |
 | August 30 - August 31 | 1 |
 
-**Weight:** User-Controlled Parameter.   
+**Weight:** User-Controlled Parameter.  
 Participating via a three-month lock will get 1\(weight\) when distributing EDG tokens; Participating via a twelve-month lock will get 2.2 \(weight\) when distributing EDG tokens.
 
 **User's Locked ETH:** User-Controlled Parameter  
 The specific number of ETH the user locks.
 
-**Total Allocatable EDG**:  System Parameter  
-****Total EDG in at Edgeware genesis is 5 billion, or 5,000,000,000. 4.5 billion is distributed via the lockdrop event. Therefore, total allocatable EDG is 4,500,000,000.
+**Total Allocatable EDG**: System Parameter  
+_\*\*_Total EDG in at Edgeware genesis is 5 billion, or 5,000,000,000. 4.5 billion is distributed via the lockdrop event. Therefore, total allocatable EDG is 4,500,000,000.
 
 **Total Locked ETH:** Aggregated User Contribution  
 The total number of ETH locked.
 
-**Ratio of EDG to ETH**:   
+**Ratio of EDG to ETH**:  
 The number of lockdropped EDGs that one ETH can obtain. This parameter cannot be known until the end of the lockdrop event because the total ETH locked must be known. Since[ the event closed and stats have been published](https://commonwealth.im/edgeware/stats), it is understood to be **1 ETH : 1,156 EDG.**
+

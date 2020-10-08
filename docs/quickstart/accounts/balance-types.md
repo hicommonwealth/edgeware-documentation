@@ -8,6 +8,7 @@ When you view your account information, for example through Polkadot UI, you may
 
 `Reserved`: The amount of EDG used or bonded for Governance actions, like voting, elections, or proposals.
 
-`Bonded`: The amount of EDG bonded to use for staking, including validation and nomination. 
+`Bonded`: The amount of EDG bonded to use for staking, including validation and nomination.
 
 `Locked`: The total amount of unusable EDG you have, the sum of `reserved` and `bonded`
+

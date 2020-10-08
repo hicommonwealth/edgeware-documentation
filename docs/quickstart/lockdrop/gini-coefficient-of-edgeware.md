@@ -18,7 +18,7 @@ For many cryptonetworks, the decentralization of the system is analyzed using [t
 
 ![Lorenz Curve and Gini Coefficient of Edgeware Token Distribution](https://lh4.googleusercontent.com/fKYymIwRa5YX8gC5J27wuzIaqtGHltwdfaNqALCdi8R4d1yFgL4obXHFj3pWi4Wiqub3yItY_xnwMSNxzeIqmIAlScpgk34D8ufa_rMvQPY_ecrhSEOArmGjrioBhw-beFh-uSD2)
 
-###  Caveats
+### Caveats
 
 * Some of the largest distributions are from [exchanges like Binance](https://www.binance.com/en/blog/376024539711221760/Did-You-Hold-ETH-on-Binance-Congratulations-Youll-Get-Free-Edgeware-Tokens). These accounts signaled on behalf of their users, and have announced plans to distribute the allocations to the appropriate ETH holders - so their holdings don’t actually correspond to the individuals. This creates a bias towards a higher gini coefficient than the network actually possesses. 
 * Multiple addresses may be mapped to the same holder - which could affect the final coefficient in either direction - it is impossible to tell which accounts may or may not be in the control of the same person. 
@@ -38,7 +38,7 @@ With the lockdrop contracts proven to both function and to be secure, we expect 
 
 In ICOs or other methods to distribute tokens, capital begets capital. However, in a lockdrop, users can be increased through time preference--bonuses for participating longer. In this way, it allowed many small ETH amount holders to show their preference. The overwhelming proportion of lockers chose not to lock for 3 months, but the maximum amount of time, 12 months. This shows us that they have a long term interest in the network. Moreover, individuals signaled their participation in additional ways, with over 130 addresses indicating that they’d like to validate. This amount has been backed up by the more than ~70 validators participating over the course of this last testnet.
 
-## **Continued Governance Experimentation** 
+## **Continued Governance Experimentation**
 
 **by Dillon Chen**
 
@@ -60,3 +60,4 @@ On [Commonwealth](https://commonwealth.im/#!/edgeware/proposal/discussion/7), th
 There is quite a bit of uncharted territory for the community to explore. There are more than a few proposals that we’re happy to share on Commonwealth. In another few months, we’ll be sharing updates on the improvements the community has achieved!
 
 [See Commonwealth.im for existing proposals.](http://commonwealth.im/)
+

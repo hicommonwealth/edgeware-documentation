@@ -2,10 +2,10 @@
 
 ## Announcements
 
-**🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more. 
+**🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more.
 
 {% hint style="warning" %}
-We recommend all Edgeware users convert their Lockdrop addresses to the new network format.  [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
+We recommend all Edgeware users convert their Lockdrop addresses to the new network format. [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
 {% endhint %}
 
 ## What is Edgeware?
@@ -39,8 +39,7 @@ Edgware is most plainly an actively-governed smart contract blockchain. Emphasis
 
 … participate in council and governance decisions. With stakeholders like core devs, dapp devs, end users, chain governance, and broader community stakeholders being represented by separate councils.
 
-… develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
-
+… develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
 
 **This site,** Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 

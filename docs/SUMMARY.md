@@ -37,6 +37,11 @@
   * [Gini Coefficient of Edgeware](quickstart/lockdrop/gini-coefficient-of-edgeware.md)
   * [Contract  & Specifications](quickstart/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
+* [Setting Up an Edgeware Node](quickstart/setting-up-a-node.md)
+* [Setting Up a Validator](quickstart/setting-up-a-validator.md)
+* [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
+* [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract.md)
+* [Deploy an EVM Contract](quickstart/deploy-an-evm-contract.md)
 
 ## Edgeware Runtime
 
@@ -89,8 +94,6 @@
   * [Slashing Consequences](edgeware-runtime/staking/slashing-consequences.md)
 * [Treasury](edgeware-runtime/treasury/README.md)
   * [Tipping Function](edgeware-runtime/treasury/tipping-function.md)
-
-## Advanced Topics
 
 ## Other Resources
 
