@@ -5,9 +5,6 @@
 
 ## Quickstart
 
-* [🎊 Get Started](quickstart/get-started/README.md)
-  * [Intro to Polkadot UI](quickstart/get-started/intro-to-polkadot-ui.md)
-  * [FAQs for New Users](quickstart/get-started/faqs-for-new-users.md)
 * [Accounts](quickstart/accounts/README.md)
   * [Account Keys: Stash and Controller](quickstart/accounts/account-keys-stash-and-controller.md)
   * [Balance Types](quickstart/accounts/balance-types.md)
