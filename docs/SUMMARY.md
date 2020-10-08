@@ -32,6 +32,7 @@
 ## Edgeware Runtime
 
 * [Balances](edgeware-runtime/balances/README.md)
+  * [Balance Types](edgeware-runtime/balances/balance-types.md)
   * [Introduction](edgeware-runtime/balances/introduction.md)
 * [Cryptography](edgeware-runtime/cryptography/README.md)
   * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
@@ -68,6 +69,7 @@
 * [WASM Contract Pallet](edgeware-runtime/wasm/README.md)
   * [Introduction](edgeware-runtime/wasm/introduction.md)
 * [EVM](edgeware-runtime/evm/README.md)
+  * [Untitled](edgeware-runtime/evm/untitled.md)
   * [Introduction](edgeware-runtime/evm/introduction.md)
 * [Staking](edgeware-runtime/staking/README.md)
   * [Advanced: Staking](edgeware-runtime/staking/advanced-staking.md)
