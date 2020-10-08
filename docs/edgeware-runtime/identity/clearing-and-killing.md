@@ -1,2 +1,0 @@
-# Clearing and Killing
-
