@@ -31,7 +31,8 @@
 
 ## Edgeware Runtime
 
-* [Balances](edgeware-runtime/balances.md)
+* [Balances](edgeware-runtime/balances/README.md)
+  * [Introduction](edgeware-runtime/balances/introduction.md)
 * [Cryptography](edgeware-runtime/cryptography/README.md)
   * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
   * [Account Keys](edgeware-runtime/cryptography/account-keys.md)
@@ -64,8 +65,10 @@
   * [Sub Accounts](edgeware-runtime/identity/sub-accounts.md)
   * [Judgements](edgeware-runtime/identity/judgements.md)
   * [Registrars](edgeware-runtime/identity/registrars.md)
-* [WASM Contract Pallet](edgeware-runtime/wasm.md)
-* [EVM](edgeware-runtime/evm.md)
+* [WASM Contract Pallet](edgeware-runtime/wasm/README.md)
+  * [Introduction](edgeware-runtime/wasm/introduction.md)
+* [EVM](edgeware-runtime/evm/README.md)
+  * [Introduction](edgeware-runtime/evm/introduction.md)
 * [Staking](edgeware-runtime/staking/README.md)
   * [Advanced: Staking](edgeware-runtime/staking/advanced-staking.md)
   * [Intro to Roles in NPoS](edgeware-runtime/staking/intro-to-roles-in-npos.md)
