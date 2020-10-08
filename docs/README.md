@@ -25,7 +25,22 @@ Edgeware emphasizes user ownership and true decentralization through its governa
 
 Edgeware users value the platform for its commitment and potential to fulfill this more decentralized and user-owned vision, both for the governance mechanisms as well as its unique token distribution mechanism, the lockdrop, which distributes tokens more fairly in order to achieve more effective and representative governance.
 
-Edgeware is within the Polkadot Ecosystem.
+**Built on Substrate**
+
+Edgeware is built on Parity Substrate, a framework for creating new blockchains derived from the Polkadot project. Substrate implements nearly all the code necessary to launch a working blockchain, including libp2p networking, a WebAssembly runtime, PBFT consensus, and clients for running nodes and proof-of-stake validators. The engineering effort for creating Edgeware is thus limited to building the governance systems, creating well-tested compile toolchains for writing C/C++/Rust smart contracts that can be compiled to Ethereum WebAssembly \(Ewasm\), and porting over a pipeline for existing Ethereum Virtual Machine \(EVM\) smart contracts to be run on Ewasm.
+
+**Getting Involved**
+
+Edgware is most plainly an actively-governed smart contract blockchain. Emphasis on active. Anyone can _actively…_
+
+… participate in the lock drop. By locking ETH, you get EDG tokens which give you staking and voting rights on the new chain.
+
+… deploy smart contracts to either a WASM or EVM virtual machine.
+
+… participate in council and governance decisions. With stakeholders like core devs, dapp devs, end users, chain governance, and broader community stakeholders being represented by separate councils.
+
+… develop the protocol using skills or interest that you may have. And for those efforts, be compensated with additional EDG token — representing future staking and voting rights.
+
 
 **This site,** Edgeware Documentation, aims to become a community-developed resource for the use, validation, development on, and management of the Edgeware smart contract platform.
 
