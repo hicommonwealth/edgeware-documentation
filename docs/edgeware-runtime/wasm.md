@@ -1,0 +1,2 @@
+# WASM Contract Pallet
+
