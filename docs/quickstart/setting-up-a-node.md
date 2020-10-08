@@ -1,4 +1,4 @@
-# Setting-up an Edgeware-node
+# Setting Up an Edgeware Node
 
 This guide covers how to set up an Edgeware node. There are two ways you can proceed:
 
