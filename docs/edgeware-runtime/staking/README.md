@@ -13,15 +13,9 @@ See more details about these roles below:
 
 ### Nominate
 
-{% page-ref page="nominating/nominate-edg-to-a-validator.md" %}
-
 ### Validate
 
 Validation requires establishing a node, setting up your account and keys, and bonding EDG in order to verify blocks and secure the network. Follow these steps, in order, to get started.
-
-{% page-ref page="validation/start-your-validator.md" %}
-
-{% page-ref page="validator-elections.md" %}
 
 ## Staking and Consensus Parameters
 

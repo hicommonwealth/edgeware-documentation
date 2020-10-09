@@ -6,8 +6,6 @@
 subkey -n edgeware generate
 ```
 
-
-
 ## Running a node
 
 To start up the Edgeware node and connect to testnet 3.0.5 \(This may be out of date!, run:
@@ -18,7 +16,6 @@ The testnet shown here may be out of date. Check the version and JSON name.
 
   
 
-
 ```text
 ./target/release/edgeware --chain=chains/testnet-3.0.5.json --name <INSERT_NAME>
 ```
@@ -28,6 +25,8 @@ To run a chain locally for development purposes:
 ```text
 ./target/release/edgeware --chain=local --alice --validator
 ```
+
+To allow apps in your browser to connect, as well as anyone else on your local network, add the `--rpc-cors=all` flag.
 
 To allow apps in your browser to connect, as well as anyone else on your local network, add the `--rpc-cors=all` flag.
 
@@ -57,7 +56,15 @@ To create derived keypairs, use the mnemonic generated from a method above and r
 subkey inspect "<mnemonic>"//<derive_path>
 ```
 
+```text
+subkey inspect "<mnemonic>"//<derive_path>
+```
+
 For example:
+
+```text
+subkey inspect "west paper guide park design weekend radar chaos space giggle execute canoe"//edgewarerocks
+```
 
 ```text
 subkey inspect "west paper guide park design weekend radar chaos space giggle execute canoe"//edgewarerocks
