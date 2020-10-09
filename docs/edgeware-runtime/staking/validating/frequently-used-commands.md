@@ -11,10 +11,8 @@ subkey -n edgeware generate
 To start up the Edgeware node and connect to testnet 3.0.5 \(This may be out of date!, run:
 
 {% hint style="danger" %}
-The testnet shown here may be out of date. Check the version and JSON name. 
+The testnet shown here may be out of date. Check the version and JSON name.
 {% endhint %}
-
-  
 
 ```text
 ./target/release/edgeware --chain=chains/testnet-3.0.5.json --name <INSERT_NAME>
@@ -34,9 +32,7 @@ To force your local to create new blocks, even if offline, add the `--force-auth
 
 ## Generating keypairs
 
-To create a keypair, install subkey with `cargo install --force --git https://github.com/paritytech/substrate subkey`. 
-
-
+To create a keypair, install subkey with `cargo install --force --git https://github.com/paritytech/substrate subkey`.
 
 Then run the following:
 
@@ -74,10 +70,6 @@ subkey inspect "west paper guide park design weekend radar chaos space giggle ex
 
 Commonwealth Labs maintains several public node on mainnet and testnet. Please refer to the following page for the latest node contacts.
 
-{% page-ref page="../../networks.md" %}
-
-
-
 **Syntax:**
 
 * wss://testnet1.edgewa.re
@@ -85,3 +77,4 @@ Commonwealth Labs maintains several public node on mainnet and testnet. Please r
   or \(if wss: fails\)
 
 * ws://testnet1.edgewa.re:9944
+
