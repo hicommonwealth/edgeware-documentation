@@ -1,4 +1,4 @@
-# Setting-up-monitoring
+# Setting Up Monitoring
 
 If you are running a validator or a public node, you should set up system monitoring to be aware if your node goes offline, and restart it automatically if possible.
 

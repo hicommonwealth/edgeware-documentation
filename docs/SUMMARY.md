@@ -109,7 +109,6 @@
 * [Code Style Guide](contribute/code-style-guide.md)
 * [Develop](contribute/develop/README.md)
   * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
-  * [Second State Ewasm VM for Substrate](https://github.com/second-state/substrate-ewasm)
   * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
   * [Edgeware Core](contribute/develop/edgeware-core/README.md)
     * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
@@ -128,4 +127,20 @@
     * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
     * [Substrate Documentation](https://substrate.dev/docs/)
     * [Substrate APIs](https://polkadot.js.org/api/)
+
+## Advanced Topics
+
+* [Setting Up a Public UI](advanced-topics/setting-up-a-public-ui.md)
+* [Validating on Edgeware](advanced-topics/validating-on-edgeware.md)
+* [Setting Up Monitoring](advanced-topics/setting-up-monitoring.md)
+* [Running Cross Chain Protocols](advanced-topics/running-cross-chain-protocols/README.md)
+  * [Cross Chain Protocols](advanced-topics/running-cross-chain-protocols/cross-chain-protocols.md)
+  * [Ethereum &lt;&gt; Edgeware Bridge](advanced-topics/running-cross-chain-protocols/ethereum-less-than-greater-than-edgeware-bridge.md)
+* [XCMP](advanced-topics/xcmp/README.md)
+  * [What is Polkadot](advanced-topics/xcmp/what-is-polkadot.md)
+  * [What is a Parachain](advanced-topics/xcmp/what-is-a-parachain.md)
+  * [Parachain to Parachain Interaction](advanced-topics/xcmp/parachain-to-parachain-interaction.md)
+  * [Interacting with SPREE](advanced-topics/xcmp/interacting-with-spree.md)
+* [Zero Knowledge Primitives](advanced-topics/zero-knowledge-primitives/README.md)
+  * [Primitives](advanced-topics/zero-knowledge-primitives/primitives.md)
 
