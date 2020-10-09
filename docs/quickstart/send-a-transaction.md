@@ -1,4 +1,4 @@
-# Send a transaction
+# Send EDG to another Account
 
 {% tabs %}
 {% tab title="Using Polkadot.js" %}

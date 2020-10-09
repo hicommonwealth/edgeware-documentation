@@ -10,7 +10,7 @@
   * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
 * [Create an Account](quickstart/creating-an-account.md)
 * [Connect to a Wallet and Check Balance](quickstart/connect-an-account-to-a-wallet.md)
-* [Send a transaction](quickstart/send-a-transaction.md)
+* [Send EDG to another Account](quickstart/send-a-transaction.md)
 * [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
 * [Set Up a Full Node](quickstart/set-up-a-full-node.md)
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
