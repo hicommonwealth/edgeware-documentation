@@ -1,6 +1,6 @@
 # FAQs
 
-What is the difference between a node and runtime upgrade? How do they interact?
+**What is the difference between a node and runtime upgrade? How do they interact?**
 
 **How do I retrieve my ETH after the Lockdrop is over?**
 

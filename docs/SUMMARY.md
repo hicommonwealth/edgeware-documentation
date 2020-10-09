@@ -26,6 +26,8 @@
   * [check-your-balance-via-block-explorer](edgeware-runtime/balances/check-your-balance-via-block-explorer.md)
   * [Balance Types](edgeware-runtime/balances/balance-types.md)
   * [Stash and Controller Accounts](edgeware-runtime/balances/stash-and-controller-accounts.md)
+* [Consensus](edgeware-runtime/consensus/README.md)
+  * [Aura](edgeware-runtime/consensus/aura.md)
 * [Parameters](edgeware-runtime/parameters.md)
 * [Economics](edgeware-runtime/economics/README.md)
   * [Network Staking Simulator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing)
@@ -79,7 +81,7 @@
 ## Other Resources
 
 * [FAQs](other-resources/faq/README.md)
-  * [New Users](other-resources/faq/faq-for-new-users.md)
+  * [New Users](other-resources/faq/new-users.md)
   * [Parachain Status](other-resources/faq/parachain-status.md)
   * [Validator FAQs](other-resources/faq/validator-faqs.md)
 * [Tools and Ecosystem](other-resources/tools-and-ecosystem.md)

@@ -4,19 +4,25 @@ description: >-
   networks.
 ---
 
-<<<<<<< HEAD
-# Publically Available Nodes on Mainnet and Testnets
+# Networks and Public Endpoints
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+## Publically Available Nodes on Mainnet and Testnets
 
 Explore these networks with a Block Explorer.
 
 #### Syntax for connection:
+
 =======
-# Networks and Public Endpoints
+
+## Networks and Public Endpoints
 
 Explore these networks with a Block Explorer.
 
-## Syntax for connection:
->>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
+### Syntax for connection:
+
+> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7
 
 * wss://networkNameNumber.edgewa.re
 
@@ -24,77 +30,24 @@ Explore these networks with a Block Explorer.
 
 * ws://networkNameNumber.edgewa.re:9944
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Network</th>
-      <th style="text-align:left">Network ID</th>
-      <th style="text-align:left">Endpoints</th>
-      <th style="text-align:left">Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Edgeware <b>Mainnet</b>
-      </td>
-      <td style="text-align:left"><code>0x07</code>
-      </td>
-      <td style="text-align:left">
-        <p>wss://mainnet1.edgewa.re</p>
-        <p>wss://mainnet2.edgewa.re</p>
-        <p>wss://mainnet3.edgewa.re</p>
-        <p>wss://mainnet4.edgewa.re</p>
-        <p>wss://mainnet5.edgewa.re</p>
-        <p>wss://mainnet6.edgewa.re</p>
-        <p>wss://mainnet7.edgewa.re</p>
-        <p>wss://mainnet8.edgewa.re
-          <br />wss://mainnet9.edgewa.re</p>
-        <p>wss://mainnet10.edgewa.re</p>
-        <p>wss://mainnet11.edgewa.re</p>
-        <p>wss://mainnet12.edgewa.re</p>
-        <p>wss://mainnet13.edgewa.re</p>
-        <p>wss://mainnet14.edgewa.re</p>
-        <p>wss://mainnet15.edgewa.re</p>
-        <p>wss://mainnet16.edgewa.re</p>
-        <p>wss://mainnet17.edgewa.re</p>
-        <p>wss://mainnet18.edgewa.re</p>
-        <p>wss://mainnet19.edgewa.re</p>
-        <p>wss://mainnet20.edgewa.re</p>
-<<<<<<< HEAD
-        <p></p>
-=======
->>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
-      </td>
-      <td style="text-align:left">Live</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
-=======
-      <td style="text-align:left">Edgeware Berlin <b>Testnet</b>
->>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
-      </td>
-      <td style="text-align:left">Currently <code>0x07</code>
-      </td>
-      <td style="text-align:left">
-        <p>wss://berlin1.edgewa.re</p>
-        <p>wss://berlin2.edgewa.re</p>
-        <p>wss://berlin3.edgewa.re</p>
-        <p>wss://berlin4.edgewa.re</p>
-        <p>wss://berlin5.edgewa.re</p>
-        <p>wss://berlin6.edgewa.re</p>
-        <p>wss://berlin7.edgewa.re</p>
-        <p>wss://berlin8.edgewa.re</p>
-        <p>wss://berlin9.edgewa.re</p>
-        <p>wss://berlin10.edgewa.re</p>
-      </td>
-      <td style="text-align:left"><b>Live.</b> Mirrors mainnet specification and EDG Lockdrop allocation.
-        Launched Feb 2020. Network ID will change with updates.</td>
-    </tr>
-  </tbody>
-</table>
-<<<<<<< HEAD
+       wss://mainnet1.edgewa.re wss://mainnet2.edgewa.re wss://mainnet3.edgewa.re wss://mainnet4.edgewa.re wss://mainnet5.edgewa.re wss://mainnet6.edgewa.re wss://mainnet7.edgewa.re wss://mainnet8.edgewa.re  
+wss://mainnet9.edgewa.re wss://mainnet10.edgewa.re wss://mainnet11.edgewa.re wss://mainnet12.edgewa.re wss://mainnet13.edgewa.re wss://mainnet14.edgewa.re wss://mainnet15.edgewa.re wss://mainnet16.edgewa.re wss://mainnet17.edgewa.re wss://mainnet18.edgewa.re wss://mainnet19.edgewa.re wss://mainnet20.edgewa.re &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+```text
+    <p></p>
+```
 
 =======
->>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
+
+> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7 &lt;/td&gt;  &lt;/tr&gt;  &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+> > > > > > >
+> > > > > > > ```text
+> > > > > > >   <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
+> > > > > > > ```
+> > > > > > >
+> > > > > > > =======     &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+=======
+
+> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7
 
