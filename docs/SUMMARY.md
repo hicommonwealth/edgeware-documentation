@@ -6,15 +6,14 @@
 
 ## Quickstart
 
+* [Retrieve your Locked ETH](quickstart/retrieve-your-eth/README.md)
+  * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
 * [Creating an Account](quickstart/creating-an-account.md)
 * [Connect to a Wallet and Check Balance](quickstart/connect-an-account-to-a-wallet.md)
 * [Send a transaction](quickstart/send-a-transaction.md)
-* [Convert a Lockdrop Address to the New Format](quickstart/convert-a-lockdrop-address-to-the-new-format.md)
-* [Retrieve your Locked ETH](quickstart/retrieve-your-eth/README.md)
-  * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
+* [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
 * [Set Up a Full Node](quickstart/set-up-a-full-node.md)
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
-* [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
 * [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract.md)
 * [Deploy an EVM Contract](quickstart/deploy-an-evm-contract.md)
 
