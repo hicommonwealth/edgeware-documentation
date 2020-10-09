@@ -8,7 +8,7 @@
 
 * [Retrieve your Locked ETH](quickstart/retrieve-your-eth/README.md)
   * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
-* [Creating an Account](quickstart/creating-an-account.md)
+* [Create an Account](quickstart/creating-an-account.md)
 * [Connect to a Wallet and Check Balance](quickstart/connect-an-account-to-a-wallet.md)
 * [Send a transaction](quickstart/send-a-transaction.md)
 * [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
