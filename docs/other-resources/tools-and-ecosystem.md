@@ -1,4 +1,4 @@
-# Ecosystem & Tools
+# Tools and Ecosystem
 
 ### Chain Interfaces
 
@@ -21,7 +21,6 @@ Secondary to the Polkadot UI is [Commonwealth.im](http://Commonwealth.im), which
 * Observe extrinsics
 * Upload contracts
 
-
 ### Wallets
 
 * [**Commonwealth.im**](http://commonwealth.im/) **\(Sign-up in right top side, must connect EDG address\)** 
@@ -35,8 +34,6 @@ Secondary to the Polkadot UI is [Commonwealth.im](http://Commonwealth.im), which
 * [SpeckleOS](https://www.speckleos.io/) - Browser extension wallet. In development - follow progress on [GitHub](https://github.com/SpeckleOS/speckle-browser-extension).
 * [Enzyme](http://blockxlabs.com/) - Browser extension wallet. Follow development on [GitHub](https://github.com/blockxlabs/enzyme/).
 * [Sakura ](https://github.com/w3finance/sakura)- Desktop Wallet for Polkadot Ecosystem. In development.
-
-### 
 
 ### Exchanges
 
@@ -52,48 +49,33 @@ This list is provided without endorsement by Commonwealth Labs, the core develop
 | HotBit | EDG/BTC and EDG/USDT | [https://www.hotbit.io/exchange](https://www.hotbit.io/exchange?symbol=EDG_BTC) |
 | Biki | EDG/USDT | [https://www.biki.com/en\_US/trade/EDG\_USDT](https://www.biki.com/en_US/trade/EDG_USDT) |
 
-
-
 ### Nodes and Deployment
 
 * [Gantree Infrastructure Toolkit for Substrate](https://github.com/flex-dapps/gantree-lib-nodejs)
 * [Polkalert: Node Monitoring](https://polkalert.com/)
 * [Telemetry: Node Stats](https://telemetry.polkadot.io/)
 
-
-
 ### **Block Explorers**
 
 * [Subscan](https://edgeware.subscan.io/)
 * [Polkascan](https://polkascan.io/pre/edgeware/dashboard)
 
-#### 
-
 ### Faucets
 
 * [BlockX Labs testEDG Faucet ](https://faucets.blockxlabs.com/)
-
-#### 
 
 ### Grant Programs
 
 * [Edgeware Grant Program](https://commonwealth.im/edgeware/proposal/discussion/466-creating-edgeware-grants)
 * [Web3Foundation Grant Program](https://web3.foundation/grants/)
 
-
-
 ### API Feeds
 
 * [Total Supply Endpoint for Edgeware](https://edgeware-supply.now.sh/) \(Does not subtract Treasury stash\)
 
-
-
-###  Key Generation and Conversion
-
+### Key Generation and Conversion
 * [Original Edgeware Key Generator for Lockdrop and Pub Key Convertor](https://edgewa.re/keygen/)
 * [Subkey: Key Generation for Substrate Chains ](https://substrate.dev/docs/en/ecosystem/subkey)
-
-
 
 ### Node-as-a-Service Providers
 
@@ -109,12 +91,9 @@ _The following have announced they intend to develop NAAS._
 * Stake.Fish
 * [https://deploy.radar.tech/](https://deploy.radar.tech/)
 
-
-
 ### Miscellaneous
 
 * [GSRPC: Substrate RPC Client in Go](https://github.com/centrifuge/go-substrate-rpc-client)
 * [Chronologic Transaction Scheduler](https://blog.chronologic.network/how-to-schedule-edgeware-edg-transactions-ed4bae4c5648)
 * [Edgeware Secure Mnemonic Phrase Generator for Lockdrop](https://github.com/luboremo/Edgeware-seed-generating-script-SSSS)
-
 

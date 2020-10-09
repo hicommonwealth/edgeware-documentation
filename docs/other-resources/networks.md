@@ -4,11 +4,19 @@ description: >-
   networks.
 ---
 
+<<<<<<< HEAD
 # Publically Available Nodes on Mainnet and Testnets
 
 Explore these networks with a Block Explorer.
 
 #### Syntax for connection:
+=======
+# Networks and Public Endpoints
+
+Explore these networks with a Block Explorer.
+
+## Syntax for connection:
+>>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
 
 * wss://networkNameNumber.edgewa.re
 
@@ -52,12 +60,19 @@ Explore these networks with a Block Explorer.
         <p>wss://mainnet18.edgewa.re</p>
         <p>wss://mainnet19.edgewa.re</p>
         <p>wss://mainnet20.edgewa.re</p>
+<<<<<<< HEAD
         <p></p>
+=======
+>>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
       </td>
       <td style="text-align:left">Live</td>
     </tr>
     <tr>
+<<<<<<< HEAD
       <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
+=======
+      <td style="text-align:left">Edgeware Berlin <b>Testnet</b>
+>>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
       </td>
       <td style="text-align:left">Currently <code>0x07</code>
       </td>
@@ -78,5 +93,8 @@ Explore these networks with a Block Explorer.
     </tr>
   </tbody>
 </table>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8855802b7ce36512271d3d59d7a3ed41c089daa7
 

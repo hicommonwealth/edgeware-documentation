@@ -78,11 +78,13 @@
 
 ## Other Resources
 
-* [Networks](other-resources/networks.md)
-* [Exchanges](other-resources/exchanges.md)
-* [FAQ](other-resources/faq/README.md)
+* [FAQs](other-resources/faq/README.md)
+  * [New Users](other-resources/faq/faq-for-new-users.md)
   * [Parachain Status](other-resources/faq/parachain-status.md)
   * [Validator FAQs](other-resources/faq/validator-faqs.md)
+* [Tools and Ecosystem](other-resources/tools-and-ecosystem.md)
+* [Networks and Public Endpoints](other-resources/networks.md)
+* [Exchanges](other-resources/exchanges.md)
 * [Community](other-resources/community/README.md)
   * [Community Hubs, Channels and Chats](other-resources/community/community-hubs-channels-and-chats.md)
   * [Working Groups](https://commonwealth.im/edgeware/proposal/discussion/373-introducing-edgeware-working-groups)
@@ -95,11 +97,9 @@
     * [Set up a Public UI](other-resources/community/faqs-community/set-up-a-public-ui.md)
   * [Validator Profiles on Commonwealth](https://commonwealth.im/edgeware/discussions/4)
   * [FAQs](other-resources/community/faqs.md)
-* [Participate](https://commonwealth.im)
-* [Commonwealth.im](https://commonwealth.im)
+* [Forum](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
-* [Tools & Ecosystem](other-resources/tools-and-ecosystem.md)
 
 ## Contribute
 
