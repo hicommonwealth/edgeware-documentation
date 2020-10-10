@@ -59,6 +59,9 @@ This list is provided without endorsement by Commonwealth Labs, the core develop
 
 * [Subscan](https://edgeware.subscan.io/)
 * [Polkascan](https://polkascan.io/pre/edgeware/dashboard)
+### Smart Contract tooling
+
+* [Redspot](https://github.com/patractlabs/redspot)
 
 ### Faucets
 
