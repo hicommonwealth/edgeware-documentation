@@ -6,7 +6,7 @@ description: >-
 
 # Community
 
-### **Chat & Discussion Channels**
+## **Chat & Discussion Channels**
 
 | Group Name | Link |
 | :--- | :--- |
@@ -24,7 +24,7 @@ description: >-
 
 \*\*\*\*
 
-### **Edgeware Community Call \(Monthly\)**
+## **Edgeware Community Call \(Monthly\)**
 
 **Monthly on the third Wednesday at 2pm EST**
 
@@ -42,14 +42,14 @@ View the Entire Edgeware Community Event Calendar on](https://calendar.google.co
 
 **\*\***[**View the Calendar into other** ](https://calendar.google.com/calendar/ical/commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)**\[**Apps using iCal/ ics\*\*\]\([https://calendar.google.com/calendar/ical/commonwealth.im\_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)\)
 
-#### Forums
+### Forums
 
 | Name | Link | Features |
 | :--- | :--- | :--- |
 | Commonwealth c/Edgeware | [https://commonwealth.im/edgeware](https://commonwealth.im/edgeware) | Governance, Profiles, Discussion |
 |  |  |  |
 
-#### Chat Rooms
+### Chat Rooms
 
 It is the wish of Commonwealth Lab that users have access to a variety of platforms - but that bridges or bots unify the content.
 
@@ -61,20 +61,18 @@ It is the wish of Commonwealth Lab that users have access to a variety of platfo
 | **Developers** | [Telegram Group](https://t.me/edg_developers) | Developers, Builders, Tooling Question | No |
 | **Smart Contracts** | [Element](https://matrix.to/#/!tYUCYdSvSYPMjWNDDD:matrix.parity.io?via=matrix.parity.io&via=matrix.org&via=web3.foundation) | Builders help around Smart Contracts in ink! | No |
 
-| **General** | [Element](https://matrix.to/#/!dQIXacXSBDQsPsWEYR:matrix.org?via=matrix.org&via=matrix.parity.io) | General except market and price discussion. Tech support. | No |
-| **Governance** | [Element](https://matrix.to/#/!LKKkaPSDCjOusugedQ:matrix.org?via=matrix.parity.io&via=matrix.org) | Governance | No |
-| **General** | [Discord Chat](https://discord.gg/Ek8y9rr) | General, Validation, Tech Support | Yes |
+\| **General** \| [Element](https://matrix.to/#/!dQIXacXSBDQsPsWEYR:matrix.org?via=matrix.org&via=matrix.parity.io) \| General except market and price discussion. Tech support. \| No \| \| **Governance** \| [Element](https://matrix.to/#/!LKKkaPSDCjOusugedQ:matrix.org?via=matrix.parity.io&via=matrix.org) \| Governance \| No \| \| **General** \| [Discord Chat](https://discord.gg/Ek8y9rr) \| General, Validation, Tech Support \| Yes \|
 
-#### Social Media and Announcements
+### Social Media and Announcements
 
 | Name | Link |
 | :--- | :--- |
 | **News Twitter** | [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
-| **Developers Twitter** | [https://twitter.com/EDG_Developers](https://twitter.com/EDG_Developers) |
+| **Developers Twitter** | [https://twitter.com/EDG\_Developers](https://twitter.com/EDG_Developers) |
 | General **Announcements** TG Channel | [https://t.me/edgeware\_announcements](https://t.me/edgeware_announcements) |
 | **Validator Updates** TG Channel | [https://t.me/EdgewareValidators](https://t.me/EdgewareValidators) |
 
-#### Working Groups
+### Working Groups
 
 | Name | Link |
 | :--- | :--- |

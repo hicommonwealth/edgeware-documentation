@@ -8,7 +8,7 @@
 
 * [Retrieve your Locked ETH](quickstart/retrieve-your-eth/README.md)
   * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
-* [Create an Account](quickstart/creating-an-account.md)
+* [Create an Account](quickstart/create-an-account.md)
 * [Connect to a Wallet and Check Balance](quickstart/connect-an-account-to-a-wallet.md)
 * [Send EDG to another Account](quickstart/send-a-transaction.md)
 * [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
@@ -30,7 +30,6 @@
 * [Economics](edgeware-runtime/economics/README.md)
   * [Network Staking Simulator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing)
   * [Total Supply API URL](https://edgeware-supply.now.sh/)
-  * [Token Supply Chart](edgeware-runtime/economics/token-supply-chart.md)
   * [Return Rate Calculator for Validators](edgeware-runtime/economics/return-rate-calculator-for-validators.md)
   * [Transaction Fees](edgeware-runtime/economics/transaction-fees.md)
 * [Governance](edgeware-runtime/governance/README.md)
