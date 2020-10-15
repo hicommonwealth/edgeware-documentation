@@ -1,8 +1,8 @@
-# Stash and Controller Accounts
+# Staking Accounts: Stash and Controller
 
-## Accounts
+For Edgeware and many other PoS smart contract platforms, staking is the action that ensures the economic security of the blockchain. Users stake their tokens to a validator, who creates new blocks. For this effort, validators and nominators earn more tokens in the form of fees and inflationary rewards.
 
-There are two different accounts for managing your funds: `Stash` and `Controller`.
+To participate in staking in Edgeware, a user is required to create and set multiple accounts for staking funds: `Stash` and `Controller`. This allows a user to separately manage their tokens in cold storage for the `Stash` account, and a `controller` account.
 
 ![staking](https://wiki.polkadot.network/docs/assets/NPoS/staking-keys_stash_controller.png)
 

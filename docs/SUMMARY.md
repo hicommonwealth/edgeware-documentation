@@ -20,10 +20,7 @@
 ## Edgeware Runtime
 
 * [Balances](edgeware-runtime/balances/README.md)
-  * [SS58 Address Specification](https://github.com/paritytech/substrate/wiki/External-Address-Format-%28SS58%29)
-  * [check-your-balance-via-block-explorer](edgeware-runtime/balances/check-your-balance-via-block-explorer.md)
-  * [Balance Types](edgeware-runtime/balances/balance-types.md)
-  * [Stash and Controller Accounts](edgeware-runtime/balances/stash-and-controller-accounts.md)
+  * [Staking Accounts: Stash and Controller](edgeware-runtime/balances/stash-and-controller-accounts.md)
 * [Consensus](edgeware-runtime/consensus/README.md)
   * [Aura](edgeware-runtime/consensus/aura.md)
 * [Parameters](edgeware-runtime/parameters.md)
