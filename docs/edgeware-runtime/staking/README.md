@@ -33,7 +33,6 @@ Validation requires establishing a node, setting up your account and keys, and b
 
 * Validators at launch: 10
 * Validator slots at launch: 60
-* Bonding duration: 7 days
+* Bonding duration: [14 days](https://github.com/hicommonwealth/edgeware-node/blob/7405463cfecbe1aa2b185f365d7b0eec57f094f2/node/runtime/src/lib.rs#L420)
 * Slashes deferred duration: 7 days
 * Cancellation of slashes: 3/4 of council required - need to revisit this
-
