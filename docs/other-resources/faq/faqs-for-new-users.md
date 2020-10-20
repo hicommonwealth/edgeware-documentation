@@ -82,6 +82,14 @@ Edgeware launched with an early version of Substrate that experiences a lag in b
 
 ### Accounts & Balances
 
+#### Where can I store EDG?
+For storing \[and optionally staking\], you can use the officially supported wallet interface [Polkadot Apps](https://polkadot.js.org/apps/) \[along with optional Enzyme extension or polkadot\(.js\) extension\].
+[Read more](https://docs.edgewa.re/understanding-edgeware/accounts)
+
+Apart from Polkadot Apps, the android variant of Math wallet also supports EDG.
+Also, Ledger support is under development and it's independently being developed by Zondax.
+
+
 #### I can't find my account using my public address in a block explorer.
 
 Most block explorers require the version of the Edgeware Public Address that encodes the Edgeware Network ID - if you created your key/address in the Lockdrop or via the Polkadot UI or extension, you first need to regenerate your address using a program called Subkey before you can use it to search. Yu can always use your seed to connect to wallet services, regardless of the network ID.
@@ -108,7 +116,7 @@ Validators are elected from a pool of the top 60 most-bonded validators. This el
 
 #### **When can I unbond my nominated tokens?**
 
-Bonding periods last 7 days.
+Bonding periods last 7 days. After 7 days you need to click on the lock icon or use the withdrawUnbonded\(num_slashing_spans\) staking function \[in Extrinsic submission option under Developer’s tab \] which will prompt you to sign a transaction to make those EDGs transferable.
 
 #### Why can't I send/sign my Nomination transaction?
 
@@ -138,7 +146,30 @@ Click the network logo in the top right, and select Edgeware mainnet from the dr
 
 ### Governance
 
-### One-person-one vote - what will prevent malicious players from signing on multiple nodes if it will cost little?
+#### One-person-one vote - what will prevent malicious players from signing on multiple nodes if it will cost little?
 
 We provide a variety of tallying rules for certain governance features on Edgeware. The core governance is run with coin-weighted voting, with extensions that mimic a form of quadratic voting based on locking time \(I.e you get more weight by locking longer\). Therefore what you ask is not wholly correct. Some tally types are inherently and unavoidably vulnerable to certain tactics- if someone wants to run a signaling poll with one person one vote that’s their decision, but we can provide guidance about results and process.
 
+### Miscellaneous
+
+#### How Edgeware is different is that ‘x’ project?
+
+Every project is unique in its own perspective. You may find some similarities in Edgeware and the ‘x' project. Though we should consider different projects as one of the essential parts of the ecosystem rather than non-healthy competitors.
+Also, it wouldn't be a good idea to talk on ‘x' project’s behalf. 
+As Edgeware and the ‘x' project offer different prospects to the Crypto Ecosystem by different means which you can't directly compare.
+There will be many blockchains with complex native smart contract support like Edgeware has. But Edgeware aims to be an ecosystem and one-stop solution platform for various types of deployments. Native EVM support, interoperability with the current DeFi ecosystem on Ethereum through edgeth bridges, incubator stance, initiatives through different working groups are the major proposed things which make Edgeware different. \(Being a potential parachain also opens up possibilities not only for the polkadot relay chain but also for other parachains to utilize the bridges built by Edgeware.\)
+
+We would recommend going through the following resources to know more about Edgeware:
+
+• [Roadmap](https://blog.edgewa.re/edgeware-2020/)
+
+• [Edgeware Docs](https://docs.edgewa.re/)
+
+#### Can I trade EDG on decentralised protocols like Uniswap or any DEXs?
+
+Currently, you can't trade EDG on any swap protocols/portals like Uniswap. EDG is a native token of Edgeware blockchain, not an erc20 token.
+But there are plans for Uniswap integration through Tokyo Network Upgrade \(Bridging to Ethereum\) and it is scheduled for Fall of 2020. Edgeware aims to build Ethereum Bridges to setup interoperability of EDG into the existing ETH DeFi ecosystem, allowing for the creation of EDG / ETH, wEDG / DAI, and other pairs on Uniswap and Balancer.
+
+#### Recently I participated in democracy voting. How can I make those locked EDGs transferable after the locking period gets over?
+
+Go to the Extrinsics option under Developer tab in Polkadot Apps and by selecting ‘democracy’ under the extrinsic type, submit extrinsic unlock\(target\).
