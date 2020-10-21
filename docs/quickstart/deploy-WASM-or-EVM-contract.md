@@ -1,4 +1,4 @@
-# Deploy a WASM Contract
+# Deploy a WASM or EVM Contract
 
 Run local node to test your deployment 
 * [via Docker Image yangwao/substrate_playground](https://github.com/yangwao/substrate_playground)
