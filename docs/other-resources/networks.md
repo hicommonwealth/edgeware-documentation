@@ -1,28 +1,16 @@
 ---
 description: >-
-  This page provides Network connection information for various Edgeware
+  This page provides network connection information for various Edgeware
   networks.
 ---
 
 # Networks and Public Endpoints
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-
 ## Publically Available Nodes on Mainnet and Testnets
 
 Explore these networks with a Block Explorer.
 
-#### Syntax for connection:
-
-=======
-
-## Networks and Public Endpoints
-
-Explore these networks with a Block Explorer.
-
 ### Syntax for connection:
-
-> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7
 
 * wss://networkNameNumber.edgewa.re
 
@@ -30,24 +18,41 @@ Explore these networks with a Block Explorer.
 
 * ws://networkNameNumber.edgewa.re:9944
 
-       wss://mainnet1.edgewa.re wss://mainnet2.edgewa.re wss://mainnet3.edgewa.re wss://mainnet4.edgewa.re wss://mainnet5.edgewa.re wss://mainnet6.edgewa.re wss://mainnet7.edgewa.re wss://mainnet8.edgewa.re  
-wss://mainnet9.edgewa.re wss://mainnet10.edgewa.re wss://mainnet11.edgewa.re wss://mainnet12.edgewa.re wss://mainnet13.edgewa.re wss://mainnet14.edgewa.re wss://mainnet15.edgewa.re wss://mainnet16.edgewa.re wss://mainnet17.edgewa.re wss://mainnet18.edgewa.re wss://mainnet19.edgewa.re wss://mainnet20.edgewa.re &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
 
 ```text
-    <p></p>
+<td style="text-align:left">Edgeware <b>Mainnet</b> 
+    <p>wss://mainnet1.edgewa.re</p>
+    <p>wss://mainnet2.edgewa.re</p>
+    <p>wss://mainnet3.edgewa.re</p>
+    <p>wss://mainnet4.edgewa.re</p>
+    <p>wss://mainnet5.edgewa.re</p>
+    <p>wss://mainnet6.edgewa.re</p>
+    <p>wss://mainnet7.edgewa.re</p>
+    <p>wss://mainnet8.edgewa.re</p>
+    <p>wss://mainnet9.edgewa.re</p>
+    <p>wss://mainnet10.edgewa.re</p>
+    <p>wss://mainnet11.edgewa.re</p>
+    <p>wss://mainnet12.edgewa.re</p>
+    <p>wss://mainnet13.edgewa.re</p>
+    <p>wss://mainnet14.edgewa.re</p>
+    <p>wss://mainnet15.edgewa.re</p>
+    <p>wss://mainnet16.edgewa.re</p>
+    <p>wss://mainnet17.edgewa.re</p>
+    <p>wss://mainnet18.edgewa.re</p>
+    <p>wss://mainnet19.edgewa.re</p>
+    <p>wss://mainnet20.edgewa.re</p>
 ```
 
-=======
-
-> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7 &lt;/td&gt;  &lt;/tr&gt;  &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-> > > > > > >
-> > > > > > > ```text
-> > > > > > >   <td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
-> > > > > > > ```
-> > > > > > >
-> > > > > > > =======     &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-
-=======
-
-> > > > > > > 8855802b7ce36512271d3d59d7a3ed41c089daa7
-
+```text
+<td style="text-align:left">Edgeware Berlin <b>Testnet</b> 
+    <p>wss://beresheet1.edgewa.re</p>
+    <p>wss://beresheet2.edgewa.re</p>
+    <p>wss://beresheet3.edgewa.re</p>
+    <p>wss://beresheet4.edgewa.re</p>
+    <p>wss://beresheet5.edgewa.re</p>
+    <p>wss://beresheet6.edgewa.re</p>
+    <p>wss://beresheet7.edgewa.re</p>
+    <p>wss://beresheet8.edgewa.re</p>
+    <p>wss://beresheet9.edgewa.re</p>
+    <p>wss://beresheet10.edgewa.re</p>
+```
