@@ -12,5 +12,5 @@ In the future, the network may vote to make Edgeware a relay chain, just like Po
 
 ## How Edgeware will get a parachain slot in Polkadot Ecosystem?
 
-Parachain bonding I scheduled for the Fall of 2020 through the London upgrade. As of now the structure for incentives to DOT holders is not yet designed. But before the Polkadot bonding, we will see Edgeware Canary Network bonding to Kusama. So it will be a kind of simulation to parachain bonding to Polkadot.
-Moreover, the auction\(s\) is an optional stage for parachain slots as few slots will be offered to the contributors in the ecosystem. Crowdfunding a slot is yet another option.
+Parachain bonding I scheduled for the Fall of 2020 through the London upgrade. As of now the structure for incentives to DOT holders is not yet designed. But before the Polkadot bonding, we will see Edgeware Canary Network bonding to Kusama. So it will be a kind of simulation to parachain bonding to Polkadot. Moreover, the auction\(s\) is an optional stage for parachain slots as few slots will be offered to the contributors in the ecosystem. Crowdfunding a slot is yet another option.
+

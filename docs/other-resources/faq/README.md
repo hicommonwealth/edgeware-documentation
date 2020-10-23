@@ -1,5 +1,7 @@
 # FAQs
 
+## FAQs
+
 **How do I retrieve my ETH after the Lockdrop is over?**
 
 [Use the Unlock tool at Commonwealth.im](https://commonwealth.im/#!/unlock)
@@ -12,9 +14,7 @@ The LUC will then return the ETH to the original address that sent this ETH to t
 
 **How can I access the EDG I got allocated to by lockdrop \(including signaling\)?**
 
-At the time of participating in lockdrop, you must have generated a mnemonic seed phrase. Kindly import it on Polkadot UI \(optionally through Enzyme extension or polkadot\(.js\) extension\) or on the unofficially maintained android version of the Math wallet and you will get access to your EDG!
-Read more about account interactions here: https://docs.edgewa.re/understanding-edgeware/accounts
-
+At the time of participating in lockdrop, you must have generated a mnemonic seed phrase. Kindly import it on Polkadot UI \(optionally through Enzyme extension or polkadot\(.js\) extension\) or on the unofficially maintained android version of the Math wallet and you will get access to your EDG! Read more about account interactions here: [https://docs.edgewa.re/understanding-edgeware/accounts](https://docs.edgewa.re/understanding-edgeware/accounts)
 
 **How many EDG will be minted in the genesis lockdrop event?**
 
@@ -57,7 +57,6 @@ At Commonwealth.im: [https://commonwealth.im/\#!/stats/edgeware](https://commonw
 
 25% EDG of signaling participants are already unlocked \(transferable\) and rest 75% EDG of are vested until 17th Feb 2021 \(1 year from mainnet launch\).
 
-
 **Why infinite supply / no max cap on supply/ inflation needed?**
 
 Inflation is necessary to reward those who secure the network \(validators and nominators\) and it is also utilized for ecosystem growth by means of the treasury. Currently, inflation is set to 95 EDG per block. No can have direct access to those EDG. Approx 20% gets distributed as staking rewards and the rest goes to the treasury.
@@ -68,14 +67,13 @@ It’s an on-chain fund which no one has direct access to! Edgeware has taken an
 
 **Why can't I see my balance after network upgrade?**
 
-Due to the network upgrade, some accounts need migration. Anyone can migrate anyone's account. More detailed information here:
-https://commonwealth.im/edgeware/proposal/discussion/625-edgeware-postupgrade-account-migration
+Due to the network upgrade, some accounts need migration. Anyone can migrate anyone's account. More detailed information here: [https://commonwealth.im/edgeware/proposal/discussion/625-edgeware-postupgrade-account-migration](https://commonwealth.im/edgeware/proposal/discussion/625-edgeware-postupgrade-account-migration)
 
-
-# TechnicalFAQs
+## TechnicalFAQs
 
 **What is the difference between a node and a runtime upgrade? How do they interact?**
 
 Node upgrade is an update to the client software. These changes are mostly about networking software and/or optimizations to the system that processes the runtime binary.
 
 While runtime upgrade is a change in the underlying WebAssembly binary being run by the node/client software. These are changes to the blockchain’s state transition function.
+

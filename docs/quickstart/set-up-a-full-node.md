@@ -5,7 +5,9 @@ This guide covers how to set up an Edgeware node. There are two ways you can pro
 * Setting up a private node, e.g. if you would like to run a validator
 * Setting up a public node, e.g. if you want to run connect services or dapps to Edgeware
 
-{% hint style="info" %} To quickly run node from Docker image, use [yangwao/substrate_playground](https://github.com/yangwao/substrate_playground) {% endhint %}
+{% hint style="info" %}
+To quickly run node from Docker image, use [yangwao/substrate\_playground](https://github.com/yangwao/substrate_playground)
+{% endhint %}
 
 If you are running a private node, you will only need to follow **steps 0 and 1** of this guide. Otherwise, we will guide you through setting up an SSL certificate in **steps 2 and 3**, so any browser can securely connect to your node. \(Most people, including validators, only need to set up a private node.\)
 
