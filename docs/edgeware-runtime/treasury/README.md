@@ -85,13 +85,14 @@ The first step is to describe the proposal in full to the community. A great pla
    1. Evidence for that Solution 
    2. Who does this solution help?
 5. Describe, if relevant, the Milestone Structure of goals and disbursements.
-6. Financial Details for all Proposed Transfers
+6. Are these funds going to be used for non-funding, on-chain purposes? e.g Will you be using these funds to vote, nominate or bond for staking? 
+7. Financial Details for all Proposed Transfers
    1. Amount/s requested
    2. Financial timeline  - when are installments due?
    3. What are the Addresses of the fund recipients?
    4. Who will be managing the funds, how can we contact them?
    5. How will the manager of the funds report on status proactively? Where we can follow progress and ask questions?
-7. License \(if applicable\)
+8. License \(if applicable\)
 
 #### Propose The Spend On-Chain
 
