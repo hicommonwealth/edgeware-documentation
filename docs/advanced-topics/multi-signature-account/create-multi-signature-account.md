@@ -1,6 +1,6 @@
 ## Create Multi Signature Account through Apps
 
-In this chapter we will create and do test transaction from Multi-Signature account.
+In this chapter we will create a Multi-Signature account and perform a test transaction from the account.
 
 You will go to the [Accounts in Apps](https://polkadot.js.org/apps/#/accounts)
 
@@ -10,14 +10,14 @@ You will choose your signatures, i.e. your team mates accounts, in our scenario 
 
 ![create-choose-signatures](./assets/create-choose-signatures.png)
 
-Now we gonna top-up **1,000,000** tEDG to the **Team Funding** multi-signature account from **Alice**. Thank you Alice!
+Now we will top-up **1,000,000** tEDG to the **Team Funding** multi-signature account from **Alice**. Thank you Alice!
 
 ![top-up-multisignature](./assets/create-top-up-ms.png)
 
 
 ### Create Transfer from Multi-Signature Account
 
-Now come to the time when Team has need to pay-up for service delivery to the **DAVE** **200,000** tEDG. In our accounts list, hit **Send** from our **Team Funding** account
+Now that the **Team Funding** account has been seeded, we can pay **DAVE** **200,000** tEDG for completion of a project. In our accounts list, hit **Send** from our **Team Funding** account
 
 ![transfer-ms](./assets/transfer-ms.png)
 
