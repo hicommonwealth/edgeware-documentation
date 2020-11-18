@@ -68,6 +68,7 @@
 
 ## Advanced Topics
 
+* [Setup Multi Signature Account](advanced-topics/multi-signature-account/setup-multi-signature-account.md)
 * [Setting Up a Public UI](advanced-topics/setting-up-a-public-ui.md)
 * [Validating on Edgeware](advanced-topics/validating-on-edgeware.md)
 * [Setting Up Monitoring](advanced-topics/setting-up-monitoring.md)
