@@ -7,8 +7,8 @@ Edgeware has magical functionality, that you will **upload your contract once** 
 
 We have deployed few contracts for you to the [Beresheet - our testnet network (open Apps)](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fberesheet1.edgewa.re#/contracts) to make it easy play for you. You will just need download particular metadata (ABI) for particular contract so your browser understands it. 
 
-* 📚 [You can find metadata here]((3/introduction.md))
-* ⛽️ [Faucet](https://beresheet-faucet.vercel.app/)
+* 📚 [You can find metadata here](https://contracts.edgewa.re/#/3/introduction)
+* ⛽️ [Beresheet Faucet](https://beresheet-faucet.vercel.app/)
 * ⛽️ [If faucet doesn't work, visit us at Telegram](https://t.me/edg_developers)
 
 ### Code hashes 

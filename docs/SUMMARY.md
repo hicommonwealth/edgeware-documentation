@@ -23,7 +23,7 @@
   * [Calling Your Contract](quickstart/deploy-a-wasm-contract/calling-your-contract.md)
   * [Live Smart Contracts](quickstart/deploy-a-wasm-contract/live-deployed-smart-contracts.md)
 * [Deploy an EVM Contract](quickstart/deploy-an-evm-contract/evm-introduction.md)
-  * [Setting up a Edgeware EVM node](quickstart/deploy-an-evm-contract/.md)
+  * [Setting up a Edgeware EVM node](quickstart/deploy-an-evm-contract/setting-up-a-local-node.md)
   * [Using Metamask](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-metamask.md)
   * [Using Remix - Ethereum IDE](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-Remix.md)
   * [Using Truffle](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-truffle.md)
