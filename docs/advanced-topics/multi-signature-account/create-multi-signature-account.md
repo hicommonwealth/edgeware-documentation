@@ -33,6 +33,7 @@ It was broadcasted to the chain, you can see notification on the top right.
 ![multi-signature-first-call](./assets/transfer-ms-first-call.png)
 
 Now we click on the right three dots next to our **Team Funding** account as there is multisig approvals pending (*red dot*) and select **Send**
+
 ![multi-signature-second-call](./assets/transfer-ms-second-call.png)
 
 You as other signator (**BOB**) enter same amount and destination to **get same final call payload**.
