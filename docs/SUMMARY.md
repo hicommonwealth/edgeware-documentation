@@ -15,7 +15,20 @@
 * [Set Up a Full Node](quickstart/set-up-a-full-node.md)
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
 * [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract/introduction.md)
+  * [Setup Environment](quickstart/deploy-a-wasm-contract/setup.md)
+  * [Creating an ink Project](quickstart/deploy-a-wasm-contract/creating-an-ink-project.md)
+  * [Building Your Contract](quickstart/deploy-a-wasm-contract/building-your-contract.md)
+  * [Running an Edgeware Node](quickstart/deploy-a-wasm-contract/running-an-edgeware-node.md)
+  * [Deploying Your Contract](quickstart/deploy-a-wasm-contract/deploying-your-contract.md)
+  * [Calling Your Contract](quickstart/deploy-a-wasm-contract/calling-your-contract.md)
+  * [Live Smart Contracts](quickstart/deploy-a-wasm-contract/live-deployed-smart-contracts.md)
 * [Deploy an EVM Contract](quickstart/deploy-an-evm-contract/evm-introduction.md)
+  * [Setting up a Edgeware EVM node](quickstart/deploy-an-evm-contract/.md)
+  * [Using Metamask](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-metamask.md)
+  * [Using Remix - Ethereum IDE](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-Remix.md)
+  * [Using Truffle](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-truffle.md)
+  * [Using Web3](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-web3.md)
+  * [EVM Resources](edgeware-evm-resources.md)
 
 ## Edgeware Runtime
 
@@ -69,6 +82,9 @@
 ## Advanced Topics
 
 * [Setup Multi Signature Account](advanced-topics/multi-signature-account/setup-multi-signature-account.md)
+  * [Create Multi Signature Account](advanced-topics/multi-signature-account/create-multi-signature-account.md)
+  * [Making Transaction with a multi-signature account](advanced-topics/multi-signature-account/making-transaction-with-a-multi-signature-account.md)
+  * [Utilities](advanced-topics/multi-signature-account/utilities.md)
 * [Setting Up a Public UI](advanced-topics/setting-up-a-public-ui.md)
 * [Validating on Edgeware](advanced-topics/validating-on-edgeware.md)
 * [Setting Up Monitoring](advanced-topics/setting-up-monitoring.md)
