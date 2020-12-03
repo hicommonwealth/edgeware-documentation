@@ -58,7 +58,7 @@
 * [WASM Contract Pallet](edgeware-runtime/wasm/README.md)
   * [Introduction](edgeware-runtime/wasm/introduction.md)
 * [EVM](edgeware-runtime/evm/README.md)
-  * [EVM Balances](edgeware-runtime/evm/untitled.md)
+  * [EVM Balances](edgeware-runtime/evm/evm-balances.md)
 * [Staking](edgeware-runtime/staking/README.md)
   * [Intro to Roles in NPoS](edgeware-runtime/staking/intro-to-roles-in-npos.md)
   * [Nominating](edgeware-runtime/staking/nominating.md)
