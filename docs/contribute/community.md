@@ -15,17 +15,17 @@ description: >-
 | [**General Telegram**](https://t.me/heyedgeware) | Announcements, support, general chat. |
 | [Validator Telegram](https://t.me/EdgewareValidators) | Validation, announcements. |
 | [Edgeware Economics TG](https://t.me/edgewareeconomics) | Markets, trollbox, price. |
-| Discord | [https://discord.gg/njDnHDk](https://discord.gg/njDnHDk) |
-| Twitter | [https://twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
-| Edgeware Türkiye | [https://t.me/EdgewareTUR](https://t.me/EdgewareTUR) |
-| Edgeware India | [https://t.me/EdgewareIndia](https://t.me/EdgewareIndia) |
+| Discord | [discord.gg/njDnHDk](https://discord.gg/njDnHDk) |
+| Twitter | [twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
+| Edgeware Türkiye | [t.me/EdgewareTUR](https://t.me/EdgewareTUR) |
+| Edgeware India | [t.me/EdgewareIndia](https://t.me/EdgewareIndia) |
 | Edgeware&Wetez | Chinese lang. Contact WeChat ID kamiesheep for invite. |
 
 ## **Edgeware Community Call \(Monthly\)**
 
 **Monthly on the third Wednesday at 2pm EST**
 
-**Recurring Zoom Link**-- [zoom.us/j/345881968](https://zoom.us/j/345881968)  
+**Recurring Zoom Link** [zoom.us/j/345881968](https://zoom.us/j/345881968)  
 _Meeting ID: 345 881 968_
 
 **Description**  
@@ -35,16 +35,15 @@ Announcing the Edgeware Community Call! Each month the core development team wil
 [
 **View the Entire Edgeware Community Event Calendar on**](https://calendar.google.com/calendar?cid=Y29tbW9ud2VhbHRoLmltX2loYnM4OTJwcXVidm9ndG9pbTZjMWhmN2NrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)[**Google Apps**](https://calendar.google.com/calendar?cid=Y29tbW9ud2VhbHRoLmltX2loYnM4OTJwcXVidm9ndG9pbTZjMWhmN2NrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
-[**View the entire Community Calendar**](https://calendar.google.com/calendar/embed?src=commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com&ctz=America%2FDetroit) [via any Web Browser]([https://calendar.google.com/calendar/embed?src=commonwealth.im\_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com&ctz=America%2FDetroit](https://calendar.google.com/calendar/embed?src=commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com&ctz=America%2FDetroit)\)
+[**View the entire Community Calendar**](https://calendar.google.com/calendar/embed?src=commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com&ctz=America%2FDetroit) [via any Web Browser](https://calendar.google.com/calendar/embed?src=commonwealth.im\_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com&ctz=America%2FDetroit)
 
-[**View the Calendar into other** ](https://calendar.google.com/calendar/ical/commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)[**Apps using iCal/ ics**]([https://calendar.google.com/calendar/ical/commonwealth.im\_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/ical/commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)\)
+[**View the Calendar into other** ](https://calendar.google.com/calendar/ical/commonwealth.im_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)[**Apps using iCal/ ics**](https://calendar.google.com/calendar/ical/commonwealth.im\_ihbs892pqubvogtoim6c1hf7ck%40group.calendar.google.com/public/basic.ics)
 
 ### Forums
 
 | Name | Link | Features |
 | :--- | :--- | :--- |
-| Commonwealth c/Edgeware | [commonwealth.im/edgeware](https://commonwealth.im/edgeware) | Governance, Profiles, Discussion |
-|  |  |  |
+| Commonwealth Edgeware | [commonwealth.im/edgeware](https://commonwealth.im/edgeware) | Governance, Profiles, Discussion |
 
 ### Chat Rooms
 
@@ -57,8 +56,9 @@ It is the wish of Commonwealth Lab that users have access to a variety of platfo
 | **Economics** | [Telegram Group](https://t.me/edgewareeconomics) | Markets, price, trollbox. | No |
 | **Developers** | [Telegram Group](https://t.me/edg_developers) | Developers, Builders, Tooling Question | No |
 | **Smart Contracts** | [Element](https://matrix.to/#/!tYUCYdSvSYPMjWNDDD:matrix.parity.io?via=matrix.parity.io&via=matrix.org&via=web3.foundation) | Builders help around Smart Contracts in ink! | No |
-
-\| **General** \| [Element](https://matrix.to/#/!dQIXacXSBDQsPsWEYR:matrix.org?via=matrix.org&via=matrix.parity.io) \| General except market and price discussion. Tech support. \| No \| \| **Governance** \| [Element](https://matrix.to/#/!LKKkaPSDCjOusugedQ:matrix.org?via=matrix.parity.io&via=matrix.org) \| Governance \| No \| \| **General** \| [Discord Chat](https://discord.gg/Ek8y9rr) \| General, Validation, Tech Support \| Yes \|
+| **General** | [Element](https://matrix.to/#/!dQIXacXSBDQsPsWEYR:matrix.org?via=matrix.org&via=matrix.parity.io) | General except market and price discussion. Tech support. | No | 
+| **Governance** | [Element](https://matrix.to/#/!LKKkaPSDCjOusugedQ:matrix.org?via=matrix.parity.io&via=matrix.org) | Governance | No | 
+| **General** | [Discord Chat](https://discord.gg/Ek8y9rr) | General, Validation, Tech Support | Yes |
 
 ### Social Media and Announcements
 
@@ -77,4 +77,8 @@ It is the wish of Commonwealth Lab that users have access to a variety of platfo
 | **Validators** | [commonwealth.im/edgeware-validators/](https://commonwealth.im/edgeware-validators/) |
 | **Builders** | [commonwealth.im/edgeware/proposal/discussion/371-builders-working-group](https://commonwealth.im/edgeware/proposal/discussion/371-builders-working-group) |
 | **Brand** | [commonwealth.im/edgeware/proposal/discussion/372-brand-working-group](https://commonwealth.im/edgeware/proposal/discussion/372-brand-working-group) |
-
+| **Artists** | [commonwealth.im/edgeware/discussions/wg-artists](https://commonwealth.im/edgeware/discussions/wg-artists) | 
+| **DAO** | [commonwealth.im/edgeware/discussions/wg-DAOs](https://commonwealth.im/edgeware/discussions/wg-DAOs)
+| **Economics** | [commonwealth.im/edgeware/discussions/wg-economics](https://commonwealth.im/edgeware/discussions/wg-economics)
+| **Games** | [commonwealth.im/edgeware/discussions/wg-games](https://commonwealth.im/edgeware/discussions/wg-games)
+| **Partnerships** | [commonwealth.im/edgeware/discussions/wg-partnerships](https://commonwealth.im/edgeware/discussions/wg-partnerships)

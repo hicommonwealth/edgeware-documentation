@@ -34,8 +34,6 @@
 
 * [Community](contribute/community.md)
 * [Develop](contribute/develop/README.md)
-  * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
-  * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
   * [Edgeware Core](contribute/develop/edgeware-core/README.md)
     * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
     * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
