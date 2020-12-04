@@ -30,6 +30,30 @@
   * [Using Web3](quickstart/evm-introduction/interacting-with-a-edgeware-node-using-web3.md)
   * [EVM Resources](quickstart/evm-introduction/evm-resources.md)
 
+## Contribute & Engage
+
+* [Community](contribute/community.md)
+* [Develop](contribute/develop/README.md)
+  * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
+  * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
+  * [Edgeware Core](contribute/develop/edgeware-core/README.md)
+    * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
+    * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
+    * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
+    * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
+  * [Smart Contracts](contribute/develop/smart-contracts/README.md)
+    * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
+    * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
+    * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
+    * [WebAssembly \(Wasm\)](contribute/develop/smart-contracts/webassembly-wasm.md)
+    * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
+    * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+  * [Substrate](contribute/develop/substrate/README.md)
+    * [Exchange Integration](contribute/develop/substrate/exchange-integration.md)
+    * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
+    * [Substrate Documentation](https://substrate.dev/docs/)
+    * [Substrate APIs](https://polkadot.js.org/api/)
+
 ## Edgeware Runtime
 
 * [Balances](edgeware-runtime/balances/README.md)
@@ -107,33 +131,10 @@
 * [Tools and Ecosystem](other-resources/tools-and-ecosystem.md)
 * [Networks and Public Endpoints](other-resources/networks.md)
 * [Exchanges](other-resources/exchanges.md)
-* [Community](other-resources/community.md)
 * [Forum](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
 
-## Contribute
-
-* [Documentation Style Guide](contribute/documentation-style-guide.md)
-* [Code Style Guide](contribute/code-style-guide.md)
-* [Develop](contribute/develop/README.md)
-  * [Substrate News and Resources](https://substrate.dev/awesome-substrate/)
-  * [Solang Solidty-Substrate Compiler](https://github.com/hyperledger-labs/solang)
-  * [Edgeware Core](contribute/develop/edgeware-core/README.md)
-    * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
-    * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
-    * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
-    * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
-  * [Smart Contracts](contribute/develop/smart-contracts/README.md)
-    * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
-    * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
-    * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
-    * [WebAssembly \(Wasm\)](contribute/develop/smart-contracts/webassembly-wasm.md)
-    * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
-    * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
-  * [Substrate](contribute/develop/substrate/README.md)
-    * [Exchange Integration](contribute/develop/substrate/exchange-integration.md)
-    * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
-    * [Substrate Documentation](https://substrate.dev/docs/)
-    * [Substrate APIs](https://polkadot.js.org/api/)
-
+## Style Guide 
+* [Documentation Style Guide](style-guide/documentation-style-guide.md)
+* [Code Style Guide](style-guide/code-style-guide.md)
