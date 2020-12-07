@@ -28,7 +28,7 @@
   * [Using Remix - Ethereum IDE](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-Remix.md)
   * [Using Truffle](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-truffle.md)
   * [Using Web3](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-web3.md)
-  * [EVM Resources](edgeware-evm-resources.md)
+  * [EVM Resources](quickstart/deploy-an-evm-contract/edgeware-evm-resources.md)
 
 ## Contribute & Engage
 
@@ -36,16 +36,8 @@
 * [Develop](contribute/develop/README.md)
   * [Edgeware Core](contribute/develop/edgeware-core/README.md)
     * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
-    * [Node Repo](https://github.com/hicommonwealth/edgeware-node/)
-    * [Homepage Repo](https://github.com/hicommonwealth/edgeware-homepage)
-    * [Docs Repo](https://github.com/hicommonwealth/edgeware-documentation)
   * [Smart Contracts](contribute/develop/smart-contracts/README.md)
-    * [Smart Contracts Module \(SRML\)](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/contracts_module)
-    * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
-    * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
-    * [WebAssembly \(Wasm\)](contribute/develop/smart-contracts/webassembly-wasm.md)
-    * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
-    * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+  * [Frontend](contribute/develop/frontend/README.md)
   * [Substrate](contribute/develop/substrate/README.md)
     * [Exchange Integration](contribute/develop/substrate/exchange-integration.md)
     * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
