@@ -72,8 +72,7 @@
 * [WASM Contract Pallet](edgeware-runtime/wasm/README.md)
   * [Introduction](edgeware-runtime/wasm/introduction.md)
 * [EVM](edgeware-runtime/evm/README.md)
-  * [Untitled](edgeware-runtime/evm/untitled.md)
-  * [Introduction](edgeware-runtime/evm/introduction.md)
+  * [EVM Balances](edgeware-runtime/evm/evm-balances.md)
 * [Staking](edgeware-runtime/staking/README.md)
   * [Intro to Roles in NPoS](edgeware-runtime/staking/intro-to-roles-in-npos.md)
   * [Nominating](edgeware-runtime/staking/nominating.md)
@@ -95,10 +94,10 @@
 
 ## Advanced Topics
 
-* [Setup Multi Signature Account](advanced-topics/multi-signature-account/setup-multi-signature-account.md)
-  * [Create Multi Signature Account](advanced-topics/multi-signature-account/create-multi-signature-account.md)
-  * [Making Transaction with a multi-signature account](advanced-topics/multi-signature-account/making-transaction-with-a-multi-signature-account.md)
-  * [Utilities](advanced-topics/multi-signature-account/utilities.md)
+* [Setup Multi Signature Account](advanced-topics/setup-multi-signature-account/README.md)
+  * [Create Multi Signature Account](advanced-topics/setup-multi-signature-account/create-multi-signature-account.md)
+  * [Making Transaction with a multi-signature account](advanced-topics/setup-multi-signature-account/making-transaction-with-a-multi-signature-account.md)
+  * [Utilities](advanced-topics/setup-multi-signature-account/utilities.md)
 * [Setting Up a Public UI](advanced-topics/setting-up-a-public-ui.md)
 * [Validating on Edgeware](advanced-topics/validating-on-edgeware.md)
 * [Setting Up Monitoring](advanced-topics/setting-up-monitoring.md)
