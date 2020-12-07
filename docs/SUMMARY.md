@@ -16,7 +16,7 @@
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
 * [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract/introduction.md)
   * [Setup Environment](quickstart/deploy-a-wasm-contract/setup.md)
-  * [Creating an ink Project](quickstart/deploy-a-wasm-contract/creating-an-ink-project.md)
+  * [Creating an ink! Project](quickstart/deploy-a-wasm-contract/creating-an-ink-project.md)
   * [Building Your Contract](quickstart/deploy-a-wasm-contract/building-your-contract.md)
   * [Running an Edgeware Node](quickstart/deploy-a-wasm-contract/running-an-edgeware-node.md)
   * [Deploying Your Contract](quickstart/deploy-a-wasm-contract/deploying-your-contract.md)

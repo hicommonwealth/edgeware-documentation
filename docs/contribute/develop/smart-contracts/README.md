@@ -1,7 +1,13 @@
 # Smart Contracts
 
-Edgeware is capable to run EVM and ink! smart contracts. If you are looking how, you can learn at dedicated site to [smart contracts on Edgeware](https://contracts.edgewa.re/) 
+Edgeware is capable to run EVM and ink! smart contracts. If you are looking how, you can learn at dedicated site to [smart contracts on Edgeware](https://contracts.edgewa.re/).
 
+### Community
+
+Edgeware has [wg-builders](https://commonwealth.im/edgeware/discussions/wg-builders) group where you can discuss about your project, aims of developers community on Edgeware, usability and feasibility with Edgeware community developers.
+
+[Do you have any questions? Feel free to join and ask us!](https://t.me/edg_developers)
+There is 
 
 ### Learn
 
