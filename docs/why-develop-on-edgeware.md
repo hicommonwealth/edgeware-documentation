@@ -38,7 +38,7 @@ Several venture-backed projects newly developed on Edgeware, a growing ecosystem
 
 ## Working Groups
 
-[At Commonwealth you can find vibrant working groups that operates on top of Edgeware](https://commonwealth.im/edgeware/). You can find here categories like DeFi, Gaming, Social/DAOs and Tooling & Ecosystem. [You can engage with focused community members through chats](https://github.com/edgeware-builders/awesome-edgeware#working-groups---engage-with-focused-community)
+[At Commonwealth, you can find vibrant working groups that operates on top of Edgeware](https://commonwealth.im/edgeware/). You can find here categories like DeFi, Gaming, Social/DAOs and Tooling & Ecosystem. [You can engage with focused community members through chats](https://github.com/edgeware-builders/awesome-edgeware#working-groups---engage-with-focused-community)
 
 ## Advanced Developer Features
 
