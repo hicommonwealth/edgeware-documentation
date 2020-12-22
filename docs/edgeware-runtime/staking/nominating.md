@@ -172,7 +172,7 @@ Coming soon.
 {% endtab %}
 {% endtabs %}
 
-![](../../.gitbook/assets/image%20%287%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ## See Your Nominated Amounts per Validator
 

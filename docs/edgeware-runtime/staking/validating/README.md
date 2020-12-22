@@ -18,7 +18,7 @@ The illustration represents a typical input to the election process, with nomina
 
 Suppose we need to elect n=4 validators. The fair representation property roughly translates to the rule that any nominator holding at least one n-th of the total stake is guaranteed to have at least one of their trusted validators elected. As the total stake is 40 EDG and a fourth of it is 10 EDG, the first two nominators are guaranteed to be represented by a validator. In the image below we see three possible election results: one that violates the fair representation property and two that achieve it.
 
-![](../../../.gitbook/assets/image%20%282%29%20%281%29.png)
+![](../../../.gitbook/assets/image%20%282%29%20%281%29%20%281%29.png)
 
 **Security**
 

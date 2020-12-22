@@ -19,7 +19,7 @@ Your block explorer may not give the contract title. In this case, transactions 
 
 Click the transaction ID of these to see the final destination of the funds - the MLC does not hold your ETH, but sends it immediately to a newly created LUC. The transaction should show you a trail from your ETH Address - &gt; MLC - &gt; LUC.
 
-![See this example using Etherscan.io](../../.gitbook/assets/screen-shot-2020-02-12-at-4.00.06-pm%20%281%29.png)
+![See this example using Etherscan.io](../../.gitbook/assets/screen-shot-2020-02-12-at-4.00.06-pm.png)
 
 Click into your LUC addresses to check the LUC for balance and contract data.
 {% endtab %}
