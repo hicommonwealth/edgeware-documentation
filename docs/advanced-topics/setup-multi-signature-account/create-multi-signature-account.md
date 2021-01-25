@@ -18,7 +18,7 @@ Now we will top-up **1,000,000** tEDG to the **Team Funding** multi-signature ac
 
 Now that the **Team Funding** account has been seeded, we can pay **DAVE** **200,000** tEDG for completion of a project. In our accounts list, hit **Send** from our **Team Funding** account
 
-![transfer-ms](../../.gitbook/assets/transfer-ms.png)
+![transfer-ms](../../.gitbook/assets/transfer-ms%20%281%29.png)
 
 Now we are prompted \(**as ALICE**\) to authorize transaction.
 
@@ -36,7 +36,7 @@ Now we click on the right three dots next to our **Team Funding** account as the
 
 You as other signator \(**BOB**\) enter same amount and destination to **get same final call payload**.
 
-![multi-signature-transfer](../../.gitbook/assets/transfer-ms.png)
+![multi-signature-transfer](../../.gitbook/assets/transfer-ms%20%281%29.png)
 
 Now we as **BOB** we can authorize transaction. UI is smart enough and detected it's final approval. Under toggle _Multisig message_ you will see same payload as we're creating multisig transaction. Hit Sign and Submit and it's should be signed 2 of 3 signatories which is enough for this scenario so can transaction can pass through to DAVE.
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Why Develop on Edgeware \(WIP\)](why-develop-on-edgeware-wip.md)
+* [Why Develop on Edgeware](why-develop-on-edgeware.md)
 * [Roadmap](roadmap.md)
 
 ## Quickstart
@@ -14,32 +14,32 @@
 * [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
 * [Set Up a Full Node](quickstart/set-up-a-full-node.md)
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
-* [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract/introduction.md)
-  * [Setup Environment](quickstart/deploy-a-wasm-contract/setup.md)
+* [Deploy a WASM Contract](quickstart/deploy-a-wasm-contract/README.md)
+  * [Setup Environment](quickstart/deploy-a-wasm-contract/setup-environment.md)
   * [Creating an ink! Project](quickstart/deploy-a-wasm-contract/creating-an-ink-project.md)
   * [Building Your Contract](quickstart/deploy-a-wasm-contract/building-your-contract.md)
   * [Running an Edgeware Node](quickstart/deploy-a-wasm-contract/running-an-edgeware-node.md)
   * [Deploying Your Contract](quickstart/deploy-a-wasm-contract/deploying-your-contract.md)
   * [Calling Your Contract](quickstart/deploy-a-wasm-contract/calling-your-contract.md)
-  * [Live Smart Contracts](quickstart/deploy-a-wasm-contract/live-deployed-smart-contracts.md)
-* [Deploy an EVM Contract](quickstart/deploy-an-evm-contract/evm-introduction.md)
-  * [Setting up a Edgeware EVM node](quickstart/deploy-an-evm-contract/setting-up-a-local-node.md)
-  * [Using Metamask](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-metamask.md)
-  * [Using Remix - Ethereum IDE](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-Remix.md)
-  * [Using Truffle](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-truffle.md)
-  * [Using Web3](quickstart/deploy-an-evm-contract/interacting-with-a-Edgeware-node-using-web3.md)
+  * [Live Smart Contracts](quickstart/deploy-a-wasm-contract/live-smart-contracts.md)
+* [Deploy an EVM Contract](quickstart/deploy-an-evm-contract/README.md)
+  * [Setting up a Edgeware EVM node](quickstart/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md)
+  * [Using Metamask](quickstart/deploy-an-evm-contract/using-metamask.md)
+  * [Using Remix - Ethereum IDE](quickstart/deploy-an-evm-contract/using-remix-ethereum-ide.md)
+  * [Using Truffle](quickstart/deploy-an-evm-contract/using-truffle.md)
+  * [Using Web3](quickstart/deploy-an-evm-contract/using-web3.md)
   * [EVM Resources](quickstart/deploy-an-evm-contract/edgeware-evm-resources.md)
 
 ## Contribute & Engage
 
-* [Community](contribute/community.md)
-* [Develop](contribute/develop/README.md)
-  * [Edgeware Core](contribute/develop/edgeware-core/README.md)
-    * [Install Edgeware](contribute/develop/edgeware-core/install-edgeware.md)
-  * [Smart Contracts](contribute/develop/smart-contracts/README.md)
-  * [Frontend](contribute/develop/frontend/README.md)
-  * [Substrate](contribute/develop/substrate/README.md)
-    * [Exchange Integration](contribute/develop/substrate/exchange-integration.md)
+* [Community](contribute-and-engage/community.md)
+* [Develop](contribute-and-engage/develop/README.md)
+  * [Edgeware Core](contribute-and-engage/develop/edgeware-core/README.md)
+    * [Install Edgeware](contribute-and-engage/develop/edgeware-core/install-edgeware.md)
+  * [Smart Contracts](contribute-and-engage/develop/smart-contracts.md)
+  * [Frontend](contribute-and-engage/develop/frontend.md)
+  * [Substrate](contribute-and-engage/develop/substrate/README.md)
+    * [Exchange Integration](contribute-and-engage/develop/substrate/exchange-integration.md)
     * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
     * [Substrate Documentation](https://substrate.dev/docs/)
     * [Substrate APIs](https://polkadot.js.org/api/)
@@ -125,6 +125,8 @@
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
 * [Glossary](https://substrate.dev/docs/en/overview/glossary)
 
-## Style Guide 
+## Style Guide
+
 * [Documentation Style Guide](style-guide/documentation-style-guide.md)
 * [Code Style Guide](style-guide/code-style-guide.md)
+
