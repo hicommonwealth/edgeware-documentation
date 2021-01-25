@@ -1,7 +1,7 @@
 # Create an Account 
 
-An adress is the public part of a Edgeware account. The private part is the key used to access this adress. The public and private part together make up a Edgeware account.
-Basic to make transactions and various operation and interacting with Edgeware chain, you need to have created Account. 
+An address is the public part of a Edgeware account. The private part is the key used to access this address. The public and private part together make up a Edgeware account.
+To interact with Edgeware chain create such as creating basic transactions and various operation, you need to have created Account. 
 
 There are several ways to generate a Edgeware account:
 
