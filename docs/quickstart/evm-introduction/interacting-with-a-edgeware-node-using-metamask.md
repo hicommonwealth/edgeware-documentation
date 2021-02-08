@@ -18,9 +18,9 @@ Once completed, we will import our dev account. For easier interaction, you can 
 
 We have prefunded developer account for this purpose:
 
-Private Key: `99B3C12287537E38C90A9219D4CB074A89A16E9CDB20BF85728EBD97C343E342`
+Private Key: `1111111111111111111111111111111111111111111111111111111111111111`
 
-Address: `0x6Be02d1d3665660d22FF9624b7BE0551ee1Ac91b`
+Address: `0x19e7e376e7c213b7e7e7e46cc70a5dd086daff2a`
 
 On the import screen, select **"Private Key"** and paste there private key listed above and hit **Import**:
 
@@ -36,7 +36,7 @@ Now let's connect MetaMask to our locally running Edgeware EVM node. On upper ri
 
 ![Metamask-Custom-RPC](../../.gitbook/assets/mm-custom-rpc.png)
 
-Put there credentials Network Name: `Edgeware EVM` New RPC URL: `http://127.0.0.1:9933` ChainID: `42`
+Put there credentials Network Name: `Edgeware EVM` New RPC URL: `http://127.0.0.1:9933` ChainID: `2021`
 
 and hit **Save** button. Your can see it in figure below
 
