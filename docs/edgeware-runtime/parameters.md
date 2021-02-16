@@ -16,7 +16,7 @@ This page reflects the runtime [file of the chain viewable at Github](https://gi
 | **Parameter** | Value | Description |
 | :--- | :--- | :--- |
 | **Reaping Threshold** | 0.001 EDG | The minimum EDG required in the account balance to create or maintain an account. |
-| **Transaction Minimum** | ??? | The Min. amount you can send to an Edgeware Address. |
+| **Transaction Minimum** | 1e-18 | The Min. amount you can send to an Edgeware Address. |
 
 ## Consensus
 
@@ -70,7 +70,7 @@ It may be out of date on this page, refer to the link above for most up to date 
 
 | **Parameter** | Value | Description |
 | :--- | :--- | :--- |
-| **Validator Slots** | 60 | The total number of slots for active validation. |
+| **Validator Slots** | 110 | The total number of slots for active validation. |
 | **Validator Bonding Duration** | 28 hours | How long until you can unbond your funds after staking |
 | **Slash Deferral Duration** | 28 Eras \(7 days\) | Prevents overslashing and validators "escaping" and getting their nominators slashed with no repercussions to themselves |
 | **Slash Cancellation Vote** | Requires 3/4 of Council to Approve |  |
@@ -83,9 +83,9 @@ It may be out of date on this page, refer to the link above for most up to date 
 | :--- | :--- | :--- |
 | **Launch Period** | 7 days | How long the public can select which proposal to hold a referendum on. i.e., Every week, the highest-weighted proposal will be selected to have a referendum |
 | **Voting Period** | 7 days | How long the public can vote on a referendum. |
-| **Enactment Delay** | 10 days | Time it takes for a successful referendum to be implemented on the network. |
+| **Enactment Delay** | 8 days | Time it takes for a successful referendum to be implemented on the network. |
 | **Passing Vote Criteria** | Supermajority to pass |  |
-| **Fast Track Voting Period** | Not active |  |
+| **Fast Track Voting Period** | 3 days | Minimum voting period allowed for an emergency referendum. |
 | **Veto** | Not active |  |
 | **Proposal Cancellation Vote** | 2/3 of council to Approve Cancellation |  |
 | **Cool-off Period after Proposal Cancellation** | 7 days | The time a veto from the technical committee lasts before the proposal can be submitted again. |
@@ -97,12 +97,12 @@ The schedule of weight boosts on a quadratic curve - meaning that exponentially 
 | Vote Weight | Locktime |
 | :--- | :--- |
 | 0.1x | None |
-| 1x | 1x Enactment Period \(10 days\) |
-| 2x | 2x Enactment Period \(20 days\) |
-| 3x | 4x Enactment Period \(40 days\) |
-| 4x | 8x Enactment Period \(80 days\) |
-| 5x | 16x Enactment Period \(160 days\) |
-| 6x | 32x Enactment Period \(320 days\) |
+| 1x | 1x Enactment Period \(8 days\) |
+| 2x | 2x Enactment Period \(16 days\) |
+| 3x | 4x Enactment Period \(32 days\) |
+| 4x | 8x Enactment Period \(64 days\) |
+| 5x | 16x Enactment Period \(128 days\) |
+| 6x | 32x Enactment Period \(256 days\) |
 
 ## Council Elections
 
