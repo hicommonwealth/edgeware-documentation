@@ -33,9 +33,9 @@ These parameters can change based on governance. Refer to [Network Parameters](h
 | :--- | :--- | :--- |
 | Launch Period | 7 days | How often new public referenda are selected by seconding actions and launched to the public for active vote. |
 | Voting Period | 7 days | How often votes for referenda are tallied. |
-| Emergency Voting Period | Inactive Feature | The minimum voting period for a fast-tracked emergency referendum. \(aka Fast Track\) |
+| Emergency Voting Period | 3 days | The minimum voting period for a fast-tracked emergency referendum. \(aka Fast Track\) |
 | Minimum Deposit | 100 EDG | The minimum amount to be used as a deposit for a public referendum proposal. |
-| Enactment Period | 10 days | The minimum time period for locking funds _and_ the period between a proposal being approved and enacted |
+| Enactment Period | 8 days | The minimum time period for locking funds _and_ the period between a proposal being approved and enacted |
 | Cool off Period | 7 days | The time period where a proposal may not be re-submitted after being vetoed. |
 
 \*\*\*\*
