@@ -14,7 +14,7 @@ We setup completely new site for this purpose at [contracts.edgewa.re](https://g
 
 ## Resources
 
-* [Smart Contracts Module \(SRML\)](https://www.srmlhub.com/)
+* [Smart Contracts vs Runtime Modules](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview#smart-contracts-vs-runtime-modules)
 * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
 * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
 * [WebAssembly \(Wasm\)](https://github.com/hicommonwealth/edgeware-documentation/tree/58645d7870426b3415b2350203856680148569e1/docs/contribute/develop/smart-contracts/contribute/develop/smart-contracts/webassembly-wasm.md)
