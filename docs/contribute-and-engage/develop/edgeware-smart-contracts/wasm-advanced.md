@@ -4,7 +4,7 @@ Here we will proceed to more advanced tutorials. We are preparing content. 🏗
 
 Meantime you can [have look on ready-made examples](https://github.com/hicommonwealth/ink/tree/master/examples)
 
-#### [Fast track](https://contracts.edgewa.re/#/3/introduction?id=fast-track) <a id="fast-track"></a>
+#### Fast track <a id="fast-track"></a>
 
 If you want to play, we compiled WASM and generated metadata for you
 

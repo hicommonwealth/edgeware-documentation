@@ -1,6 +1,6 @@
 # EVM Basics
 
-## [Introduction](https://contracts.edgewa.re/#/4/evm-introduction?id=introduction) <a id="introduction"></a>
+## Introduction <a id="introduction"></a>
 
 This chapter will get you started developing smart contracts with Edgeware EVM.
 
