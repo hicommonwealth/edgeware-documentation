@@ -15,13 +15,13 @@ We are going to start a new project for the Incrementer contract we will build i
 So go into your working directory and run:
 
 ```text
-cargo contract new incrementerCopy to clipboardErrorCopied
+cargo contract new incrementer
 ```
 
 Just like before, this will create a new project folder named `incrementer` which we will use for the rest of this chapter.
 
 ```text
-cd incrementer/Copy to clipboardErrorCopied
+cd incrementer/
 ```
 
 In the `lib.rs` file, replace the "Flipper" contract source code with the template code provided here.
@@ -29,19 +29,19 @@ In the `lib.rs` file, replace the "Flipper" contract source code with the templa
 Quickly check that it compiles and the trivial test passes with:
 
 ```text
-cargo +nightly testCopy to clipboardErrorCopied
+cargo +nightly test
 ```
 
 Also check that you can build the Wasm file by running:
 
 ```text
-cargo +nightly contract buildCopy to clipboardErrorCopied
+cargo +nightly contract build
 ```
 
 If everything looks good, then we are ready to start programming!
 
 {% tabs %}
-{% tab title="Potential Solution" %}
+{% tab title="✅Potential Solution" %}
 {% code title="lib.rs" %}
 ```rust
 #![cfg_attr(not(feature = "std"), no_std)]

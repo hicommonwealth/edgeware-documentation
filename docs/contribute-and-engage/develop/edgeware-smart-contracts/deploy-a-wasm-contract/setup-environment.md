@@ -7,7 +7,7 @@ Substrate Prerequisites
 
 To get started, you need to make sure your computer is set up to build Substrate. If you are using **OSX** or most popular **Linux** distros, you can do it by running:
 
-```text
+```bash
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 ```
 
@@ -28,5 +28,7 @@ cargo install --git https://github.com/hicommonwealth/cargo-contract cargo-contr
 
 You can then use `cargo contract --help` to start exploring the commands made available to you.
 
-**Note:** The ink! CLI is under heavy development and some of its commands are not implemented, yet!
+{% hint style="warning" %}
+ **Note:** The ink! CLI is under heavy development and some of its commands are not implemented, yet!
+{% endhint %}
 

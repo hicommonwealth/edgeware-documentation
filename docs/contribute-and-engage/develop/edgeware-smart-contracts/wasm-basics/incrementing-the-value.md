@@ -19,7 +19,7 @@ impl MyContract {
     pub fn my_setter(&mut self, new_value: u32) {
         self.my_number = new_value;
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 ### Lazy Storage Values <a id="lazy-storage-values"></a>
@@ -52,7 +52,7 @@ impl MyContract {
         let cur = ink_storage::Lazy::<u32>::get(my_number);
         ink_storage::Lazy::<u32>::set(my_number, cur + add_value);
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 ### Your Turn <a id="your-turn"></a>

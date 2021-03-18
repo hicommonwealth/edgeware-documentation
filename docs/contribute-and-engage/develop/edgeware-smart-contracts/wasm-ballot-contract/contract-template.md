@@ -31,7 +31,7 @@ Unlike our contract struct `Ballot` we don't use the macro `ink(storage)` for ou
 
 `ink_pelude` crate provides data structures such as `HashMap`, `Vector` etc.. to operate on contract memory during contract execution. We will be importing these collections in next parts of this tutorial so before moving forward update contract's cargo.toml file with following dependency: `ink_prelude = { version = "3.0.0-rc2", default-features = false }`
 
-### [Compilaton and Warnings](https://contracts.edgewa.re/#/5/contract-template?id=compilaton-and-warnings) <a id="compilaton-and-warnings"></a>
+### Compilaton and Warnings <a id="compilaton-and-warnings"></a>
 
 You can build the contract using `cargo +nightly build` and run tests using `cargo +nightly test`. The contract will successfully compile and pass all tests, but the rust compiler will give you the following warnings:
 

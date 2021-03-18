@@ -9,7 +9,7 @@ As you can see in the contract template, all of your contract functions are part
 ```rust
 impl MyContract {
     // Public and Private functions can go here
-}Copy to clipboardErrorCopied
+}
 ```
 
 #### Public and Private Functions <a id="public-and-private-functions"></a>
@@ -30,7 +30,7 @@ impl MyContract {
     }
 
     /* --snip-- */
-}Copy to clipboardErrorCopied
+}
 ```
 
 You can also choose to split things up however is most clear for your project.
@@ -60,7 +60,7 @@ where
     pub fn set(&mut self, val: T) {
         self.cell.set(val);
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 In that same file, you can find the other APIs exposed by storage values, however these three are the most commonly used.
@@ -69,13 +69,13 @@ In that same file, you can find the other APIs exposed by storage values, howeve
 
 We already showed you how to initialize a storage value. Getting the value is just as simple:
 
-```text
+```rust
 impl MyContract {
     #[ink(message)]
     fn my_getter(&self) -> u32 {
         self.number
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 In Rust, if the last expression in a function does not have a semicolon, then it will be the return value.

@@ -12,7 +12,7 @@ pub struct MyContract {
     // Store some number
     my_number: u32,
 }
-/* --snip-- */Copy to clipboardErrorCopied
+/* --snip-- */
 ```
 
 ### Supported Types <a id="supported-types"></a>
@@ -22,7 +22,7 @@ Contract may store types that are encodable and decodable with [Parity Codec](ht
 ink! provides smart contracts Substrate specific types like `AccountId`, `Balance`, and `Hash` as if they were primitive types. Also ink! provides storage types for more elaborate storage interactions through the storage module:
 
 ```rust
-use ink_storage::collections::{Vec, HashMap, Stash, Bitvec};Copy to clipboardErrorCopied
+use ink_storage::collections::{Vec, HashMap, Stash, Bitvec};
 ```
 
 Here is an example of how you would store an `AccountId` and `Balance`:
@@ -43,7 +43,7 @@ mod MyContract {
         my_balance: Balance,
     }
     /* --snip-- */
-}Copy to clipboardErrorCopied
+}
 ```
 
 You can find all the supported Substrate types in [`crates/storage/src/lib.rs`](https://github.com/paritytech/ink/blob/master/crates/storage/src/lib.rs).
@@ -83,7 +83,7 @@ mod mycontract {
         }
     /* --snip-- */
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 ### [Your Turn!](https://contracts.edgewa.re/#/1/storing-a-value?id=your-turn) <a id="your-turn"></a>

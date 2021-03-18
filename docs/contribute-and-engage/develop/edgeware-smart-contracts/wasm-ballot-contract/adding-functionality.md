@@ -1,7 +1,5 @@
 # Adding Functionality
 
-
-
 In this part we will add functionality to our Ballot so that:
 
 * People can vote on proposals

@@ -36,15 +36,18 @@ Smart contracts exist as an extension of the account system on the blockchain. T
 
 To instantiate our contract we just need to give this contract account an _**endowment**_ of `10 Units` in order to pay the storage rent and set the _**maximum gas allowed**_ to value\(`1,000,000`\):
 
-![docsdeploy2](https://user-images.githubusercontent.com/32852637/111108637-a69a0180-852f-11eb-8536-3172307771ed.PNG)
+![](https://user-images.githubusercontent.com/32852637/111108637-a69a0180-852f-11eb-8536-3172307771ed.PNG)
 
-> **Note:** As mentioned earlier, contract creation involves creation of a new Account. As such, you must be sure to give the contract account at least the existential deposit defined by your blockchain. We also need to be able to pay the contract's rent \(**`endowment`**\). If we consume all of this deposit, the contract will become invalid. We can always refill the contract's balance and keep it on chain.
+{% hint style="info" %}
+  
+**Note:** As mentioned earlier, contract creation involves creation of a new Account. As such, you must be sure to give the contract account at least the existential deposit defined by your blockchain. We also need to be able to pay the contract's rent \(**`endowment`**\). If we consume all of this deposit, the contract will become invalid. We can always refill the contract's balance and keep it on chain.
+{% endhint %}
 
 You will then **authorize** the contract, by **signing and submitting**. You can also choose to leave a tip for the block author if you'd like.
 
-![docsdeploy3](https://user-images.githubusercontent.com/32852637/111108711-ca5d4780-852f-11eb-8f27-b482aacabfeb.PNG)
+![](https://user-images.githubusercontent.com/32852637/111108711-ca5d4780-852f-11eb-8f27-b482aacabfeb.PNG)
 
 When you press **Deploy**, you should see a flurry of events appear including the creation of a new account \(`system.NewAccount`\) and the instantiation of the contract \(`contracts.instantiate`\):
 
-![docsdeploy4](https://user-images.githubusercontent.com/32852637/111108864-0f817980-8530-11eb-9a43-da24dc192bfa.PNG)
+![](https://user-images.githubusercontent.com/32852637/111108864-0f817980-8530-11eb-9a43-da24dc192bfa.PNG)
 

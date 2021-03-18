@@ -15,7 +15,7 @@ Here is an example of a mapping from user to a number:
 pub struct MyContract {
     // Store a mapping from AccountIds to a u32
     my_number_map: ink_storage::collections::HashMap<AccountId, u32>,
-}Copy to clipboardErrorCopied
+}
 ```
 
 This means that for a given key, you can store a unique instance of a value type. In this case, each "user" gets their own number, and we can build logic so that only they can modify their own number.
@@ -90,7 +90,7 @@ mod mycontract {
             *balance
         }
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 Here we see that after we `get` the value from `my_number_map` we call `unwrap_or` which will either `unwrap` the value stored in storage, _or_ if there is no value, return some known value. Then, when building functions that interact with this HashMap, you need to always remember to call this function rather than getting the value directly from storage.
@@ -132,7 +132,7 @@ mod mycontract {
             *value
         }
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 ### Contract Caller <a id="contract-caller"></a>
@@ -167,7 +167,7 @@ mod mycontract {
         }
         /* --snip-- */
     }
-}Copy to clipboardErrorCopied
+}
 ```
 
 Then you can write permissioned functions which checks that the current caller is the owner of the contract.
