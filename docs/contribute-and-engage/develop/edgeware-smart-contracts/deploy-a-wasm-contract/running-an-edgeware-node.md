@@ -32,9 +32,9 @@ To point the UI to your local node, you need to adjust the **Settings.** Just se
 Click on the chain name > Development node/endpoint to connect to > Local Node (127.0.0.1:9944) > Switch
 ```
 
-![switch-to-localhost](https://user-images.githubusercontent.com/32852637/111102434-75670480-8522-11eb-9d23-e0f651e30fc9.png)
+![](https://user-images.githubusercontent.com/32852637/111102434-75670480-8522-11eb-9d23-e0f651e30fc9.png)
 
 If you go into the **Explorer** tab of the UI, you should also see blocks being produced!
 
-![block-explorer-edgeware](https://user-images.githubusercontent.com/32852637/111102554-beb75400-8522-11eb-90d4-d17ab54faff8.png)
+![](https://user-images.githubusercontent.com/32852637/111102554-beb75400-8522-11eb-90d4-d17ab54faff8.png)
 

@@ -26,7 +26,7 @@ Under the **Developer** tab click on the specially designed [Contracts](https://
 In the **Contracts** section, select **"Upload & deploy code"**.   
 
 
-![contracts\_ss1](https://user-images.githubusercontent.com/32852637/111106282-2ec9d800-852b-11eb-8e31-6a0af519f0fe.jpg)
+![](https://user-images.githubusercontent.com/32852637/111106282-2ec9d800-852b-11eb-8e31-6a0af519f0fe.jpg)
 
 In the popup, select a _**deployment account**_ with some account balance, like `Dave`. For the _**contract's metadata**_, select the JSON file. In _**compiled contract WASM**_, select the `flipper.wasm` file we generated. The code bundle name will be "flipper". Once all the parameters are filled, click **Next**. ![docsdeploy1](https://user-images.githubusercontent.com/32852637/111107417-2f636e00-852d-11eb-8fe4-2a665627685d.PNG)
 
