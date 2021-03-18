@@ -1,2 +1,2 @@
-# Storing a Value
+# Storing a Mapping
 

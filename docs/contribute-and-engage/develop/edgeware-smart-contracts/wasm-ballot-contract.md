@@ -1,2 +1,0 @@
-# WASM Ballot Contract
-
