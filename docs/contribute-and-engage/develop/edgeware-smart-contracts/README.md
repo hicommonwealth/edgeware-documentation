@@ -50,6 +50,17 @@ All our rooms are bridged so you can come in comfortable with your prefered chat
 * [Twitter.com/heyedgeware](https://twitter.com/heyedgeware)
 * [Twitter.com/edg\_developers](https://twitter.com/edg_developers)
 
+
+
+### Resources
+
+* [Smart Contracts vs Runtime Modules](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview#smart-contracts-vs-runtime-modules)
+* [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
+* [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
+* [WebAssembly \(Wasm\)](https://github.com/hicommonwealth/edgeware-documentation/tree/58645d7870426b3415b2350203856680148569e1/docs/contribute/develop/smart-contracts/contribute/develop/smart-contracts/webassembly-wasm.md)
+* [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
+* [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+
 [  
 ](https://contracts.edgewa.re/#/0/introduction)
 

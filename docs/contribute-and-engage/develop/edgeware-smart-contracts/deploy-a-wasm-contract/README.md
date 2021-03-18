@@ -1,4 +1,4 @@
-# Deploy a WASM Contract
+# WASM Setup
 
 ### Introduction
 
