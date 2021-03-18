@@ -4,9 +4,9 @@ Any potential validators can indicate their intention to be a validator candidat
 
 There are no particular requirements for a EDG holder to become a nominator, though we expect each nominator to carefully track the performance and reputation of validators. This guide will cover how to nominate validators in the Edgeware ecosystem.
 
-Once nominated, you will see your nominations as 'Waiting nominations' which will change to 'Active nominations' after an era(6 hours of period).
+Once nominated, you will see your nominations as 'Waiting nominations' which will change to 'Active nominations' after an era\(6 hours of period\).
 
-For all the nominations older than an era(6 hours), the NPoS election mechanism takes the nominators and their associated votes as input, and outputs a set of validators of the required size, that maximizes the stake backing of any validator, and that makes the stakes backing validators as evenly distributed as possible.
+For all the nominations older than an era\(6 hours\), the NPoS election mechanism takes the nominators and their associated votes as input, and outputs a set of validators of the required size, that maximizes the stake backing of any validator, and that makes the stakes backing validators as evenly distributed as possible.
 
 Based on [Sequential Phragmén election algorithm](https://wiki.polkadot.network/docs/en/learn-phragmen) your stake gets dispersed in different proportions to any subset or all of the validators your choose.
 
@@ -21,7 +21,7 @@ Nominating a Validator means that you delegate your EDG to be used for their val
 {% endhint %}
 
 {% tabs %}
-{% tab title="Using the Polkadot.js UI (Polkadot Apps)" %}
+{% tab title="Using the Polkadot.js UI \(Polkadot Apps\)" %}
 ### Step 1: Bond your tokens <a id="step-1-bond-your-tokens"></a>
 
 **Prerequisites:**
@@ -33,7 +33,7 @@ Nominating a Validator means that you delegate your EDG to be used for their val
 On the [Polkadot Apps UI](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/) navigate to the "Staking" option under "Network" tab.
 
 {% hint style="info" %}
-Ensure you are connected to Edgeware network on the Polkadot Apps UI, instead of Polkadot or any other Substrate network. (Current network name can be found on the top-left corner.)
+Ensure you are connected to Edgeware network on the Polkadot Apps UI, instead of Polkadot or any other Substrate network. \(Current network name can be found on the top-left corner.\)
 {% endhint %}
 
 The "Staking Overview" subsection will show you all the active validators and their information - points \(reliability\), earnings, identities, etc. The "Waiting" subsection lists all pending validators that need more nominations to enter the active validator set.
@@ -44,12 +44,11 @@ The "Payouts" subsection allows you to claim rewards from staking.
 
 The "Targets" subsection will help you estimate your earnings and this is where you can also pick favorite validators and nominate selected ones conveniently.
 
-The "Waiting" subsection lists all pending validators that are awaiting more nominations to enter the active validator set. Validators will stay in the waiting queue until they have enough EDG backing them (as allocated through the [Phragmén election mechanism](https://wiki.polkadot.network/docs/en/learn-phragmen)). It is also possible that a validator can remain in the queue for a very long time if they never get enough backing.
+The "Waiting" subsection lists all pending validators that are awaiting more nominations to enter the active validator set. Validators will stay in the waiting queue until they have enough EDG backing them \(as allocated through the [Phragmén election mechanism](https://wiki.polkadot.network/docs/en/learn-phragmen)\). It is also possible that a validator can remain in the queue for a very long time if they never get enough backing.
 
 The "Validator Stats" subsection allows you to query a validator's stash address and see historical charts on era points, elected stake, rewards, and slashes.
 
 Pick "Account Actions", then click the "+ Stash" option you will find on right hand side.
-
 
 ![Bonding](https://guide.kusama.network/en/latest/img/NPoS/nominate2.png)
 
@@ -70,7 +69,7 @@ Choose whatever payment destination sounds good to you. If you're unsure choose 
 
 You are now bonded. Being bonded means your tokens are locked and **could be** [**slashed**](https://wiki.polkadot.network/docs/en/learn-staking#slashing) **if the validators you nominate misbehave**. All bonded funds can now be distributed to up to 16 validators. Be careful about the validators you choose since you will be slashed if your validator commits an offense.
 
-In the "Account actions" sub-tab you will find "Nominate" option corresponding to your stash(the account you've bonded) and  upon clicking you will be presented with another popup asking you to select the intended validators, alternatively you can enter the validating address(es) of the validator(s) you wish to nominate.
+In the "Account actions" sub-tab you will find "Nominate" option corresponding to your stash\(the account you've bonded\) and upon clicking you will be presented with another popup asking you to select the intended validators, alternatively you can enter the validating address\(es\) of the validator\(s\) you wish to nominate.
 
 {% hint style="info" %}
 Is your Nominate or Send button greyed out or not visible? Incase your are using the Polkadot JS extension, check your extension settings to ensure you have set the default network to Edgeware. Also make sure that you have both stash and controller accounts imported.
@@ -78,7 +77,7 @@ Is your Nominate or Send button greyed out or not visible? Incase your are using
 
 ![Nominating validators](https://guide.kusama.network/en/latest/img/NPoS/nominate.png)
 
-Select them, confirm the transaction, and you're done - you are now nominating. Your stash will start generating staking rewards within an era (6 hours). You will notice your balance increasing whenever a validator or any nominator corresponding to it claims a payout (on behalf of every corresponding nominators).
+Select them, confirm the transaction, and you're done - you are now nominating. Your stash will start generating staking rewards within an era \(6 hours\). You will notice your balance increasing whenever a validator or any nominator corresponding to it claims a payout \(on behalf of every corresponding nominators\).
 
 ### Step 3: Stop nominating
 
@@ -99,7 +98,7 @@ Coming soon.
 
 ## Stop Being a Nominator \(unbond\)
 
-The following guide describes how to stop nominating and then unbond to retrieve your EDGs. 
+The following guide describes how to stop nominating and then unbond to retrieve your EDGs.
 
 On the [Polkadot Apps UI](https://polkadot.js.org/apps), **connect to the Edgeware endpoint**, navigate to the "Staking" option under "Network" tab.
 
@@ -123,6 +122,7 @@ After you confirm this transaction, your EDGs will remain _bonded_ until the unb
 
 ![Unbonding duration](https://wiki.polkadot.network/img/NPoS/unbond4.png)
 
-Once the 14 days of unbonding period passes, you will have to issue another(final) transaction/extrinsic: withdrawUnbonded. You can prompt this transaction/extrinsic by simply clicking on the lock symbol corresponding to your stash in "Account actions" sub-tab.
+Once the 14 days of unbonding period passes, you will have to issue another\(final\) transaction/extrinsic: withdrawUnbonded. You can prompt this transaction/extrinsic by simply clicking on the lock symbol corresponding to your stash in "Account actions" sub-tab.
 
 Then, your transferrable balance will increase by the amount of tokens you've just fully unbonded.
+

@@ -1,38 +1,45 @@
 # Building Your Contract
 
-<p>Run the following command to compile your smart contract:</p>
+Run the following command to compile your smart contract:
 
-<pre><code>cargo +nightly contract build</code></pre>
+```text
+cargo +nightly contract build
+```
 
-<p>This special command will turn your ink! project into a Wasm binary which you can deploy to your chain. If all goes well, you should see a <code>target</code> folder which contains this <code>.wasm</code> file.</p>
+This special command will turn your ink! project into a Wasm binary which you can deploy to your chain. If all goes well, you should see a `target` folder which contains this `.wasm` file.
 
-<pre>
-  <code>
+```text
+
+  
   target
   └── flipper.wasm
-  </code>
-</pre>
-
-<h2>Contract Metadata</h2>
-
-<p>By running the next command we'll generate the contract metadata (a.k.a. the contract ABI):</p>
-
-<pre><code>cargo +nightly contract generate-metadata</code></pre>
-
-<p>You should have a new JSON file (<code>metadata.json</code>) in the same target directory:
   
-<pre>
-  <code>
+```
+
+## Contract Metadata
+
+By running the next command we'll generate the contract metadata \(a.k.a. the contract ABI\):
+
+```text
+cargo +nightly contract generate-metadata
+```
+
+You should have a new JSON file \(`metadata.json`\) in the same target directory:
+
+```text
+
+  
   target
   ├── flipper.wasm
   └── metadata.json
-  </code>
-</pre>
+  
+```
 
-<p>Let's take a look at the structure inside:</p>
+Let's take a look at the structure inside:
 
-<pre>
-  <code>
+```text
+
+  
   {
   "metadataVersion": "0.1.0",
   "source": {
@@ -44,7 +51,7 @@
     "name": "flipper",
     "version": "0.1.0",
     "authors": [
-      "[your_name] <[your_email]>"
+      "[your_name] "
     ]
   },
   "spec": {
@@ -143,45 +150,25 @@
     }
   ]
 }
-  </code>
-    </pre>
+  
+```
 
-<p>You can see that this file describes all the interfaces that can be used to interact with your contract.</p>
+You can see that this file describes all the interfaces that can be used to interact with your contract.
 
-  <ul>
-  <li>Registry provides the <strong>strings</strong> and custom <strong>types</strong> used throughout the rest of the JSON.</li>
-  <li>Storage defines all the <strong>storage</strong> items managed by your contract and how to ultimately access them.</li>
-  <li>Contract stores information about the callable functions like <strong>constructors</strong> and <strong>messages</strong> a user can call to interact with your contract.     It also has helpful information like the <strong>events/strong> that are emitted by the contract or any <strong>docs.</strong></li>
-  </ul>
+* Registry provides the **strings** and custom **types** used throughout the rest of the JSON.
+* Storage defines all the **storage** items managed by your contract and how to ultimately access them.
+* Contract stores information about the callable functions like **constructors** and **messages** a user can call to interact with your contract. It also has helpful information like the **events/strong&gt; that are emitted by the contract or any docs.**
+
+If you look close at the constructors and messages, you will also notice a `selector` which is a 4-byte hash of the function name and is used to route your contract calls to the correct functions.
+
+**Learn More**
+
+ink! provides a built-in overflow protection enabled on our `Cargo.toml` file. It is recommended to keep it enabled to prevent potential overflow errors in your contract.
+
+```text
+
   
-  <br>
-  
-  <p>If you look close at the constructors and messages, you will also notice a <code>selector</code> which is a 4-byte hash of the function name and is used to route your contract calls to the correct functions.
-  
- <hr>
- 
- <p><strong>Learn More</strong></p>
- 
- <p>ink! provides a built-in overflow protection enabled on our <code>Cargo.toml</code> file. It is recommended to keep it enabled to prevent potential overflow errors in your contract.</p>
- 
- <pre>
-  <code>
     [profile.release]
-    panic = "abort"           <-- Panics shall be treated as aborts: reduces binary size
-    lto = true                <-- enable link-time-optimization: more efficient codegen
-    opt-level = "z"           <-- Optimize for small binary output
-    overflow-checks = true    <-- Arithmetic overflow protection
-  <code>
- </pre>
- 
- <hr>
-
-  
-
-
-
-
-
-
-
+    panic = "abort"           
+```
 

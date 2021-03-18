@@ -20,13 +20,13 @@ Next, confirm the accounts you want to send from and send to, using the address 
 
 Once the amount is entered and all the information is reviewed and confirmed \(treat cryptocurrency transactions as irreversible, so be careful,\) click "Make Transfer."
 
-![](../.gitbook/assets/screen-shot-2020-02-10-at-9.39.14-am%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-9.39.14-am%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 You will see a screen similar to this next, where you can see you transaction fees, can include a tip to the validator who authors the block for faster processing of the transaction \(uncommon,\) and otherwise confirm the send by signing the transaction.
 
 Advanced: You can also pre-sign but _not_ submit this transaction to the network \(uncommon\) by using the bottom left 'Sign and Submit' toggle and entering a nonce and a duration for the validity of the signed transaction.
 
-![](../.gitbook/assets/screen-shot-2020-02-10-at-9.43.14-am%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-9.43.14-am%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 Once you hit sign and submit, your Polkadot.js browser extension will open a popup for your account password for the 'send from' account, and you will sign the transaction from your wallet.
 
