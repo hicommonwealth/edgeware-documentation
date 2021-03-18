@@ -13,7 +13,7 @@ Over the course of the chapter, we will cover:
 
 But first, we will go over the ERC20 standard for those of you who are not familiar.
 
-### [ERC20 Standard](https://contracts.edgewa.re/#/2/introduction?id=erc20-standard) <a id="erc20-standard"></a>
+### ERC20 Standard <a id="erc20-standard"></a>
 
 The [ERC20 token standard](https://eips.ethereum.org/EIPS/eip-20) defines the interface for the most popular Ethereum smart contract.
 
