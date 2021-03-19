@@ -6,7 +6,7 @@ This guide walks through the process of using Web3 to manually sign and send a t
 
 ## Checking Prerequisities
 
-Installed [Nodejs](https://nodejs.org/en/) and particular package manager like [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm), rest we have batteries included in this tutorial. This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/tree/212a12c64a2cd6ea385a460b293f703c3825f452/docs/quickstart/deploy-an-evm-contract/4/setting-up-a-local-node.md).
+Installed [Nodejs](https://nodejs.org/en/) and particular package manager like [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm), rest we have batteries included in this tutorial. This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/setting-up-a-local-node.md).
 
 ```text
 git clone https://github.com/edgeware-builders/tutorials tutorials;cd tutorials/web3;yarn
