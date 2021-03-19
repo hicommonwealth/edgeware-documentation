@@ -4,7 +4,7 @@
 
 This guide walks through the process of deploying a Solidity-based smart contract to a Edgeware node using [Truffle](https://www.trufflesuite.com/docs). [Truffle](https://www.trufflesuite.com/docs) is one of the commonly used development tools for smart contracts on Ethereum. Given Edgeware's Ethereum compatibility features, Truffle can be used directly with a Edgeware node.
 
-This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/tree/212a12c64a2cd6ea385a460b293f703c3825f452/docs/quickstart/deploy-an-evm-contract/4/setting-up-a-local-node.md).
+This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/setting-up-a-local-node.md).
 
 ## Environment Prerequisites
 
