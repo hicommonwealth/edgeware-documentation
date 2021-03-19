@@ -4,7 +4,7 @@
 
 This guide walks through the process of creating and deploying a Solidity-based smart contract to a Edgeware dev node using the [Remix IDE](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum. Given Edgeware’s Ethereum compatibility features, Remix can be used directly with a Edgeware node.
 
-This guide assumes that you have a running local Edgeware node running in `--dev` mode, and that you have a MetaMask installation configured to use this local node. [You can find instructions for running a local Edgeware EVM node](https://github.com/hicommonwealth/edgeware-documentation/tree/212a12c64a2cd6ea385a460b293f703c3825f452/docs/quickstart/deploy-an-evm-contract/4/setting-up-a-local-node.md) and [to configure MetaMask for Edgeware](https://github.com/hicommonwealth/edgeware-documentation/tree/212a12c64a2cd6ea385a460b293f703c3825f452/docs/quickstart/deploy-an-evm-contract/4/interacting-with-a-Edgeware-node-using-metamask.md).
+This guide assumes that you have a running local Edgeware node running in `--dev` mode, and that you have a MetaMask installation configured to use this local node. [You can find instructions for running a local Edgeware EVM node](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/setting-up-a-local-node.md) and [to configure MetaMask for Edgeware](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/interacting-with-a-edgeware-node-using-metamask.md).
 
 ## Interacting With Edgeware Using Remix
 
