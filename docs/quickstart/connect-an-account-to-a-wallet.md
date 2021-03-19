@@ -116,7 +116,7 @@ Click the button stating "I have a pre-existing seed, import the account."
 
 Enter your mnemonic phrase and hit the confirm button.
 
-Next, visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer), ensure you are connected to t[he Edgeware network](https://github.com/hicommonwealth/edgeware-documentation/tree/17538a7582222618c79acf5151bd55ec9f372e91/docs/quickstart/networks.md) by clicking the top left network logo and selecting the network you want to connect to.
+Next, visit [https://polkadot.js.org/apps/\#/explorer](https://polkadot.js.org/apps/#/explorer), ensure you are connected to [the Edgeware network](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/other-resources/networks.md) by clicking the top left network logo and selecting the network you want to connect to.
 
 Once connected, the extension will prompt you to authorize connecting your local wallet to the service.Select your account, enter your wallet password and authorize the interaction.
 

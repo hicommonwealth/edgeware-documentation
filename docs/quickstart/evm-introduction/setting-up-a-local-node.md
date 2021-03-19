@@ -25,7 +25,7 @@ Afterwards you can head to [Polkadot Apps](https://polkadot.js.org/apps/?rpc=ws%
 
 ![Edgeware-EVM-producing-blocks](../../.gitbook/assets/frontier-explorer.png)
 
-Now you can continue to connect [Metamask](https://github.com/hicommonwealth/edgeware-documentation/tree/0b0b1050a9fedc218f9d92cc0a5501c7bc7051ef/docs/quickstart/deploy-an-evm-contract/4/interacting-with-a-Edgeware-node-using-metamask.md), Remix, and Web3.js to have great experience.
+Now you can continue to connect [Metamask](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/interacting-with-a-edgeware-node-using-metamask.md), Remix, and Web3.js to have great experience.
 
 ## Reach us for more engagement
 

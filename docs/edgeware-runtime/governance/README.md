@@ -12,7 +12,7 @@ By iterating upon product interfaces, voting systems, and other governance primi
 
 Edgeware stakeholders will be able to collaborate on the roadmap of the network through on-chain signaling, by holding informal votes for the inclusion of specific items and proposals. This planning stage is a natural precursor to the on-chain governance process, and formal votes are held to fund and upon which agreed upon features are implemented. Establishing robust procedures for conducting on-chain upgrades will be an essential step towards ensuring the security of the network. All network upgrades should be audited and tested by multiple independent parties, and additionally approved by a significant quorum of EDG holders.
 
-## Governance [Parameters](https://github.com/hicommonwealth/edgeware-documentation/tree/c17b3aced3300999c7d2867c9ce3e04bf55804b3/docs/edgeware-runtime/network-parameters/README.md) at Launch
+## Governance [Parameters](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/edgeware-runtime/parameters.md) at Launch
 
 * **Launch period:** 7 days
 * **Voting period:** 7 days
