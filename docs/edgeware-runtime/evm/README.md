@@ -13,7 +13,7 @@ If you're moving some portion of your smart contracts, state, or considering por
 
 You can view our [tutorials](https://contracts.edgewa.re) to get a better feel for building Ethereum smart contracts on Edgeware, and how to directly offload or migrate your Ethereum application onto Edgeware.
 
-As previously mentioned, Edgeware is proof of stake, this does mean that smart contracts that rely on components of Ethereum's API that touch on Proof of Work--difficulty, uncles, hashrate won't work as expected on Edgeware. For those values, we have constant values set at the runtime level. Existing Ethereum contracts that rely on Proof of Work internals \(e.g., mining pool contracts\) will almost certainly not work as expected on Moonbeam.
+As previously mentioned, Edgeware is proof of stake, this does mean that smart contracts that rely on components of Ethereum's API that touch on Proof of Work--difficulty, uncles, hashrate won't work as expected on Edgeware. For those values, we have constant values set at the runtime level. Existing Ethereum contracts that rely on Proof of Work internals \(e.g., mining pool contracts\) will almost certainly not work as expected on Edgeware.
 
 ## How Edgeware achieves Ethereum Compatibility
 
