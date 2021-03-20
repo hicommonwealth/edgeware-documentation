@@ -1,6 +1,6 @@
 # Edgeware Smart Contracts
 
-### Introduction to the Edgeware Contracts Workshop
+## Introduction to the Edgeware Contracts Workshop
 
 Edgeware is blockchain platform with support [WASM Contracts Pallet](https://docs.edgewa.re/edgeware-runtime/wasm) and [EVM Ethereum compatibility layer.](https://docs.edgewa.re/edgeware-runtime/evm)
 
@@ -27,38 +27,38 @@ In the [EVM tutorials](https://docs.edgewa.re/contribute-and-engage/develop/edge
 
 We would love for you to give feedback in these early stages, so please feel free to open a PR or comment on Commonwealth!
 
-### How to participate in the Edgeware Developers Guild - builders community <a id="how-to-participate-in-the-edgeware-developers-guild-builders-community"></a>
+## How to participate in the Edgeware Developers Guild - builders community <a id="how-to-participate-in-the-edgeware-developers-guild-builders-community"></a>
 
 We have links to all resources accessible from one point: [linktr.ee/edg\_developers](https://linktr.ee/edg_developers).
 
 All our rooms are bridged so you can come in comfortable with your preferred chat platform.
 
-#### Chats - Technical <a id="chats-technical"></a>
+### Chats - Technical <a id="chats-technical"></a>
 
 * [Telegram: EDG\_Developers](https://t.me/edg_developers)
 * [Element: Edgeware Builders](https://matrix.to/#/!ddnLMXyILAzUofbiMe:matrix.org?via=matrix.org&via=t2bot.io)
 
-#### Chats - Governance <a id="chats-governance"></a>
+### Chats - Governance <a id="chats-governance"></a>
 
 * [Element: Edgeware Governacne](https://matrix.to/#/!LKKkaPSDCjOusugedQ:matrix.org?via=matrix.org&via=t2bot.io&via=decent.modular.im)
 * [Telegram: Edgeware GWG / Council](https://t.me/EdgewareGWG)
 * [Telegram: Edgeware General](https://t.me/heyedgeware)
 * [Telegram: Edgeware Validators](https://t.me/EdgewareValidators)
 
-#### Social <a id="social"></a>
+### Social <a id="social"></a>
 
 * [Twitter.com/heyedgeware](https://twitter.com/heyedgeware)
 * [Twitter.com/edg\_developers](https://twitter.com/edg_developers)
 
-### Resources
+## Resources
 
 * [Smart Contracts vs Runtime Modules](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview#smart-contracts-vs-runtime-modules)
 * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
 * [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
-* [WebAssembly \(Wasm\)](https://github.com/hicommonwealth/edgeware-documentation/tree/58645d7870426b3415b2350203856680148569e1/docs/contribute/develop/smart-contracts/contribute/develop/smart-contracts/webassembly-wasm.md)
+* [WebAssembly \(Wasm\)](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/contribute/develop/smart-contracts/webassembly-wasm.md)
 * [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
 * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
 
-[  
+[    
 ](https://contracts.edgewa.re/#/0/introduction)
 

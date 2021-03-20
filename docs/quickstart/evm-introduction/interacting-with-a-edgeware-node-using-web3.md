@@ -6,7 +6,7 @@ This guide walks through the process of using Web3 to manually sign and send a t
 
 ## Checking Prerequisities
 
-Installed [Nodejs](https://nodejs.org/en/) and particular package manager like [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm), rest we have batteries included in this tutorial. This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/tree/212a12c64a2cd6ea385a460b293f703c3825f452/docs/quickstart/deploy-an-evm-contract/4/setting-up-a-local-node.md).
+Installed [Nodejs](https://nodejs.org/en/) and particular package manager like [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm), rest we have batteries included in this tutorial. This guide assumes that you have a [running local Edgeware EVM node running in `--dev` mode.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/quickstart/evm-introduction/setting-up-a-local-node.md).
 
 ```text
 git clone https://github.com/edgeware-builders/tutorials tutorials;cd tutorials/web3;yarn
@@ -16,7 +16,7 @@ It will move to your cloned repository, install required packages and you are re
 
 ## Creating Transaction
 
-For this example, we only need a single Javscript file to create the transaction, which we will run using the `node` command in the terminal. The script will transfer 1337 ETH from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transactions and broadcast transaction.
+For this example, we only need a single JavaScript file to create the transaction, which we will run using the `node` command in the terminal. The script will transfer 1337 ETH from the genesis account to another address. For simplicity, the file is divided into three sections: variable definition, create transactions and broadcast transaction.
 
 We need to set a couple of values in the variables definitions:
 

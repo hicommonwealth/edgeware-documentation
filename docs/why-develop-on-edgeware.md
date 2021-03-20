@@ -6,7 +6,7 @@ Edgeware launched in February of 2020 as the first smart-contract chain with a l
 
 ## Live Full EVM + WASM Contract runtime
 
-Edgeware has [deployed Full EVM compatibility layer](https://github.com/hicommonwealth/edgeware-documentation/tree/271c074686d1c008a7e6f9b4531f52b0724a4755/edgeware-runtime/evm/README.md) and tooling support. On top of that you can deploy WASM Contracts written in ink!, AssemblyScript. [Learn more how to deploy EVM and WASM contracts on Edgeware.](https://contracts.edgewa.re)
+Edgeware has [deployed Full EVM compatibility layer](https://github.com/hicommonwealth/evm/blob/master/README.md) and tooling support. On top of that you can deploy WASM Contracts written in ink!, AssemblyScript. [Learn more how to deploy EVM and WASM contracts on Edgeware.](https://contracts.edgewa.re)
 
 ## Part of Polkadot Ecosystem
 
@@ -14,7 +14,7 @@ Edgeware has [deployed Full EVM compatibility layer](https://github.com/hicommon
 
 ## Low Transactions Fees
 
-Due different and better architecture than Ethereum, [Edgeware has low transaction fees.](https://github.com/hicommonwealth/edgeware-documentation/tree/271c074686d1c008a7e6f9b4531f52b0724a4755/docs/edgew~are-runtime/economics/transaction-fees.md)
+Due different and better architecture than Ethereum, [Edgeware has low transaction fees.](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/edgeware-runtime/economics/transaction-fees.md)
 
 ## Ethereum EVM bridge
 

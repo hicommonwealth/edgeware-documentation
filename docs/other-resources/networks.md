@@ -38,7 +38,7 @@ wss://mainnet19.edgewa.re
 wss://mainnet20.edgewa.re
 ```
 
-### Edgeware Berlin Tesnet
+### Edgeware Beresheet Testnet
 
 ```text
 wss://beresheet1.edgewa.re

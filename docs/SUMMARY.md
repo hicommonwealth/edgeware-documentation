@@ -45,7 +45,7 @@
       * [Testing our Contract](contribute-and-engage/develop/edgeware-smart-contracts/wasm-erc20/testing-our-contract.md)
     * [WASM Advanced](contribute-and-engage/develop/edgeware-smart-contracts/wasm-advanced.md)
     * [EVM Basics](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/README.md)
-      * [Setting up a Edgeware EVM node](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md)
+      * [Setting up an Edgeware EVM node](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md)
       * [Using Metamask](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-metamask.md)
       * [Using Remix - Ethereum IDE](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-remix-ethereum-ide.md)
       * [Using Truffle](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-truffle.md)
@@ -153,6 +153,4 @@
 ---
 
 * [Discover Edgeware Community](https://linktr.ee/edg_developers)
-
-## WASM ERC20
 
