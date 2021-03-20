@@ -8,9 +8,9 @@ Lockdrop addresses have an outdated format and need to be transformed to find yo
 
 [https://edgeware.subscan.io/tools/ss58\_transform](https://edgeware.subscan.io/tools/ss58_transform)
 
-![](../.gitbook/assets/screen-shot-2020-07-22-at-5.47.26-pm%20%282%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-07-22-at-5.47.26-pm%20%282%29%20%281%29%20%281%29%20%281%29.png)
 
-#### Background
+### Background
 
 During the lockdrop, the keypairs that were generated with Subkey were encoded using the Subkey Default Network ID. This impacts the Public Address \(SS58 Address Format\) that Subkey outputs in certain cases. The secret phrase/seed, and public key are not impacted by this change.
 
