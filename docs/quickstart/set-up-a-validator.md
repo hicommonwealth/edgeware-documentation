@@ -29,7 +29,7 @@ This document contains all the information one should need to start validating o
 
   cargo install --force --git [https://github.com/paritytech/substrate](https://github.com/paritytech/substrate) subkey
 
-From this point on, we will assume you are familiar with using `subkey`, if that is not the case, you can read about the `subkey` commands [here](https://github.com/paritytech/substrate/tree/master/subkey).
+From this point on, we will assume you are familiar with using `subkey`, if that is not the case, you can read about the `subkey` commands [here](https://github.com/paritytech/substrate/blob/master/bin/utils/subkey/README.adoc).
 
 ## Onboarding
 
