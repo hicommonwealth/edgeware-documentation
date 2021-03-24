@@ -27,10 +27,10 @@ Nominating a Validator means that you delegate your EDG to be used for their val
 **Prerequisites:**
 
 * Have some EDG that you want to bond & stake in an account - we will call this the "**Stash**."
-* Send only 5-10 EDG to another account that will control the nomination, we'll call this account the "**Controller.**" It will be used to pay the transaction fees, _without funds to pay fees, the nomination transaction will fail._ The stash and controller are separate for security.
+* Send only 5-10 EDG to another account that will control the nomination, we'll call this account the "**Controller.**" It will be used to pay the transaction fees, _without funds to pay fees, the nomination transaction will fail._ The stash and controller are recommended to keep separate for additional security. However, one can use the same(single) account as a stash as well as a controller without compromising any functionality.
 * Research and select Validators to nominate. See link below for Validator list and details.
 
-On the [Polkadot Apps UI](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/) navigate to the "Staking" option under "Network" tab.
+On the [Polkadot Apps UI](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet4.edgewa.re#/) navigate to the "Staking" option under "Network" tab.
 
 {% hint style="info" %}
 Ensure you are connected to Edgeware network on the Polkadot Apps UI, instead of Polkadot or any other Substrate network. \(Current network name can be found on the top-left corner.\)
