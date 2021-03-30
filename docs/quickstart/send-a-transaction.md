@@ -6,7 +6,7 @@ This method involves using the [Polkadot UI ](https://polkadot.js.org/apps/#/exp
 
 You will need:
 
-* ..to have [created an Edgeware account.]()
+* ..to have [created an Edgeware account.](create-an-account.md)
 * ..to have installed [Polkadot.js to your browser and connected your wallet.](connect-an-account-to-a-wallet.md)
 * Some [testnet ](https://github.com/hicommonwealth/edgeware-documentation/tree/17538a7582222618c79acf5151bd55ec9f372e91/docs/quickstart/ecosystem.md)or mainnet EDG to send. 
 
