@@ -52,7 +52,7 @@ The Contracts module is intended to be used by any user on a public network. Thi
 
 ### Gas
 
-Contract calls are charged a gas fee to limit the amount of computational resources a transaction can use. When forming a contract transaction, a gas limit is specified. As the contract executes, gas is incrementally used up depending on the complexity of the computation. If the gas limit is reached before the contract execution completes, the transaction fails, contract storage is reverted, and the gas fee is not returned to the user. If the contract execution completes with remaining gas, it is returned to the user at the end of the transaction.
+Contract calls are charged a gas fee to limit the amount of computational resources a transaction can use. When forming a contract transaction, a gas limit is specified. As the contract executes, gas is incrementally used up depending on the complexity of the computation. If the gas limit is reached before the contract execution completes, the transaction fails, contract storage is reverted, and the gas fee is not returned to the user. If the contract execution completes with remaining gas, the excess is returned to the user at the end of the transaction.
 
 The Contracts module determines the gas price, which is a conversion between the Substrate Currency and a single unit of gas. Thus, to execute a transaction, a user must have a free balance of at least gas price \* gas limit which can be spent.
 
