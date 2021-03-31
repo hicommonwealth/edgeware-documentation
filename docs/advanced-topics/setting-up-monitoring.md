@@ -21,7 +21,7 @@ For the monitoring server, a small server should be enough \(e.g. 1GB memory\). 
 apt install -y monit
 wget https://mmonit.com/dist/mmonit-3.7.3-linux-x64.tar.gz
 tar -vxzf mmonit-3.7.3-linux-x64.tar.gz
-mv mmonit-3.7.3 monit
+mv mmonit-3.7.3 mmonit
 ```
 
 Use monit to keep mmonit up:
@@ -35,8 +35,8 @@ Use monit to keep mmonit up:
     echo '  allow localhost'
 } > /etc/monit/monitrc
 
-mmonit reload
-mmonit validate
+monit reload
+monit validate
 ```
 
 To start the mmonit dashboard manually, you can use the command `mmonit/bin/mmonit`. To stop, use `mmonit/bin/mmonit stop`.
@@ -106,6 +106,8 @@ export TARGET=[domain]
     echo '  allow '$USER:$PASSWORD
 } > /etc/monit/monitrc
 
+chmod 600 /etc/monit/monitrc
+
 monit reload
 monit validate
 ```
@@ -139,7 +141,7 @@ node index.js
 If it is working, you can now add these lines to your monit configuration at `/etc/monit/monitrc` \(they assume that nodeup is installed in the `/root/nodeup` directory, adjust accordingly if not\):
 
 ```text
-check program nodeup with path "/root/nodeup/index.js"
+check program nodeup with path "/root/nodeup/index.js -u ws://localhost:9944"
   if status > 0 for 10 cycles then exec "/bin/systemctl stop edgeware" and repeat every 10 cycles
 ```
 
