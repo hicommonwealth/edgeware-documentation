@@ -18,7 +18,7 @@ Several resources in a blockchain network are limited, for example, storage and 
 
 ## Fee Calculation
 
-Fees on the Edgeware are calculated based on three parameters:
+Fees on Edgeware are calculated based on three parameters:
 
 * A per-byte fee \(also known as the "length fee"\)
 * A weight fee
