@@ -54,9 +54,9 @@ All our rooms are bridged so you can come in comfortable with your preferred cha
 
 * [Smart Contracts vs Runtime Modules](https://substrate.dev/docs/en/knowledgebase/smart-contracts/overview#smart-contracts-vs-runtime-modules)
 * [Parity Ink! Smart Contract Language](https://github.com/paritytech/ink)
-* [Ink! Docs](https://substrate.dev/docs/en/development/contracts/ink)
-* [WebAssembly \(Wasm\)](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/contribute/develop/smart-contracts/webassembly-wasm.md)
-* [Substrate EVM Module](https://substrate.dev/docs/en/next/conceptual/runtime/contracts/evm_module)
+* [Ink! Docs](https://paritytech.github.io/ink-docs/)
+* [WebAssembly \(Wasm\)](https://webassembly.org/)
+* [Substrate EVM Module](https://substrate.dev/docs/en/knowledgebase/smart-contracts/evm-pallet)
 * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
 
 [    
