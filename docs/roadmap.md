@@ -33,11 +33,8 @@
 * Polkadot expected to launch in 2020.
 * Will require that the community approve and plan to acquire DOTs for parachain slot auction.
 
-![](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/.gitbook/assets/image%20%2810%29.png)
 
 ### Track and Assess Substrate Improvements for Upgrade
-
-![](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/.gitbook/assets/image%20%283%29.png)
 
 ## 2021
 
