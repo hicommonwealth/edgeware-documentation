@@ -52,7 +52,7 @@ When converting, also note the `gasPrice` is specified in the EVM call, as the c
 
 * Convert a Substrate address to a EVM address: `address[0..20]` — take the first 20 bytes.
 * Convert an EVM address into a Substrate address: add `evm:` prefix to data, and take the hash. **THIS IS NOT REVERSIBLE**.
-  * See: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L169](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L169)
+  * See: [https://gitlab.parity.io/parity/substrate/-/blob/16fdfc4a80a14a26221d17b8a1b9a95421a1576c/frame/evm/src/lib.rs#L167](https://gitlab.parity.io/parity/substrate/-/blob/16fdfc4a80a14a26221d17b8a1b9a95421a1576c/frame/evm/src/lib.rs#L167)
 
     ```text
     fn into_account_id(address: H160) -> AccountId32 {
