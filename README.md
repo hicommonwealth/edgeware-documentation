@@ -5,8 +5,9 @@ The Edgeware Documentation collection aims to become a community-developed resou
 
 ## Community
 - Commonwealth: http://Commonwealth.im/edgeware: Manage, discuss, vote, elect, and transact for Edgeware and more.
-- Discord: https://discord.gg/5HMnfY
+- Discord: https://discord.gg/fc6NPKFEpg
 - Twitter: https://twitter.com/HeyEdgeware
+- Telegram: https://t.me/heyedgeware
 
 ## View the docs on GitBooks
 For a user friendly view of these documents, go to http://main.edgeware.wiki
