@@ -6,9 +6,9 @@
 
 The easiest way to add the built-in fields is to click the gear icon next to one's account and select "Set on-chain identity".
 
-![](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/.gitbook/assets/image.png)
+![](https://user-images.githubusercontent.com/32852637/116119305-477def80-a68c-11eb-9dba-1124d54a13e7.PNG)
 
-![](https://github.com/hicommonwealth/edgeware-documentation/blob/master/docs/.gitbook/assets/image%20%285%29.png)
+![](https://user-images.githubusercontent.com/32852637/116119319-4d73d080-a68c-11eb-9b4e-8ac906e18baf.png)
 
 To add custom fields beyond the default ones, use the Extrinsics UI to submit a raw transaction by first clicking "Add Item" and adding any field name you like. The example below adds a field `steam` which is a user's [Steam](https://store.steampowered.com/) username. The first value is the field name in bytes \("steam"\) and the second is the account name in bytes \("theswader"\). The display name also has to be provided, otherwise the Identity pallet would consider it wiped if we submitted it with the "None" option still selected. That is to say, every time you make a change to your identity values, you need to re-submit the entire set of fields: the write operation is always "overwrite", never "append".
 
