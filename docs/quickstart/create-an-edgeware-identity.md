@@ -1,6 +1,8 @@
 # Create an Edgeware Identity
 
-## description: '[https://wiki.polkadot.network/docs/en/learn-identity](https://wiki.polkadot.network/docs/en/learn-identity)'
+## Identity
+
+Substrate provides a naming system that allows participants to add personal information to their on-chain account and subsequently ask for verification of this information by registrars. [Learn more here](https://wiki.polkadot.network/docs/en/learn-identity#registrars)
 
 ## Adding Identities Using Polkadot.js
 
