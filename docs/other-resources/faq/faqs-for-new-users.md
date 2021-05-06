@@ -84,9 +84,13 @@ Edgeware launched with an early version of Substrate that experiences a lag in b
 
 #### Where can I store EDG?
 
-For storing \[and optionally staking\], you can use the officially supported wallet interface [Polkadot Apps](https://polkadot.js.org/apps/) \[along with optional Enzyme extension or polkadot\(.js\) extension\]. [Watch a walkthrough🎥👆](https://youtu.be/IjoHHofQXcY)
+For storing \[and optionally staking\], you can use the recommended full-fledged wallet interface [Polkadot Apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/) \[along with optional [polkadot\{.js\} extension](https://polkadot.js.org/extension/)\]. [Watch a walkthrough🎥👆](https://youtu.be/IjoHHofQXcY)
 
-Apart from Polkadot Apps, the android variant of Math wallet also supports EDG. Also, Ledger support is under development and it's independently being developed by Zondax.
+[Clover extension wallet](https://chrome.google.com/webstore/detail/clover-wallet/nhnkbkgjikgcigadomkphalanndcapjk)\(beta\) can also be used as an alternative to the Polkadot JS extension.
+
+If you are looking for mobile wallets, [Polkawallet](https://polkawallet.io/) and [Math wallet](https://mathwallet.xyz) are the options that support EDG and certain web3 functionalities on Edgeware network.
+
+Also, Ledger support is currently being developed by Zondax.
 
 #### I can't find my account using my public address in a block explorer.
 
