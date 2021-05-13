@@ -47,7 +47,7 @@ You notice few facts from here, our chainId is `2021` and we are using solc vers
 
 > **Note** We are using the same private key that we have been using in other guides, which comes pre-funded with tokens `tEDG` via the genesis config of a Edgeware EVM node running in `--dev` mode. The public key for this account is: `0x19e7e376e7c213b7e7e7e46cc70a5dd086daff2a`.
 
-The contract we will be deploying with Truffle is a simple ERC-20 contract. Youn can find this contract under `truffle/contracts/HedgeToken.sol`, it's content is showed here
+The contract we will be deploying with Truffle is a simple ERC-20 contract. You can find this contract under `truffle/contracts/HedgeToken.sol`, it's content is showed here
 
 #### [ERC-20 Contract](https://contracts.edgewa.re/#/4/interacting-with-a-Edgeware-node-using-truffle?id=erc-20-contract) <a id="erc-20-contract"></a>
 
@@ -88,7 +88,7 @@ npx truffle compile
 
 ![](https://contracts.edgewa.re/4/assets/truffle-compile.png)
 
-What id does, it take OpenZepplin ERC20.sol token, compiles it with other referenced code in other OpenZepplin code, creates artifact \(bytecode\) and ABI \(contract interface\)
+What id does, it takes OpenZepplin ERC20.sol token, compiles it with other referenced code in other OpenZepplin code, creates artifact \(bytecode\) and ABI \(contract interface\)
 
 #### Deploying a Contract to Edgeware EVM Using Truffle <a id="deploying-a-contract-to-edgeware-evm-using-truffle"></a>
 
@@ -100,7 +100,7 @@ npx truffle --network development migrate
 
 ![](https://contracts.edgewa.re/4/assets/truffle-migrate.png)
 
-As you may see, we are using our `development` network from `truffle-config.js`. From migrate you'll notice there whats our contract address of our contract.
+As you may see, we are using our `development` network from `truffle-config.js`. From migrate you'll notice there what our contract address is of our contract.
 
 #### Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
