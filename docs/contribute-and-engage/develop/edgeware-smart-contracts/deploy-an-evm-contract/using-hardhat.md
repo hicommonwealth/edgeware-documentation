@@ -26,15 +26,19 @@ To follow this tutorial you should be able to:
 
 We need to install Node.js and npm package manager. You can download directly from Node.js or in your terminal. 
 
-Mac OS: `# You can use homebrew (https://docs.brew.sh/Installation)
+{% tabs %} {% tab title="Mac OS" %}
+`# You can use homebrew (https://docs.brew.sh/Installation)
 brew install node`
 
 `# Or you can use nvm (https://github.com/nvm-sh/nvm)
 nvm install node`
+{% endtab %}
 
-Ubuntu: `curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -`
+{% tabs %} {% tab title="Linux" %}
+`curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -`
 
 `sudo apt install -y nodejs`
+{% endtab %}
 
 You can verify that everything is installed correctly by querying the version for each package:
 
