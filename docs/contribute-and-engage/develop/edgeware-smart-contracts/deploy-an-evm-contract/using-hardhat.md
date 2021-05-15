@@ -34,7 +34,7 @@ brew install node`
 # Or you can use nvm (https://github.com/nvm-sh/nvm)
 nvm install node
 ```
-{% endtab %}
+{% endtab %} {% endtabs %}
 
 {% tabs %} {% tab title="Linux" %}
 ```
