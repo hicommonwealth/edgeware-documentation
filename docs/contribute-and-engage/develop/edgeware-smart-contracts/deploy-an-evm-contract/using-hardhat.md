@@ -4,6 +4,9 @@
 **This page is still under devlopment. Many functionalities of this page are still being worked on until further notice. If able to get functionality operating using Beresheet, add a pull request with revised changes, thank you.**
 {% endhint %}
 
+![](https://user-images.githubusercontent.com/32852637/118346510-0437d380-b50a-11eb-9fc2-267d0b20777b.png)
+
+
 ## Interacting with Edgeware EVM using Hardhat
 
 This guide walks through the process of deploying a **Solidity-based smart contract** to the Edgeware testnet Beresheet using Hardhat. [Hardhat](https://hardhat.org/) is a development environment to compile, deploy, test, and debug your Ethereum software. It helps developers manage and automate the recurring tasks that are inherent to the process of building smart contracts and dApps, as well as easily introducing more functionality around this workflow. This means compiling, running and testing smart contracts at the very core.
