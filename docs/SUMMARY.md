@@ -50,7 +50,7 @@
       * [Using Remix - Ethereum IDE](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-remix-ethereum-ide.md)
       * [Using Truffle](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-truffle.md)
       * [Using Web3](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-web3.md)
-      * [Using Hardhat](docs/contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-hardhat.md)
+      * [Using Hardhat](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-hardhat.md)
       * [EVM Resources](contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/edgeware-evm-resources.md)
     * [WASM Ballot Contract](contribute-and-engage/develop/edgeware-smart-contracts/wasm-ballot-contract/README.md)
       * [Contract Template](contribute-and-engage/develop/edgeware-smart-contracts/wasm-ballot-contract/contract-template.md)
