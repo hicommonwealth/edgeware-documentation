@@ -38,7 +38,7 @@ nvm install node`
 `curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -`
 
 `sudo apt install -y nodejs`
-{% endtab %}
+{% endtab %} {% endtabs %}
 
 You can verify that everything is installed correctly by querying the version for each package:
 
