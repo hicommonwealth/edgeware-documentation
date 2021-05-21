@@ -17,3 +17,4 @@ Quorum biasing allows the council to change the effective supermajority required
 The Phragmen method is also used in the council election mechanism. When you vote for council members, you can select up to 16 different candidates, and then place a reserved bond which is the weight of your vote. Phragmen will run once on every election to determine the top candidates to assume council positions and then again amongst the top candidates to equalize the weight of the votes behind them as much as possible.
 
 {% page-ref page="../../staking/the-sequential-phragmen-method.md" %}
+

@@ -14,5 +14,3 @@ Over the course of this chapter you will learn:
 * To use ink\_prelude crate
 * To use traits like Clone, Debug, PackedLayout and SpreadLayout
 
-
-

@@ -1,12 +1,12 @@
 # Using Remix - Ethereum IDE
 
-#### Introduction <a id="introduction"></a>
+## Introduction <a id="introduction"></a>
 
 This guide walks through the process of creating and deploying a Solidity-based smart contract to a Edgeware dev node using the [Remix IDE](https://remix.ethereum.org/). Remix is one of the commonly used development environments for smart contracts on Ethereum. Given Edgeware’s Ethereum compatibility features, Remix can be used directly with a Edgeware node.
 
 This guide assumes that you have a running local Edgeware node running in `--dev` mode, and that you have a MetaMask installation configured to use this local node. [You can find instructions for running a local Edgeware EVM node](https://docs.edgewa.re/contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/setting-up-a-edgeware-evm-node) and to [configure MetaMask for Edgeware](https://docs.edgewa.re/contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract/using-metamask).
 
-#### Interacting With Edgeware Using Remix <a id="interacting-with-edgeware-using-remix"></a>
+## Interacting With Edgeware Using Remix <a id="interacting-with-edgeware-using-remix"></a>
 
 [Open Remix](https://remix.ethereum.org/) and click on the `New File`
 
@@ -67,11 +67,11 @@ You can now click to call functions like `decimals`, `name`, `symbol`, `totalSup
 
 ![](https://contracts.edgewa.re/4/assets/remix-call-functions.png)
 
-#### What's next? <a id="what39s-next"></a>
+## What's next? <a id="what39s-next"></a>
 
 You can copy your contracts address and add it to Metamask to play out! Have fun, stay safe!
 
-#### Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
+## Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
 Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware Ethereum combability feature. We are **keen to hear your experience and suggestions you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our [Treasury program](https://docs.edgewa.re/edgeware-runtime/treasury). Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
 

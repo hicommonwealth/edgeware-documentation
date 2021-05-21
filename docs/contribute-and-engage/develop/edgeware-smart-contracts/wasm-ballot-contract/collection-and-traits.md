@@ -2,7 +2,7 @@
 
 In this part, we will be using the structs built previously and write public functions to add and fetch data from our contract.
 
-### Collections <a id="collections"></a>
+## Collections <a id="collections"></a>
 
 For this contract, we are going to store our voters in a HashMap with `AccountId` as a key and `Voter` instance as value. The HashMap can be imported from the `ink_storage` crate by:
 
@@ -28,12 +28,11 @@ Vectors can be instantiated in the same way as a HashMap. New objects can be add
         });
     // returns the proposal at index 0 if exists else returns None
     let proposal = self.proposals.get(0).unwrap();
-    
 ```
 
 Remember that the `vector.get` returns an `Option` not the actual object!
 
-### Traits <a id="traits"></a>
+## Traits <a id="traits"></a>
 
 A trait tells the Rust compiler about the functionality a particular type has, and can be shared with other types. You can read more about them [here](https://doc.rust-lang.org/book/ch10-02-traits.html). Before using the custom built structures inside the `Ballot` storage, certain traits are required to be implemented for `Voter` and `Proposal` structs. These traits include:
 
@@ -53,7 +52,7 @@ You can learn more about these traits over [here](https://doc.rust-lang.org/book
     }
 ```
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 You need to:
 
@@ -112,7 +111,7 @@ mod ballot {
         pub fn new() -> Self {
             // get chair person address
             let chair_person =  Self::env().caller();
-    
+
             //  ACTION: create empty proposals and voters variables
             //          * let proposals = 
             //          * let mut voters =
@@ -151,7 +150,7 @@ mod ballot {
             //      * if not exists, create an entry in hash map 
             //      * with default weight set to 0 and voted to false
             //      * and return true
-            
+
             // HINT: use hashmap.get() to get voter
             //        and use options.some() to check if voter exists
         }
@@ -169,7 +168,7 @@ mod ballot {
         pub fn add_proposal(&mut self, proposal_name: String){
         }
 
-        
+
 
 
     }
@@ -181,10 +180,10 @@ mod ballot {
     mod tests {
         /// Imports all the definitions from the outer scope so we can use them here.
         use super::*;
-        
+
         // Alias `ink_lang` so we can use `ink::test`.
         use ink_lang as ink;
-        
+
         #[ink::test]
         fn new_works() {
             let mut proposal_names: Vec<String> = Vec::new();
@@ -199,7 +198,7 @@ mod ballot {
             ballot.add_proposal(String::from("Proposal #1"));
             assert_eq!(ballot.get_proposal_count(),1);
         }
-        
+
         #[ink::test]
         fn adding_voters_work() {
             let mut ballot = Ballot::new();
@@ -209,7 +208,6 @@ mod ballot {
         }
     }
 }
-
 ```
 {% endtab %}
 
@@ -336,7 +334,7 @@ mod ballot {
                     vote_count: 0,
             });
         }
-        
+
     }
 
     /// Unit tests in Rust are normally defined within such a `#[cfg(test)]`
@@ -346,17 +344,16 @@ mod ballot {
     mod tests {
         /// Imports all the definitions from the outer scope so we can use them here.
         use super::*;
-        
+
         // Alias `ink_lang` so we can use `ink::test`.
         use ink_lang as ink;
-        
+
         #[ink::test]
         fn new_works() {
             let mut proposal_names: Vec<String> = Vec::new();
             proposal_names.push(String::from("Proposal # 1"));  
             let ballot = Ballot::new();
             assert_eq!(ballot.get_voter_count(),1);
-
 ```
 {% endtab %}
 {% endtabs %}

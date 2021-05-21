@@ -6,7 +6,7 @@ In this part we will add functionality to our Ballot so that:
 * People can delegate their votes
 * The chairperson can assign voting rights
 
-#### Contract Functionality <a id="contract-functionality"></a>
+### Contract Functionality <a id="contract-functionality"></a>
 
 **Constructor:**
 
@@ -116,7 +116,7 @@ In our voter struct, there is a `delegate` field defined as `Option<AccountId>` 
 
 You will see that in the delegation function above, we update the `sender.voted` and `sender.delegate` fields prior to checking if the person being delegated is a valid voter. The function will panic if the delegated person is not a valid voter and will roll back the changes made to the `sender.voted` and `sender.delegate` fields.
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 This wraps up the tutorial. Practice what you learned with the following exercises:
 
@@ -261,15 +261,13 @@ mod ballot {
                     vote_count: 0,
             });
         }
-        
+
         /// Give `voter` the right to vote on this ballot.
         /// Should only be called by `chairperson`.
         #[ink(message)]
         pub fn give_voting_right(&mut self, voter_id: AccountId) {
             let caller = self.env().caller();
             let voter_opt = self.voters.get_mut(&voter_id);
-
-
 ```
 {% endtab %}
 
@@ -416,7 +414,6 @@ mod ballot {
             self.proposals.push(
                 Proposal{
                     name:String::from(proposal_name),
-
 ```
 {% endtab %}
 {% endtabs %}

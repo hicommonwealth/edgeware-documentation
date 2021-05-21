@@ -2,13 +2,13 @@
 
 Let's take a look at a high level what is available to you when developing a smart contract using the ink!.
 
-### ink! <a id="ink"></a>
+## ink! <a id="ink"></a>
 
 ink! is an [eDSL](https://wiki.haskell.org/Embedded_domain_specific_language) to write WebAssembly based smart contracts in the Rust programming language.
 
 ink! is just standard Rust in a well defined "contract format" with specialized `#[ink(...)]` attribute macros. These attribute macros tell ink! what the different parts of your Rust smart contract represent, and ultimately allows ink! to do all the magic needed to create Substrate compatible Wasm bytecodes!
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 We are going to start a new project for the Incrementer contract we will build in this chapter.
 
@@ -77,7 +77,6 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endcode %}
 {% endtab %}

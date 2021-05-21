@@ -2,7 +2,7 @@
 
 Recall that contract calls cannot directly return a value to the outside world when submitting a transaction. However, often we will want to indicate to the outside world that something has taken place \(e.g. a transaction has occurred or a certain state has been reached\). We can alert others that this has occurred using an `event`.
 
-### Declaring Events <a id="declaring-events"></a>
+## Declaring Events <a id="declaring-events"></a>
 
 An event can communicate an arbitrary amount of data, defined in a similar manner as a `struct`. Events should be declared using the `#[ink(event)]` attribute.
 
@@ -23,7 +23,7 @@ This `Transfer` event will contain three pieces of data - a value of type `Balan
 
 One way of retrieving data from an Option variable is using the `.unwrap_or()` function. You may recall using this in the `my_value_or_zero()` and `balance_of_or_zero()` functions in this project and the Incrementer project.
 
-### Emitting Events <a id="emitting-events"></a>
+## Emitting Events <a id="emitting-events"></a>
 
 Now that we have defined what data will be contained within the event and how to declare it, it's time to actually emit some events. We do this by calling `self.env().emit_event` and include an event as the sole argument to the method call.
 
@@ -40,12 +40,12 @@ self.env()
 ```
 
 {% hint style="info" %}
- Note: **`value`** does not need a **`Some()`**, as the value is not stored in an **`Option`**.
+Note: **`value`** does not need a **`Some()`**, as the value is not stored in an **`Option`**.
 {% endhint %}
 
 We want to emit a Transfer event every time that a transfer takes place. In the ERC-20 template that we have been working on, this occurs in two places: first, during the `new` call, and second, every time that `transfer_from_to` is called.
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 Follow the ACTIONs in the template code to emit a `Transfer` event every time a token transfer occurs.
 
@@ -114,7 +114,6 @@ mod erc20 {
             }
 
             // Update the sender's balance.
-
 ```
 {% endtab %}
 
@@ -236,7 +235,6 @@ mod erc20 {
         }
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}

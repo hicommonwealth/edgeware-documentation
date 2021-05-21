@@ -1,7 +1,6 @@
 # Setup Environment
 
-To follow this tutorial, you will need to set up some stuff on your computer.   
-
+To follow this tutorial, you will need to set up some stuff on your computer.
 
 Substrate Prerequisites
 
@@ -29,6 +28,6 @@ cargo install --git https://github.com/hicommonwealth/cargo-contract cargo-contr
 You can then use `cargo contract --help` to start exploring the commands made available to you.
 
 {% hint style="warning" %}
- **Note:** The ink! CLI is under heavy development and some of its commands are not implemented, yet!
+**Note:** The ink! CLI is under heavy development and some of its commands are not implemented, yet!
 {% endhint %}
 

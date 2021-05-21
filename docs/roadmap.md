@@ -33,7 +33,6 @@
 * Polkadot expected to launch in 2020.
 * Will require that the community approve and plan to acquire DOTs for parachain slot auction.
 
-
 ### Track and Assess Substrate Improvements for Upgrade
 
 ## 2021

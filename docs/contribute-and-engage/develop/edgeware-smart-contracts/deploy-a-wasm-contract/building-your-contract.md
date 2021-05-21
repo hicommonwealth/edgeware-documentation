@@ -6,7 +6,7 @@ Run the following command to compile your smart contract:
 cargo +nightly contract build
 ```
 
-This special command will turn your ink! project into a Wasm binary which you can deploy to your chain. If all goes well, you should see a `target` folder which contains this `.wasm` file.  
+This special command will turn your ink! project into a Wasm binary which you can deploy to your chain. If all goes well, you should see a `target` folder which contains this `.wasm` file.
 
 ```text
   target
@@ -142,7 +142,6 @@ Let's take a look at the structure inside:
     }
   ]
 }
-  
 ```
 
 You can see that this file describes all the interfaces that can be used to interact with your contract.

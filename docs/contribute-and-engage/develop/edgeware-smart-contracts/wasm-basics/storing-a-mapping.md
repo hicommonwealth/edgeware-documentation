@@ -2,7 +2,7 @@
 
 The final step in our Incrementer contract is to allow each user to update increment their own value.
 
-### Modifying a HashMap <a id="modifying-a-hashmap"></a>
+## Modifying a HashMap <a id="modifying-a-hashmap"></a>
 
 Making changes to the value of a HashMap is just as sensitive as getting the value. If you try to modify some value before it has been initialized, your contract will panic!
 
@@ -37,7 +37,7 @@ impl MyContract {
 
 Here we have written two kinds of functions which modify a HashMap. One which simply inserts the value directly into storage, with no need to read the value first, and the other which modifies the existing value. Note how we can always `insert` the value without worry, as that initialized the value in storage, but before you can get or modify anything, we need to call `my_number_or_zero` to make sure we are working with a real value.
 
-### Feel the Pain \(Optional\) <a id="feel-the-pain-optional"></a>
+## Feel the Pain \(Optional\) <a id="feel-the-pain-optional"></a>
 
 We will not always have an existing value on our contract's storage. We can take advantage of the Rust `Option<T>` type to help use on this task. If there's no value on the contract storage we will insert a new one; on the contrary if there is an existing value we will only update it.
 
@@ -51,7 +51,7 @@ self.my_number_map
     .or_insert(by);
 ```
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 Follow the `ACTION`s to finish your Incrementer smart contract.
 
@@ -60,7 +60,6 @@ Remember to run `cargo +nightly test` to test your work.
 {% tabs %}
 {% tab title="🔨Starting Point" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -120,13 +119,11 @@ mod incrementer {
     #[cfg(test)]
     mod tests {
         use super::*;
-
 ```
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -186,7 +183,6 @@ mod incrementer {
     #[cfg(test)]
     mod tests {
         use super::*;
-
 ```
 {% endtab %}
 {% endtabs %}

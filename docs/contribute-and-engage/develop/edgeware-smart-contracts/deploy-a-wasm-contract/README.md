@@ -1,6 +1,6 @@
 # WASM Setup
 
-### Introduction
+## Introduction
 
 This chapter will teach you everything you need to know to get started building smart contracts on Edgeware with ink!.
 

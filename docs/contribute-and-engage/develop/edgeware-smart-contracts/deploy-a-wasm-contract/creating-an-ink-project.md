@@ -17,7 +17,6 @@ cd flipper/
 ### ink! Contract Project
 
 ```text
-
 flipper
 |
 .
@@ -31,7 +30,7 @@ The ink CLI automatically generates the source code for the "Flipper" contract, 
 
 [Flipper Example Source Code](https://github.com/hicommonwealth/ink/blob/master/examples/flipper/lib.rs)
 
- The Flipper contract is nothing more than a `bool` which gets flipped from true to false through the `flip()` function. We won't go so deep into the details of this source code because we will be walking you through the steps to build a more advanced contract!
+The Flipper contract is nothing more than a `bool` which gets flipped from true to false through the `flip()` function. We won't go so deep into the details of this source code because we will be walking you through the steps to build a more advanced contract!
 
 ## Testing Your Contract
 

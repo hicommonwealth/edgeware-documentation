@@ -2,7 +2,7 @@
 
 It's time to let our users modify storage!
 
-### Mutable and Immutable Functions <a id="mutable-and-immutable-functions"></a>
+## Mutable and Immutable Functions <a id="mutable-and-immutable-functions"></a>
 
 You may have noticed that the function templates included `self` as the first parameter of the contract functions. It is through `self` that you gain access to all your contract functions and storage items.
 
@@ -22,7 +22,7 @@ impl MyContract {
 }
 ```
 
-### Lazy Storage Values <a id="lazy-storage-values"></a>
+## Lazy Storage Values <a id="lazy-storage-values"></a>
 
 There is [a `Lazy` type](https://paritytech.github.io/ink/ink_storage/struct.Lazy.html) that can be used for ink! storage values that don't need to be loaded in some or most cases. Because they do not meet this criteria, many simple ink! examples, including those in this workshop, do not require the use `Lazy` values. Since there is some overhead associated with `Lazy` values, they should only be used where required.
 
@@ -55,7 +55,7 @@ impl MyContract {
 }
 ```
 
-### Your Turn <a id="your-turn"></a>
+## Your Turn <a id="your-turn"></a>
 
 Follow the `ACTION`s in the template code.
 
@@ -64,7 +64,6 @@ Remember to run `cargo +nightly test` to test your work.
 {% tabs %}
 {% tab title="🔨Starting Point" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -109,13 +108,11 @@ mod incrementer {
 
         #[test]
         fn default_works() {
-
 ```
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -160,7 +157,6 @@ mod incrementer {
 
         #[test]
         fn default_works() {
-
 ```
 {% endtab %}
 {% endtabs %}

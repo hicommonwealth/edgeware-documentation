@@ -11,9 +11,9 @@ There are two ways to retrieve your ETH from a lockdrop user contract:
 
 First, note the difference between a LUC and the MLC:
 
-* **Master Lockdrop Contract \(MLC\) \(v1 and v2\)**  
+* **Master Lockdrop Contract \(MLC\) \(v1 and v2\)**
 
-   The coordinating contract that you sent your ETH to - it creates and sends this ETH on to your personal Lockdrop User Contract, which holds your ETH until unlock time.  **Do not send the unlock transaction to an MLC - it will fail.**   
+  The coordinating contract that you sent your ETH to - it creates and sends this ETH on to your personal Lockdrop User Contract, which holds your ETH until unlock time. **Do not send the unlock transaction to an MLC - it will fail.**
 
 * MLC v1 \(Old\) `0x1b75b90e60070d37cfa9d87affd124bb345bf70a`
 * MLC v2 \(New\) `0xFEC6F679e32D45E22736aD09dFdF6E3368704e31`

@@ -15,7 +15,7 @@ pub struct MyContract {
 /* --snip-- */
 ```
 
-### Supported Types <a id="supported-types"></a>
+## Supported Types <a id="supported-types"></a>
 
 Contract may store types that are encodable and decodable with [Parity Codec](https://github.com/paritytech/parity-codec) which includes the most common types such as `bool`, `u{8,16,32,64,128}`, `i{8,16,32,64,128}`, `String`, tuples, and arrays.
 
@@ -48,7 +48,7 @@ mod MyContract {
 
 You can find all the supported Substrate types in [`crates/storage/src/lib.rs`](https://github.com/paritytech/ink/blob/master/crates/storage/src/lib.rs).
 
-### Contract Deployment <a id="contract-deployment"></a>
+## Contract Deployment <a id="contract-deployment"></a>
 
 Every ink! smart contract must have a constructor which is run once when a contract is created. ink! smart contracts can have multiple constructors:
 
@@ -86,7 +86,7 @@ mod mycontract {
 }
 ```
 
-### [Your Turn!](https://contracts.edgewa.re/#/1/storing-a-value?id=your-turn) <a id="your-turn"></a>
+## [Your Turn!](https://contracts.edgewa.re/#/1/storing-a-value?id=your-turn) <a id="your-turn"></a>
 
 Follow the `ACTION`s in the template.
 
@@ -133,7 +133,6 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endtab %}
 

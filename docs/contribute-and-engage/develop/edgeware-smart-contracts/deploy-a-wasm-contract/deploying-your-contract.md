@@ -23,8 +23,7 @@ With your Substrate development node running, you can go back to the [Polkadot U
 
 Under the **Developer** tab click on the specially designed [Contracts](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/contracts) section of the UI.
 
-In the **Contracts** section, select **"Upload & deploy code"**.   
-
+In the **Contracts** section, select **"Upload & deploy code"**.
 
 ![](https://user-images.githubusercontent.com/32852637/111106282-2ec9d800-852b-11eb-8e31-6a0af519f0fe.jpg)
 
@@ -39,7 +38,6 @@ To instantiate our contract we just need to give this contract account an _**end
 ![](https://user-images.githubusercontent.com/32852637/111108637-a69a0180-852f-11eb-8536-3172307771ed.PNG)
 
 {% hint style="info" %}
-  
 **Note:** As mentioned earlier, contract creation involves creation of a new Account. As such, you must be sure to give the contract account at least the existential deposit defined by your blockchain. We also need to be able to pay the contract's rent \(**`endowment`**\). If we consume all of this deposit, the contract will become invalid. We can always refill the contract's balance and keep it on chain.
 {% endhint %}
 

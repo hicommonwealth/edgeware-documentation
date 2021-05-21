@@ -1,6 +1,6 @@
 # WASM Basics
 
-### Introduction
+## Introduction
 
 This chapter will get you started developing smart contracts with ink!.
 

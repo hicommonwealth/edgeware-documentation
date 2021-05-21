@@ -4,13 +4,13 @@ So at this point, we have a single user that owns all the tokens for the contrac
 
 Let's do that!
 
-### The Transfer Function <a id="the-transfer-function"></a>
+## The Transfer Function <a id="the-transfer-function"></a>
 
 The `transfer` function does exactly what you might expect: it allows the user calling the contract to transfer some funds they own to another user.
 
 You will notice in our template code there is a public function `transfer` and an internal function `transfer_from_to`. We have done this because in the future, we will be reusing the logic for a token transfer when we enable third party allowances and spending on-behalf-of.
 
-#### transfer\_from\_to\(\) <a id="transfer_from_to"></a>
+### transfer\_from\_to\(\) <a id="transfer_from_to"></a>
 
 ```rust
 fn transfer_from_to(&mut self, from: AccountId, to: AccountId, value: Balance) -> bool {/* --snip-- */}
@@ -28,7 +28,7 @@ if balance_from < value {
 
 Remember that the `transfer` function and other public functions return a bool to indicate success. If the `from` account does not have enough balance to satisfy the transfer, we will exit early and return false, not making any changes to the contract state. Our `transfer_from_to` will simply forward the "success" `bool` up to the function that calls it.
 
-#### transfer\(\) <a id="transfer"></a>
+### transfer\(\) <a id="transfer"></a>
 
 ```rust
 #[ink(message)] 
@@ -37,7 +37,7 @@ pub fn transfer(&mut self, to: AccountId, value: Balance) -> bool {/* --snip-- *
 
 Finally, the `transfer` function will simply call into the `transfer_from_to` with the `from` parameter automatically set to the `self.env().caller()`. This is our "authorization check" since the contract caller is always authorized to move their own funds.
 
-### Transfer Math <a id="transfer-math"></a>
+## Transfer Math <a id="transfer-math"></a>
 
 There really is not much to say about the simple math executed within a token transfer.
 
@@ -45,7 +45,7 @@ There really is not much to say about the simple math executed within a token tr
 2. Then we make the logic check mentioned above to ensure the `from` balance has enough funds to send `value`.
 3. Finally, we subtract that `value` from the `from` balance and add it to the `to` balance and insert those new values back in.
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 Follow the `ACTION`s in the template code to build your transfer function.
 
@@ -113,8 +113,6 @@ mod erc20 {
     #[cfg(test)]
     mod tests {
         use super::*;
-
-
 ```
 {% endtab %}
 
@@ -180,7 +178,6 @@ mod erc20 {
         fn balance_of_or_zero(&self, owner: &AccountId) -> Balance {
             *self.balances.get(owner).unwrap_or(&0)
         }
-
 ```
 {% endtab %}
 {% endtabs %}

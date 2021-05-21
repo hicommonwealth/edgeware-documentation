@@ -12,7 +12,7 @@ Replace the content of `lib.rs` file with the template on the right.
 
 The contract storage consists of an `AccountId` which we initialize to the callers id in the constructor. There is a function `get_chair_person` implemented that returns the id of the the chair\_person\(owner\) of the contract.
 
-### Struct <a id="struct"></a>
+## Struct <a id="struct"></a>
 
 You may have come across the [struct](https://doc.rust-lang.org/book/ch05-01-defining-structs.html) keyword in previous tutorials, but so far we have used structs to define the storage of contracts. In this contract, we use it to define the following custom types that are going to be used later use as part ballot storage:
 
@@ -27,11 +27,11 @@ You may have come across the [struct](https://doc.rust-lang.org/book/ch05-01-def
 
 Unlike our contract struct `Ballot` we don't use the macro `ink(storage)` for our custom defined structs as there can only be a single storage struct for a contract. Also, our structs are not public as users don't need to interact with them directly.
 
-### Ink\_Prelude <a id="ink_prelude"></a>
+## Ink\_Prelude <a id="ink_prelude"></a>
 
 `ink_pelude` crate provides data structures such as `HashMap`, `Vector` etc.. to operate on contract memory during contract execution. We will be importing these collections in next parts of this tutorial so before moving forward update contract's cargo.toml file with following dependency: `ink_prelude = { version = "3.0.0-rc2", default-features = false }`
 
-### Compilaton and Warnings <a id="compilaton-and-warnings"></a>
+## Compilaton and Warnings <a id="compilaton-and-warnings"></a>
 
 You can build the contract using `cargo +nightly build` and run tests using `cargo +nightly test`. The contract will successfully compile and pass all tests, but the rust compiler will give you the following warnings:
 
@@ -54,8 +54,6 @@ warning: 2 warnings emitted
 ```
 
 This is because the structs we have defined are never used. We will get to that in next part!
-
-
 
 {% tabs %}
 {% tab title="🔨Starting Point" %}
@@ -112,10 +110,10 @@ mod ballot {
     mod tests {
         /// Imports all the definitions from the outer scope so we can use them here.
         use super::*;
-        
+
         // Alias `ink_lang` so we can use `ink::test`.
         use ink_lang as ink;
-        
+
         #[ink::test]
         fn new_works() {
             let ballot = Ballot::new();
@@ -123,7 +121,6 @@ mod ballot {
         }
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}

@@ -2,7 +2,7 @@
 
 Now that we have created and initialized a storage value, we are going to start to interact with it!
 
-### Contract Functions <a id="contract-functions"></a>
+## Contract Functions <a id="contract-functions"></a>
 
 As you can see in the contract template, all of your contract functions are part of your contract module.
 
@@ -12,7 +12,7 @@ impl MyContract {
 }
 ```
 
-#### Public and Private Functions <a id="public-and-private-functions"></a>
+### Public and Private Functions <a id="public-and-private-functions"></a>
 
 In Rust, you can make as many implementations as you want. As a stylistic choice, we recommend breaking up your implementation definitions for your private and public functions:
 
@@ -37,7 +37,7 @@ You can also choose to split things up however is most clear for your project.
 
 Note that all public functions must use the `#[ink(message)]` attribute.
 
-### Storage Value API <a id="storage-value-api"></a>
+## Storage Value API <a id="storage-value-api"></a>
 
 Without going into so much detail, storage values are a part of the underlying ink! core layer. In the background, they use a more primitive `cell` type which holds an `Option<T>`. When we try to get the value from storage, we `unwrap` the value, which is why it panics if it is not initialized!
 
@@ -65,7 +65,7 @@ where
 
 In that same file, you can find the other APIs exposed by storage values, however these three are the most commonly used.
 
-### Getting a Value <a id="getting-a-value-1"></a>
+## Getting a Value <a id="getting-a-value-1"></a>
 
 We already showed you how to initialize a storage value. Getting the value is just as simple:
 
@@ -80,7 +80,7 @@ impl MyContract {
 
 In Rust, if the last expression in a function does not have a semicolon, then it will be the return value.
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 Follow the `ACTION`s on the code template provided.
 
@@ -89,7 +89,6 @@ Remember to run `cargo +nightly test` to test your work.
 {% tabs %}
 {% tab title="🔨Starting Point" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -135,13 +134,11 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -186,7 +183,6 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}

@@ -36,7 +36,7 @@ Now we click on the right three dots next to our **Team Funding** account as the
 
 You as other signator \(**BOB**\) enter same amount and destination to **get same final call payload**.
 
-![multi-signature-transfer](../../.gitbook/assets/transfer-ms%20%281%29%20%281%29.png)
+![multi-signature-transfer](../../.gitbook/assets/transfer-ms%20%281%29%20%281%29%20%281%29.png)
 
 Now we as **BOB** we can authorize transaction. UI is smart enough and detected it's final approval. Under toggle _Multisig message_ you will see same payload as we're creating multisig transaction. Hit Sign and Submit and it's should be signed 2 of 3 signatories which is enough for this scenario so can transaction can pass through to DAVE.
 

@@ -2,7 +2,7 @@
 
 We are almost there! Our token contract can now transfer funds from user to user and tell the outside world what is going on when this happens. All that is left to do is introduce the `approve` and `transfer_from` functions.
 
-### Third Party Transfers <a id="third-parity-transfers"></a>
+## Third Party Transfers <a id="third-parity-transfers"></a>
 
 This section is all about adding the ability for other accounts to safely spend some amount of your tokens.
 
@@ -16,7 +16,7 @@ So hopefully you can see why a feature like this would be useful, but how can we
 
 We use a two step process: **Approve** and **Transfer From**.
 
-#### Approve <a id="approve"></a>
+### Approve <a id="approve"></a>
 
 Approving another account to spend your funds is the first step in the third party transfer process. A token owner can specify another account and any arbitrary number of tokens it can spend on the owner's behalf. The owner need not have all their funds approved to be spent by others; in the situation where there is not enough funds, the approved account can spend up to the approved amount from the owner's balance.
 
@@ -44,7 +44,7 @@ pub fn approve(&mut self, spender: AccountId, value: Balance) -> bool {/* --snip
 
 When you call the `approve` function, you simply insert the `value` specified into storage. The `owner` is always the `self.env().caller()`, ensuring that the function call is always authorized.
 
-#### Transfer From <a id="transfer-from"></a>
+### Transfer From <a id="transfer-from"></a>
 
 Finally, once we have set up an approval for one account to spend on-behalf-of another, we need to create a special `transfer_from` function which enables an approved user to transfer those funds.
 
@@ -70,13 +70,13 @@ Again, we exit early and return false if our authorization does not pass.
 
 If everything looks good though, we simply `insert` the updated allowance into the `allowance` HashMap \(`let new_allowance = allowance - value`\), and call the `transfer_from_to` between the specified `from` and `to` accounts.
 
-### Be Careful! <a id="be-careful"></a>
+## Be Careful! <a id="be-careful"></a>
 
 If you glaze over the logic of this function too quickly, you may introduce a bug into your smart contract. Remember when calling `transfer_from`, the `self.env().caller()` and the `from` account is used to look up the current allowance, but the `transfer_from` function is called between the `from` and `to` account specified.
 
 There are three account variables in play whenever `transfer_from` is called, and you need to make sure to use them correctly! Hopefully our test will catch any mistake you make.
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 You are almost there! This is the last piece of the ERC20 token contract.
 
@@ -203,13 +203,11 @@ mod erc20 {
             self.balances.insert(from, from_balance - value);
 
             // Update the receiver's balance.
-
 ```
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -282,7 +280,7 @@ mod erc20 {
             });
             true
         }
-        
+
         #[ink(message)]
         fn allowance(&self, owner: AccountId, spender: AccountId) -> Balance {
             self.allowance_of_or_zero(&owner, &spender)
@@ -324,8 +322,6 @@ mod erc20 {
         fn balance_of_or_zero(&self, owner: &AccountId) -> Balance {
             *self.balances.get(owner).unwrap_or(&0)
         }
-
-
 ```
 {% endtab %}
 {% endtabs %}

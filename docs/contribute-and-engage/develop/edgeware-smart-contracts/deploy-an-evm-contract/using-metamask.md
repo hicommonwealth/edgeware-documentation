@@ -1,16 +1,16 @@
 # Using Metamask
 
-#### Introduction <a id="introduction"></a>
+## Introduction <a id="introduction"></a>
 
 This guide will show you steps for using a self-contained Edgeware dev node to send tokens between EVM accounts with Metamask. To setup your own local node, learn more at this tutorial.
 
 In this tutorial we will use the web3 rpc endpoints to interact with Edgeware
 
-#### Install the Metamask Extension <a id="install-the-metamask-extension"></a>
+## Install the Metamask Extension <a id="install-the-metamask-extension"></a>
 
 First, we start with a fresh and default [Metamask installation from the Chrome store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en). Follow the "Get Started" guide, where you need to create a wallet, set a password and store your secret backup phrase. \(this gives direct access to your funds, so make sure to store these in a secure place\).
 
-#### Import Developer Account <a id="import-developer-account"></a>
+## Import Developer Account <a id="import-developer-account"></a>
 
 Once completed, we will import our dev account. Click on upper right corner for accounts and hit `Import Account`:
 
@@ -30,7 +30,7 @@ You should see that account imported with wild balance \(123456.123E\) for our n
 
 ![](https://contracts.edgewa.re/4/assets/mm-imported-account.png)
 
-#### Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
+## Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
 
 Now let's connect Metamask to our locally running Edgeware EVM node. On upper right, hit Networks and click Custom RPC
 
@@ -40,7 +40,7 @@ Put there credentials Network Name: `Edgeware EVM` New RPC URL: `http://127.0.0.
 
 and hit **Save** button. Your can see it in figure below
 
-#### Make a Transfer <a id="make-a-transfer"></a>
+## Make a Transfer <a id="make-a-transfer"></a>
 
 Now to verify your setup, you can try to make transfer between accounts. Don't worry, it's free! ;\)
 
@@ -50,7 +50,7 @@ Once is transaction in the block, you should see confirmed transaction like this
 
 ![](https://contracts.edgewa.re/4/assets/mm-confirmed-transaction.png)
 
-#### Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
+## Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
 Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware Ethereum compability feature. We are **keen to hear your experience and suggestions you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our [Treasury program](https://docs.edgewa.re/edgeware-runtime/treasury). Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
 

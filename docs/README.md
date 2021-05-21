@@ -2,10 +2,16 @@
 
 ## Announcements
 
+Looking for Network Status or RPC Points?
+
+{% page-ref page="other-resources/networks.md" %}
+
+
+
 **🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more.
 
 {% hint style="warning" %}
-We recommend all Edgeware users convert their Lockdrop addresses to the new network format. [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
+If you haven't yet, \(most have already done this, or do not need to do this\) We recommend all Edgeware users convert their original Lockdrop addresses to the new network format. [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
 {% endhint %}
 
 ## What is Edgeware?
@@ -16,6 +22,7 @@ We recommend all Edgeware users convert their Lockdrop addresses to the new netw
 * Nominated Proof-of-Stake \(PoS\) Blockchain
 * Smart Contract Platform
 * with a WASM \(WebAssembly\) Runtime through Parity Substrate.
+* And the ability to run both EVM \(Solidity\) Contracts, and Rust \(Ink!\) Contracts.
 
 It is designed to apply decision-making process to the runtime of the blockchain, but also to the decision-making processes themselves, in an effort to rapidly generate more effective governance solutions for blockchain platforms.
 

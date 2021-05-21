@@ -84,7 +84,7 @@ Edgeware launched with an early version of Substrate that experiences a lag in b
 
 #### Where can I store EDG?
 
-For storing \[and optionally staking\], you can use the recommended full-fledged wallet interface [Polkadot Apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/) \[along with optional [polkadot\{.js\} extension](https://polkadot.js.org/extension/)\]. [Watch a walkthrough🎥👆](https://youtu.be/IjoHHofQXcY)
+For storing \[and optionally staking\], you can use the recommended full-fledged wallet interface [Polkadot Apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/) \[along with optional [polkadot{.js} extension](https://polkadot.js.org/extension/)\]. [Watch a walkthrough🎥👆](https://youtu.be/IjoHHofQXcY)
 
 [Clover extension wallet](https://chrome.google.com/webstore/detail/clover-wallet/nhnkbkgjikgcigadomkphalanndcapjk)\(beta\) can also be used as an alternative to the Polkadot JS extension.
 

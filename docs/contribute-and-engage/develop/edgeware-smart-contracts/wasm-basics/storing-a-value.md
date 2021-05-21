@@ -68,7 +68,6 @@ As mentioned, not initializing storage before you use it is a common error that 
 So given `my_number_map`, imagine we wanted the default value for any given key to be `0`. We can build a function like this:
 
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -98,7 +97,6 @@ Here we see that after we `get` the value from `my_number_map` we call `unwrap_o
 Here is an example:
 
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -144,7 +142,6 @@ As you might have noticed in the example above, we use a special function called
 `self.env().caller()` can be used a number of different ways. In the examples above, we are basically creating an "access control" layer which allows a user to modify their own value, but no one else. You can also do things like define a contract owner during contract deployment:
 
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -181,7 +178,6 @@ Remember to run `cargo +nightly test` to test your work.
 {% tabs %}
 {% tab title="🔨Starting Point" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -263,13 +259,11 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endtab %}
 
 {% tab title="✅Potential Solution" %}
 ```rust
-
 #![cfg_attr(not(feature = "std"), no_std)]
 
 use ink_lang as ink;
@@ -350,7 +344,6 @@ mod incrementer {
         }
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}
