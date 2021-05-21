@@ -50,20 +50,8 @@ wss://mainnet20.edgewa.re
 
 ### Edgeware Beresheet Testnet
 
-**Canarynet Functionality**
 
-
-**Mainnet Functionality**
-
-At this time, we recomemnd using the node run by Patract Labs Elara.
-
-edgeware.api.onfinality.io
-edgeware.elara.patract.io
-
-**Testnet Functionality**
-
-
-MAy 21, 2021: Confirmed that Beresheet1, Beresheet3 are working.
+**Status Update (May 21, 2021)** Confirmed that Beresheet1, Beresheet3 are working.
 Some Beresheet networks may have a javascript library issue that is not updated. 
 
 
@@ -80,3 +68,6 @@ wss://beresheet9.edgewa.re
 wss://beresheet10.edgewa.re
 ```
 
+**Canarynet Functionality**
+
+Coming soon.
