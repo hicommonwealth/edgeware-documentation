@@ -1,7 +1,7 @@
 # Using Hardhat
 
 {% hint style="danger" %}
-**This page is still under devlopment. Many functionalities of this page are still being worked on until further notice. If able to get functionality operating using Beresheet, add a pull request with revised changes, thank you.**
+**This page is still under devlopment. Many functionalities of this page are still being worked on until further notice. As stability is updated, add a pull request with revised changes, thank you.**
 {% endhint %}
 
 ![](https://user-images.githubusercontent.com/32852637/118346510-0437d380-b50a-11eb-9fc2-267d0b20777b.png)
@@ -66,21 +66,29 @@ Once all requirements have been met, you are ready to build with Hardhat.
 
 To start a new project, create a directory for it:
 
-```mkdir EDGhat && cd EDGhat```
+```
+mkdir EDGhat && cd EDGhat
+```
 
 Then, initialize the project by running:
 
-```npm init -y```
+```
+npm init -y
+```
 
 You will notice a newly created `package.json`, which will continue to grow as you install project dependencies.
 
 To get started with Hardhat, we will install it in our newly created project directory:
 
-```npm install hardhat```
+```
+npm install hardhat
+```
 
 Once installed, run:
 
-```npx hardhat```
+```
+npx hardhat
+```
 
 This will create a Hardhat config file (hardhat.config.js) in our project directory.
 
@@ -136,9 +144,16 @@ If you have not yet done so, connect your MetaMask Account to our ecosystem and 
 
 We start by requring the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), which brings the [ethers.js][/integrations/ethers/] library that allows you to interact with the blockchain in a simple way. We can install ethers plugin by running:
 
-```npm install @nomiclabs/hardhat-ethers ethers```
+```
+npm install @nomiclabs/hardhat-ethers ethers
+```
 
-Next, we import the private key that we've retrieved from MetaMask and store it in a .json file. This file will be under the root directory, and named `private.json`. Make sure to add the file to your project's .gitignore, and to never reveal your private key. The private.json file must contain a privateKey entry, for example:
+Next, we import the private key that we've retrieved from MetaMask and store it in a `.json` file. This file should be created under the root directory, and named `private.json`. Because this key is highly sensitive information, it's very important that we are not revealing any information when deploying. To ensure this, we want to create a `.gitignore` file under our root directory. Then, you can ignore any files by using the format: `.filename` or any directories by using: `directory/`. In our case, we are trying to ignore our private key file so it should look like this:
+
+![](https://user-images.githubusercontent.com/32852637/119069678-929dd080-b9b4-11eb-96d0-accb05d1666b.PNG)
+
+
+The private.json file must contain a privateKey entry, for example:
 
 ```//
 {
@@ -151,17 +166,21 @@ Inside the `module.exports`, we need to provide the Solidity version (`0.8.1` ac
 - Network name: Beresheet
 - RPC URL: https://beresheet2.edgewa.re/evm \(Alternatively, one can use https://beresheetX.edgewa.re/evm where X can be any number from 1 to 8.\)
 - Chain ID: 2021
+- gas: 180000
 
 ##
 If you want to deploy to a local Edgeware development node, you can use the following network details:
 - Network name: dev
 - RPC URL: http://localhost:9933/
 - Chain ID: 2021
+- gas: 180000
 
+##
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 - Network name: Edgeware
 - RPC URL: https://mainnet2.edgewa.re/evm \(Alternatively, one can use https://mainnetX.edgewa.re/evm where X can be any number from 1 to 20.\)
 - Chain ID: 2021
+- gas: 180000
 ##
 
 The Hardhat configuration file should look like this:
@@ -182,6 +201,7 @@ module.exports = {
     Beresheet: {
       url: `https://beresheet2.edgewa.re/evm`,
       chainId: 2021,
+      gas: 180000,
       accounts: [privateKey]
     }
   }
@@ -193,7 +213,9 @@ Great! We are now ready for deployment.
 
 Our contract, `Box.sol`, uses Solidity 0.8.1. Make sure the Hardhat configuration file is correctly set up with this solidity version. If so, we can compile the contract by running:
 
-```npx hardhat compile```
+```
+npx hardhat compile
+```
 
 ![](https://user-images.githubusercontent.com/32852637/118344716-c92fa300-b4fd-11eb-86ff-c92ae08eb735.png)
 
@@ -236,7 +258,9 @@ main()
    ```
 Using the run command, we can now deploy the Box contract to Beresheet.
 
-```npx hardhat run --network Beresheet scripts/deploy.js```
+```
+npx hardhat run --network Beresheet scripts/deploy.js
+```
 
 {% hint style="info" %}
 To deploy to a Edgeware development node, replace Beresheet for dev in the run command.
@@ -244,15 +268,20 @@ To deploy to a Edgeware development node, replace Beresheet for dev in the run c
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
 
-_(EXAMPLE PICTURE PENDING)_
+![](https://user-images.githubusercontent.com/32852637/119068621-8a449600-b9b2-11eb-8880-7cebaf9f41ee.PNG)
+
 
 Congratulations, your contract is live! Save the address, as we will use it to interact with this contract instance in the next step.
 
 ## Interacting with the Contract
 
+{% hint style="warning" %} Limited functionality {% endhint %}
+
 Let's use Hardhat to interact with our newly deployed contract in Beresheet. To do so, launch hardhat console by running:
 
-```npx hardhat console --network Beresheet```
+```
+npx hardhat console --network Beresheet
+```
 
 {% hint style="info" %}
 To deploy to a Edgeware development node, replace Beresheet for dev in the run command.
@@ -266,11 +295,15 @@ const Box = await ethers.getContractFactory('Box');
 
 Next, let's connect this instance to an existing one by passing in the address we obtained when deploying the contract:
 
-`const box = await Box.attach('ADDRESS-GOES-HERE');`
+```
+const box = await Box.attach('ADDRESS-GOES-HERE');
+```
 
 After attaching to the contract, we are ready to interact with it. While the console is still in session, let's call the store method and store a simple value:
 
-`await box.store(5)`
+```
+await box.store(5)
+```
 
 The transaction will be signed by your Beresheet account and broadcast to the network. The output should look similar to:
 
@@ -278,7 +311,9 @@ The transaction will be signed by your Beresheet account and broadcast to the ne
 
 Notice your address labeled from, the address of the contract, and the data that is being passed. Now, let's retrieve the value by running:
 
-`(await box.retrieve()).toNumber()`
+```
+(await box.retrieve()).toNumber()
+```
 
 We should see `5` or the value you have stored initially.
 
