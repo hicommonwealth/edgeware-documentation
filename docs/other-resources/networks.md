@@ -14,7 +14,17 @@ Explore these networks with a Block Explorer.
 * ws://networkNameNumber.edgewa.re:9944
 
 ### Edgeware Mainnet
+At this time, we recomemnd using the node run by Patract Labs Elara or the OnFinality node to balance load.
 
+#### Patract Elara Public Node
+```
+wss://edgeware.elara.patract.io
+```
+#### OnFinality Public Node
+```
+wss://edgeware.api.onfinality.io
+```
+#### Commonwealth Labs Nodes
 ```text
 wss://mainnet1.edgewa.re
 wss://mainnet2.edgewa.re
@@ -39,6 +49,23 @@ wss://mainnet20.edgewa.re
 ```
 
 ### Edgeware Beresheet Testnet
+
+**Canarynet Functionality**
+
+
+**Mainnet Functionality**
+
+At this time, we recomemnd using the node run by Patract Labs Elara.
+
+edgeware.api.onfinality.io
+edgeware.elara.patract.io
+
+**Testnet Functionality**
+
+
+MAy 21, 2021: Confirmed that Beresheet1, Beresheet3 are working.
+Some Beresheet networks may have a javascript library issue that is not updated. 
+
 
 ```text
 wss://beresheet1.edgewa.re
