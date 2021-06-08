@@ -14,7 +14,7 @@ Hardhat comes built-in with **Hardhat Network**, a local Ethereum network design
 
 **Hardhat Runner**, the CLI command to interact with Hardhat, is an extensible task runner. It's designed around the concepts of tasks and plugins. Every time you're running Hardhat from the CLI you're running a task. E.g. npx hardhat compile is running the built-in compile task. Tasks can call other tasks, allowing complex workflows to be defined. Users and plugins can override existing tasks, making those workflows customizable and extendable.
 
-A lot of Hardhat's functionality comes from plugins, and, as a developer, you're free to choose which ones you want to use. Hardhat is unopinionated in terms of what tools you end up using, but it does come with some built-in defaults. All of which can be overriden.
+A lot of Hardhat's functionality comes from plugins, and, as a developer, you're free to choose which ones you want to use. Hardhat is unopinionated in terms of what tools you end up using, but it does come with some built-in defaults. All of which can be overridden.
 
 To follow this tutorial you should be able to:
 
@@ -62,6 +62,7 @@ Also, you will need the following:
 
 * Have MetaMask installed and connected to Beresheet
 * Have an account with funds, which you can get from the automated bot on the Edgeware discord \(_in construction_\)
+To send funds to your meta mask you have to first convert your EVM address to a mainnet address. you can do so here at the bottom of the page https://edgewa.re/keygen (Convert Metamask/EVM address to mainnet address)
 
 Once all requirements have been met, you are ready to build with Hardhat.
 
@@ -323,4 +324,5 @@ We should see `5` or the value you have stored initially.
 Congratulations, you have completed the Hardhat tutorial!
 
 For more information on Hardhat, hardhat plugins, and other exciting functionality, please visit [hardhat.org](https://hardhat.org).
+
 
