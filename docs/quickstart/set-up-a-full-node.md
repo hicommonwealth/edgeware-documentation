@@ -97,7 +97,7 @@ We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
 ```text
 apt -y install software-properties-common
 add-apt-repository universe
-add-apt-repository ppa:certbot/certbot
+snap install --classic certbot
 apt update
 ```
 
