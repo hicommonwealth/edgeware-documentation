@@ -33,7 +33,7 @@ You should see that account imported with wild balance \(123456.123E\) for our n
 
 ## Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
 
-Now let's connect Metamask to our locally running Edgeware EVM node. The current network displayed is more than likely _'Ethereum mainnet'_. For our purposes, we'll want to change this: 1. Click the dropdown tab 2. Click custom RPC.
+Now let's connect Metamask to our locally running Edgeware EVM node. The current network displayed is more than likely _'Ethereum mainnet'_. For our purposes, we'll want to change this: 1. Click the dropdown tab 2. Click `Custom RPC`.
 
 ![](https://user-images.githubusercontent.com/32852637/121945926-54c96900-cd22-11eb-92c3-48145a9c1352.png)
 
