@@ -14,7 +14,8 @@ First, we start with a fresh and default [Metamask installation from the Chrome 
 
 Once completed, we will import our dev account. Click on upper right corner for accounts and hit `Import Account`:
 
-![](https://contracts.edgewa.re/4/assets/mm-import-account.png)
+![](https://user-images.githubusercontent.com/32852637/121943618-c5bb5180-cd1f-11eb-9831-98412d203bdd.png)
+
 
 We have prefunded developer account for this purpose:
 
@@ -32,13 +33,17 @@ You should see that account imported with wild balance \(123456.123E\) for our n
 
 ## Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
 
-Now let's connect Metamask to our locally running Edgeware EVM node. On upper right, hit Networks and click Custom RPC
+Now let's connect Metamask to our locally running Edgeware EVM node. The current network displayed is more than likely _'Ethereum mainnet'_. For our purposes, we'll want to change this: 1. Click the dropdown tab 2. Click custom RPC.
 
-![Metamask-Custom-RPC](https://contracts.edgewa.re/4/assets/mm-custom-rpc.png)
+![](https://user-images.githubusercontent.com/32852637/121945926-54c96900-cd22-11eb-92c3-48145a9c1352.png)
+
 
 Put there credentials Network Name: `Edgeware EVM` New RPC URL: `http://127.0.0.1:9933` ChainID: `2021`
 
 and hit **Save** button. Your can see it in figure below
+
+![](https://user-images.githubusercontent.com/32852637/121949463-775d8100-cd26-11eb-84b3-133d225c23ea.PNG)
+
 
 ## Make a Transfer <a id="make-a-transfer"></a>
 
