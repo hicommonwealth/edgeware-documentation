@@ -48,7 +48,7 @@ You notice few facts from here, our chainId is `2021` and we are using solc vers
 
 The contract we will be deploying with Truffle is a simple ERC-20 contract. You can find this contract under `truffle/contracts/HedgeToken.sol`, it's content is showed here
 
-### [ERC-20 Contract](https://contracts.edgewa.re/#/4/interacting-with-a-Edgeware-node-using-truffle?id=erc-20-contract) <a id="erc-20-contract"></a>
+### [ERC-20 Contract]
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -84,8 +84,7 @@ Now let's go to the essential part! After you had installed necessary packages, 
 ```text
 npx truffle compile
 ```
-
-![](https://contracts.edgewa.re/4/assets/truffle-compile.png)
+![](https://user-images.githubusercontent.com/32852637/122429916-24bbd900-cf61-11eb-98bd-faa07d223e68.PNG)
 
 What id does, it take OpenZepplin ERC20.sol token, compiles it with other referenced code in other OpenZepplin code, creates artifact \(bytecode\) and ABI \(contract interface\)
 
@@ -97,7 +96,8 @@ Now let's go to the hot stuff, deploy it to our Edgeware EVM
 npx truffle --network development migrate
 ```
 
-![](https://contracts.edgewa.re/4/assets/truffle-migrate.png)
+![Truffle_2](https://user-images.githubusercontent.com/32852637/122431469-7ca70f80-cf62-11eb-8684-114f0323ff83.PNG)
+
 
 As you may see, we are using our `development` network from `truffle-config.js`. From migrate you'll notice there what our contract address is of our contract.
 
