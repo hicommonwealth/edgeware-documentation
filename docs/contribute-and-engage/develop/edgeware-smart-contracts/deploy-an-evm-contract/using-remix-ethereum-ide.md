@@ -10,9 +10,10 @@ This guide assumes that you have a running local Edgeware node running in `--dev
 
 [Open Remix](https://remix.ethereum.org/) and click on the `New File`
 
-Name your file, in our case we've named it `erc20.sol` - yes, that [famous token standard](https://eips.ethereum.org/EIPS/eip-20)
+Name your file, in our case we've named it `ERC20.sol` - yes, that [famous token standard](https://eips.ethereum.org/EIPS/eip-20)
 
-![](https://contracts.edgewa.re/4/assets/remix-name-file.png)
+![](https://user-images.githubusercontent.com/44712760/122647263-91a9ad00-d0e0-11eb-93fb-1516d5c70509.png)
+
 
 Now add code. Here we are using simple ERC-20 contract based on the current Open Zeppelin ERC-20 template. It creates `MyFirstToken` with symbol `HEDGE` and mints the entirety of the initial supply to the creator of the contract.
 
@@ -29,43 +30,53 @@ contract MyFirstToken is ERC20 {
 }
 ```
 
-![](https://contracts.edgewa.re/4/assets/remix-add-code.png)
+![](https://user-images.githubusercontent.com/44712760/122647352-1eed0180-d0e1-11eb-83f2-652e5d071d28.png)
 
-On the left sidebar, you will click on Solidity compiler and Compile erc20.sol
+
+On the left sidebar, you will click on Solidity compiler and Compile ERC20.sol
 
 ```text
 Solidity Compiler >>> Compile Contract
 ```
 
-![](https://contracts.edgewa.re/4/assets/remix-compile-contract.png)
+![](https://user-images.githubusercontent.com/44712760/122647422-683d5100-d0e1-11eb-8ec4-d987d7ed8365.png)
+
 
 Now click to the `Deploy & Run Transactions` on the left in the sidebar and open Metamask to check if is our account connected. If it's connected you can skip to next steps
 
-![](https://contracts.edgewa.re/4/assets/remix-open-mm.png)
+![](https://user-images.githubusercontent.com/44712760/122647516-cb2ee800-d0e1-11eb-91c8-78da242aca5b.png)
 
-Select our account, in this case it's `Account 4` and click on **connect**
 
-![](https://contracts.edgewa.re/4/assets/remix-connect-mm.png)
+Select our account, in this case it's `Edgeware Dev` and click **connect** if you don't see that option click on **Not connected** a new window will pop up.
+
+![](https://user-images.githubusercontent.com/44712760/122647653-8ce5f880-d0e2-11eb-8775-1c0a8040e6db.png)
+![](https://user-images.githubusercontent.com/44712760/122647679-a71fd680-d0e2-11eb-890d-18a72131a25d.png)
+
 
 You will now head to deploy contract. Just before that, make sure you've set set **ENVIRONMENT** to `Injected Web3` and Account that we've imported. Hint, it should have some Eth. To the input next deploy input `initialSupply`, in our case it's 21M. Since this contract uses the default of 18 decimals, the value you will put there is `21000000000000000000000000`
 
-![](https://contracts.edgewa.re/4/assets/remix-click-deploy.png)
+![](https://user-images.githubusercontent.com/44712760/122647765-0aaa0400-d0e3-11eb-8163-a3bf7778d3d0.png)
+
 
 You will hit **confirm**!
 
-![Remix-MM-confirm](https://contracts.edgewa.re/4/assets/remix-mm-confirm.png)
+![Remix-MM-confirm](https://user-images.githubusercontent.com/44712760/122647786-27ded280-d0e3-11eb-8e16-46ca0bda1982.png)
+
 
 You will see your contract has been successfully deployed.
 
-![Remix-deployed-contract](https://contracts.edgewa.re/4/assets/remix-deployed-contract.png)
+![Remix-deployed-contract](https://user-images.githubusercontent.com/44712760/122647859-886e0f80-d0e3-11eb-9b90-3da70fefe94a.png)
+
 
 You can see your contract deployment details, that has been successfully deployed on Edgeware EVM
 
-![](https://contracts.edgewa.re/4/assets/remix-contract-deployment.png)
+![](https://user-images.githubusercontent.com/44712760/122647914-db47c700-d0e3-11eb-98ad-747ff2befd04.png)
+
 
 You can now click to call functions like `decimals`, `name`, `symbol`, `totalSupply`
 
-![](https://contracts.edgewa.re/4/assets/remix-call-functions.png)
+![](https://user-images.githubusercontent.com/44712760/122647936-f61a3b80-d0e3-11eb-9657-ae4a4914dc4b.png)
+
 
 ## What's next? <a id="what39s-next"></a>
 
