@@ -6,7 +6,10 @@ Looking for Network Status or RPC Points?
 
 {% page-ref page="other-resources/networks.md" %}
 
+## [Roadmap](https://main.edgeware.wiki/roadmap)
 
+### Upgrade Schedule 
+ERUP-4 is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)
 
 **🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more.
 
