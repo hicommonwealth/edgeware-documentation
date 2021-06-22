@@ -9,7 +9,7 @@ The Edgeware Documentation collection aims to become a community-developed resou
 - Twitter: https://twitter.com/HeyEdgeware
 
 ## View the docs on GitBooks
-For a user friendly view of these documents, go to http://docs.edgewa.re
+For a user friendly view of these documents, go to https://main.edgeware.wiki/
 
 ## Contributing to Documentation
 Commonwealth Labs, the core developer of Edgeware, encourages collaboration and will review all pull-requests and issues created in this repository. If you notice typos or grammatical errors, please feel free to directly create pull requests with these corrections. Larger contributions may start as issues to test the waters on the subject with the maintainers. It is generally preferable to create a pull request over an issue to propose a change to the wiki content.
