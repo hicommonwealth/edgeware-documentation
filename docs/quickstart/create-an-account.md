@@ -6,7 +6,7 @@ There are several ways to generate a Edgeware account:
 
 * [Polkadot{.js} Browser Plugin](create-an-account.md#polkadotjs-browser-plugin) - _We reccomend this for most users_
 * [Subkey](create-an-account.md#subkey) - _Advanced and Most secure_
-* [DotApps.io](create-an-account.md#dotappsio) \(known as Polkadot-JS Apps\)
+* [Edgeui-Flax.Vercel.app](create-an-account.md#edgeui-flax.vercel.app)
 * Parity Signer
 * Ledger Hardware Wallet
 
@@ -44,7 +44,7 @@ After installing the plugin, you should see the orange and white Polkadot{.js} l
 
 ## Open Accounts
 
-Navigate to [DotApps](https://ipfs.io/ipns/dotapps.io/?rpc=wss%3A%2F%2Fmainnet4.edgewa.re#/accounts). Click on the "Accounts" tab.
+Navigate to [VercelApps](https://edgeui-flax.vercel.app/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/explorer). Click on the "Accounts" tab.
 
 ## Create Account
 
@@ -88,17 +88,18 @@ Subkey is recommended for technically advanced users who are comfortable with th
 
 ![subkey generate address for edgeware](../.gitbook/assets/subkey_generate_address_for_edgeware.png)
 
-## DotApps.io
+## Edgeui-Flax.Vercel.app
 
 > Please note! If you use this method to create your account and clear your cookies in your browser, your account will be lost forever if you do not back it up. Make sure you store your seed phrase in a safe place, or download the account's JSON file if using the Polkadot{.js} browser extension. Learn more about account backup and restoration here.
 
-**Using the DotApps.io user interface without the plugin is not recommended.** It is the least secure way of generating an account. It should only be used if all of the other methods are not feasible in your situation.
+**Using the Edgeui-Flax.Vercel.app user interface without the plugin is not recommended.** It is the least secure way of generating an account. It should only be used if all of the other methods are not feasible in your situation.
 
-## Open DotApps.io
+## Open Edgeui-Flax.Vercel.app
 
-Navigate to [DotApps](https://ipfs.io/ipns/dotapps.io/?rpc=wss%3A%2F%2Fmainnet4.edgewa.re#/accounts) and click on "Accounts" underneath the Accounts tab. It is located in the navigation bar at the top of your screen.
+Navigate to [Edgeui-Flax.Vercel.app](https://edgeui-flax.vercel.app/?rpc=wss%3A%2F%2Fmainnet1.edgewa.re#/accounts) and click on "Accounts" underneath the Accounts tab. It is located in the navigation bar at the top of your screen.
 
-![DotApps Accounts tab](../.gitbook/assets/dotapps_accounts.png)
+![Edgeui-Flax.Vercel.app Accounts tab](https://user-images.githubusercontent.com/44712760/123108135-646a4100-d3f7-11eb-9ec0-c0ba2659964c.png)
+
 
 ## Start Account Generation
 
