@@ -100,7 +100,6 @@ Navigate to [Edgeui-Flax.Vercel.app](https://edgeui-flax.vercel.app/?rpc=wss%3A%
 
 ![Edgeui-Flax.Vercel.app Accounts tab](https://user-images.githubusercontent.com/44712760/123108135-646a4100-d3f7-11eb-9ec0-c0ba2659964c.png)
 
-
 ## Start Account Generation
 
 Click on the "Add Account" button. You should see a pop-up similar to the process encountered when using the [Polkadot JS Extension method](create-an-account.md#polkadotjs-browser-plugin) above. Follow the same instructions and remember to [store your seed safely](create-an-account.md#storing-your-key-safely)!
