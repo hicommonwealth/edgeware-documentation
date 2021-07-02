@@ -1,6 +1,6 @@
 # WASM
 
-
+![](../../../../.gitbook/assets/substrate-ink.png)
 
 ## WASM Contract Pallet
 
