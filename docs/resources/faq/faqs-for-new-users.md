@@ -44,7 +44,7 @@ Validators help provide security on Edgeware, since it's a PoS-based chain. Vali
 
 ### How does Edgeware utilize Parity Substrate?
 
-Parity Substate allows Edgeware developers to focus on improving the chain rather than developing infrastructure. Chains launched on Substrate generally do not have to deal with network or runtime level engineering changes. They can be natively extended with modules, which are written in Rust, compiled to Wasm, and linked into the client runtime. Modules can be voted into a chain by on-chain governance, at which point all clients will automatically download and run them, in a safe sandboxed environment. This makes the process of upgrading a chain much simpler and more accessible to a wide variety of developers!
+Parity Substrate allows Edgeware developers to focus on improving the chain rather than developing infrastructure. Chains launched on Substrate generally do not have to deal with network or runtime level engineering changes. They can be natively extended with modules, which are written in Rust, compiled to Wasm, and linked into the client runtime. Modules can be voted into a chain by on-chain governance, at which point all clients will automatically download and run them, in a safe sandboxed environment. This makes the process of upgrading a chain much simpler and more accessible to a wide variety of developers!
 
 ### What happens if Edgeware is no longer a parachain once Polkadot Network exists?
 
