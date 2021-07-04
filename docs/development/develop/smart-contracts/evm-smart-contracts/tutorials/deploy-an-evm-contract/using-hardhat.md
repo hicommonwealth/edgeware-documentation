@@ -63,7 +63,7 @@ Also, you will need the following:
 * Have MetaMask installed and connected to Beresheet
 * Have an account with funds, which you can get from the automated bot on the Edgeware discord \(_in construction_\)
 
-  To send funds to your meta mask you have to first convert your EVM address to a mainnet address. you can do so here at the bottom of the page [https://edgewa.re/keygen](https://edgewa.re/keygen) \(Convert Metamask/EVM address to mainnet address\)
+  To send funds to your meta mask you have to first convert your EVM address to a mainnet address. You can do so here at the bottom of the page [https://edgewa.re/keygen](https://edgewa.re/keygen) \(Convert Metamask/EVM address to mainnet address\)
 
 Once all requirements have been met, you are ready to build with Hardhat.
 
@@ -168,19 +168,19 @@ Inside the `module.exports`, we need to provide the Solidity version \(`0.8.1` a
 
 * Network name: Beresheet
 * RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
-* Chain ID: 2021
+* Chain ID: 2022
 
 If you want to deploy to a local Edgeware development node, you can use the following network details:
 
 * Network name: dev
 * RPC URL: [http://localhost:9933/](http://localhost:9933/)
-* Chain ID: 2021
+* Chain ID: 2022
 
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
 * Network name: Edgeware
 * RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
-* Chain ID: 2021
+* Chain ID: 2022
 
 The Hardhat configuration file should look like this:
 
@@ -199,7 +199,7 @@ module.exports = {
     // Beresheet network specification
     Beresheet: {
       url: `https://beresheet2.edgewa.re/evm`,
-      chainId: 2021,
+      chainId: 2022,
       accounts: [privateKey]
     }
   }
