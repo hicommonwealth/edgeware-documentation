@@ -25,7 +25,7 @@ Provision an appropriately sized server from a reputable VPS provider, e.g.:
 
 We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
 
-If you are running a public node, set up DNS from a domain name that you own to point to the server. We will use `testnet1.edgewa.re`. \(You don't need to do this if you are setting up a private node.\)
+If you are running a public node, set up DNS from a domain name that you own to point to the server. The DNS target needs to be type A and not Redirect type. We will use `testnet1.edgewa.re`. \(You don't need to do this if you are setting up a private node.\)
 
 SSH into the server.
 
@@ -180,7 +180,7 @@ Set up an nginx configuration. This will inject the public address you have just
     echo '      ssl_certificate /etc/letsencrypt/live/'$name'/cert.pem;'
     echo '      ssl_certificate_key /etc/letsencrypt/live/'$name'/privkey.pem;'
     echo '      ssl_session_timeout 5m;'
-    echo '      ssl_protocols  SSLv2 SSLv3 TLSv1;'
+    echo '      ssl_protocols  SSLv2 SSLv3 TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;'
     echo '      ssl_ciphers  HIGH:!aNULL:!MD5;'
     echo '      ssl_prefer_server_ciphers   on;'
     echo ''
@@ -201,6 +201,8 @@ Make sure that the paths of `ssl_certificate` and `ssl_certificate_key` match wh
 cat /etc/nginx/nginx.conf
 nginx -t
 ```
+Make sure that Nginx's OpenSSL version >1.0.2 You will have to Rebuild Nginx if the OpenSSL version is lower.
+Otherwise, modern TLS protocols created in letsencrypt certificates won't work, and Nginx will throw an error.
 
 If there is an error, `nginx -t` should tell you where it is. **Note that there may be subtle variations in how different systems are configured, e.g. some boxes may have different login users or locations for log files. It is up to you to reconcile these differences.**
 
