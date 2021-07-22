@@ -1,8 +1,6 @@
----
-description: 'https://wiki.polkadot.network/docs/en/learn-phragmen'
----
-
 # The Sequential Phragmen Method
+
+[Learn more about The Sequential Phragmen Method](https://wiki.polkadot.network/docs/en/learn-phragmen)
 
 ## What is the sequential Phragmen method?
 
