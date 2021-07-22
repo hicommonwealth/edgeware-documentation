@@ -4,10 +4,8 @@
 
 ## README
 
----
-
-* [Why Develop on Edgeware](why-develop-on-edgeware.md)
-* [Roadmap](roadmap.md)
+* [Why Develop on Edgeware](readme/why-develop-on-edgeware.md)
+* [Roadmap](readme/roadmap.md)
 
 ## Quickstart
 
@@ -68,7 +66,7 @@
           * [Using Hardhat](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-hardhat.md)
           * [EVM Resources](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/edgeware-evm-resources.md)
 * [Substrate](development/substrate/README.md)
-  * [Exchange Integration](development/substrate/exchange-integration.md)
+  * [Exchange integration](https://wiki.polkadot.network/docs/en/build-integration#docsNav)
   * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)
   * [Substrate Documentation](https://substrate.dev/docs/)
   * [Substrate APIs](https://polkadot.js.org/api/)
