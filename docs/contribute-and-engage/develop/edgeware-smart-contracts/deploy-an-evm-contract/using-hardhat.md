@@ -166,19 +166,19 @@ The private.json file must contain a privateKey entry, for example:
 Inside the `module.exports`, we need to provide the Solidity version \(`0.8.1` according to our contract file\), and the network details. Here, we are using testnet\(Beresheet\) network for the following example :
 
 * Network name: Beresheet
-* RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
-* Chain ID: 2021
+* RPC URL: [https://beresheet.edgewa.re/evm](https://beresheet.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetX.edgewa.re/evm) where X can be any number from 1 to 8.\)
+* Chain ID: 2022
 
 If you want to deploy to a local Edgeware development node, you can use the following network details:
 
 * Network name: dev
 * RPC URL: [http://localhost:9933/](http://localhost:9933/)
-* Chain ID: 2021
+* Chain ID: 2022
 
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
 * Network name: Edgeware
-* RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
+* RPC URL: [https://mainnet.edgewa.re/evm](https://mainnet.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
 * Chain ID: 2021
 
 The Hardhat configuration file should look like this:
