@@ -1,8 +1,6 @@
----
-description: 'https://wiki.polkadot.network/docs/en/learn-staking#slashing'
----
-
 # Slashing Consequences
+
+[Learn more about Slashing](https://wiki.polkadot.network/docs/en/learn-staking#slashing)
 
 Slashing will happen if a validator misbehaves \(e.g. goes offline, attacks the network, or runs modified software\) in the network. They and their nominators will get slashed by losing a percentage of their bonded/staked EDG.
 
