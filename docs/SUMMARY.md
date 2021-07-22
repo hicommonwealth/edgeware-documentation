@@ -71,7 +71,7 @@
   * [Substrate Documentation](https://substrate.dev/docs/)
   * [Substrate APIs](https://polkadot.js.org/api/)
 * [Community](development/community.md)
-* [Report an Issue](https://github.com/hicommonwealth/edgeware-contracts-tutorials/blob/master/1/assets/1.1-finished-code.rs)
+* [Report an Issue](https://github.com/edgeware-network/edgeware-documentation/issues)
 
 ## Edgeware Stack
 
