@@ -78,7 +78,7 @@
 * [Balances](edgeware-stack/balances/README.md)
   * [Staking Accounts: Stash and Controller](edgeware-stack/balances/stash-and-controller-accounts.md)
 * [Consensus](edgeware-stack/consensus/README.md)
-  * [Aura](edgeware-stack/consensus/aura.md)
+  * [Aura](https://substrate.dev/docs/en/knowledgebase/advanced/consensus#aura)
 * [Parameters](edgeware-stack/parameters.md)
 * [Economics](edgeware-stack/economics/README.md)
   * [Treasury](edgeware-stack/economics/treasury/README.md)
