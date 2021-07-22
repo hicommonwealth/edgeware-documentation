@@ -86,7 +86,7 @@ npx truffle compile
 ```
 ![](https://user-images.githubusercontent.com/32852637/122429916-24bbd900-cf61-11eb-98bd-faa07d223e68.PNG)
 
-What id does, it take OpenZepplin ERC20.sol token, compiles it with other referenced code in other OpenZepplin code, creates artifact \(bytecode\) and ABI \(contract interface\)
+What id does, it takes OpenZepplin ERC20.sol token, compiles it with other referenced code in other OpenZepplin code, creates artifact \(bytecode\) and ABI \(contract interface\)
 
 ### Deploying a Contract to Edgeware EVM Using Truffle <a id="deploying-a-contract-to-edgeware-evm-using-truffle"></a>
 
