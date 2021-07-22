@@ -24,11 +24,11 @@ Address: `0x19e7e376e7c213b7e7e7e46cc70a5dd086daff2a`
 
 On the import screen, select **"Private Key"** and paste there private key listed above and hit **Import**:
 
-![](https://contracts.edgewa.re/4/assets/mm-private-key.png)
+![](https://user-images.githubusercontent.com/44712760/126711295-3cbfd0a9-c13b-43ee-9a69-a17ad106330e.png)
 
-You should see that account imported with wild balance \(123456.123E\) for our needs, in our case it's **Account 4**, it may differ in your environment.
+You should see that account imported with wild balance \(123456.123E\) for our needs, in our case it's **Edgeware Dev**, it may differ in your environment.
 
-![](https://contracts.edgewa.re/4/assets/mm-imported-account.png)
+![Screen Shot 2021-07-20 at 6 53 51 AM](https://user-images.githubusercontent.com/44712760/126711489-424df67b-8dd8-4ea7-b4bb-4040e2bbcd0c.png)
 
 ## Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
 
@@ -50,7 +50,7 @@ As new account, you should notice Nonce should be 0
 
 Once is transaction in the block, you should see confirmed transaction like this
 
-![](https://contracts.edgewa.re/4/assets/mm-confirmed-transaction.png)
+![Screen Shot 2021-07-22 at 3 13 30 PM](https://user-images.githubusercontent.com/44712760/126711535-ae48be2c-9697-4fe7-89a4-1d6fddff2313.png)
 
 ## Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
