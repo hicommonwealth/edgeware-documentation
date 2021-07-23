@@ -24,11 +24,12 @@ Address: `0x19e7e376e7c213b7e7e7e46cc70a5dd086daff2a`
 
 On the import screen, select **"Private Key"** and paste there private key listed above and hit **Import**:
 
-![](https://contracts.edgewa.re/4/assets/mm-private-key.png)
+![](https://user-images.githubusercontent.com/32852637/126770944-905bb4b0-9ddf-4a3e-b23f-6d94fd079096.PNG)
+
 
 You should see that account imported with wild balance \(123456.123E\) for our needs, in our case it's **Account 4**, it may differ in your environment.
 
-![](https://contracts.edgewa.re/4/assets/mm-imported-account.png)
+![](https://user-images.githubusercontent.com/32852637/126772149-6b525255-1f9d-4ecc-88c3-8531549c01ca.PNG)
 
 ## Connect to the Local Edgeware Developer Node <a id="connect-to-the-local-edgeware-developer-node"></a>
 
