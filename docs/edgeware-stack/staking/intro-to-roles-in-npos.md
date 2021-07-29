@@ -1,4 +1,3 @@
-
 # Intro to Roles in NPoS
 
 [Learn more about staking, validators, and nominators](https://wiki.polkadot.network/docs/en/learn-staking#validators-and-nominators)

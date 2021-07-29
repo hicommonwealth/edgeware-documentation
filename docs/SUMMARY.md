@@ -65,6 +65,8 @@
           * [Using Web3](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-web3.md)
           * [Using Hardhat](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-hardhat.md)
           * [EVM Resources](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/edgeware-evm-resources.md)
+        * [EVM Intermediate](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate.md)
+        * [EVM Advanced](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-advanced.md)
 * [Substrate](development/substrate/README.md)
   * [Exchange integration](https://wiki.polkadot.network/docs/en/build-integration#docsNav)
   * [Substrate RPC](https://polkadot.js.org/api/substrate/rpc.html)

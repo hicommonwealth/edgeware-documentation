@@ -201,8 +201,8 @@ Make sure that the paths of `ssl_certificate` and `ssl_certificate_key` match wh
 cat /etc/nginx/nginx.conf
 nginx -t
 ```
-Make sure that Nginx's OpenSSL version >1.0.2 You will have to Rebuild Nginx if the OpenSSL version is lower.
-Otherwise, modern TLS protocols created in letsencrypt certificates won't work, and Nginx will throw an error.
+
+Make sure that Nginx's OpenSSL version &gt;1.0.2 You will have to Rebuild Nginx if the OpenSSL version is lower. Otherwise, modern TLS protocols created in letsencrypt certificates won't work, and Nginx will throw an error.
 
 If there is an error, `nginx -t` should tell you where it is. **Note that there may be subtle variations in how different systems are configured, e.g. some boxes may have different login users or locations for log files. It is up to you to reconcile these differences.**
 
