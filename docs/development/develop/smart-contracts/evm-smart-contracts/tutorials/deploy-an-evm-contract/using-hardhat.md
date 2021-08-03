@@ -174,13 +174,13 @@ If you want to deploy to a local Edgeware development node, you can use the foll
 
 * Network name: dev
 * RPC URL: [http://localhost:9933/](http://localhost:9933/)
-* Chain ID: 2022
+* Chain ID: 2021
 
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
 * Network name: Edgeware
 * RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetX.edgewa.re/evm) where X can be any number from 1 to 20.\)
-* Chain ID: 2022
+* Chain ID: 2021
 
 The Hardhat configuration file should look like this:
 
