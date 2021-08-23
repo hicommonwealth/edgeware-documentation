@@ -15,6 +15,7 @@
 * [Create an Edgeware Identity](quickstart/create-an-edgeware-identity.md)
 * [Set Up a Full Node](quickstart/set-up-a-full-node.md)
 * [Set Up a Validator](quickstart/set-up-a-validator.md)
+* [Ledger](quickstart/ledger.md)
 
 ## Development
 
