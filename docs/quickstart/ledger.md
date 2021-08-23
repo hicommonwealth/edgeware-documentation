@@ -1,5 +1,7 @@
 # Using Edgeware With Ledger Device
 
+[![](https://user-images.githubusercontent.com/32852637/130520903-caedf8d6-6119-4cbe-b81f-b2bd623d4855.png)](https://www.youtube.com/watch?v=htSRCmd9riE)
+
 ## Setup your Ledger Device
  A Ledger Device is a hardware wallet that is considered one of the most secure ways to store your digital assets. Ledger uses an offline, or cold storage, method of generating private keys, making it a preferred method for many crypto users. This guide will help you to connect your Ledger device to an Edgeware account. The Edgeware account enables you to Send and Receive EDG.
 
