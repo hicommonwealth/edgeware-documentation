@@ -32,14 +32,13 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Switch \(at the top\)
 
      ![](https://github.com/edgeware-network/edgeware-documentation/tree/582e5babb688d0cd8ec935ecc611879859ee36d4/docs/quickstart/images/1.png)
-    
-     ![](https://user-images.githubusercontent.com/44712760/130686055-3ba922e1-4630-451c-aff5-a99f77fcb38a.png)
 5. Click on Settings in the menu bar.
    * Manage hardware connections.
    * Attach Ledger via WebUSB \(Chrome, recommended\)
    * Save.
 
      ![](../.gitbook/assets/2.png)
+     <img src="../.gitbook/assets/2.png" width=100%>
 6. Click on Accounts in the menu bar
    * Add via Ledger.
    * Give an account name.
