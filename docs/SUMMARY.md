@@ -104,6 +104,7 @@
     * [Democracy Features](edgeware-stack/governance/democracy/democracy-features.md)
 * [Identity](edgeware-stack/identity.md)
 * [Staking](edgeware-stack/staking/README.md)
+  * [How to stake on Edgeware](edgeware-stack/staking/how-to-stake-on-edgeware.md)
   * [Intro to Roles in NPoS](edgeware-stack/staking/intro-to-roles-in-npos.md)
   * [Nominating](edgeware-stack/staking/nominating.md)
   * [Validating](edgeware-stack/staking/validating/README.md)

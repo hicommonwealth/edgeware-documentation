@@ -14,7 +14,7 @@ You will need:
 
 In the Accounts tab, click the send button in the row of the account you want to send from.
 
-![](../.gitbook/assets/screen-shot-2020-02-10-at-9.35.08-am%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-9.35.08-am%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 Next, confirm the accounts you want to send from and send to, using the address fields. You can delete the information in the 'send to address' to enter in any recipient address, or utilize the dropdown to send between your own connected accounts in your Polkadot.js wallet.
 
@@ -26,11 +26,11 @@ You will see a screen similar to this next, where you can see you transaction fe
 
 Advanced: You can also pre-sign but _not_ submit this transaction to the network \(uncommon\) by using the bottom left 'Sign and Submit' toggle and entering a nonce and a duration for the validity of the signed transaction.
 
-![](../.gitbook/assets/screen-shot-2020-02-10-at-9.43.14-am%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-9.43.14-am%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 Once you hit sign and submit, your Polkadot.js browser extension will open a popup for your account password for the 'send from' account, and you will sign the transaction from your wallet.
 
-![](../.gitbook/assets/screen-shot-2020-02-10-at-9.48.50-am%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-02-10-at-9.48.50-am%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 Once you sign the transaction, the network receives it and you are done. You can explore the transaction details through a block explorer.
 {% endtab %}
