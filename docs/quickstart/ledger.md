@@ -37,7 +37,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Attach Ledger via WebUSB \(Chrome, recommended\)
    * Save.
 
-     <img src="../.gitbook/assets/2.png" width=100%>
+     <img src="../.gitbook/assets/2.png" width="600">
 6. Click on Accounts in the menu bar
    * Add via Ledger.
    * Give an account name.
