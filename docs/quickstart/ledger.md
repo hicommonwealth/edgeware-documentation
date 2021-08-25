@@ -44,6 +44,7 @@
 2. Show address on hardware device.
 3. Double click approve or reject. 
 4. You can copy the address on your computer by clicking the icon beside the account name in this case it is LEDGER TEST. Make sure both addresses match.
+
 ![](images/4.png)
 
 ## Send and Receive 
