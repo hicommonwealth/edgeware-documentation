@@ -31,13 +31,13 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Edgeware.
    * Switch \(at the top\)
 
-     ![](https://github.com/edgeware-network/edgeware-documentation/tree/582e5babb688d0cd8ec935ecc611879859ee36d4/docs/quickstart/images/1.png)
+![](images/EDGnetwork.png)
 5. Click on Settings in the menu bar.
    * Manage hardware connections.
    * Attach Ledger via WebUSB \(Chrome, recommended\)
    * Save.
 
-<img src="../.gitbook/assets/2.png" width="800">
+![](../.gitbook/assets/2.png)
 
 6. Click on Accounts in the menu bar
    * Add via Ledger.
@@ -53,8 +53,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 2. Show address on hardware device.
 3. Double click approve or reject. 
 4. You can copy the address on your computer by clicking the icon beside the account name in this case it is LEDGER TEST. Make sure both addresses match.
-
-   ![](../.gitbook/assets/4.png)
+![](../.gitbook/assets/4.png)
 
 ## Send and Receive
 
@@ -65,7 +64,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Make Transfer.
    * You can see the blockchain history of a particular address on Subscan by clicking on the icon on the far right of the account. 
 
-     ![](../.gitbook/assets/5.png)
+![](../.gitbook/assets/5.png)
 2. To send from Ledger device
    * Click send. 
    * Paste the recipients address in the send to address or use the drop down menu. 
@@ -74,5 +73,5 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Make Transfer.
    * On Ledger device use the right button to go through the menus. Verify that it is the correct receiving address and EDG amount on the device. double click on approve or reject accordingly. 
 
-     ![](../.gitbook/assets/6.png)
+![](../.gitbook/assets/6.png)
 
