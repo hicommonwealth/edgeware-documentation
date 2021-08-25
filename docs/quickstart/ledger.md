@@ -32,6 +32,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Switch \(at the top\)
 
 ![](images/EDGnetwork.png)
+
 5. Click on Settings in the menu bar.
    * Manage hardware connections.
    * Attach Ledger via WebUSB \(Chrome, recommended\)
@@ -53,6 +54,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 2. Show address on hardware device.
 3. Double click approve or reject. 
 4. You can copy the address on your computer by clicking the icon beside the account name in this case it is LEDGER TEST. Make sure both addresses match.
+
 ![](../.gitbook/assets/4.png)
 
 ## Send and Receive
@@ -65,6 +67,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * You can see the blockchain history of a particular address on Subscan by clicking on the icon on the far right of the account. 
 
 ![](../.gitbook/assets/5.png)
+
 2. To send from Ledger device
    * Click send. 
    * Paste the recipients address in the send to address or use the drop down menu. 
