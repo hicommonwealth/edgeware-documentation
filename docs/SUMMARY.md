@@ -63,7 +63,7 @@
           * [Using Metamask](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-metamask.md)
           * [Using Remix - Ethereum IDE](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-remix-ethereum-ide.md)
           * [Using Truffle](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-truffle.md)
-          * [Using Web3](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-web3.md)
+          * [Using Web3.js](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-web3.md)
           * [Using Hardhat](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-hardhat.md)
           * [EVM Resources](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/edgeware-evm-resources.md)
         * [EVM Intermediate](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate.md)
