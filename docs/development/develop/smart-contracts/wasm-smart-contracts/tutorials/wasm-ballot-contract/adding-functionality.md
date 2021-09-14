@@ -414,6 +414,11 @@ mod ballot {
             self.proposals.push(
                 Proposal{
                     name:String::from(proposal_name),
+                    vote_count: 0,
+            });
+        }
+    }
+}
 ```
 {% endtab %}
 {% endtabs %}
