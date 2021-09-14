@@ -354,6 +354,10 @@ mod ballot {
             proposal_names.push(String::from("Proposal # 1"));  
             let ballot = Ballot::new();
             assert_eq!(ballot.get_voter_count(),1);
+        }
+    }
+    
+}
 ```
 {% endtab %}
 {% endtabs %}
