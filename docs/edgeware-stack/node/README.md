@@ -8,11 +8,11 @@ A getting started guide can be found at our [Github Wiki](https://github.com/hic
 
 For any additional questions or information, refer to our `builders-general` channel in the [Edgeware Discord](https://discord.gg/zdFJm4gA5M).
 
-{% embed url="https://main.edgeware.wiki/quickstart/set-up-a-full-node" %}
+{% page-ref page="../../quickstart/set-up-a-full-node.md" %}
 
-{% embed url="https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node" %}
+{% page-ref page="../../development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md" %}
 
-{% embed url="https://main.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node" %}
+{% page-ref page="../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node.md" %}
 
 
 
