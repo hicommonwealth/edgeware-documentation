@@ -356,7 +356,7 @@ mod ballot {
             assert_eq!(ballot.get_voter_count(),1);
         }
     }
-    
+
 }
 ```
 {% endtab %}
