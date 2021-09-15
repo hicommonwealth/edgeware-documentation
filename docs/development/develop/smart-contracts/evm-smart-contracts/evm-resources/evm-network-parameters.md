@@ -30,9 +30,9 @@ On Beresheet gas limit is set to 225m, we recommend running the deploy to mainne
 
 ### EDG EVM Tools
 
-Block explorer
-testnet [https://beresheet.edgscan.com/](https://beresheet.edgscan.com/)
-mainnet [https://mainnet.edgscan.com/](https://mainnet.edgscan.com/)
+testnet block explorer [https://beresheet.edgscan.com/](https://beresheet.edgscan.com/)
+
+mainnet block explorer [https://mainnet.edgscan.com/](https://mainnet.edgscan.com/)
 
 Edgeware Key Generator [https://edgewa.re/keygen](https://edgewa.re/keygen)
 
