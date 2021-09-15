@@ -35,7 +35,7 @@ Block explorer
 testnet
 https://beresheet.edgscan.com/
 
-main net
+mainnet
 https://mainnet.edgscan.com/
 
 Edgeware Key Generator
