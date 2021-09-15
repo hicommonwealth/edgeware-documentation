@@ -358,13 +358,10 @@ mod ballot {
             Self::new(Default::default())
         }
 
-
         #[ink(message)]
         pub fn get_chairperson(&self) -> AccountId {
             self.chair_person
         }
-
-
 
         pub fn get_voter(&self, voter_id: AccountId) -> Option<&Voter>{
             self.voters.get(&voter_id)
@@ -395,8 +392,6 @@ mod ballot {
             return true
         }
 
-
-
         /// given an index returns the name of the proposal at that index
         pub fn get_proposal_name_at_index(&self, index:usize) -> &String {
             let proposal = self.proposals.get(index).unwrap();
@@ -416,6 +411,20 @@ mod ballot {
                     name:String::from(proposal_name),
                     vote_count: 0,
             });
+        }
+        /// Give `voter` the right to vote on this ballot.
+        /// Should only be called by `chairperson`.
+        #[ink(message)]
+        pub fn give_voting_right(&mut self, voter_id: AccountId) {
+            let caller = self.env().caller();
+            let voter_opt = self.voters.get_mut(&voter_id);
+            // ACTION: check if the caller is the chair_person
+            //         * check if the voter_id exists in ballot
+            //         * check if voter has not already voted
+            //         * if everything alright update voters weight to 1    // only chair person can give right to vote
+            assert_eq!(caller,self.chair_person, "only chair person can give right to vote");    // the voter does not exists
+            assert_eq!(voter_opt.is_some(),true, "provided voterId does not exist");    let voter = voter_opt.unwrap();    // the voter should not have already voted
+            assert_eq!(voter.voted,false, "the voter has already voted");    voter.weight = 1;
         }
     }
 }
