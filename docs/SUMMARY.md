@@ -83,7 +83,7 @@
 
 ## Edgeware Stack
 
-* [Node](edgeware-stack/node/README.md)
+* [Edgeware Node](edgeware-stack/node/README.md)
   * [Set Up a Full Node](https://main.edgeware.wiki/quickstart/set-up-a-full-node)
   * [Setting up an Edgeware EVM node](https://main.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node)
   * [Running an Edgeware Node](https://main.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node)
