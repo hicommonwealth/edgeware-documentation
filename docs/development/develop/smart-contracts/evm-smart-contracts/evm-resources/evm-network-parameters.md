@@ -36,7 +36,7 @@ mainnet block explorer [https://mainnet.edgscan.com/](https://mainnet.edgscan.co
 
 Edgeware Key Generator [https://edgewa.re/keygen](https://edgewa.re/keygen)
 
-### EVM Tutorials
+### EDG EVM Tutorials
 
 Youtube [https://www.youtube.com/playlist?list=PLJK4WO5y\_eJFMGZGDmNOWRZI2dAV4GyU6](https://www.youtube.com/playlist?list=PLJK4WO5y_eJFMGZGDmNOWRZI2dAV4GyU6)
 
