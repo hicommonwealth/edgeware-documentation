@@ -6,7 +6,7 @@ Blockchain networks are composed of individual **nodes** that are connected by a
 
 A getting started guide can be found at our [Github Wiki](https://github.com/hicommonwealth/edgeware-node/wiki), including guides for running a node, validating, and setting up basic monitoring tools to keep your node online.
 
-### To start you node and connect to Wako v3.3.3
+### To start your node and connect to Wako v3.3.3
 
 For Mainnet, run: `docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=edgeware --name <INSERT-NAME> --wasm-execution Compiled`
 
