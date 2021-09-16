@@ -8,6 +8,8 @@ A getting started guide can be found at our [Github Wiki](https://github.com/hic
 
 ### To start your node and connect to Wako v3.3.3
 
+GitHub repository: https://github.com/edgeware-network/edgeware-node
+
 For Mainnet, run: 
 ```text
 docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=edgeware --name <INSERT-NAME> --wasm-execution Compiled
