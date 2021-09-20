@@ -19,8 +19,6 @@ For Beresheet testnet, run:
 ```text
 docker run --rm -it decentration/edgeware:v3.3.3 edgeware --chain=beresheet --name <INSERT_NAME>
 ```
-Docker image: https://hub.docker.com/r/decentration/edgeware/tags?page=1&ordering=last_updated
-
 
 
 For any additional questions or information, refer to our `builders-general` channel in the [Edgeware Discord](https://discord.gg/zdFJm4gA5M).
