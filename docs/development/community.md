@@ -6,6 +6,10 @@ description: >-
 
 # Community
 
+## **Collectives**
+
+A collective is a group of entities that share or are motivated by at least one common issue or interest, or work together to achieve a common objective. [View the collectives page on the Edgeware website](https://edgewa.re/collectives).
+
 ## **Chat & Discussion Channels**
 
 | Group Name | Link |
