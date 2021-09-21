@@ -165,6 +165,8 @@ mod erc20 {
             assert_eq!(contract.balance_of(AccountId::from([0x1; 32])), 100);
             assert_eq!(contract.balance_of(AccountId::from([0x0; 32])), 0);
         }
+    }
+}
 ```
 {% endtab %}
 {% endtabs %}
