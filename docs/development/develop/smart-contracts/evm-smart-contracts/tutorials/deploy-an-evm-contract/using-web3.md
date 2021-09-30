@@ -139,7 +139,7 @@ balances();Copy to clipboardErrorCopied
 
 ### Play time <a id="play-time"></a>
 
-Run `node balance.js` to check initial balance on accounts
+Run `node balances.js` to check initial balance on accounts
 
 ![](https://contracts.edgewa.re/4/assets/web3-init-balance.png) \*web3-init-balance
 
@@ -147,7 +147,7 @@ Run `node createTransaction.js` to transfer some stuff around chain
 
 ![](https://contracts.edgewa.re/4/assets/web3-makeTransaction.png) \*web3-make-transaction
 
-Run `node balance.js` to check result balances
+Run `node balances.js` to check result balances
 
 ![](https://contracts.edgewa.re/4/assets/web3-result-balance.png) \*web3-result-balance
 
