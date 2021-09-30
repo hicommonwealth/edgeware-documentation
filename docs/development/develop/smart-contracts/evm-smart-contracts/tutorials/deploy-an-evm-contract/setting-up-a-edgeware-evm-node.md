@@ -15,8 +15,9 @@ This guide walks you through setting up an Edgeware node with Ethereum/EVM compa
 You can clone our repo with docker-compose to get started right away:
 
 ```text
-git clone https://github.com/hicommonwealth/edgeware-node; cd edgeware-node/docker;
-docker-compose up
+git clone https://github.com/edgeware-network/edgeware-node
+cd edgeware-node/docker
+docker-compose -f docker-compose-local.yml up
 ```
 
 {% hint style="info" %}
