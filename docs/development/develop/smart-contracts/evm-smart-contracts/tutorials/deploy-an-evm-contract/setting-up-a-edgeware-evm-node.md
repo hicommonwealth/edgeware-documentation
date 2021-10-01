@@ -1,4 +1,4 @@
-# Setting up an Edgeware node for local development 
+# Setting up an Edgeware node for local development
 
 ## Setting up a local Edgeware node for WASM/EVM development <a id="setting-up-a-edgeware-node-for-ethereumevm-development"></a>
 
