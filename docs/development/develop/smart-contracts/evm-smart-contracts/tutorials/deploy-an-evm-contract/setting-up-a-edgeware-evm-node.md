@@ -1,8 +1,8 @@
-# Setting up an Edgeware EVM node
+# Setting up an Edgeware node for local development 
 
-## Setting up a Edgeware Node for Ethereum/EVM development <a id="setting-up-a-edgeware-node-for-ethereumevm-development"></a>
+## Setting up a local Edgeware node for WASM/EVM development <a id="setting-up-a-edgeware-node-for-ethereumevm-development"></a>
 
-This guide walks you through setting up an Edgeware node with Ethereum/EVM compatibility.
+This guide walks you through how to Quickly fire up a personal Edgeware blockchain which you can use to run tests, execute commands, and inspect state while controlling how the chain operates.
 
 {% hint style="info" %}
 **Note** This is a fast-track way to run a node. [You can always compile from source](https://github.com/hicommonwealth/edgeware-node/tree/v3.2.0) as well. We recommend using your own compiled binaries for production mainnet.
@@ -28,7 +28,7 @@ You will see something like this:
 
 ![](https://user-images.githubusercontent.com/32852637/121593861-5afdd380-ca0a-11eb-80dd-8922a0b7cfc7.PNG)
 
-Afterwards you can head to [Polkadot Apps](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) and connect to 127.0.0.1:9944, and you should see blocks being produced.
+Afterwards you can head to [Polkadot Apps](https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) or [Edgeware.app](https://www.edgeware.app/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer) and connect to 127.0.0.1:9944, and you should see blocks being produced.
 
 ![](https://user-images.githubusercontent.com/32852637/121594313-e9725500-ca0a-11eb-8f5f-36e5184d6b46.PNG)
 
