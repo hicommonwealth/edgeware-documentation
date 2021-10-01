@@ -24,6 +24,7 @@
   * [Smart Contracts](development/develop/smart-contracts/README.md)
     * [WASM](development/develop/smart-contracts/wasm-smart-contracts/README.md)
       * [Tutorials](development/develop/smart-contracts/wasm-smart-contracts/tutorials/README.md)
+        * [Setting up an Edgeware node for local development](development/develop/smart-contracts/wasm-smart-contracts/tutorials/setting-up-an-edgeware-node-for-local-development.md)
         * [WASM Ballot Contract](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-ballot-contract/README.md)
           * [Contract Template](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-ballot-contract/contract-template.md)
           * [Collection and Traits](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-ballot-contract/collection-and-traits.md)
