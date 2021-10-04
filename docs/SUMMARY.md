@@ -162,6 +162,7 @@
   * [Validator FAQs](resources/faq/validator-faqs.md)
 * [Tools and Ecosystem](resources/tools-and-ecosystem.md)
 * [Networks and Public Endpoints](resources/networks.md)
+* [EDGscan](resources/edgscan.md)
 * [Exchanges](resources/exchanges.md)
 * [Forum](https://commonwealth.im)
 * [Polkadot UI](https://polkadot.js.org/apps/#/explorer)
