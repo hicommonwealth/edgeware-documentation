@@ -1,7 +1,7 @@
 # Using Hardhat
 
 {% hint style="danger" %}
-**This page is still under devlopment. Many functionalities of this page are still being worked on until further notice. As stability is updated, add a pull request with revised changes, thank you.**
+**This page is still under development. Many functionalities of this page are still being worked on until further notice. To help our efforts, add a pull request with revised changes, thank you.**
 {% endhint %}
 
 ![](https://user-images.githubusercontent.com/32852637/118346510-0437d380-b50a-11eb-9fc2-267d0b20777b.png)
@@ -146,7 +146,7 @@ contract Box {
 
 We need to modify our Hardhat configuration file so we can compile and deploy contracts into the Edgeware ecosystem. If you have not yet done so, connect your MetaMask Account to our ecosystem and fund it with the automated faucet bot on discord. We will use the private key of the account created to deploy the contract. If you don’t know the private key, you can export it from MetaMask.
 
-We start by requring the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), which brings the \[ethers.js\]\[/integrations/ethers/\] library that allows you to interact with the blockchain in a simple way. We can install ethers plugin by running:
+We start by requiring the [ethers plugin](https://hardhat.org/plugins/nomiclabs-hardhat-ethers.html), which brings the \[ethers.js\]\[/integrations/ethers/\] library that allows you to interact with the blockchain in a simple way. We can install the ethers plugin by running:
 
 ```text
 npm install @nomiclabs/hardhat-ethers ethers
@@ -263,7 +263,7 @@ npx hardhat run --network Beresheet scripts/deploy.js
 ```
 
 {% hint style="info" %}
-To deploy to a Edgeware development node, replace Beresheet for dev in the run command.
+To deploy to an Edgeware development node, replace Beresheet for dev in the run command.
 {% endhint %}
 
 After a few seconds, the contract is deployed, and you should see the address in the terminal.
@@ -285,7 +285,7 @@ npx hardhat console --network Beresheet
 ```
 
 {% hint style="info" %}
-To deploy to a Edgeware development node, replace Beresheet for dev in the run command.
+To deploy to an Edgeware development node, replace Beresheet for dev in the run command.
 {% endhint %}
 
 Then, add the following lines of code one line at a time. First, we create a local instance of the `Box.sol` contract once again. Don't worry about the `undefined` output you will get after each line is executed:
@@ -300,7 +300,7 @@ Next, let's connect this instance to an existing one by passing in the address w
 const box = await Box.attach('ADDRESS-GOES-HERE');
 ```
 
-After attaching to the contract, we are ready to interact with it. While the console is still in session, let's call the store method and store a simple value:
+After attaching it to the contract, we are ready to interact with it. While the console is still in session, let's call the store method and store a simple value:
 
 ```text
 await box.store(5)
