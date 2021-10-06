@@ -16,7 +16,9 @@ You can clone our repo with docker-compose to get started right away:
 
 ```text
 git clone https://github.com/edgeware-network/edgeware-node
-cd edgeware-node/docker
+cd edgeware-node
+docker run --rm -it decentration/edgeware:v3.3.3
+cd docker
 docker-compose -f docker-compose-local.yml up
 ```
 
