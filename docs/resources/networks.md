@@ -15,7 +15,7 @@ Explore these networks with a Block Explorer.
 
 ### Edgeware Mainnet
 
-At this time, we recomemnd using the node run by Patract Labs Elara or the OnFinality node to balance load.
+At this time, we recommend using the node run by Patract Labs Elara or the OnFinality node to balance the load.
 
 #### Patract Elara Public Node
 

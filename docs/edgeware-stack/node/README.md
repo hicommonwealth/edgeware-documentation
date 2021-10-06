@@ -26,7 +26,7 @@ For any additional questions or information, refer to our `builders-general` cha
 
 {% page-ref page="../../quickstart/set-up-a-full-node.md" %}
 
-{% page-ref page="../../development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md" %}
+{% page-ref page="../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/setting-up-an-edgeware-node-for-local-development.md" %}
 
 {% page-ref page="../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/running-an-edgeware-node.md" %}
 
