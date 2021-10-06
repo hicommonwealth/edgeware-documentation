@@ -9,8 +9,6 @@ Welcome to the official documentation for the Edgeware network! This documentati
 
 **ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)
 
-**The Kusama Parachain process** is underway. [See the proposal for this here.](https://commonwealth.im/edgeware/proposal/discussion/1415-kabocha-kab-canarynet-proposal)
-
 ## What is Edgeware?
 
 [**Edgeware**](https://edgewa.re/) is an:
