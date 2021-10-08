@@ -78,7 +78,7 @@
           * [Using Ethers.js](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-ethers.js.md)
           * [Using Web3.py](development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/using-web3.py.md)
         * [EVM Intermediate](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/README.md)
-          * [Create an NFT using Hardhat](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md)
+          * [Deploy an NFT on Edgeware using Hardhat](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md)
         * [EVM Advanced](development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-advanced.md)
 * [Substrate](development/substrate/README.md)
   * [Exchange integration](https://wiki.polkadot.network/docs/en/build-integration#docsNav)
