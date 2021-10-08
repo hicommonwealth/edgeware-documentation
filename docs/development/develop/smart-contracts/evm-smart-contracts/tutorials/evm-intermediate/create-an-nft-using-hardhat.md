@@ -1,10 +1,9 @@
 # Deploy an NFT on Edgeware using Hardhat
 
-
+  
+Guided tutorial on how to setup and deploy an [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) Non-Fungible Token \(NFT\) to a local network, as well as Edgeware's testnet \(Beresheet\), and mainnet network\(s\) using the [Hardhat Ethereum development](https://hardhat.org/).
 
 ![](../../../../../../.gitbook/assets/0_ijgax8s5e0mwu2gx.jpg)
-
-Guided tutorial on how to setup and deploy an [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) Non-Fungible Token \(NFT\) to a local network, as well as Edgeware's testnet \(Beresheet\), and mainnet network\(s\) using the [Hardhat Ethereum development](https://hardhat.org/).
 
 ### Setting up the project
 
