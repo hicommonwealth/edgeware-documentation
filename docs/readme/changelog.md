@@ -2,6 +2,14 @@
 
 ### Recorded changes to Edgeware's documentation 🚀 
 
+## 10-8-21
+
+### Added
+
+**Guided tutorial on how to setup and deploy an** [**ERC721**](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) **Non-Fungible Token \(NFT\) to a local network, as well as Edgeware's testnet \(Beresheet\), and mainnet network\(s\) using the** [**Hardhat Ethereum development**](https://hardhat.org/)**.**
+
+{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md" %}
+
 ## 10-5-21
 
 ### Added
