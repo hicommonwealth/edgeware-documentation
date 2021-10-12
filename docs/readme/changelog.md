@@ -2,6 +2,16 @@
 
 ### Recorded changes to Edgeware's documentation :rocket: 
 
+## 10-11-21
+
+### Updated
+
+Guided tutorial on creating a Multi Signature Account and funding addresses on-chain locally using said multi-sig account on the: [https://polkadot.js.org/apps](https://polkadot.js.org/apps) interface. This update provides a more digestible read, and refreshed images.
+
+{% content-ref url="../advanced/setup-multi-signature-account/create-multi-signature-account.md" %}
+[create-multi-signature-account.md](../advanced/setup-multi-signature-account/create-multi-signature-account.md)
+{% endcontent-ref %}
+
 ## 10-8-21
 
 ### Added
