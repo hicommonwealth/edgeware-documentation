@@ -1,56 +1,74 @@
 # Changelog
 
-### Recorded changes to Edgeware's documentation 🚀 
+### Recorded changes to Edgeware's documentation :rocket: 
 
 ## 10-8-21
 
 ### Added
 
-**Guided tutorial on how to setup and deploy an** [**ERC721**](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) **Non-Fungible Token \(NFT\) to a local network, as well as Edgeware's testnet \(Beresheet\), and mainnet network\(s\) using the** [**Hardhat Ethereum development**](https://hardhat.org/)**.**
+**Guided tutorial on how to setup and deploy an **[**ERC721**](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)** Non-Fungible Token (NFT) to a local network, as well as Edgeware's testnet (Beresheet), and mainnet network(s) using the **[**Hardhat Ethereum development**](https://hardhat.org)**.**
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md" %}
+[create-an-nft-using-hardhat.md](../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md)
+{% endcontent-ref %}
 
 ## 10-5-21
 
 ### Added
 
-{% page-ref page="changelog.md" %}
+{% content-ref url="changelog.md" %}
+[changelog.md](changelog.md)
+{% endcontent-ref %}
 
-#### Resource page for '[Waffle](https://getwaffle.io/)' a popular development framework for testing Solidity smart contracts. Tutorial for interaction coming soon.
+#### Resource page for '[Waffle](https://getwaffle.io)' a popular development framework for testing Solidity smart contracts. Tutorial for interaction coming soon.
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/tools/waffle.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/tools/waffle.md" %}
+[waffle.md](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/tools/waffle.md)
+{% endcontent-ref %}
 
 #### Standalone 'resource pages' that were previously combined with interaction pages labeled with the prefix 'using'. Tutorials for interaction coming soon.
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.js.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.js.md" %}
+[web3.js.md](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.js.md)
+{% endcontent-ref %}
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/ethers.js.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/ethers.js.md" %}
+[ethers.js.md](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/ethers.js.md)
+{% endcontent-ref %}
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.py.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.py.md" %}
+[web3.py.md](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/libraries/web3.py.md)
+{% endcontent-ref %}
 
 #### Page added 
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md" %}
+[create-an-nft-using-hardhat.md](../development/develop/smart-contracts/evm-smart-contracts/tutorials/evm-intermediate/create-an-nft-using-hardhat.md)
+{% endcontent-ref %}
 
 
 
 ### Updated
 
-_\(Previously 'Tools and Ecosystem'\)_
+_(Previously 'Tools and Ecosystem')_
 
-{% page-ref page="../resources/ecosystem-tools.md" %}
+{% content-ref url="../resources/ecosystem-tools.md" %}
+[ecosystem-tools.md](../resources/ecosystem-tools.md)
+{% endcontent-ref %}
 
-_\(Previously 'EVM Resources'\)_
+_(Previously 'EVM Resources')_
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/" %}
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/" %}
+[evm-tools-and-resources](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/)
+{% endcontent-ref %}
 
 ### Removed
 
 #### 'EVM Resources' -- Information moved to:
 
-{% page-ref page="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/" %}
-
-
+{% content-ref url="../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/" %}
+[evm-tools-and-resources](../development/develop/smart-contracts/evm-smart-contracts/evm-tools-and-resources/)
+{% endcontent-ref %}
 
 
 

@@ -18,18 +18,18 @@ When a stakeholder wishes to propose a spend from the treasury, **they must rese
 
 ### Plausible Project Concepts
 
-Proposals may consist of \(but are not limited to\):
+Proposals may consist of (but are not limited to):
 
 * Infrastructure deployment and continued operation.
-* Network security operations \(monitoring services, continuous auditing\).
-* Ecosystem provisions \(collaborations with friendly chains\).
-* Marketing activities \(advertising, paid features, collaborations\).
-* Community events and outreach \(meetups, pizza parties, hackerspaces\).
-* Software development \(wallets and wallet integration, clients and client upgrades\).
+* Network security operations (monitoring services, continuous auditing).
+* Ecosystem provisions (collaborations with friendly chains).
+* Marketing activities (advertising, paid features, collaborations).
+* Community events and outreach (meetups, pizza parties, hackerspaces).
+* Software development (wallets and wallet integration, clients and client upgrades).
 * Core Technology: Implementing of scaling technologies such as runtime improvements, sharding, and off-chain extensions.
 * Governance: Governance systems, including on-chain identity as well as tools for organizing and coordinating the work of core developers. 
 * Developer experience: A mature toolchain for developing, debugging, and testing smart contracts. 
-* User experience: Wallets and user experience primitives \(e.g., JavaScript libraries\) to make decentralized apps simple and easy to use. • Ecosystem support: Engaging developers, end users, and other stakeholders through in-person events.
+* User experience: Wallets and user experience primitives (e.g., JavaScript libraries) to make decentralized apps simple and easy to use. • Ecosystem support: Engaging developers, end users, and other stakeholders through in-person events.
 
 Projects that serve the broader Edgeware ecosystem are much more likely to succeed than other kinds of efforts. This list is not exhaustive, but it gives you a sense of what sorts of things are good propositions.
 
@@ -42,7 +42,7 @@ The treasury obtains funds in several ways that mimic governments - minting, fee
 1. **Minting:** A portion of the EDG produced with each block goes to the treasury.
 2. **Slashing:** When a validator is slashed for any reason, the slashed amount is sent to the Treasury. Slashed EDG may also accrue to the treasury through failed governance proposals.
 3. **Transaction fees**: A portion of each block's transaction fees goes to the Treasury, with the remainder going to the block author.
-4. **Staking inefficiency:** [Inflation](https://wiki.polkadot.network/docs/en/learn-staking#inflation) is designed to be ~20% in the first year, and the ideal staking ratio is set at 80%, meaning 80% of all tokens should be locked in staking. Any deviation from this ratio will cause a proportional amount of the inflation to go to the Treasury. In other words, if 80% of all tokens are staked, then 100% of the inflation goes to the validators as reward. If the staking rate is greater than or less than 80%, then the validators will receive less, with the remainder going to the Treasury.
+4. **Staking inefficiency:** [Inflation](https://wiki.polkadot.network/docs/en/learn-staking#inflation) is designed to be \~20% in the first year, and the ideal staking ratio is set at 80%, meaning 80% of all tokens should be locked in staking. Any deviation from this ratio will cause a proportional amount of the inflation to go to the Treasury. In other words, if 80% of all tokens are staked, then 100% of the inflation goes to the validators as reward. If the staking rate is greater than or less than 80%, then the validators will receive less, with the remainder going to the Treasury.
 5. **Lost Deposits:** These may be abandoned bonds from voting, proposals or otherwise.
 
 {% hint style="info" %}
@@ -55,7 +55,7 @@ The treasury obtains funds in several ways that mimic governments - minting, fee
 
 Once you have an idea that might be appropriate for funding from the Edgeware Treasury, you can complete several steps to test the public interest, convey your argument, and then submit your formal treasury proposal. This guide is written as a recommendation both to proposers and decision-makers, and will track best practices over time as they emerge.
 
-Similar to [traditional RFP](https://en.wikipedia.org/wiki/Request_for_proposal)s \(request for proposals\) that governments use to solicit bids for work, treasury spends optimize the productive value of the EDG and seek to extract maximum work for their recipients. Proposers should be prepared to defend their position or experience competitive bids for the same or similar work.
+Similar to [traditional RFP](https://en.wikipedia.org/wiki/Request_for_proposal)s (request for proposals) that governments use to solicit bids for work, treasury spends optimize the productive value of the EDG and seek to extract maximum work for their recipients. Proposers should be prepared to defend their position or experience competitive bids for the same or similar work.
 
 #### Technical Process of a Treasury Spend
 
@@ -92,7 +92,7 @@ The first step is to describe the proposal in full to the community. A great pla
    3. What are the Addresses of the fund recipients?
    4. Who will be managing the funds, how can we contact them?
    5. How will the manager of the funds report on status proactively? Where we can follow progress and ask questions?
-8. License \(if applicable\)
+8. License (if applicable)
 
 #### Propose The Spend On-Chain
 
@@ -100,15 +100,15 @@ To propose a treasury spend, **a deposit totaling 5% of the proposed spend amoun
 
 One way to create the proposal is to use the Polkadot JS Apps [website](https://polkadot.js.org/apps). From the website, use either the [extrinsics tab](https://polkadot.js.org/apps/#/extrinsics) and select the Treasury pallet, then `proposeSpend` and enter the desired amount and recipient, **or** use the [Treasury tab](https://polkadot.js.org/apps/#/treasury) and its dedicated Submit Proposal button:
 
-![](../../../.gitbook/assets/image%20%289%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](<../../../../.gitbook/assets/image (9) (1) (2) (2) (2) (2).png>)
 
 The system will automatically take the required deposit, picking the **higher** of the following two values: 1000 EDG or 5% of the requested amount. If the user cannot pay the deposit, an error will be returned and the proposal creation will fail.
 
-![A proposal ready for the council to consider](../../../.gitbook/assets/image%20%288%29%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![A proposal ready for the council to consider](<../../../../.gitbook/assets/image (8) (1) (1) (2) (2) (2) (2).png>)
 
 Once created, your proposal will become visible in the Treasury screen and the council can start voting on it.
 
-**Note the on-chain \# of your treasury proposal-** shown as a large number on the left of the row \(11 in the image above\), you'll want it for the next step.
+**Note the on-chain # of your treasury proposal-** shown as a large number on the left of the row (11 in the image above), you'll want it for the next step.
 
 Now the council can take action, either turning it into a motion to approve or a motion to reject. 51% or more of the council must agree to take an action on any treasury spend.
 
@@ -121,8 +121,7 @@ Now the council can take action, either turning it into a motion to approve or a
 Because the formal spend proposal lacks metadata for efficiency, sharing the details about the proposal off-chain is essential. We recommend using [Commonwealth.im/Edgeware](https://commonwealth.im/edgeware/discussions) and the community channels including telegram and discord.
 
 * Post a discussion thread on Commonwealth
-* Tag the title and body with **EDG\_TP\_\#** where \# is the official number of your treasury proposal, found on block explorers or Polkadot UI. 
+* Tag the title and body with **EDG_TP\_#** where # is the official number of your treasury proposal, found on block explorers or Polkadot UI. 
 * Announce the thread in other channels like Telegram to encourage awareness and debate.
 
-Tagging helps users understand what module is being activated and what threads connect to what actions. Expect questions, challenges, and other remarks. This can begin before or after you create your formal treasury proposal on-chain, but you won't know the TP\# until then.
-
+Tagging helps users understand what module is being activated and what threads connect to what actions. Expect questions, challenges, and other remarks. This can begin before or after you create your formal treasury proposal on-chain, but you won't know the TP# until then.

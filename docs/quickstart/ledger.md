@@ -29,16 +29,16 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 4. Switch to Edgeware network from the drop down menu in the top left
    * Live Networks.
    * Edgeware.
-   * Switch \(at the top\)
+   * Switch (at the top)
 
-![](../.gitbook/assets/EDGnetwork.png)
+![](../../.gitbook/assets/EDGnetwork.png)
 
 1. Click on Settings in the menu bar.
    * Manage hardware connections.
-   * Attach Ledger via WebUSB \(Chrome, recommended\)
+   * Attach Ledger via WebUSB (Chrome, recommended)
    * Save.
 
-![](../.gitbook/assets/2.png)
+![](../../.gitbook/assets/2.png)
 
 1. Click on Accounts in the menu bar
    * Add via Ledger.
@@ -46,7 +46,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Make sure the Ledger device is plugged in unlocked with the Edgeware app open.
    * Save.
 
-![](../.gitbook/assets/3.png)
+![](../../.gitbook/assets/3.png)
 
 ## Address Verification
 
@@ -55,7 +55,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 3. Double click approve or reject. 
 4. You can copy the address on your computer by clicking the icon beside the account name in this case it is LEDGER TEST. Make sure both addresses match.
 
-![](../.gitbook/assets/4.png)
+![](../../.gitbook/assets/4.png)
 
 ## Send and Receive
 
@@ -66,7 +66,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Make Transfer.
    * You can see the blockchain history of a particular address on Subscan by clicking on the icon on the far right of the account. 
 
-![](../.gitbook/assets/5.png)
+![](../../.gitbook/assets/5.png)
 
 1. To send from Ledger device
    * Click send. 
@@ -76,5 +76,4 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * Make Transfer.
    * On Ledger device use the right button to go through the menus. Verify that it is the correct receiving address and EDG amount on the device. double click on approve or reject accordingly. 
 
-![](../.gitbook/assets/6%20%283%29.png)
-
+![](<../../.gitbook/assets/6 (3).png>)

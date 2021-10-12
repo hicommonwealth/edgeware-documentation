@@ -1,9 +1,9 @@
 # Deploy an NFT on Edgeware using Hardhat
 
-  
-Guided tutorial on how to setup and deploy an [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) Non-Fungible Token \(NFT\) to a local network, as well as Edgeware's testnet \(Beresheet\), and mainnet network\(s\) using the [Hardhat Ethereum development](https://hardhat.org/).
+\
+Guided tutorial on how to setup and deploy an [ERC721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) Non-Fungible Token (NFT) to a local network, as well as Edgeware's testnet (Beresheet), and mainnet network(s) using the [Hardhat Ethereum development](https://hardhat.org).
 
-![](../../../../../../.gitbook/assets/0_ijgax8s5e0mwu2gx.jpg)
+![](../../../../../../../.gitbook/assets/0\_ijgax8s5e0mwu2gx.jpg)
 
 ### Setting up the project
 
@@ -93,7 +93,7 @@ contract MyEdgNFT is ERC721 {
 {% endtab %}
 {% endtabs %}
 
-The first thing you need to do in any solidity file is to declare the compiler version. Then we can import the ERC721 contract \(NFT contract\) from open-zeppelin just like you do in JavaScript.
+The first thing you need to do in any solidity file is to declare the compiler version. Then we can import the ERC721 contract (NFT contract) from open-zeppelin just like you do in JavaScript.
 
 Solidity is a contract-oriented language. Just like an object-oriented language, contracts can have members such as functions and variables. In our code, we have only the constructor, which will be called when we deploy our contract.
 
@@ -164,7 +164,7 @@ Run the test:
 
 Awesome, it passed the test!
 
-#### How to Use console.log\(\) in Hardhat
+#### How to Use console.log() in Hardhat
 
 Now here is the coolest thing you can do with Hardhat. You can use `console.log()` just like you do in JavaScript, which was not possible before. `console.log()` alone is more than enough reason to switch to Hardhat.
 
@@ -279,22 +279,22 @@ The private.json file must contain a privateKey entry, for example:
 {% endtab %}
 {% endtabs %}
 
-Inside the `module.exports`, we need to provide the Solidity version \(`0.8.1` according to our contract file\), and the network details. Here, we are using test-net \(Beresheet\) network for the following example :
+Inside the `module.exports`, we need to provide the Solidity version (`0.8.1` according to our contract file), and the network details. Here, we are using test-net (Beresheet) network for the following example :
 
 * Network name: Beresheet
-* RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) \(Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetx.edgewa.re/evm) where X can be any number from 1 to 8.\)
+* RPC URL: [https://beresheet2.edgewa.re/evm](https://beresheet2.edgewa.re/evm) (Alternatively, one can use [https://beresheetX.edgewa.re/evm](https://beresheetx.edgewa.re/evm) where X can be any number from 1 to 8.)
 * Chain ID: 2022
 
 If you want to deploy to a local Edgeware development node, you can use the following network details:
 
 * Network name: dev
-* RPC URL: [http://localhost:9933/](http://localhost:9933/)
+* RPC URL: [http://localhost:9933/](http://localhost:9933)
 * Chain ID: 2021
 
 If you want to deploy on the Edgeware mainnet, you can use the following network details:
 
 * Network name: Edgeware
-* RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) \(Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetx.edgewa.re/evm) where X can be any number from 1 to 20.\)
+* RPC URL: [https://mainnet2.edgewa.re/evm](https://mainnet2.edgewa.re/evm) (Alternatively, one can use [https://mainnetX.edgewa.re/evm](https://mainnetx.edgewa.re/evm) where X can be any number from 1 to 20.)
 * Chain ID: 2021
 
 The Hardhat configuration file should look like this:
@@ -328,4 +328,3 @@ module.exports = {
 Great! We are now ready for deployment.
 
 Hardhat has some other cool features like helpful [stack trace](https://hardhat.org/hardhat-network/#solidity-stack-traces), support for [multiple Solidity compiler versions](https://hardhat.org/guides/compile-contracts.html#multiple-solidity-versions), robust [Mainnet forking](https://hardhat.org/hardhat-network/guides/mainnet-forking.html#mainnet-forking), great [TypeScript support](https://hardhat.org/guides/typescript.html#typescript-support), and contract verification in Ether scan.
-

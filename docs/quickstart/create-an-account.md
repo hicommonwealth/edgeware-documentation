@@ -14,15 +14,15 @@ There are several ways to generate a Edgeware account:
 
 The seed is your **key** to the account. Knowing the seed allows you, or anyone else who knows the seed, to re-generate and control this account.
 
-It is imperative to store the seed somewhere safe, secret, and secure. If you lose access to your account \(i.e. you forget the password for your account's JSON file\), you can re-create it by entering the seed. This also means that somebody else can have control over your account if they have access to your seed.
+It is imperative to store the seed somewhere safe, secret, and secure. If you lose access to your account (i.e. you forget the password for your account's JSON file), you can re-create it by entering the seed. This also means that somebody else can have control over your account if they have access to your seed.
 
-For maximum security, the seed should be written down on paper or another non-digital device and stored in a safe place. You may also want to protect your seed from physical damage, as well \(e.g. by storing in a sealed plastic bag to prevent water damage, storing it in a fireproof safe, etching it in metal, etc.\) It is recommended that you store multiple copies of the seed in geographically separate locations \(e.g., one in your home safe and one in a safety deposit box at your bank\).
+For maximum security, the seed should be written down on paper or another non-digital device and stored in a safe place. You may also want to protect your seed from physical damage, as well (e.g. by storing in a sealed plastic bag to prevent water damage, storing it in a fireproof safe, etching it in metal, etc.) It is recommended that you store multiple copies of the seed in geographically separate locations (e.g., one in your home safe and one in a safety deposit box at your bank).
 
 You should definitely not store your seed on any kind of computer that has or may have access to the internet in the future.
 
 ## Storing your account's JSON file
 
-The JSON file is encrypted with a password, which means you can import it into any wallet which supports JSON imports, but to then use it, you need the password. You don't have to be as careful with your JSON file's storage as you would with your seed \(i.e. it can be on a USB drive near you\), but remember that in this case your account is only as secure as the password you used to encrypt it. Do not use easy to guess or hard to remember passwords. It is good practice to use a [mnemonic password of four to five words](https://xkcd.com/936/). These are nearly impossible for computers to guess due to the number of combinations possible, but much easier for humans to remember.
+The JSON file is encrypted with a password, which means you can import it into any wallet which supports JSON imports, but to then use it, you need the password. You don't have to be as careful with your JSON file's storage as you would with your seed (i.e. it can be on a USB drive near you), but remember that in this case your account is only as secure as the password you used to encrypt it. Do not use easy to guess or hard to remember passwords. It is good practice to use a [mnemonic password of four to five words](https://xkcd.com/936/). These are nearly impossible for computers to guess due to the number of combinations possible, but much easier for humans to remember.
 
 ## Polkadot{.js} Browser Plugin
 
@@ -34,13 +34,13 @@ It is still running on the same computer you use to connected to the internet wi
 
 ## Install the Browser Plugin
 
-The browser plugin is available for [both](https://polkadot.js.org/extension/) [Google Chrome \(and Chromium based browsers like Brave\)](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/).
+The browser plugin is available for [both](https://polkadot.js.org/extension/) [Google Chrome (and Chromium based browsers like Brave)](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/).
 
 If you would like to know more or review the code of the plugin yourself, [you can visit the Github source repository](https://github.com/polkadot-js/extension).
 
 After installing the plugin, you should see the orange and white Polkadot{.js} logo in the menu bar of your browser.
 
-![Install Polkadot Chrome Extension](../.gitbook/assets/install_polkadot_chrome_extension%20%281%29.png)
+![Install Polkadot Chrome Extension](<../../.gitbook/assets/install_polkadot_chrome_extension (1).png>)
 
 ## Open Accounts
 
@@ -50,15 +50,15 @@ Navigate to [VercelApps](https://edgeui-flax.vercel.app/?rpc=wss%3A%2F%2Fmainnet
 
 Open the Polkadot{.js} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup not unlike the one below.
 
-![create account in polkadot extension](../.gitbook/assets/create_account_in_extension.png)
+![create account in polkadot extension](../../.gitbook/assets/create_account_in_extension.png)
 
 Click the big plus button or select "Create new account" from the small plus icon in the top right. The Polkadot{.js} plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
 
-![mnemonic seed for new account](../.gitbook/assets/mnemonic_seed_for_new_account.png)
+![mnemonic seed for new account](../../.gitbook/assets/mnemonic_seed_for_new_account.png)
 
 You should back up these words as explained above. It is imperative to store the seed somewhere safe, secret, and secure. If you cannot access your account via Polkadot{.js} for some reason, you can re-enter your seed through the "Add account menu" by selecting "Import account from pre-existing seed".
 
-![import account to extension](../.gitbook/assets/import_account_to_extension.png)
+![import account to extension](../../.gitbook/assets/import_account_to_extension.png)
 
 ## Name Account
 
@@ -76,7 +76,7 @@ Now we will ensure that the addresses are displayed as Edgeware mainnet addresse
 
 Click on "Options" at the top of the plugin window, and under "Display address format for" select "Edgeware".
 
-![Set Address for Edgeware Mainnet](../.gitbook/assets/set_address_for_edgeware_mainnet.png)
+![Set Address for Edgeware Mainnet](../../.gitbook/assets/set_address_for_edgeware_mainnet.png)
 
 Your address' format is only visual - the data used to derive this representation of your address are the same, so you can use the same address on multiple chains. However, for privacy reasons, we recommend creating a new address for each chain you're using.
 
@@ -86,7 +86,7 @@ Subkey is recommended for technically advanced users who are comfortable with th
 
 [You can find detailed build and usage instructions of subkey](https://github.com/paritytech/substrate/tree/master/bin/utils/subkey)
 
-![subkey generate address for edgeware](../.gitbook/assets/subkey_generate_address_for_edgeware%20%281%29.png)
+![subkey generate address for edgeware](<../../.gitbook/assets/subkey_generate_address_for_edgeware (1).png>)
 
 ## Edgeui-Flax.Vercel.app
 
@@ -113,5 +113,4 @@ You can use this backup file to restore your account. This backup file is not re
 ## Reference
 
 * [Account generation for Polkadot Relay chain](https://wiki.polkadot.network/docs/en/learn-account-generation)
-* [SS58 Adress Transform](https://polkadot.subscan.io/tools/ss58_transform)
-
+* [SS58 Adress Transform](https://polkadot.subscan.io/tools/ss58\_transform)

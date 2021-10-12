@@ -1,10 +1,10 @@
 # WASM
 
-![](../../../../.gitbook/assets/substrate-ink.png)
+![](../../../../../.gitbook/assets/substrate-ink.png)
 
 ## WASM Contract Pallet
 
-### WebAssembly \(Wasm\)
+### WebAssembly (Wasm)
 
 WebAssembly is used in Polkadot, Substrate and Edgeware as the compilation target for the runtime.
 
@@ -18,7 +18,7 @@ WebAssembly is a platform agnostic binary format, meaning that it will run the s
 
 ### Contracts Pallet
 
-The Contracts pallet provides the ability for the runtime to deploy and execute WebAssembly \(Wasm\) smart contracts.
+The Contracts pallet provides the ability for the runtime to deploy and execute WebAssembly (Wasm) smart contracts.
 
 ### Wasm Engine
 
@@ -42,7 +42,7 @@ Instantiate a new account, with new storage, associated with that Wasm contract.
 
 ### Runtime Environment Types
 
-For writing contracts and interacting with the runtime, a set of types are available \(e.g. AccountId, Balance, Hash, Moment\). These types can be user defined for custom runtimes, or the supplied defaults can be used.
+For writing contracts and interacting with the runtime, a set of types are available (e.g. AccountId, Balance, Hash, Moment). These types can be user defined for custom runtimes, or the supplied defaults can be used.
 
 ### Contract Calls
 
@@ -74,10 +74,9 @@ The Contracts module chooses to approach contract creation using a [two-step pro
 
 ### Resources
 
-* [WebAssembly.org](https://webassembly.org/) - WebAssembly homepage that contains a link to the spec.
+* [WebAssembly.org](https://webassembly.org) - WebAssembly homepage that contains a link to the spec.
 * [Wasmi](https://github.com/paritytech/Wasmi) - WebAssembly interpreter written in Rust.
 * [Parity Wasm](https://github.com/paritytech/parity-Wasm) - WebAssembly serialization/deserialization in Rust.
 * [Wasm utils](https://github.com/paritytech/Wasm-utils) - Collection of Wasm utilities used in Parity and Wasm contract development.
 * [Pallet-contracts](https://crates.io/crates/pallet-contracts) - The Contract module provides functionality for the runtime to deploy and execute WebAssembly smart-contracts.
 * [Contracts Pallet](https://substrate.dev/docs/en/knowledgebase/smart-contracts/contracts-pallet)
-
