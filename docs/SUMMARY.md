@@ -104,7 +104,7 @@
   * [Treasury](edgeware-stack/economics/treasury/README.md)
     * [Tipping Function](edgeware-stack/economics/treasury/tipping-function.md)
   * [Network Staking Simulator](https://docs.google.com/spreadsheets/d/1VlzTUDESbbfOggMRz3GyE9-VqR9MlOhNuoekBboKvLw/edit?usp=sharing)
-  * [Total Supply API URL](https://edgeware-supply.now.sh/)
+  * [Total Supply API URL](https://edgeware-supply.now.sh)
   * [Return Rate Calculator for Validators](edgeware-stack/economics/return-rate-calculator-for-validators.md)
   * [Transaction Fees](edgeware-stack/economics/transaction-fees.md)
 * [Governance](edgeware-stack/governance/README.md)
@@ -133,12 +133,17 @@
   * [Retrieve your Locked ETH](edgeware-stack/lockdrop/retrieve-your-eth/README.md)
     * [Unlock Tool](https://commonwealth.im/edgeware/unlock)
   * [Lockdrop Allocation Formula](edgeware-stack/lockdrop/lockdrop-allocation-formula.md)
-  * [Find your Lockdrop User Contract \(LUC\)](edgeware-stack/lockdrop/find-your-lockdrop-user-contract-luc.md)
+  * [Find your Lockdrop User Contract (LUC)](edgeware-stack/lockdrop/find-your-lockdrop-user-contract-luc.md)
   * [Check the Status of Your Lock Duration and Unlock Date](edgeware-stack/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md)
   * [Stats](https://commonwealth.im/edgeware/stats)
   * [Gini Coefficient of Edgeware](edgeware-stack/lockdrop/gini-coefficient-of-edgeware.md)
   * [Contract  & Specifications](edgeware-stack/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
+
+***
+
+* [Page 2](page-2.md)
+* [Page 1](page-1.md)
 
 ## Advanced
 
@@ -151,7 +156,7 @@
 * [Setting Up Monitoring](advanced/setting-up-monitoring.md)
 * [Running Cross Chain Protocols](advanced/running-cross-chain-protocols/README.md)
   * [Cross Chain Protocols](advanced/running-cross-chain-protocols/cross-chain-protocols.md)
-  * [Ethereum &lt;&gt; Edgeware Bridge](advanced/running-cross-chain-protocols/ethereum-less-than-greater-than-edgeware-bridge.md)
+  * [Ethereum <> Edgeware Bridge](advanced/running-cross-chain-protocols/ethereum-less-than-greater-than-edgeware-bridge.md)
 * [XCMP](advanced/xcmp/README.md)
   * [What is Polkadot](advanced/xcmp/what-is-polkadot.md)
   * [What is a Parachain](advanced/xcmp/what-is-a-parachain.md)
@@ -179,3 +184,6 @@
 * [Documentation Style Guide](style-guide/documentation-style-guide.md)
 * [Code Style Guide](style-guide/code-style-guide.md)
 
+## Community
+
+* [Public Grants](community/public-grants.md)
