@@ -56,7 +56,7 @@ Now you will click on the "Submit proposal" button and enter the preimage hash i
 
 Now your proposal is visible by anyone who accesses the chain and others can second it or submit a preimage. However, it's hard to tell what exactly this proposal does since it shows the hash of the action. Other holders will not be able to make a judgement for whether they second it or not until someone submits the actual preimage for this proposal. In the next step you will submit the preimage.
 
-![proposals](https://wiki.polkadot.network/docs/assets/democracy/proposals.png)
+![proposals](https://github.com/w3f/polkadot-wiki/blob/master/docs/assets/democracy/proposals.png)
 
 ## Submitting a Preimage
 
