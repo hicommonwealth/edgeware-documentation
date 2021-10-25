@@ -12,7 +12,7 @@ The council is an elected body of on-chain accounts that are intended to represe
 
 Voting for councillors requires you to lock your EDG for the duration of your vote. Like the validator elections, you can approve up to 16 different councillors and your vote will be equalized among the chosen group. Unlike validator elections, there is no unbonding period for your reserved tokens. Once you remove your vote, your tokens will be liquid again.
 
-> Warning: It is your responsibility not to put your entire balance into the reserved value when you make a vote for councillors. It's best to keep _at least_ a few KSM to pay for transaction fees.
+> Warning: It is your responsibility not to put your entire balance into the reserved value when you make a vote for councillors. It's best to keep _at least_ a few EDG to pay for transaction fees.
 
 Go to the [Polkadot Apps Dashboard](https://polkadot.js.org/apps), **connect to the Edgeware endpoint**, and click on the "Council" tab. On the right side of the window there are two blue buttons, click on the one that says "Vote."
 
