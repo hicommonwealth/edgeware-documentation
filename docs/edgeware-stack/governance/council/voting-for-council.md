@@ -6,6 +6,8 @@ description: 'https://wiki.polkadot.network/docs/en/maintain-guides-how-to-vote-
 
 ## Intro <a id="__docusaurus"></a>
 
+# test
+
 The council is an elected body of on-chain accounts that are intended to represent the passive stakeholders of Edgeware. The council has two major tasks in governance: proposing referenda and vetoing dangerous or malicious referenda. This guide will walk you through voting for councillors in the elections.
 
 ### Voting for Councillors
