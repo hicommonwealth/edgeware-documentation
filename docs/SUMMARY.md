@@ -56,7 +56,7 @@
           * [Testing our Contract](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-erc20/testing-our-contract.md)
           * [Troubleshoot](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-erc20/troubleshoot.md)
         * [WASM PSP22](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-psp22/README.md)
-          * [What is PSP](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-psp22/PSP22-implementation.md)
+          * [What is PSP](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-psp22/PSP.md)
           * [Implement PSP22 in your contract](development/develop/smart-contracts/wasm-smart-contracts/tutorials/wasm-psp22/PSP22-implementation.md)
       * [WASM Advanced](development/develop/smart-contracts/wasm-smart-contracts/wasm-advanced.md)
       * [!ink repository](https://github.com/hicommonwealth/ink)
