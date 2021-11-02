@@ -16,6 +16,7 @@ In the WASM tutorials, we will cover:
 6. Creating a basic flipper contract
 7. Creating a simple incrementer contract
 8. Creating a more complex ERC20 contract
+9. Implement the [PSP22 Token Standard](https://github.com/w3f/PSPs/blob/master/PSPs/psp-22.md) to a contract - with [OpenBrush](https://github.com/Supercolony-net/openbrush-contracts) implementation
 
 In the [EVM tutorials](https://docs.edgewa.re/contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract), we will cover:
 
@@ -58,6 +59,7 @@ All our rooms are bridged so you can come in comfortable with your preferred cha
 * [WebAssembly \(Wasm\)](https://webassembly.org/)
 * [Substrate EVM Module](https://substrate.dev/docs/en/knowledgebase/smart-contracts/evm-pallet)
 * [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+* [OpenBrush Contracts](https://openbrush.io/)
 
 [    
 ](https://contracts.edgewa.re/#/0/introduction)
