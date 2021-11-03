@@ -140,7 +140,7 @@
   * [Check the Status of Your Lock Duration and Unlock Date](edgeware-stack/lockdrop/check-the-status-of-your-lock-duration-and-unlock-date.md)
   * [Stats](https://commonwealth.im/edgeware/stats)
   * [Gini Coefficient of Edgeware](edgeware-stack/lockdrop/gini-coefficient-of-edgeware.md)
-  * [Contract  & Specifications](edgeware-stack/lockdrop/contract-and-specifications/README.md)
+  * [Contract & Specifications](edgeware-stack/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
 
 ***
@@ -186,6 +186,10 @@
 
 * [Documentation Style Guide](style-guide/documentation-style-guide.md)
 * [Code Style Guide](style-guide/code-style-guide.md)
+
+***
+
+* [Launch a Simple-Majority Referenda](launch-a-simple-majority-referenda.md)
 
 ## Community
 
