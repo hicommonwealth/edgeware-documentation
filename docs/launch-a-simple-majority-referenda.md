@@ -14,7 +14,9 @@ The process is currently a little complicated, requiring a number of stages and 
 
 ### Step 1 -Create a treasury proposal
 
-Head to the [Polkadotjs app](https://polkadot.js.org/apps), switch to Edgeware and click into the [treasury tab ](https://polkadot.js.org/apps/#/treasury)which is located in the governance drop down menu.** **You will see the current treasury proposals:![](https://commonwealth-uploads.s3.us-east-2.amazonaws.com/91d08008-ae62-4cb6-8cd6-60c47feecf1f.1635933888956)
+Head to the [Polkadotjs app](https://polkadot.js.org/apps), switch to Edgeware and click into the [treasury tab ](https://polkadot.js.org/apps/#/treasury)which is located in the governance drop down menu.** **You will see the current treasury proposals:
+
+![](https://commonwealth-uploads.s3.us-east-2.amazonaws.com/91d08008-ae62-4cb6-8cd6-60c47feecf1f.1635933888956)
 
 Click the 'Submit Proposal' button on the right hand side of the interface and enter the details of the proposal. The 'submit with account' is required to bond 5% of the total requested EDG. You will have already setup a beneficiary account and added them to your [address book](https://polkadot.js.org/apps/#/addresses). In general with Edgeware we use a minimum of 2/3 multi-sig accounts for grants. You can find the multi-sig setup page on the [accounts](https://polkadot.js.org/apps/#/accounts) drop down menu.
 
