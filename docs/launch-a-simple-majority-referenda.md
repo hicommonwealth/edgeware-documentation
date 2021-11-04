@@ -14,7 +14,7 @@ The process is currently a little complicated, requiring a number of stages and 
 
 ### Step 1 -Create a treasury proposal
 
-Head to the [Polkadotjs app](https://polkadot.js.org/apps), switch to Edgeware and click into the [treasury tab ](https://polkadot.js.org/apps/#/treasury)which is located in the governance drop down menu.** **You will see the current treasury proposals:
+Head to the [Polkadotjs app](https://polkadot.js.org/apps), switch to Edgeware and click into the [treasury tab ](https://polkadot.js.org/apps/#/treasury)which is located in the governance drop down menu. You will see the current treasury proposals:
 
 ![](https://commonwealth-uploads.s3.us-east-2.amazonaws.com/91d08008-ae62-4cb6-8cd6-60c47feecf1f.1635933888956)
 
