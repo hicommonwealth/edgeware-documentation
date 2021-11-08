@@ -33,14 +33,14 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 
 ![](../../.gitbook/assets/EDGnetwork.png)
 
-1. Click on Settings in the menu bar.
+5. Click on Settings in the menu bar.
    * Manage hardware connections.
    * Attach Ledger via WebUSB (Chrome, recommended)
    * Save.
 
 ![](../../.gitbook/assets/2.png)
 
-1. Click on Accounts in the menu bar
+6. Click on Accounts in the menu bar
    * Add via Ledger.
    * Give an account name.
    * Make sure the Ledger device is plugged in unlocked with the Edgeware app open.
@@ -68,7 +68,7 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 
 ![](../../.gitbook/assets/5.png)
 
-1. To send from Ledger device
+2. To send from Ledger device
    * Click send. 
    * Paste the recipients address in the send to address or use the drop down menu. 
    * Enter amount.
@@ -77,3 +77,18 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
    * On Ledger device use the right button to go through the menus. Verify that it is the correct receiving address and EDG amount on the device. double click on approve or reject accordingly. 
 
 ![](<../../.gitbook/assets/6 (3).png>)
+
+## View Balance 
+
+There are a few ways to view your balance.
+   1. When you look at accounts it is under balances. You can also click on the down arrow to view more
+   2. you can click the subscan icon to take you to subscan to see the full balance to the last decimal.
+
+![](<../../.gitbook/assets/view-balance.png>)
+
+## Need Help?
+Reach out to use.
+
+* Discord: https://discord.gg/tDxgyxym
+* Telegram: https://t.me/heyedgeware
+* Reddit: https://www.reddit.com/r/edgeware/
