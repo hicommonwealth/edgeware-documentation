@@ -81,13 +81,13 @@ A Ledger Device is a hardware wallet that is considered one of the most secure w
 ## View Balance 
 
 There are a few ways to view your balance.
-   1. When you look at accounts it is under balances. You can also click on the down arrow to view more
-   2. you can click the subscan icon to take you to subscan to see the full balance to the last decimal.
+   1. When you look at accounts it is under balances. You can also click on the down arrow to view more details.
+   2. you can click the subscan icon to take you to subscan to see the full balance to the last decimal place.
 
 ![](<https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MWyXA0bgrUw7ynlH_ge%2Fuploads%2FgGA0MAnQmocYOYpXFoiA%2Fview-balance.png?alt=media&token=b5553601-50e8-4bb7-b1bb-b8923577df60>)
 
 ## Need Help?
-Reach out to use.
+Reach out to us.
 
 * Discord: [https://discord.gg/tDxgyxym](https://discord.gg/tDxgyxym)
 * Telegram: [https://t.me/heyedgeware](https://t.me/heyedgeware)
