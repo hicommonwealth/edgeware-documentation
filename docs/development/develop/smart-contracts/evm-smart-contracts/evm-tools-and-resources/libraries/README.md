@@ -1,7 +1,7 @@
 # Ethereum Libraries
 
 {% hint style="warning" %}
-#### Proceed with caution! This page is in progress. :construction_site: 
+**Proceed with caution! This page is in progress. **:construction\_site:
 {% endhint %}
 
 In order for a web app to interact with the Ethereum blockchain (i.e. read blockchain data and/or send transactions to the network), it must connect to an Ethereum node.
@@ -57,4 +57,3 @@ Official documentation - web3.py
 {% embed url="https://docs.ethers.io/v5/" %}
 Official documentation - ethers.js
 {% endembed %}
-

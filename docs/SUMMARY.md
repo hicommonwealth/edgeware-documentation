@@ -143,11 +143,6 @@
   * [Contract & Specifications](edgeware-stack/lockdrop/contract-and-specifications/README.md)
     * [Lockdrop Contracts](https://github.com/hicommonwealth/edgeware-lockdrop)
 
-***
-
-* [Page 2](page-2.md)
-* [Page 1](page-1.md)
-
 ## Advanced
 
 * [Setup Multi Signature Account](advanced/setup-multi-signature-account/README.md)

@@ -16,7 +16,7 @@ During the lockdrop, the keypairs that were generated with Subkey were encoded u
 
 1. You can always use the Default-Network-ID-encoded Public Address to **receive** funds safely.
 2. However, It is a 'best practice' to use the \_new Edgeware-\_network-ID version of your address when interacting with the Edgeware network, including sending funds.
-3. You will need to re-generate your public address to use some Block Explorer tools. At this time, Polkascan uses the new Edgeware network ID encoding. 
+3. You will need to re-generate your public address to use some Block Explorer tools. At this time, Polkascan uses the new Edgeware network ID encoding.
 
 You can also get the new version of your address in two other ways - the Polkadot UI or the Subkey tool.
 
@@ -32,7 +32,7 @@ The Polkadot.js **Browser Extension** does not display the Edgeware network ID e
 {% endtab %}
 
 {% tab title="Using Polkadot UI" %}
-The easiest way to get your Edgeware network ID version of your public address is to use the Account or Address Book tool of [the Polkadot UI. ](https://polkadot.js.org/apps/#/explorer)
+The easiest way to get your Edgeware network ID version of your public address is to use the Account or Address Book tool of [the Polkadot UI.](https://polkadot.js.org/apps/#/explorer)
 
 Enter your old address into the search bar in the Address Book tool, and then click the identicon to the left as shown in the image below. It will copy your current Edgeware network encoded address. Store this safely.
 
@@ -58,7 +58,7 @@ You can also derive the SS58 Address from **an existing key OR address** with th
 subkey -n edgeware inspect "INSERT MNEMONIC/EXISTING ADDRESS HERE"
 ```
 
-## Examples
+### Examples
 
 In order of examples:
 
@@ -107,7 +107,7 @@ First, install the [Polkadot.js Browser Extension](https://github.com/polkadot-j
 {% tabs %}
 {% tab title="Polkadot.js Extension" %}
 * On Chrome, install via [Chrome web store](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd)
-* On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/) 
+* On Firefox, install via [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/)
 * You will need your seed phrase, a series of words.
 
 Next, click the Orange P icon in your browser extension section.

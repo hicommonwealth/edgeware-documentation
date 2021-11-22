@@ -1,6 +1,6 @@
 # Create Multi Signature Account
 
-We will create a Multi-Signature account using a local Edgeware development network and perform a test transaction from the account. You will have to make sure you have a [local development node running](../../development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract/setting-up-a-edgeware-evm-node.md) for this tutorial.
+We will create a Multi-Signature account using a local Edgeware development network and perform a test transaction from the account. You will have to make sure you have a [local development node running](../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/setting-up-an-edgeware-node-for-local-development.md) for this tutorial.
 
 Once a development node is active, you're going to click on this link: [https://polkadot.js.org/apps//#/explorer](https://polkadot.js.org/apps/#/explorer). In the top left drop-down menu you're then going navigate to and click on: 'development > Local Node > Switch' and then wait for 'initializing connection' to conclude.
 
@@ -14,7 +14,7 @@ From here, you will navigate and hover on the **Accounts** tab on the navigation
 
 Click on **+Multisig**.
 
-You will now choose your signatures (i.e. your teammates accounts). In our scenario, we will choose **Alice, Bob, and Charlie **and we will be setting the **threshold to 2.** This means only 2/3 signatures will be needed to enact the on-chain transaction. You can set the threshold to be equal to or less than the number of signatories involved in the multisig. We will name this multisig our **Team Funding** account.
+You will now choose your signatures (i.e. your teammates accounts). In our scenario, we will choose \*\*Alice, Bob, and Charlie \*\*and we will be setting the **threshold to 2.** This means only 2/3 signatures will be needed to enact the on-chain transaction. You can set the threshold to be equal to or less than the number of signatories involved in the multisig. We will name this multisig our **Team Funding** account.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-10-11 at 7.19.12 PM.png>)
 
@@ -38,7 +38,7 @@ It was broadcasted to the chain, you can see notification on the top right.
 
 ![](../../../.gitbook/assets/transfer-ms-first-call.png)
 
-Referring to the image below, we can see the multisig approvals now pending next to our **Team Funding** account. On the **Team Funding **account click send.
+Referring to the image below, we can see the multisig approvals now pending next to our **Team Funding** account. On the \*\*Team Funding \*\*account click send.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-10-11 at 7.40.04 PM.png>)
 
