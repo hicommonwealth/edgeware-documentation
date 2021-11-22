@@ -1,10 +1,10 @@
 # Create an Account
 
-An address is the public part of a Edgeware account. The private part is the key used to access this address. The public and private part together make up a Edgeware account. To interact with Edgeware chain create such as creating basic transactions and various operation, you need to have created Account.
+An address is the public part of a Edgeware account. The private part is the key used to access this address. The public and private part together make up a Edgeware account. To interact with Edgeware chain create such as creating basic transactions and various operation, you need to have a created Account.
 
 There are several ways to generate a Edgeware account:
 
-* [Polkadot{.js} Browser Plugin](create-an-account.md#polkadotjs-browser-plugin) - _We reccomend this for most users_
+* [Polkadot{.js} Browser Plugin](create-an-account.md#polkadotjs-browser-plugin) - _We recommend this for most users_
 * [Subkey](create-an-account.md#subkey) - _Advanced and Most secure_
 * [Edgeui-Flax.Vercel.app](create-an-account.md#edgeui-flax.vercel.app)
 * Parity Signer
@@ -34,13 +34,13 @@ It is still running on the same computer you use to connected to the internet wi
 
 ## Install the Browser Plugin
 
-The browser plugin is available for [both](https://polkadot.js.org/extension/) [Google Chrome (and Chromium based browsers like Brave)](https://chrome.google.com/webstore/detail/polkadot%7Bjs%7D-extension/mopnmbcafieddcagagdcbnhejhlodfdd) and [FireFox](https://addons.mozilla.org/en-US/firefox/addon/polkadot-js-extension/).
+The browser plugin is available for [both Google Chrome (and Chromium based browsers like Brave) and FireFox.](https://polkadot.js.org/extension/)
 
 If you would like to know more or review the code of the plugin yourself, [you can visit the Github source repository](https://github.com/polkadot-js/extension).
 
 After installing the plugin, you should see the orange and white Polkadot{.js} logo in the menu bar of your browser.
 
-![Install Polkadot Chrome Extension](<../../.gitbook/assets/install_polkadot_chrome_extension (1).png>)
+![Install Polkadot Chrome Extension](<../../.gitbook/assets/install\_polkadot\_chrome\_extension (1).png>)
 
 ## Open Accounts
 
@@ -50,15 +50,15 @@ Navigate to [VercelApps](https://edgeui-flax.vercel.app/?rpc=wss%3A%2F%2Fmainnet
 
 Open the Polkadot{.js} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup not unlike the one below.
 
-![create account in polkadot extension](../../.gitbook/assets/create_account_in_extension.png)
+![create account in polkadot extension](../../.gitbook/assets/create\_account\_in\_extension.png)
 
 Click the big plus button or select "Create new account" from the small plus icon in the top right. The Polkadot{.js} plugin will then use system randomness to make a new seed for you and display it to you in the form of twelve words.
 
-![mnemonic seed for new account](../../.gitbook/assets/mnemonic_seed_for_new_account.png)
+![mnemonic seed for new account](../../.gitbook/assets/mnemonic\_seed\_for\_new\_account.png)
 
 You should back up these words as explained above. It is imperative to store the seed somewhere safe, secret, and secure. If you cannot access your account via Polkadot{.js} for some reason, you can re-enter your seed through the "Add account menu" by selecting "Import account from pre-existing seed".
 
-![import account to extension](../../.gitbook/assets/import_account_to_extension.png)
+![import account to extension](../../.gitbook/assets/import\_account\_to\_extension.png)
 
 ## Name Account
 
@@ -76,7 +76,7 @@ Now we will ensure that the addresses are displayed as Edgeware mainnet addresse
 
 Click on "Options" at the top of the plugin window, and under "Display address format for" select "Edgeware".
 
-![Set Address for Edgeware Mainnet](../../.gitbook/assets/set_address_for_edgeware_mainnet.png)
+![Set Address for Edgeware Mainnet](../../.gitbook/assets/set\_address\_for\_edgeware\_mainnet.png)
 
 Your address' format is only visual - the data used to derive this representation of your address are the same, so you can use the same address on multiple chains. However, for privacy reasons, we recommend creating a new address for each chain you're using.
 
@@ -86,7 +86,7 @@ Subkey is recommended for technically advanced users who are comfortable with th
 
 [You can find detailed build and usage instructions of subkey](https://github.com/paritytech/substrate/tree/master/bin/utils/subkey)
 
-![subkey generate address for edgeware](<../../.gitbook/assets/subkey_generate_address_for_edgeware (1).png>)
+![subkey generate address for edgeware](<../../.gitbook/assets/subkey\_generate\_address\_for\_edgeware (1).png>)
 
 ## Edgeui-Flax.Vercel.app
 
