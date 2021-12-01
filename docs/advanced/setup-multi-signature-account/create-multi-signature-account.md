@@ -1,6 +1,6 @@
 # Create Multi Signature Account
 
-We will create a Multi-Signature account using a local Edgeware development network and perform a test transaction from the account. You will have to make sure you have a [local development node running](../../development/develop/smart-contracts/wasm-smart-contracts/tutorials/setting-up-an-edgeware-node-for-local-development.md) for this tutorial.
+We will create a Multi-Signature account using a local Edgeware development network and perform a test transaction from the account. You will have to make sure you have a [local development node running](../../development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development.md) for this tutorial.
 
 Once a development node is active, you're going to click on this link: [https://polkadot.js.org/apps//#/explorer](https://polkadot.js.org/apps/#/explorer). In the top left drop-down menu you're then going navigate to and click on: 'development > Local Node > Switch' and then wait for 'initializing connection' to conclude.
 

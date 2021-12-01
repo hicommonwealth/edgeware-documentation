@@ -4,7 +4,7 @@ description: A guide to executing a simple-majority public funding referenda
 
 # Launch a Simple-Majority Referenda
 
-_Credit:_ _Edited from_[_ MrBulb's Commonwealth post._](https://commonwealth.im/edgeware/proposal/discussion/2423-how-to-execute-a-simplemajority-proposal)__
+_Credit:_ _Edited from_[\_ MrBulb's Commonwealth post.\_](https://commonwealth.im/edgeware/proposal/discussion/2423-how-to-execute-a-simplemajority-proposal)\_\_
 
 Edgeware, through public discussion, has gained consensus to use '[SimpleMajority](https://commonwealth.im/edgeware/proposal/discussion/1563-simplemajority-a-proposed-edgeware-governance-standard)' for treasury funding as an Edgeware governance standard. A SimpleMajority proposal is one that only requires a majority - aka over 51% of votes to pass, instead of the default 'Supermajority' (2/3 of voters.) This ensures we have a bias for approval. Without this, the general will of many smaller holders can be easily overruled by a single party locking 6x against a proposal. In general, it is felt that this approach puts the power into the hands of the broader community, rather than individuals.
 
@@ -28,7 +28,7 @@ On the next page there will be a "If submitted correctly, your treasury proposal
 
 ### Step 2 - Create a 'preimage' and accompanying 'hash'
 
-Now we head to the Governance drop down menu and select [Democracy](https://polkadot.js.org/apps/#/democracy) and create a preimage of the proposal which is the formal key value description of the on-chain proposal.In the second box down select **treasury** from the list of options and this will give a few extra options. You want `approveProposal(proposalID)`Now enter the `proposalID` you received earlier - in this case**,** `40`**.**
+Now we head to the Governance drop down menu and select [Democracy](https://polkadot.js.org/apps/#/democracy) and create a preimage of the proposal which is the formal key value description of the on-chain proposal.In the second box down select **treasury** from the list of options and this will give a few extra options. You want `approveProposal(proposalID)`Now enter the `proposalID` you received earlier - in this case\*\*,\*\* `40`**.**
 
 Now copy the resulting **preimage hash**, and submit and sign this stage using your account.
 
@@ -38,9 +38,9 @@ The next stage involves a member of the council who will either be involved dire
 
 First we head to the **Developer** drop down menu and hit the [Extrinsics option](https://polkadot.js.org/apps/#/extrinsics).In this case I am proposing this SimpleMajority proposal therefore I need to switch to using my Council member account in the first box.
 
-Then we select `Council` from the next drop down menu and `propose(threshold, proposal, lengthbound)`** **from the accompanying options.For threshold we select 8 - this means the SimpleMajority motion requires a minimum of 8 or the 13 Council members to pass and execute Treasury proposal 40 as a simple majority referendum.
+Then we select `Council` from the next drop down menu and `propose(threshold, proposal, lengthbound)`\*\* \*\*from the accompanying options.For threshold we select 8 - this means the SimpleMajority motion requires a minimum of 8 or the 13 Council members to pass and execute Treasury proposal 40 as a simple majority referendum.
 
-In the next box down `proposal: Proposal`**` `**select `democracy` and then next to that `externalProposeMajority (proposalHash)`**. **
+In the next box down `proposal: Proposal`\*\* `` **select `democracy` and then next to that `externalProposeMajority (proposalHash)`**. \*\*
 
 Into the box below `proposalHash: Hash` paste the **preimage hash** (the proposal hash) which you received in the previous part of the process.
 
