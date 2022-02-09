@@ -22,6 +22,7 @@
 
 * [Develop](development/develop/README.md)
   * [Install Edgeware](development/develop/install-edgeware.md)
+  * [Docker Image](development/develop/docker-image.md)
   * [Smart Contracts](development/develop/smart-contracts/README.md)
     * [Setting up an Edgeware node for local development](development/develop/smart-contracts/setting-up-an-edgeware-node-for-local-development.md)
     * [WASM](development/develop/smart-contracts/wasm-smart-contracts/README.md)
