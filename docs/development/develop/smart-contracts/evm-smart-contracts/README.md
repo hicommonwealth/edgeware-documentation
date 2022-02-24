@@ -2,7 +2,7 @@
 
 ![](../../../../../.gitbook/assets/124-1245885\_ethereum-logo-eth-coin-logo-png-transparent-png.png)
 
-Edgeware has a pallet that allows developers to write EVM smart-contracts. This means that you can use Edgeware as you would with Ethereum. Edgeware is fully compatible with Ethereum's Web3 API and EVM. Here, we'll walk through a few subtle differences between Edgeware and Ethereum. Namely, Edgeware has a Proof of Stake-based consensus mechanism. This shouldn't affect you if you're building a DeFi or NFT based application. See our related documentation on [proof-of-stake](https://docs.edgewa.re/edgeware-runtime/consensus). In the following sections we detail Edgeware<>EVM Compatibility.
+Edgeware has a pallet that allows developers to write EVM smart-contracts. This means that you can use Edgeware as you would with Ethereum. Edgeware is fully compatible with Ethereum's Web3 API and EVM. Here, we'll walk through a few subtle differences between Edgeware and Ethereum. Namely, Edgeware has a Proof of Stake-based consensus mechanism. This shouldn't affect you if you're building a DeFi or NFT based application. See our related documentation on [proof-of-stake](https://docs.edgeware.wiki/edgeware-stack/staking). In the following sections we detail Edgeware<>EVM Compatibility.
 
 ## Full-Ethereum API and Tooling Compatibility
 
@@ -13,7 +13,7 @@ If you're moving some portion of your smart contracts, state, or considering por
 * Development Tools (e.g., Truffle, Remix, MetaMask, ethers, web3js, truffle)
 * Ethereum Tokens via Bridges (e.g., token movement, state visibility, message passing)
 
-You can view our [tutorials](https://contracts.edgewa.re) to get a better feel for building Ethereum smart contracts on Edgeware, and how to directly offload or migrate your Ethereum application onto Edgeware.
+You can view our [tutorials](https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials) to get a better feel for building Ethereum smart contracts on Edgeware, and how to directly offload or migrate your Ethereum application onto Edgeware.
 
 As previously mentioned, Edgeware is proof of stake, this does mean that smart contracts that rely on components of Ethereum's API that touch on Proof of Work--difficulty, uncles, hash-rate won't work as expected on Edgeware. For those values, we have constant values set at the runtime level. Existing Ethereum contracts that rely on Proof of Work internals (e.g., mining pool contracts) will almost certainly not work as expected on Edgeware.
 
