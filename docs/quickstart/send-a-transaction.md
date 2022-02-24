@@ -7,7 +7,7 @@ This method involves using the [Polkadot UI ](https://polkadot.js.org/apps/#/exp
 You will need:
 
 * ..to have [created an Edgeware account.](create-an-account.md)
-* ..to have installed [Polkadot.js to your browser and connected your wallet.](connect-an-account-to-a-wallet.md)
+* ..to have [installed Polkadot.js to your browser and connected your wallet.](connect-an-account-to-a-wallet.md)
 * Some testnet or mainnet EDG to send. 
 
 [Visit the Polkadot UI ](https://polkadot.js.org/apps/#/accounts)and ensure you are connected to the Edgeware network you want to participate in by clicking the network section in the top left. Once connected, click the Accounts tab in the left sidebar, or going directly to the Transfer tab.
@@ -22,7 +22,7 @@ Once the amount is entered and all the information is reviewed and confirmed (tr
 
 ![](<../../.gitbook/assets/screen-shot-2020-02-10-at-9.39.14-am (1) (1) (1) (1) (1).png>)
 
-You will see a screen similar to this next, where you can see you transaction fees, can include a tip to the validator who authors the block for faster processing of the transaction (uncommon,) and otherwise confirm the send by signing the transaction.
+You will see a screen similar to this next, where you can see your transaction fees, can include a tip to the validator who authors the block for faster processing of the transaction (uncommon,) and otherwise confirm the send by signing the transaction.
 
 Advanced: You can also pre-sign but _not_ submit this transaction to the network (uncommon) by using the bottom left 'Sign and Submit' toggle and entering a nonce and a duration for the validity of the signed transaction.
 
