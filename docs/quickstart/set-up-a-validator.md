@@ -1,6 +1,6 @@
 # Set Up a Validator
 
-Welcome to the official, in-depth Edgeware guide to validating. We're happy that you're interested in validating on Edgeware and we'll do our best to provide in-depth documentation on the process below. As always, reach out on [Discord](https://discord.gg/CJRfb3) or [Telegram](https://t.me/heyedgeware) if you have questions about the project.
+Welcome to the official, in-depth Edgeware guide to validating. We're happy that you're interested in validating on Edgeware and we'll do our best to provide in-depth documentation on the process below. As always, reach out on [Discord](https://discord.gg/mYk543EXBV) or [Telegram](https://t.me/heyedgeware) if you have questions about the project.
 
 This document contains all the information one should need to start validating on Edgeware using the **command line interface**. We will start with how to setup one's node and proceed to how to key management and monitoring. To start, we will use the following terminology of keys for the guide:
 
@@ -29,7 +29,7 @@ This document contains all the information one should need to start validating o
 
   cargo install --force --git [https://github.com/paritytech/substrate](https://github.com/paritytech/substrate) subkey
 
-From this point on, we will assume you are familiar with using `subkey`, if that is not the case, you can read about the `subkey` commands [here](https://github.com/paritytech/substrate/blob/master/bin/utils/subkey/README.adoc).
+From this point on, we will assume you are familiar with using `subkey`, if that is not the case, you can read about the `subkey` commands [here](https://github.com/paritytech/substrate/blob/master/bin/utils/subkey/README.md).
 
 ## Onboarding
 
