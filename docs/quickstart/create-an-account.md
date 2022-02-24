@@ -1,6 +1,6 @@
 # Create an Account
 
-An address is the public part of a Edgeware account. The private part is the key used to access this address. The public and private part together make up a Edgeware account. To interact with Edgeware chain create such as creating basic transactions and various operation, you need to have a created Account.
+An address is the public part of an Edgeware account. The private part is the key used to access this address. The public and private part together make up an Edgeware account. To interact with Edgeware chain, such as creating basic transactions and various operation, you need to have a created Account.
 
 There are several ways to generate a Edgeware account:
 
@@ -12,7 +12,7 @@ There are several ways to generate a Edgeware account:
 
 ## Storing your key safely
 
-The seed is your **key** to the account. Knowing the seed allows you, or anyone else who knows the seed, to re-generate and control this account.
+The seed is your **key** to the account. Knowing that the seed allows you, or anyone else who knows the seed, to re-generate and control this account.
 
 It is imperative to store the seed somewhere safe, secret, and secure. If you lose access to your account (i.e. you forget the password for your account's JSON file), you can re-create it by entering the seed. This also means that somebody else can have control over your account if they have access to your seed.
 
@@ -48,7 +48,7 @@ Navigate to [VercelApps](https://edgeui-flax.vercel.app/?rpc=wss%3A%2F%2Fmainnet
 
 ## Create Account
 
-Open the Polkadot{.js} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup not unlike the one below.
+Open the Polkadot{.js} browser extension by clicking the logo on the top bar of your browser. You will see a browser popup like the one below.
 
 ![create account in polkadot extension](../../.gitbook/assets/create\_account\_in\_extension.png)
 
