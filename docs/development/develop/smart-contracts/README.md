@@ -2,7 +2,7 @@
 
 ## Introduction to the Edgeware Contracts Workshop
 
-Edgeware is blockchain platform with support [WASM Contracts Pallet](https://docs.edgewa.re/edgeware-runtime/wasm) and [EVM Ethereum compatibility layer.](https://docs.edgewa.re/edgeware-runtime/evm)
+Edgeware is blockchain platform with support [WASM Contracts Pallet](https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts#wasm-contract-pallet) and [EVM Ethereum compatibility layer.](https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts)
 
 This is a self-guided tutorial which will teach you how to build both [WASM](https://webassembly.org/) and EVM-based smart contracts on [Edgeware](https://github.com/hicommonwealth/edgeware-node).
 
@@ -18,7 +18,7 @@ In the WASM tutorials, we will cover:
 8. Creating a more complex ERC20 contract
 9. Implement the [PSP22 Token Standard](https://github.com/w3f/PSPs/blob/master/PSPs/psp-22.md) to a contract - with [OpenBrush](https://github.com/Supercolony-net/openbrush-contracts) implementation
 
-In the [EVM tutorials](https://docs.edgewa.re/contribute-and-engage/develop/edgeware-smart-contracts/deploy-an-evm-contract), we will cover:
+In the [EVM tutorials](https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials), we will cover:
 
 1. Setting up an Edgeware node
 2. Setting up Metamask to work with Edgeware
@@ -48,7 +48,7 @@ All our rooms are bridged so you can come in comfortable with your preferred cha
 
 ### Social <a id="social"></a>
 
-* [Twitter.com/heyedgeware](https://twitter.com/heyedgeware)
+* [Twitter.com/heyedgeware](https://twitter.com/EdgewareDAO)
 * [Twitter.com/edg\_developers](https://twitter.com/edg_developers)
 
 ## Resources
@@ -58,7 +58,7 @@ All our rooms are bridged so you can come in comfortable with your preferred cha
 * [Ink! Docs](https://paritytech.github.io/ink-docs/)
 * [WebAssembly \(Wasm\)](https://webassembly.org/)
 * [Substrate EVM Module](https://substrate.dev/docs/en/knowledgebase/smart-contracts/evm-pallet)
-* [Ink! Tutorial](https://substrate.dev/substrate-contracts-workshop/#/)
+* [Ink! Tutorial](https://docs.substrate.io/tutorials/v3/ink-workshop/pt1/)
 * [OpenBrush Contracts](https://openbrush.io/)
 
 [    
