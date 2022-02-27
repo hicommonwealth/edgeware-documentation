@@ -162,7 +162,7 @@ We would recommend going through the following resources to know more about Edge
 
 • [Roadmap](https://blog.edgewa.re/edgeware-2020/)
 
-• [Edgeware Docs](https://docs.edgewa.re/)
+• [Edgeware Docs](https://docs.edgeware.wiki/)
 
 #### Can I trade EDG on decentralised protocols like Uniswap or any DEXs?
 
