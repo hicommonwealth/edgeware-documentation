@@ -67,7 +67,7 @@ This helps make sure that the total amount is budgeted for, responsibly managed,
 5. Provide an on-chain identity.
    1. An on-chain ID is a public mode of knowing who owns and operates an account and verified points of contact. These verifications improve accountability.
    2. All grant recipient addresses should be a verified account.
-   3. See the wiki for this here: [https://main.edgeware.wiki/quickstart/create-an-edgeware-identity#adding-identities-using-polkadot-js](https://main.edgeware.wiki/quickstart/create-an-edgeware-identity#adding-identities-using-polkadot-js)
+   3. See the wiki for this <A HREF = "https://main.edgeware.wiki/quickstart/create-an-edgeware-identity#adding-identities-using-polkadot-js">here</A>
 
 ![User-uploaded Image](https://static.slab.com/prod/uploads/9yelyblh/posts/images/Z-3EsqRWHtkoRFFkX28REK3y.png)Add a caption
 
@@ -130,7 +130,7 @@ If the grant is lower than 5000 USD, you probably will receive the disbursement 
 
 We recommend Polkadot.js application for managing your funds. This involves a MetaMask-like browser extension and an interface.
 
-1. [Browser Extension ](public-grants.md#introduction-to-edgeware-public-grants)and Polkadot Apps
+1. [Browser Extension ](https://polkadot.js.org/extension/)and [Polkadot Apps](https://polkadot.js.org/apps/#/explorer)
 2. Website: [www.edgeware.app](https://www.edgeware.app) (Requires browser extension from first link.)
 3. Mathwallet or other wallets. 
 
