@@ -14,7 +14,7 @@ You can follow [Edgeware Builders Guild at Twitter](https://twitter.com/edg_deve
 
 ## Learn
 
-Edgeware has support for EVM Dapps and for ink! smart contract pallet as well. You can learn [how to play with EVM](https://contracts.edgewa.re/#/4/evm-introduction) or [learn how to deploy your first ink! smart contract](https://contracts.edgewa.re/#/0/introduction).
+Edgeware has support for EVM Dapps and for ink! smart contract pallet as well. You can learn <A HREF = "https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts/tutorials/deploy-an-evm-contract">how to play with EVM</A> or <A HREF = "https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/creating-an-ink-project">learn how to deploy your first ink! smart contract</A>.
 
 If you are looking for [advanced topics, you can play around with prepared examples, likes erc721, multisig_plain, delegator, dns](https://contracts.edgewa.re/#/3/introduction)
 
