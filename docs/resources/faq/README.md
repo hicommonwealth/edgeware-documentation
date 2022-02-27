@@ -6,8 +6,6 @@
 
 [Use the Unlock tool at Commonwealth.im](https://commonwealth.im/#!/unlock)
 
-[Read the full instructions at blog.edgewa.re](https://blog.edgewa.re/luc-101-retrieving-your-eth-from-the-lockdrop-contract/)
-
 To get your ETH back from a Lockdrop User Contract, once your lock duration has ended, send a zero-value or greater transaction from any account to the contract address of the LUC.
 
 The LUC will then return the ETH to the original address that sent this ETH to the Master Lockdrop Contract at the start of the Lockdrop Event. [Read a longer, detailed explanation at Blog.edgewa.re](https://blog.edgewa.re/luc-101-retrieving-your-eth-from-the-lockdrop-contract/)
