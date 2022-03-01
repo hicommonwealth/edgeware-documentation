@@ -10,7 +10,7 @@ Edgeware has magical functionality, that you will **upload your contract once** 
 
 We have deployed few contracts for you to the [Beresheet - our testnet network \(open Apps\)](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fberesheet1.edgewa.re#/contracts) to make it easy play for you. You will just need download particular metadata \(ABI\) for particular contract so your browser understands it.
 
-* 📚 [You can find metadata here](https://docs.edgewa.re/contribute-and-engage/develop/edgeware-smart-contracts/wasm-advanced)
+* 📚 <A HREF = "https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts/tutorials/deploy-a-wasm-contract/building-your-contract#contract-metadata">You can find metadata here</A>
 * ⛽️ [Faucet](https://beresheet-faucet.vercel.app/)
 * ⛽️ [If faucet doesn't work, visit us at Telegram](https://t.me/edg_developers)
 
@@ -82,5 +82,5 @@ Copy one of code hashes from above, put them in code hash, name it and choose me
 
 ## Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
-Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware ink! combability feature. We are **keen to hear your experience and suggestion you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our [Treasury program](https://docs.edgewa.re/edgeware-runtime/treasury). Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
+Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware ink! combability feature. We are **keen to hear your experience and suggestion you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our <A HREF = "https://docs.edgeware.wiki/edgeware-stack/economics/treasury">Treasury program</A>. Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
 
