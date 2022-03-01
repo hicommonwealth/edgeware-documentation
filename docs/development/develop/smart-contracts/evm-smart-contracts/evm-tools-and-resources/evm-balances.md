@@ -52,7 +52,7 @@ When converting, also note the `gasPrice` is specified in the EVM call, as the c
 
 * Convert a Substrate address to a EVM address: `address[0..20]` — take the first 20 bytes.
 * Convert an EVM address into a Substrate address: add `evm:` prefix to data, and take the hash. **THIS IS NOT REVERSIBLE**.
-  * See: [https://gitlab.parity.io/parity/substrate/-/blob/16fdfc4a80a14a26221d17b8a1b9a95421a1576c/frame/evm/src/lib.rs\#L167](https://gitlab.parity.io/parity/substrate/-/blob/16fdfc4a80a14a26221d17b8a1b9a95421a1576c/frame/evm/src/lib.rs#L167)
+  * see [here](https://gitlab.parity.io/parity/substrate/-/blob/16fdfc4a80a14a26221d17b8a1b9a95421a1576c/frame/evm/src/lib.rs#L167)
 
     ```text
     fn into_account_id(address: H160) -> AccountId32 {
@@ -67,7 +67,7 @@ When converting, also note the `gasPrice` is specified in the EVM call, as the c
 * **Effectively: each Substrate address is mapped to a specific EVM address, which is** _**maintained as if it were a Substrate address**_ **\(see below\)**_**.**_ **I call the \(32-byte\) Substrate address created from a \(20-byte\) EVM address the "substrate-ethereum equivalent".**
   * As an example, consider the \(fake\) 32-byte Substrate address \(it uses an `AccountId32` which is an array `[u8, 32]`, represented here as a 64 char hex string\): `0x1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF`
   * We first convert this to a 20-byte EVM address \(represented here as a 40 char hex string\): `0x1234567890ABCDEF1234567890ABCDEF1234`
-  * We then convert that into a new substrate address: `Hash('evm:'+0x1234567890ABCDEF1234567890ABCDEF1234)` = `Hash(0x65766D3A1234567890ABCDEF1234567890ABCDEF1234)`, where `Hash` is defined in the runtime as either Blake or Keccak. Edgeware uses Blake \(see: [https://github.com/hicommonwealth/edgeware-node/blob/edg-frontier-up-1/node/runtime/src/lib.rs\#L857](https://github.com/hicommonwealth/edgeware-node/blob/edg-frontier-up-1/node/runtime/src/lib.rs#L857)\), so the final output would be, in hex: `0xAF8536395A1EEC8EDA6FB9CF36739ECF75BECF6FEA04CEEC108BBB6AA15B7CB3`
+  * We then convert that into a new substrate address: `Hash('evm:'+0x1234567890ABCDEF1234567890ABCDEF1234)` = `Hash(0x65766D3A1234567890ABCDEF1234567890ABCDEF1234)`, where `Hash` is defined in the runtime as either Blake or Keccak. Edgeware uses Blake \(see: [here](https://github.com/hicommonwealth/edgeware-node/blob/3e5c65bba4583583185cfe823489cac8bcfece9e/node/runtime/src/lib.rs#L233)\), so the final output would be, in hex: `0xAF8536395A1EEC8EDA6FB9CF36739ECF75BECF6FEA04CEEC108BBB6AA15B7CB3`
   * Thus, the 32-byte "substrate account" `0x12345...` maps to the 20-byte "ethereum account" `0x12345...1234` which maps to the 32-byte "substrate-ethereum equivalent" `0xAF8536...` which functions as a valid Substrate address. **This is the Substrate address used to maintain account balances for the corresponding EVM account.**
 
 ### Balances:
@@ -79,7 +79,7 @@ When converting, also note the `gasPrice` is specified in the EVM call, as the c
   * Each substrate address is deterministically mapped to an EVM address.
 
     * There is a util in frontier `evm-address.js` which purports to perform this conversion, but doesn't seem to do it correctly based on the updated evm pallet \(the util hasn't been updated in 4 months\)
-    * See implementations of the following utils in the frontier-tester project: [https://github.com/hicommonwealth/frontier-tester/blob/master/utils.js\#L46](https://github.com/hicommonwealth/frontier-tester/blob/master/utils.js#L46)
+    * See implementations of the following utils in the frontier-tester project: see [here](https://github.com/hicommonwealth/frontier-tester/blob/master/utils.js#L46)
     * It is doable as follows:
 
     ```text
@@ -131,15 +131,15 @@ When converting, also note the `gasPrice` is specified in the EVM call, as the c
   * [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L304](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L304)
   * The caller must provide the \(20-byte\) EVM address that corresponds to their Substrate address — this is checked here: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L148](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L148).
   * The function converts that EVM address into the "substrate-ethereum equivalent", from which it transfers the funds.
-* The `free_balance` of the "substrate-ethereum equivalent" is used as the balance of the ethereum account: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L471](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L471)
-* Mutations to the ethereum account's balance, such as after execution, either call `slash` or `deposit_creating` on the "substrate-ethereum equivalent" depending on whether balance was added or removed: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L440](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L440)
-* **For a Javascript example of balances in action, see this test file in frontier-tester:** [**https://github.com/hicommonwealth/frontier-tester/blob/master/web3tests/testSubstrateBalances.ts**](https://github.com/hicommonwealth/frontier-tester/blob/master/web3tests/testSubstrateBalances.ts)
+* The `free_balance` of the "substrate-ethereum equivalent" is used as the balance of the ethereum account: see [here](https://github.com/paritytech/frontier/blob/0562ffc60e5f2f6636d46e0c5fd59f6f7ed7adc6/frame/evm/src/tests.rs#L123)
+* Mutations to the ethereum account's balance, such as after execution, either call `slash` or `deposit_creating` on the "substrate-ethereum equivalent" depending on whether balance was added or removed: see [here](https://github.com/paritytech/frontier/blob/8c772342787316d92cfb637a7028beb2de99b4dc/frame/evm/src/lib.rs#L388)
+* **For a Javascript example of balances in action, see:** [here](https://github.com/hicommonwealth/frontier-tester/blob/master/web3tests/testSubstrateBalances.js)
 
 ### Gas:
 
 * The prices of various functions in gas are defined in the `EVM_CONFIG` in the runtime.
   * Edgeware's current configuration uses a clone of the `ISTANBUL` config, with the CreateContractLimit raised.
-  * See: [https://github.com/rust-blockchain/evm/blob/master/runtime/src/lib.rs\#L245](https://github.com/rust-blockchain/evm/blob/master/runtime/src/lib.rs#L245)
+  * See: [here](https://github.com/rust-blockchain/evm/blob/master/runtime/src/lib.rs#L245)
 * The conversion rate of gas to substrate tokens is defined in the runtime as `FeeCalculator`, which in Edgeware's case is set to a 1-to-1 mapping.
 * Gas is "withdrawn" from the StackExecutor before execution: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs\#L608](https://github.com/paritytech/substrate/blob/master/frame/evm/src/lib.rs#L608)
 * Balance changes including gas \(performed by the above withdraw\) are written back to the "substrate-ethereum equivalent"'s balance once the EVM execution has been `apply`ed on the backend: [https://github.com/paritytech/substrate/blob/master/frame/evm/src/backend.rs\#L144](https://github.com/paritytech/substrate/blob/master/frame/evm/src/backend.rs#L144)
