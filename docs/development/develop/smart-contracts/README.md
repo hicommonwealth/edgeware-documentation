@@ -2,7 +2,7 @@
 
 ## Introduction to the Edgeware Contracts Workshop
 
-Edgeware is blockchain platform with support [WASM Contracts Pallet](https://docs.edgeware.wiki/development/develop/smart-contracts/wasm-smart-contracts#wasm-contract-pallet) and [EVM Ethereum compatibility layer.](https://docs.edgeware.wiki/development/develop/smart-contracts/evm-smart-contracts)
+Edgeware is blockchain platform with support [WASM Contracts Pallet](wasm-smart-contracts/README.md) and [EVM Ethereum compatibility layer.](evm-smart-contracts/README.md)
 
 This is a self-guided tutorial which will teach you how to build both [WASM](https://webassembly.org/) and EVM-based smart contracts on [Edgeware](https://github.com/hicommonwealth/edgeware-node).
 
