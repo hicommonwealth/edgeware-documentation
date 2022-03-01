@@ -22,7 +22,6 @@ A collective is a group of entities that share or are motivated by at least one 
 | Discord | [discord.gg/njDnHDk](https://discord.gg/njDnHDk) |
 | Twitter | [twitter.com/HeyEdgeware](https://twitter.com/HeyEdgeware) |
 | Edgeware Türkiye | [t.me/EdgewareTUR](https://t.me/EdgewareTUR) |
-| Edgeware India | [t.me/EdgewareIndia](https://t.me/EdgewareIndia) |
 | Edgeware&Wetez | Chinese lang. Contact WeChat ID kamiesheep for invite. |
 
 ## **Edgeware Community Call \(Monthly\)**
