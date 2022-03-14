@@ -13,7 +13,7 @@ The final ETH/EDG ratio is **1 ETH : 1,156 EDG.**
 | Total Locked ETH | 1,199,728 ETH |
 | Total Signalled ETH | 4,346,544 ETH |
 | EDG Distributed to Lockers | 64.1% |
-| EDG Distributed to Signals | 25.9 |
+| EDG Distributed to Signals | 25.9% |
 | EDG Distributed via Genesis | 10% |
 | Effective Lockers ETH | 2772238 ETH |
 | Number of ETH Addresses participating in Locks | 2869 |
