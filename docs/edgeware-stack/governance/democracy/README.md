@@ -10,9 +10,9 @@ The democracy module creates and moves different binding referendum along the vo
 
 Steps
 
-* [Proposing Referenda](https://wiki.polkadot.network/docs/en/learn-governance#proposing-referenda) \(Involved info: [Referenda](https://wiki.polkadot.network/docs/en/learn-governance#referenda)\)
-* [Voting for a proposal](https://wiki.polkadot.network/docs/en/learn-governance#voting-for-a-proposal) \(Involved info: [Voluntary Locking](https://wiki.polkadot.network/docs/en/learn-governance#voluntary-locking)\)
-* [Tallying](https://wiki.polkadot.network/docs/en/learn-governance#tallying) \(Involved info: [Adaptive Quorum Biasing](https://wiki.polkadot.network/docs/en/learn-governance#adaptive-quorum-biasing)\)
+* [Proposing Referenda](https://wiki.polkadot.network/docs/learn-governance#proposing-a-referendum) \(Involved info: [Referenda](https://wiki.polkadot.network/docs/learn-governance#referenda)\)
+* [Voting on a Referendum](https://wiki.polkadot.network/docs/learn-governance#voting-on-a-referendum) \(Involved info: [Voluntary Locking](https://wiki.polkadot.network/docs/learn-governance#voluntary-locking)\)
+* [Tallying](https://wiki.polkadot.network/docs/learn-governance#tallying) \(Involved info: [Adaptive Quorum Biasing](https://wiki.polkadot.network/docs/learn-governance#adaptive-quorum-biasing)\)
 
 Referendums allows for the execution of an arbitrary extrinsic call on the chain as the root user.
 

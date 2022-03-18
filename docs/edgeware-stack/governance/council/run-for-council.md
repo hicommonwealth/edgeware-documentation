@@ -22,7 +22,7 @@ Go to [Polkadot Apps Dashboard](https://polkadot.js.org/apps), **connect to the 
 
 1. Using the [Polkadot UI](https://polkadot.js.org/apps/), make sure you have an account and selected the Kusama network under the [settings tab](https://polkadot.js.org/apps/#/settings).
 2. Navigate to the [Council tab](https://polkadot.js.org/apps/#/council) to see current council candidates.
-3. In the [Kusama forum](https://forum.kusama.network/), you will find a thread dedicated to council members proposing their candidacy and find out more information. Add your account number, reasons for being a suitable council member and any further information you want to share.
+3. In the [Kusama forum](https://kusama.polkassembly.io/), you will find a thread dedicated to council members proposing their candidacy and find out more information. Add your account number, reasons for being a suitable council member and any further information you want to share.
 4. Head over to the [Extrinsics tab](https://polkadot.js.org/apps/#/extrinsics), select the account you wish to vote with, and select `council` under "submit the following extrinsic." Choose `submitCandidacy(slot)` in the second column and select the slot you prefer to be in.
 5. Click `Submit transaction` and sign the transaction.
 

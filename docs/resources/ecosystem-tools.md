@@ -47,7 +47,7 @@ Secondary to the Polkadot UI is [Commonwealth.im](http://Commonwealth.im), which
 * [Cobo Wallet](https://cobo.com/)                                  
 * [Swipe](https://swipe.io/)                                         
 * [Polkadot{.js} extension](https://github.com/EthWorks/extension)   
-* [MetaMask](https://metamask.io/index.html)                         
+* [MetaMask](https://metamask.io/)                         
 * [Speckle](https://github.com/GetSpeckle/speckle-browser-extension) 
 * [KodaDot](https://kodadot.netlify.app/#/accounts)                  
 * [Subwallet](https://github.com/yxf/subwallet)                      
@@ -55,25 +55,10 @@ Secondary to the Polkadot UI is [Commonwealth.im](http://Commonwealth.im), which
 * [Spatium](https://spatium.net/)                                    
 * [Blockchain.com](https://www.blockchain.com/)                      
 
-### Exchanges
-
-{% hint style="info" %}
-This list is provided without endorsement by Commonwealth Labs, the core developers of Edgeware. Using an exchange is at **your own risk**, and you use should investigate fully the risks and the character of the entity. [**You can also check CoinGecko for listings.**](https://www.coingecko.com/en/coins/edgeware)
-{% endhint %}
-
-| Exchange | Pairs | URL |
-| :--- | :--- | :--- |
-| HotBit | EDG/BTC | [https://www.hotbit.io/exchange](https://www.hotbit.io/exchange?symbol=EDG_BTC) |
-| MXC | EDG/USDT | [https://www.mxc.com/trade/easy\#EDG\_USDT](https://www.mxc.com/trade/easy#EDG_USDT) |
-| BKEX | EDG/USDT | [https://www.bkex.com/trade/EDG\_USDT](https://www.bkex.com/#/trade/EDG_USDT) |
-| HotBit | EDG/USDT | [https://www.hotbit.io/exchange?symbol=EDG\_USDT](https://www.hotbit.io/exchange?symbol=EDG_USDT) |
-| MXC | EDG/BTC | [https://www.mxc.com/trade/easy\#EDG\_BTC](https://www.mxc.com/trade/easy#EDG_BTC) |
-| Biki | EDG/USDT | [https://www.biki.com/en\_US/trade/EDG\_USDT](https://www.biki.com/en_US/trade/EDG_USDT) |
-| BiHodl | EDG/ USDT | [https://www.bihodl.com/\#/exchange/edg\_usdt](https://www.bihodl.com/#/exchange/edg_usdt) |
 
 ### Nodes and Deployment
 
-* [Gantree Infrastructure Toolkit for Substrate](https://github.com/flex-dapps/gantree-lib-nodejs)
+* [Gantree Infrastructure Toolkit for Substrate](https://github.com/gantree-io/gantree-lib-nodejs)
 * [Polkalert: Node Monitoring](https://polkalert.com/)
 * [Telemetry: Node Stats](https://telemetry.polkadot.io/)
 
@@ -134,7 +119,7 @@ Webassembly related tools and projects.
 ### Key Generation and Conversion
 
 * [Original Edgeware Key Generator for Lockdrop and Pub Key Convertor](https://edgewa.re/keygen/)
-* [Subkey: Key Generation for Substrate Chains ](https://substrate.dev/docs/en/ecosystem/subkey)
+* [Subkey: Key Generation for Substrate Chains ](https://docs.substrate.io/v3/tools/subkey/#generating-keys)
 
 ### Node-as-a-Service Providers
 

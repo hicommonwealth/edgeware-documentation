@@ -1,2 +1,0 @@
-# Historical Council Record
-

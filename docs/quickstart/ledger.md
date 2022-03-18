@@ -89,6 +89,6 @@ There are a few ways to view your balance.
 ## Need Help?
 Reach out to us.
 
-* Discord: [https://discord.gg/tDxgyxym](https://discord.gg/tDxgyxym)
+* Discord: [https://discord.gg/tDxgyxym](https://discord.gg/mYk543EXBV)
 * Telegram: [https://t.me/heyedgeware](https://t.me/heyedgeware)
 * Reddit: [https://www.reddit.com/r/edgeware/](https://www.reddit.com/r/edgeware/)
