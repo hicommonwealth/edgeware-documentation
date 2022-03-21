@@ -57,7 +57,7 @@ Participating via a three-month lock will get 1\(weight\) when distributing EDG 
 The specific number of ETH the user locks.
 
 **Total Allocatable EDG**: System Parameter  
-_\*\*_Total EDG in at Edgeware genesis is 5 billion, or 5,000,000,000. 4.5 billion is distributed via the lockdrop event. Therefore, total allocatable EDG is 4,500,000,000.
+\_\*\*\_Total EDG in at Edgeware genesis is 5 billion, or 5,000,000,000. 4.5 billion is distributed via the lockdrop event. Therefore, total allocatable EDG is 4,500,000,000.
 
 **Total Locked ETH:** Aggregated User Contribution  
 The total number of ETH locked.

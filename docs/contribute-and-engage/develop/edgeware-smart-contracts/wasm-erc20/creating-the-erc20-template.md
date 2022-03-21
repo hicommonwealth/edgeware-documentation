@@ -10,14 +10,14 @@ cargo contract new erc20
 
 Again, we will replace the `lib.rs` file content with the template provided on this page.
 
-You will notice that the template for the ERC20 token is VERY similar to the Incrementer contract. \(Coincidence? ¯\_\(ツ\)_/¯\)
+You will notice that the template for the ERC20 token is VERY similar to the Incrementer contract. \(Coincidence? ¯\_\(ツ\)\_/¯\)
 
 The storage \(so far\) consists of:
 
 * A storage `Value`: representing the total supply of tokens in our contract.
 * A storage `HashMap`: representing the individual balance of each account.
 
-### ERC20 Deployment <a id="erc20-deployment"></a>
+## ERC20 Deployment <a id="erc20-deployment"></a>
 
 The most basic ERC20 token contract is a fixed supply token. During contract deployment, all the tokens will be automatically given to the contract creator. It is then up to that user to distribute those tokens to other users as they see fit.
 
@@ -25,7 +25,7 @@ Of course, this is not the only way to mint and distribute tokens, but the most 
 
 So remember to `set` the total balance and `insert` the balance of the `Self::env().caller()`
 
-### Your Turn! <a id="your-turn"></a>
+## Your Turn! <a id="your-turn"></a>
 
 This chapter should be nothing more than a quick refresher of the content you already learned.
 
@@ -100,7 +100,6 @@ mod erc20 {
         }
     }
 }
-
 ```
 {% endtab %}
 
@@ -166,7 +165,6 @@ mod erc20 {
             assert_eq!(contract.balance_of(AccountId::from([0x1; 32])), 100);
             assert_eq!(contract.balance_of(AccountId::from([0x0; 32])), 0);
         }
-
 ```
 {% endtab %}
 {% endtabs %}

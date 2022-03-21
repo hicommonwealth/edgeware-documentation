@@ -1,6 +1,6 @@
 # Live Smart Contracts
 
-#### Live Smart Contracts - Beresheet <a id="live-smart-contracts-beresheet"></a>
+## Live Smart Contracts - Beresheet <a id="live-smart-contracts-beresheet"></a>
 
 Edgeware has magical functionality, that you will **upload your contract once** and you can **instantiate many times**.
 
@@ -14,7 +14,7 @@ We have deployed few contracts for you to the [Beresheet - our testnet network \
 * ⛽️ [Faucet](https://beresheet-faucet.vercel.app/)
 * ⛽️ [If faucet doesn't work, visit us at Telegram](https://t.me/edg_developers)
 
-#### Code hashes <a id="code-hashes"></a>
+## Code hashes <a id="code-hashes"></a>
 
 * erc20
 
@@ -70,17 +70,17 @@ We have deployed few contracts for you to the [Beresheet - our testnet network \
   0xd67d39fe76eae342b621bd79f3b70c51f2c744c1c5f3f01b66609f412be7bc8f
   ```
 
-#### Add Code hashes <a id="add-code-hashes"></a>
+## Add Code hashes <a id="add-code-hashes"></a>
 
 [Navigate to the contracts](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fberesheet1.edgewa.re#/contracts)
 
 ![](https://contracts.edgewa.re/0/assets/live-add-codehash.png)
 
-Copy one of code hashes from above,  put them in code hash, name it and choose metadata, that json one, it should look like this
+Copy one of code hashes from above, put them in code hash, name it and choose metadata, that json one, it should look like this
 
 ![](https://contracts.edgewa.re/0/assets/live-save-codehash.png)
 
-#### Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
+## Reach us for more engagement <a id="reach-us-for-more-engagement"></a>
 
 Glad you've made it through! 🥰 We are eager to guide your more on your exploration through Edgeware ink! combability feature. We are **keen to hear your experience and suggestion you may have for us.**. You can feel free to [chat with us in the Edgeware's channels like Discord, Element and Telegram](https://linktr.ee/edg_developers), we can help you out with issues you may have or project you may want to be funded through our [Treasury program](https://docs.edgewa.re/edgeware-runtime/treasury). Don't hesitate to share your feedback on our channels, there is always space to improve! 🙌
 

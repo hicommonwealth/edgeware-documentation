@@ -9,7 +9,7 @@ This guide covers how to set up an Edgeware node. There are two ways you can pro
 To quickly run node from **Docker** image: [https://hub.docker.com/repository/docker/hicommonwealth/edgeware](https://hub.docker.com/repository/docker/hicommonwealth/edgeware)
 {% endhint %}
 
-If you are running a private node, you will only need to follow **steps 0 and 1** of this guide. Otherwise, we will guide you through setting up an SSL certificate in **steps 2 and 3**, so any browser can securely connect to your node. \(Most people, including validators, only need to set up a private node.\)
+If you are running a private node, you will only need to follow **steps 0 and 1** of this guide. Otherwise, we will guide you through setting up an SSL certificate in **steps 2 and 3**, so any browser can securely connect to your node. (Most people, including validators, only need to set up a private node.)
 
 ## 0. Provisioning a server
 
@@ -21,11 +21,11 @@ Provision an appropriately sized server from a reputable VPS provider, e.g.:
 * [OVH](https://www.ovh.com.au)
 * [Contabo](https://contabo.com)
 * [Scaleway](https://www.scaleway.com/en/)
-* Amazon AWS, etc.
+* [Amazon AWS](https://aws.amazon.com), etc.
 
 We recommend a node with at least 2GB of RAM, and Ubuntu 18.04 x64. Other operating systems will require adjustments to these instructions.
 
-If you are running a public node, set up DNS from a domain name that you own to point to the server. We will use `testnet1.edgewa.re`. \(You don't need to do this if you are setting up a private node.\)
+If you are running a public node, set up DNS from a domain name that you own to point to the server. The DNS target needs to be type A and not Redirect type. We will use `testnet1.edgewa.re`. (You don't need to do this if you are setting up a private node.)
 
 SSH into the server.
 
@@ -33,7 +33,7 @@ SSH into the server.
 
 First, clone the `edgeware-node` repo, install any dependencies, and run the required build scripts.
 
-```text
+```
 apt update
 apt install -y gcc libc6-dev
 apt install -y cmake pkg-config libssl-dev git clang libclang-dev
@@ -56,7 +56,7 @@ cd edgeware-node
 
 Set up the node as a system service. To do this, navigate into the root directory of the `edgeware-node` repo and execute the following to create the service configuration file:
 
-```text
+```
 {
     echo '[Unit]'
     echo 'Description=Edgeware'
@@ -73,51 +73,51 @@ Set up the node as a system service. To do this, navigate into the root director
 
 Double check that the config has been written to `/etc/systemd/system/edgeware.service` correctly. If so, enable the service so it runs on startup, and then try to start it now:
 
-```text
+```
 systemctl enable edgeware
 systemctl start edgeware
 ```
 
 Check the status of the service:
 
-```text
+```
 systemctl status edgeware
 ```
 
 You should see the node connecting to the network and syncing the latest blocks. If you need to tail the latest output, you can use:
 
-```text
+```
 journalctl -u edgeware.service -f
 ```
 
-## 2. Configuring an SSL certificate \(public nodes only\)
+## 2. Configuring an SSL certificate (public nodes only)
 
 We will use Certbot to talk to Let's Encrypt. Install Certbot dependencies:
 
-```text
+```
 apt -y install software-properties-common
 add-apt-repository universe
-add-apt-repository ppa:certbot/certbot
+snap install --classic certbot
 apt update
 ```
 
 Install Certbot:
 
-```text
+```
 apt -y install certbot python-certbot-nginx
 ```
 
 It will guide you through getting a certificate from Let's Encrypt:
 
-```text
+```
 certbot certonly --standalone
 ```
 
-If you already have a web server running \(e.g. nginx, Apache, etc.\) you will need to stop it, by running e.g. `service nginx stop`, for this to work.
+If you already have a web server running (e.g. nginx, Apache, etc.) you will need to stop it, by running e.g. `service nginx stop`, for this to work.
 
 Certbot will ask you some questions, start its own web server, and talk to Let's Encrypt to issue a certificate. In the end, you should see output that looks like this:
 
-```text
+```
 root:~/edgeware-node# certbot certonly --standalone
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 Plugins selected: Authenticator standalone, Installer None
@@ -140,23 +140,23 @@ IMPORTANT NOTES:
    "certbot renew"
 ```
 
-## 3. Configuring a Websockets proxy \(public nodes only\)
+## 3. Configuring a Websockets proxy (public nodes only)
 
 First, install nginx:
 
-```text
+```
 apt -y install nginx
 ```
 
 Set the intended public address of the server, e.g. `testnet1.edgewa.re`, as an environment variable:
 
-```text
+```
 export name=testnet1.edgewa.re
 ```
 
 Set up an nginx configuration. This will inject the public address you have just defined.
 
-```text
+```
 {
     echo 'user       www-data;  ## Default: nobody'
     echo 'worker_processes  5;  ## Default: 1'
@@ -180,7 +180,7 @@ Set up an nginx configuration. This will inject the public address you have just
     echo '      ssl_certificate /etc/letsencrypt/live/'$name'/cert.pem;'
     echo '      ssl_certificate_key /etc/letsencrypt/live/'$name'/privkey.pem;'
     echo '      ssl_session_timeout 5m;'
-    echo '      ssl_protocols  SSLv2 SSLv3 TLSv1;'
+    echo '      ssl_protocols  SSLv2 SSLv3 TLSv1 TLSv1.1 TLSv1.2 TLSv1.3;'
     echo '      ssl_ciphers  HIGH:!aNULL:!MD5;'
     echo '      ssl_prefer_server_ciphers   on;'
     echo ''
@@ -197,22 +197,24 @@ Set up an nginx configuration. This will inject the public address you have just
 
 Make sure that the paths of `ssl_certificate` and `ssl_certificate_key` match what Let's Encrypt produced earlier. Check that the configuration file has been created correctly.
 
-```text
+```
 cat /etc/nginx/nginx.conf
 nginx -t
 ```
+
+Make sure that Nginx's OpenSSL version >1.0.2 You will have to Rebuild Nginx if the OpenSSL version is lower. Otherwise, modern TLS protocols created in letsencrypt certificates won't work, and Nginx will throw an error.
 
 If there is an error, `nginx -t` should tell you where it is. **Note that there may be subtle variations in how different systems are configured, e.g. some boxes may have different login users or locations for log files. It is up to you to reconcile these differences.**
 
 Start the server:
 
-```text
+```
 service nginx restart
 ```
 
 You can now try to connect to your new node from [polkadot.js/apps](https://polkadot.js.org/apps/#/settings), or by making a curl request that emulates opening a secure WebSockets connection:
 
-```text
+```
 curl --include --no-buffer --header "Connection: Upgrade" --header "Upgrade: websocket" --header "Host: $name:80" --header "Origin: http://$name:80" --header "Sec-WebSocket-Key: SGVsbG8sIHdvcmxkIQ==" --header "Sec-WebSocket-Version: 13" http://$name:9944/
 ```
 
@@ -224,7 +226,7 @@ Congratulations on your new node! If you set up public DNS and a SSL certificate
 
 Otherwise, you should be able to use [edgeware-cli](https://github.com/hicommonwealth/edgeware-cli) to connect to it:
 
-```text
+```
 git clone https://github.com/hicommonwealth/edgeware-cli.git
 cd edgeware-cli
 yarn
@@ -238,7 +240,6 @@ In general, you should use these URLs to connect to your node:
 
 ## 5. Next steps
 
-Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](../advanced-topics/setting-up-monitoring.md).
+Your node will automatically restart when the system reboots, but it may not be able to recover from other failures. To handle those, consider following our guide to [Setting up monitoring](../advanced/setting-up-monitoring.md).
 
 You may also wish to proceed to [Validating on Edgeware](set-up-a-validator.md).
-

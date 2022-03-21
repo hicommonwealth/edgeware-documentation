@@ -1,12 +1,14 @@
 # Welcome
 
-## Announcements
+Welcome to the official documentation for the Edgeware network! This documentation is designed to educate those looking to build within Edgeware, and expand upon the technology that Edgeware utilizes.
 
-**🎊 Edgeware is Live.** You can get involved by testing functions, voting, running for elections, proposing treasury spends, upgrades, validating, nominating, or joining a Working Group - research and discussions about governance, development, branding, and more.
+* **Announcements and News** [are published in The Cutting EDG](https://blog.edgewa.re/)
 
-{% hint style="warning" %}
-We recommend all Edgeware users convert their Lockdrop addresses to the new network format. [See the quick steps.](https://docs.edgewa.re/understanding-edgeware/accounts/regenerating-keys-with-edgeware-network-id)
-{% endhint %}
+{% page-ref page="resources/networks.md" %}
+
+### Upgrade Schedule
+
+**ERUP-4** is in final testing and has been deployed to the Beresheet testnet, including upgrading the Edgeware network to Substrate 3,adding orml-tokens + orml-nft pallets, node type upgrades, and fixes for the Frontier EVM compatibility layer and . [Read more.](https://commonwealth.im/edgeware/proposal/discussion/1100-erup-4-substrate-30-evm-updates-runtime-modules?comment=3387)
 
 ## What is Edgeware?
 
@@ -16,6 +18,7 @@ We recommend all Edgeware users convert their Lockdrop addresses to the new netw
 * Nominated Proof-of-Stake \(PoS\) Blockchain
 * Smart Contract Platform
 * with a WASM \(WebAssembly\) Runtime through Parity Substrate.
+* And the ability to run both EVM \(Solidity\) Contracts, and Rust \(Ink!\) Contracts.
 
 It is designed to apply decision-making process to the runtime of the blockchain, but also to the decision-making processes themselves, in an effort to rapidly generate more effective governance solutions for blockchain platforms.
 

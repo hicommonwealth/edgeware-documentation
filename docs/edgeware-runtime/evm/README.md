@@ -22,3 +22,4 @@ Edgeware achieves Ethereum compatibility in three integrated components. If you'
 * Pallet Ethereum: which allows for full Ethereum Block Processing
 * SputnikEVM: You can view the full Documentation here: [https://docs.rs/evm/](https://docs.rs/evm/)
 * Pallet EVM: which allows you to deploy
+

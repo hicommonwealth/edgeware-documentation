@@ -2,13 +2,13 @@
 
 Now that your contract has been fully deployed, we can start to interact with it! Flipper only has two functions, so we will show you what it's like to play with both of them.
 
-### get\(\)
+## get\(\)
 
 If you take a look back at our contract's `on_deploy()` function, we set the initial value of the Flipper contract to `false`. Let's check that this is the case.
 
 ![](../../../../.gitbook/assets/contractcall1.png)
 
-### flip\(\)
+## flip\(\)
 
 So let's make the value `true` now!
 
@@ -22,7 +22,7 @@ You will notice that this call actually sends a transaction. If the transaction 
 
 Woohoo! You deployed your first smart contract!
 
-### Moving Forward
+## Moving Forward
 
 We will not go over these setup and deployment steps again, but we will use them throughout the tutorial. You can always come back to this chapter if you need to remember how to do a certain process.
 
