@@ -111,7 +111,7 @@ There are a few ways to view your balance.
 
 1. To stake with ledger you must use [edgeware.app](https://edgeware.app) at the time of writing.
 2. Use [polkadot web browser extension](https://polkadot.js.org/extension/)
-3. Ledger is plugged in, unlocked, with edgeware app open.
+3. Ledger is plugged in, unlocked, with the edgeware app open.
 4. Click Network > Staking > Account actions > +Stash.
 5. Set the ledger account as the stash account. Use another account as controller account this is for transactions. Choose how much you want to stake/bond. Choose payment destination accordingly. Click Bond > Sign and Submit > Sign on Ledger. Verify the information on Ledger device double click approve or reject.
 
