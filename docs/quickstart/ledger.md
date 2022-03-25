@@ -107,6 +107,28 @@ There are a few ways to view your balance.
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MWyXA0bgrUw7ynlH_ge%2Fuploads%2FgGA0MAnQmocYOYpXFoiA%2Fview-balance.png?alt=media&token=b5553601-50e8-4bb7-b1bb-b8923577df60)
 
+## Staking with Ledger
+
+1. To stake with ledger you must use [edgeware.app](https://edgeware.app) at the time of writing.
+2. Use [polkadot web browser extension](https://polkadot.js.org/extension/)
+3. Ledger is plugged in, unlocked, with edgeware app open.
+4. Click Network > Staking > Account actions > +Stash.
+5. Set the ledger account as the stash account. Use another account as controller account this is for transactions. Choose how much you want to stake/bond. Choose payment destination accordingly. Click Bond > Sign and Submit > Sign on Ledger. Verify the information on Ledger device double click approve or reject.
+
+![](../../.gitbook/assets/Ledger-bond.png)
+
+6. Click Nominate, Choose validators, click Nominate > Sign and Submit, Use controller account to sign the transaction.
+
+![](../../.gitbook/assets/Nominate.png)
+![](../../.gitbook/assets/Ledger-nominate.png)
+
+7. Congratulations! you are staking with your Ledger.
+
+## Trouble Shooting
+
+1. Make sure you are using a **chromium-based browser** like google chrome or brave.
+2. **If your ledger is not being recognized** you may have to open a new tab or window when connecting your ledger you can do this by right-clicking and open in new window or tab. Another solution you may have to change settings in polkadot apps. Under manage hardware connections have it set to “Do not attach Ledger device” then click save. You can’t use the Ledger device on polkadot apps and the web extension at the same time.
+
 ## Need Help?
 
 Reach out to us.
